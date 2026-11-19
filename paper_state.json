@@ -1,21 +1,35 @@
 {
- "processed_until": "2026-11-19T23:19:43+00:00",
+ "processed_until": "2026-11-19T23:31:43+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "12e6UqzmDpkkeX4MFQNevusZHVRC6uW44wukN4VVj3NS": {
+    "DT5jEYYZoUVKjnudjBxmu1hB5LqSpyg32U1xgbNooY4": {
      "name": "AI / SOL",
-     "opened_at": "2026-11-19T23:03:10+00:00",
+     "opened_at": "2026-11-19T23:32:31+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.2403397975292246e-08,
-     "tokens": 7780126.074502281,
+     "entry_price_sol": 9.963985501776434e-09,
+     "tokens": 9684879.607943574,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.858534077e-07,
+     "last_price_usd": 7.227365831e-07,
      "suspect_ticks": 0,
-     "min_ratio": 1.0,
-     "max_ratio": 1.1089321396109417
+     "min_ratio": 0.9940232231553221,
+     "max_ratio": 1.0
+    },
+    "7CFkFzfogJnSR7awZm63pfk2zW7YN3zwnKFTCoUoqmFL": {
+     "name": "NEX Ai / SOL",
+     "opened_at": "2026-11-19T23:32:31+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 3.59570943853673e-07,
+     "tokens": 268375.41144389735,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 2.583716503e-05,
+     "suspect_ticks": 0,
+     "min_ratio": 0.9847134019961459,
+     "max_ratio": 1.0
     }
    },
    "closed": [
@@ -480,11 +494,22 @@
      "min_ratio": 0.7464,
      "max_ratio": 1.0,
      "reason": "stop-loss (x0.75)"
+    },
+    {
+     "mint": "12e6UqzmDpkkeX4MFQNevusZHVRC6uW44wukN4VVj3NS",
+     "name": "AI / SOL",
+     "opened_at": "2026-11-19T23:03:10+00:00",
+     "closed_at": "2026-11-19T23:34:24+00:00",
+     "pnl_sol": 0.001432,
+     "pnl_pct": 1.4,
+     "min_ratio": 1.0,
+     "max_ratio": 1.1089,
+     "reason": "stop temps 31 min (x1.09)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": 1943.957148195443
+    "pnl_sol": 1943.9585804011463
    }
   },
   "B_patient": {
@@ -863,20 +888,6 @@
   },
   "C_tot_v2": {
    "positions": {
-    "HRWK8WsoySya163Akxb5d5QbKYWzVmGZw9rXjERnQXXW": {
-     "name": "Doge Coin (DOGEC)",
-     "opened_at": "2026-11-19T22:30:39+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 4.946e-07,
-     "tokens": 195107.15729882734,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 3.615335787637118e-05,
-     "suspect_ticks": 0,
-     "min_ratio": 1.0,
-     "max_ratio": 1.0
-    },
     "BBLnf2aisbZL4ScDSJBMpcNe87jpezyz6FKQ8m1xpump": {
      "name": "maffin lover (lover)",
      "opened_at": "2026-11-19T22:44:23+00:00",
@@ -886,7 +897,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.043037510401485e-06,
+     "last_price_usd": 2.039540025197025e-06,
      "suspect_ticks": 0,
      "min_ratio": 0.670907345175228,
      "max_ratio": 1.0
@@ -900,7 +911,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.6234209748947868e-06,
+     "last_price_usd": 2.6189299285982553e-06,
      "suspect_ticks": 0,
      "min_ratio": 0.6367991483321505,
      "max_ratio": 1.0
@@ -939,17 +950,28 @@
      "min_ratio": 0.1171,
      "max_ratio": 1.0,
      "reason": "stop-loss (x0.12)"
+    },
+    {
+     "mint": "HRWK8WsoySya163Akxb5d5QbKYWzVmGZw9rXjERnQXXW",
+     "name": "Doge Coin (DOGEC)",
+     "opened_at": "2026-11-19T22:30:39+00:00",
+     "closed_at": "2026-11-19T23:32:31+00:00",
+     "pnl_sol": -0.006878,
+     "pnl_pct": -6.9,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0,
+     "reason": "stop temps 62 min (x1.00)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": -0.15172235108124194
+    "pnl_sol": -0.15859985108124194
    }
   }
  },
  "listener": {
-  "checked_at": "2026-11-19T23:28:23+00:00",
+  "checked_at": "2026-11-19T23:34:24+00:00",
   "ok": true,
-  "new_coins_10min": 38
+  "new_coins_10min": 45
  }
 }
