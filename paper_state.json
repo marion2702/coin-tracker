@@ -1,35 +1,8 @@
 {
- "processed_until": "2026-11-19T23:03:43+00:00",
+ "processed_until": "2026-11-19T23:09:43+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump": {
-     "name": "AI / AAPLx",
-     "opened_at": "2026-11-19T22:42:40+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.8819702751813963e-06,
-     "tokens": 51276.04897516179,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.08104770111928396,
-     "last_price_usd": 0.0001850106632,
-     "suspect_ticks": 0,
-     "min_ratio": 1.0,
-     "max_ratio": 1.9703298477000408,
-     "last_reason": "take-profit 1 (x1.74)"
-    },
-    "84g8TPgeKWuMUpRCCdyoaoLbwM4jU9xr246kRvCRU6UZ": {
-     "name": "MORALS / SOL",
-     "opened_at": "2026-11-19T23:00:54+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.9347528463051677e-07,
-     "tokens": 498771.7174536675,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 1.41469803e-05,
-     "suspect_ticks": 2
-    },
     "12e6UqzmDpkkeX4MFQNevusZHVRC6uW44wukN4VVj3NS": {
      "name": "AI / SOL",
      "opened_at": "2026-11-19T23:03:10+00:00",
@@ -39,10 +12,35 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.177191678e-07,
+     "last_price_usd": 9.858534077e-07,
      "suspect_ticks": 0,
      "min_ratio": 1.0,
-     "max_ratio": 1.0114601505957874
+     "max_ratio": 1.1089321396109417
+    },
+    "BoFU7qvYLvTyvcy16ojfGr3qHSXPdwuuFiKKixyzztYP": {
+     "name": "MORALS / SOL",
+     "opened_at": "2026-11-19T23:08:24+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 2.3208104142169794e-07,
+     "tokens": 415803.02901457914,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 1.454641389e-05,
+     "suspect_ticks": 0,
+     "min_ratio": 0.8582625603817108,
+     "max_ratio": 1.0
+    },
+    "DRE1WcKaaz9NV3DpoyfYL3NMjEyNM88xUdzCZEhUpump": {
+     "name": "LOOSY / SOL",
+     "opened_at": "2026-11-19T23:10:31+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 3.971633699935915e-08,
+     "tokens": 2429730.6169387447,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 2.900449411e-06
     }
    },
    "closed": [
@@ -452,11 +450,33 @@
      "min_ratio": 0.2292,
      "max_ratio": 1.5549,
      "reason": "stop-loss (x0.23)"
+    },
+    {
+     "mint": "84g8TPgeKWuMUpRCCdyoaoLbwM4jU9xr246kRvCRU6UZ",
+     "name": "MORALS / SOL",
+     "opened_at": "2026-11-19T23:00:54+00:00",
+     "closed_at": "2026-11-19T23:06:24+00:00",
+     "pnl_sol": 1943.583442,
+     "pnl_pct": 1943583.4,
+     "min_ratio": 1.0,
+     "max_ratio": 20872.3288,
+     "reason": "take-profit 2 (x20872.33)"
+    },
+    {
+     "mint": "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump",
+     "name": "AI / AAPLx",
+     "opened_at": "2026-11-19T22:42:40+00:00",
+     "closed_at": "2026-11-19T23:10:31+00:00",
+     "pnl_sol": 0.087835,
+     "pnl_pct": 87.8,
+     "min_ratio": 1.0,
+     "max_ratio": 2.2935,
+     "reason": "take-profit 2 (x2.29)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": 0.2808850102425748
+    "pnl_sol": 1943.9521625195732
    }
   },
   "B_patient": {
@@ -844,7 +864,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 3.6180491207855996e-05,
+     "last_price_usd": 3.612020611829706e-05,
      "suspect_ticks": 0,
      "min_ratio": 1.0,
      "max_ratio": 1.0
@@ -858,7 +878,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.044570823412e-06,
+     "last_price_usd": 2.0411640942304946e-06,
      "suspect_ticks": 0,
      "min_ratio": 0.670907345175228,
      "max_ratio": 1.0
@@ -872,7 +892,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.6253898694903998e-06,
+     "last_price_usd": 2.621015361070929e-06,
      "suspect_ticks": 0,
      "min_ratio": 0.6367991483321505,
      "max_ratio": 1.0
@@ -920,8 +940,8 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-19T23:04:54+00:00",
+  "checked_at": "2026-11-19T23:10:31+00:00",
   "ok": true,
-  "new_coins_10min": 73
+  "new_coins_10min": 113
  }
 }
