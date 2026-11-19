@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-19T19:26:50+00:00",
+ "processed_until": "2026-11-19T19:34:50+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,9 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.671594505e-05,
+     "last_price_usd": 8.002535233e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.2089126492813727
+     "max_ratio": 1.25454276778296
     },
     "Fmw7Rdm1gTeojZ2Kv7nThcALj7jPCghyy3bLume1q8t": {
      "name": "ANT / SOL",
@@ -25,22 +25,20 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.56125932e-07,
+     "last_price_usd": 9.65251644e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1292823577854632
+     "max_ratio": 1.1408943815312735
     },
-    "CR6sPpaVbreHy1D7T1w7gGUxJUhXFAPqRr3T81FNpump": {
-     "name": "CRACK / ANT",
-     "opened_at": "2026-11-19T19:26:30+00:00",
+    "bvvCWHiMXukKT6KGEHoQvRVMHE77ANTZv9c9jtVpump": {
+     "name": "TILT / SOL",
+     "opened_at": "2026-11-19T19:35:30+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 5.531020121355953e-07,
-     "tokens": 174470.5278279527,
+     "entry_price_sol": 1.881327251308761e-07,
+     "tokens": 512935.74753073376,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.077960165e-05,
-     "min_ratio": 0.9994080651461686,
-     "max_ratio": 1.0
+     "last_price_usd": 1.387725565e-05
     }
    },
    "closed": [
@@ -98,11 +96,22 @@
      "min_ratio": 1.0,
      "max_ratio": 1.0724,
      "reason": "stop temps 32 min (x1.06)"
+    },
+    {
+     "mint": "CR6sPpaVbreHy1D7T1w7gGUxJUhXFAPqRr3T81FNpump",
+     "name": "CRACK / ANT",
+     "opened_at": "2026-11-19T19:26:30+00:00",
+     "closed_at": "2026-11-19T19:35:30+00:00",
+     "pnl_sol": -0.076856,
+     "pnl_pct": -76.9,
+     "min_ratio": 0.2485,
+     "max_ratio": 1.0016,
+     "reason": "stop-loss (x0.25)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": 0.3623103852381344
+    "pnl_sol": 0.2854542611332379
    }
   },
   "B_patient": {
@@ -116,9 +125,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0007176640475,
+     "last_price_usd": 0.0008171992866,
      "min_ratio": 0.7199889194828174,
-     "max_ratio": 1.0704878233754533
+     "max_ratio": 1.2191135786990603
     },
     "2wL5GMdbng4zVoEAGEix2Tovp5RhtGGH7pQtxpnypump": {
      "name": "Prince / SOL",
@@ -129,22 +138,20 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 5.94275034e-05,
+     "last_price_usd": 5.945614594e-05,
      "min_ratio": 0.8985262138326883,
-     "max_ratio": 1.0
+     "max_ratio": 1.3872049810338318
     },
-    "CR6sPpaVbreHy1D7T1w7gGUxJUhXFAPqRr3T81FNpump": {
-     "name": "CRACK / ANT",
-     "opened_at": "2026-11-19T19:26:30+00:00",
+    "bvvCWHiMXukKT6KGEHoQvRVMHE77ANTZv9c9jtVpump": {
+     "name": "TILT / SOL",
+     "opened_at": "2026-11-19T19:35:30+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 5.531020121355953e-07,
-     "tokens": 174470.5278279527,
+     "entry_price_sol": 1.881327251308761e-07,
+     "tokens": 512935.74753073376,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.077960165e-05,
-     "min_ratio": 0.9994080651461686,
-     "max_ratio": 1.0
+     "last_price_usd": 1.387725565e-05
     }
    },
    "closed": [
@@ -169,11 +176,22 @@
      "min_ratio": 0.4015,
      "max_ratio": 1.0,
      "reason": "stop-loss (x0.40)"
+    },
+    {
+     "mint": "CR6sPpaVbreHy1D7T1w7gGUxJUhXFAPqRr3T81FNpump",
+     "name": "CRACK / ANT",
+     "opened_at": "2026-11-19T19:26:30+00:00",
+     "closed_at": "2026-11-19T19:35:30+00:00",
+     "pnl_sol": -0.076856,
+     "pnl_pct": -76.9,
+     "min_ratio": 0.2485,
+     "max_ratio": 1.0016,
+     "reason": "stop-loss (x0.25)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": -0.08167887500929989
+    "pnl_sol": -0.15853499911419638
    }
   }
  }
