@@ -256,6 +256,8 @@ def main():
                 f"dexscreener.com/solana/{mint}"
             )
             state["alerted"][mint] = {"at": time.time(), "price": d["price"], "mc": d["mc"]}
+            if dry:
+                continue
             new = not os.path.exists(LOG_PATH)
             with open(LOG_PATH, "a", newline="") as fh:
                 w = csv.writer(fh)
