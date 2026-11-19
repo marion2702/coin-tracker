@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-19T23:39:43+00:00",
+ "processed_until": "2026-11-19T23:41:43+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,10 +12,10 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.654572632e-07,
+     "last_price_usd": 8.083329018e-07,
      "suspect_ticks": 0,
      "min_ratio": 0.9940232231553221,
-     "max_ratio": 1.052749050690697
+     "max_ratio": 1.1086014525905883
     },
     "7CFkFzfogJnSR7awZm63pfk2zW7YN3zwnKFTCoUoqmFL": {
      "name": "NEX Ai / SOL",
@@ -26,24 +26,10 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.693718939e-05,
-     "suspect_ticks": 0,
+     "last_price_usd": 2.691053133e-05,
+     "suspect_ticks": 2,
      "min_ratio": 0.9769870908964748,
      "max_ratio": 1.0266081004795375
-    },
-    "AJsDVx4C7Y8Wehdp7ZnqAXAi3PZVQ6htxCm8gGPXpump": {
-     "name": "BIAOQING / SOL",
-     "opened_at": "2026-11-19T23:38:24+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 7.424248560001271e-07,
-     "tokens": 129979.48441530019,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 4.957554588e-05,
-     "suspect_ticks": 0,
-     "min_ratio": 0.9150651141183336,
-     "max_ratio": 1.0
     }
    },
    "closed": [
@@ -519,11 +505,22 @@
      "min_ratio": 1.0,
      "max_ratio": 1.1089,
      "reason": "stop temps 31 min (x1.09)"
+    },
+    {
+     "mint": "AJsDVx4C7Y8Wehdp7ZnqAXAi3PZVQ6htxCm8gGPXpump",
+     "name": "BIAOQING / SOL",
+     "opened_at": "2026-11-19T23:38:24+00:00",
+     "closed_at": "2026-11-19T23:44:07+00:00",
+     "pnl_sol": -0.05787,
+     "pnl_pct": -57.9,
+     "min_ratio": 0.4524,
+     "max_ratio": 1.0,
+     "reason": "stop-loss (x0.45)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": 1943.9585804011463
+    "pnl_sol": 1943.9007100769072
    }
   },
   "B_patient": {
@@ -902,20 +899,6 @@
   },
   "C_tot_v2": {
    "positions": {
-    "BBLnf2aisbZL4ScDSJBMpcNe87jpezyz6FKQ8m1xpump": {
-     "name": "maffin lover (lover)",
-     "opened_at": "2026-11-19T22:44:23+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 4.166e-08,
-     "tokens": 2316370.619299088,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 2.0395991162317547e-06,
-     "suspect_ticks": 0,
-     "min_ratio": 0.670907345175228,
-     "max_ratio": 1.0
-    },
     "ELe3WnVwmQakKvAfsfxMm6Ww1ysnCyLsNZfv3KG58w5h": {
      "name": "Frog Coin (FROG)",
      "opened_at": "2026-11-19T22:50:16+00:00",
@@ -925,7 +908,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.6190058061380206e-06,
+     "last_price_usd": 2.626365618511135e-06,
      "suspect_ticks": 0,
      "min_ratio": 0.6367991483321505,
      "max_ratio": 1.0
@@ -975,17 +958,28 @@
      "min_ratio": 1.0,
      "max_ratio": 1.0,
      "reason": "stop temps 62 min (x1.00)"
+    },
+    {
+     "mint": "BBLnf2aisbZL4ScDSJBMpcNe87jpezyz6FKQ8m1xpump",
+     "name": "maffin lover (lover)",
+     "opened_at": "2026-11-19T22:44:23+00:00",
+     "closed_at": "2026-11-19T23:46:23+00:00",
+     "pnl_sol": -0.037523,
+     "pnl_pct": -37.5,
+     "min_ratio": 0.6709,
+     "max_ratio": 1.0,
+     "reason": "stop temps 62 min (x0.67)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": -0.15859985108124194
+    "pnl_sol": -0.19612328183016176
    }
   }
  },
  "listener": {
-  "checked_at": "2026-11-19T23:40:24+00:00",
+  "checked_at": "2026-11-19T23:46:23+00:00",
   "ok": true,
-  "new_coins_10min": 55
+  "new_coins_10min": 93
  }
 }
