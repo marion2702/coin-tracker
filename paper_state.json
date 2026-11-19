@@ -1,33 +1,21 @@
 {
- "processed_until": "2026-11-19T21:31:44+00:00",
+ "processed_until": "2026-11-19T21:37:43+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "ArapZ1NKA4JLb6F8NQyWNzMjmRu8RoAiTHtS5CZqpump": {
-     "name": "\\nu / ANT",
-     "opened_at": "2026-11-19T21:08:24+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 2.8251159718278213e-06,
-     "tokens": 34157.88978657945,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 0.0001924736829,
-     "min_ratio": 0.7762499316657469,
-     "max_ratio": 1.1784294352332187
-    },
     "HKKHgUGdJL1t5LXrnwAYdUjDBPLvmgMJB6UANvv6adNs": {
      "name": "MORALS / SOL",
      "opened_at": "2026-11-19T21:16:24+00:00",
      "size_sol": 0.1,
      "entry_price_sol": 1.8753966648671016e-07,
      "tokens": 514557.80959724804,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 1.642886817e-05,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07218420848335387,
+     "last_price_usd": 1.878660266e-05,
      "min_ratio": 0.8541530591513591,
-     "max_ratio": 1.2124548708289684
+     "max_ratio": 1.5503064991458322,
+     "last_reason": "take-profit 1 (x1.55)"
     },
     "6UE4K8fVY1wt4977X6G23B6MBAZMMvShoXCPvgNARB2z": {
      "name": "FIONA / SOL",
@@ -40,7 +28,20 @@
      "sol_out": 0.0,
      "last_price_usd": 9.465532933e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.003137505324457
+     "max_ratio": 1.00361486240607
+    },
+    "4XReHLfYYTUKHZcp5TNgeQSUtjmyi5aoH1xD6ucmpump": {
+     "name": "DIP / TTWO",
+     "opened_at": "2026-11-19T21:38:40+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.3450756432837195e-07,
+     "tokens": 717431.7703383248,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 7.655095457e-06,
+     "min_ratio": 0.7877497243186988,
+     "max_ratio": 1.0
     }
    },
    "closed": [
@@ -274,11 +275,22 @@
      "min_ratio": 1.0,
      "max_ratio": 1.0462,
      "reason": "stop temps 32 min (x1.04)"
+    },
+    {
+     "mint": "ArapZ1NKA4JLb6F8NQyWNzMjmRu8RoAiTHtS5CZqpump",
+     "name": "\\nu / ANT",
+     "opened_at": "2026-11-19T21:08:24+00:00",
+     "closed_at": "2026-11-19T21:38:40+00:00",
+     "pnl_sol": -0.03035,
+     "pnl_pct": -30.4,
+     "min_ratio": 0.7479,
+     "max_ratio": 1.1784,
+     "reason": "stop-loss (x0.75)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": 0.46306508539392904
+    "pnl_sol": 0.43271463572749846
    }
   },
   "B_patient": {
@@ -294,7 +306,7 @@
      "sol_out": 0.0,
      "last_price_usd": 7.53975243e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.0183666927952624
+     "max_ratio": 1.0188512968997891
     },
     "HymfNir6bcgN8KmBX1eLvKk4zrj6S5ChviYom3EeJWa": {
      "name": "\\nu / SOL",
@@ -307,7 +319,7 @@
      "sol_out": 0.0,
      "last_price_usd": 6.912463012e-07,
      "min_ratio": 0.9976373532555413,
-     "max_ratio": 1.0127414912360333
+     "max_ratio": 1.0132234185093323
     },
     "R62HzufPyawnjThzNe4qDxES1veHsEz9xTe6uUtc9A9": {
      "name": "LOOSY / SOL",
@@ -320,7 +332,7 @@
      "sol_out": 0.0,
      "last_price_usd": 8.307303199e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1644065356456463
+     "max_ratio": 1.1649606348620716
     }
    },
    "closed": [
@@ -464,7 +476,7 @@
      "sol_out": 0.0,
      "last_price_usd": 8.607747285e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.047982298794216
+     "max_ratio": 1.0484809959011225
     },
     "HKKHgUGdJL1t5LXrnwAYdUjDBPLvmgMJB6UANvv6adNs": {
      "name": "MORALS / SOL",
@@ -475,9 +487,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.642886817e-05,
+     "last_price_usd": 1.878660266e-05,
      "min_ratio": 0.8541530591513591,
-     "max_ratio": 1.2124548708289684
+     "max_ratio": 1.5503064991458322
     },
     "6UE4K8fVY1wt4977X6G23B6MBAZMMvShoXCPvgNARB2z": {
      "name": "FIONA / SOL",
@@ -490,7 +502,7 @@
      "sol_out": 0.0,
      "last_price_usd": 9.465532933e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.003137505324457
+     "max_ratio": 1.00361486240607
     }
    },
    "closed": [
