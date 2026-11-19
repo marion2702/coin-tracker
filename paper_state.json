@@ -1,0 +1,32 @@
+{
+ "processed_until": "2026-11-19T18:53:34+00:00",
+ "positions": {
+  "ALjzrjh1sArWs2zbcEvRgf8nkUCxt5FLcYJy5mtaDShr": {
+   "name": "Leonida / SOL",
+   "opened_at": "2026-11-19T18:54:23+00:00",
+   "size_sol": 0.1,
+   "entry_price_sol": 2.841763386206772e-07,
+   "tokens": 339577.88487383403,
+   "remaining": 1.0,
+   "tp1_done": false,
+   "sol_out": 0.0,
+   "last_price_usd": 2.10704485e-05
+  },
+  "DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump": {
+   "name": "jingyu / SOL",
+   "opened_at": "2026-11-19T18:54:23+00:00",
+   "size_sol": 0.1,
+   "entry_price_sol": 1.3243392157138423e-06,
+   "tokens": 72866.52758974957,
+   "remaining": 1.0,
+   "tp1_done": false,
+   "sol_out": 0.0,
+   "last_price_usd": 9.819403465e-05
+  }
+ },
+ "closed": [],
+ "day": {
+  "date": "2026-11-19",
+  "pnl_sol": 0.0
+ }
+}
