@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-19T22:23:43+00:00",
+ "processed_until": "2026-11-19T22:31:44+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,9 +12,10 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.720865774e-05,
-     "min_ratio": 0.8179595893091486,
-     "max_ratio": 1.0
+     "last_price_usd": 0.000105488972,
+     "min_ratio": 0.8167573638395298,
+     "max_ratio": 1.0,
+     "suspect_ticks": 0
     },
     "7hft6UFLsqBbAHTURNhaLqukvEi6LtPZJemuvWbeTj7S": {
      "name": "Leonida / SOL",
@@ -22,12 +23,28 @@
      "size_sol": 0.1,
      "entry_price_sol": 2.1296154418712272e-07,
      "tokens": 453133.4535929568,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07920732765145179,
+     "last_price_usd": 2.648206622e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.7067074173125347,
+     "suspect_ticks": 0,
+     "last_reason": "take-profit 1 (x1.70)"
+    },
+    "5fpqPAxm7xr9ZWTCpkoxrHR4MAd9xnAgwYvTaxd7Tf7M": {
+     "name": "mihao / SOL",
+     "opened_at": "2026-11-19T22:32:40+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 2.547653061561596e-07,
+     "tokens": 378779.9895361336,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.240945072e-05,
+     "last_price_usd": 1.94006029e-05,
+     "suspect_ticks": 0,
      "min_ratio": 1.0,
-     "max_ratio": 1.4447257344391686
+     "max_ratio": 1.0451613393240688
     }
    },
    "closed": [
@@ -391,7 +408,8 @@
      "sol_out": 0.0,
      "last_price_usd": 7.53975243e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.02089272625641
+     "max_ratio": 1.02089272625641,
+     "suspect_ticks": 0
     },
     "HymfNir6bcgN8KmBX1eLvKk4zrj6S5ChviYom3EeJWa": {
      "name": "\\nu / SOL",
@@ -404,7 +422,8 @@
      "sol_out": 0.0,
      "last_price_usd": 6.912463012e-07,
      "min_ratio": 0.9976373532555413,
-     "max_ratio": 1.0152535715234718
+     "max_ratio": 1.0152535715234718,
+     "suspect_ticks": 0
     },
     "R62HzufPyawnjThzNe4qDxES1veHsEz9xTe6uUtc9A9": {
      "name": "LOOSY / SOL",
@@ -417,7 +436,8 @@
      "sol_out": 0.0,
      "last_price_usd": 8.307303199e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1672948173345794
+     "max_ratio": 1.1672948173345794,
+     "suspect_ticks": 0
     }
    },
    "closed": [
@@ -748,6 +768,63 @@
     "date": "2026-11-19",
     "pnl_sol": 986.2848982740616
    }
+  },
+  "C_tot_v2": {
+   "positions": {
+    "23PYUoUBzcmMgzfoPP3M3t5Le9m3aw8wsYJXpewCpump": {
+     "name": "Wojak Theft Auto VI (WTA6)",
+     "opened_at": "2026-11-19T22:30:39+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 6.603e-07,
+     "tokens": 146145.6913524156,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 6.228107750583711e-05,
+     "suspect_ticks": 0,
+     "min_ratio": 1.0,
+     "max_ratio": 1.2945630773890655
+    },
+    "XPPPZjeKSVMNokA5R799yEfu4rJL2aQptoA8W7dpump": {
+     "name": "3 Billies (3B)",
+     "opened_at": "2026-11-19T22:30:39+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.547e-07,
+     "tokens": 623787.9767291532,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.12872816176470586,
+     "last_price_usd": 3.7683403469839676e-05,
+     "suspect_ticks": 0,
+     "min_ratio": 1.0,
+     "max_ratio": 3.343244990303814,
+     "last_reason": "take-profit 1 (x2.76)"
+    },
+    "HRWK8WsoySya163Akxb5d5QbKYWzVmGZw9rXjERnQXXW": {
+     "name": "Doge Coin (DOGEC)",
+     "opened_at": "2026-11-19T22:30:39+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 4.946e-07,
+     "tokens": 195107.15729882734,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 3.603675822927824e-05,
+     "suspect_ticks": 0,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0
+    }
+   },
+   "closed": [],
+   "day": {
+    "date": "2026-11-19",
+    "pnl_sol": 0.0
+   }
   }
+ },
+ "listener": {
+  "checked_at": "2026-11-19T22:34:32+00:00",
+  "ok": true,
+  "new_coins_10min": 97
  }
 }
