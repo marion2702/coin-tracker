@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-19T20:09:43+00:00",
+ "processed_until": "2026-11-19T20:15:43+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,9 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.004990197e-05,
+     "last_price_usd": 2.463588605e-05,
      "min_ratio": 0.8831126631819619,
-     "max_ratio": 1.1763979701476306
+     "max_ratio": 1.4349473499372871
     },
     "ArZVkoMXabtrxAC9w5ms3owTQsi7S8n9APrgxb11mww": {
      "name": "BUTTHOLE / SOL",
@@ -27,7 +27,7 @@
      "sol_out": 0.0,
      "last_price_usd": 7.53975243e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.0042214192071244
+     "max_ratio": 1.0071769772657133
     },
     "7CaDw1gCnUXmMb9c7SpPwhEGRYBD29WSWne8fdkypump": {
      "name": "ScamCenter / SOL",
@@ -35,12 +35,13 @@
      "size_sol": 0.1,
      "entry_price_sol": 1.5127413908520693e-06,
      "tokens": 63791.47194858286,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 0.0001282155912,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07434187371508645,
+     "last_price_usd": 0.0001764496826,
      "min_ratio": 0.8466596853547342,
-     "max_ratio": 1.3681419694056458
+     "max_ratio": 1.5966468622531922,
+     "last_reason": "take-profit 1 (x1.60)"
     }
    },
    "closed": [
@@ -184,19 +185,6 @@
   },
   "B_patient": {
    "positions": {
-    "6ayRQ5AgLQpPnBgEQ5WP9iRt7t7mXmiUN98ZTtFJpump": {
-     "name": "CATMARIO / SOL",
-     "opened_at": "2026-11-19T19:16:08+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 9.087503007828946e-06,
-     "tokens": 10618.978603568503,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 0.0004530892517,
-     "min_ratio": 0.5047479606576235,
-     "max_ratio": 1.2191135786990603
-    },
     "B3jQ5Z2pFgcRTCcrHsvziasGdzUAYhr17xhW1Ta9jVCQ": {
      "name": "DCTY / SOL",
      "opened_at": "2026-11-19T19:56:30+00:00",
@@ -206,9 +194,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.004990197e-05,
+     "last_price_usd": 2.463588605e-05,
      "min_ratio": 0.8831126631819619,
-     "max_ratio": 1.1763979701476306
+     "max_ratio": 1.4349473499372871
     },
     "ArZVkoMXabtrxAC9w5ms3owTQsi7S8n9APrgxb11mww": {
      "name": "BUTTHOLE / SOL",
@@ -221,7 +209,20 @@
      "sol_out": 0.0,
      "last_price_usd": 7.53975243e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.0042214192071244
+     "max_ratio": 1.0071769772657133
+    },
+    "HymfNir6bcgN8KmBX1eLvKk4zrj6S5ChviYom3EeJWa": {
+     "name": "\\nu / SOL",
+     "opened_at": "2026-11-19T20:14:24+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 9.446812478077973e-09,
+     "tokens": 10215085.799991837,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 6.912463012e-07,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0016135848815972
     }
    },
    "closed": [
@@ -301,11 +302,22 @@
      "min_ratio": 0.9101,
      "max_ratio": 2.2485,
      "reason": "take-profit 2 (x2.25)"
+    },
+    {
+     "mint": "6ayRQ5AgLQpPnBgEQ5WP9iRt7t7mXmiUN98ZTtFJpump",
+     "name": "CATMARIO / SOL",
+     "opened_at": "2026-11-19T19:16:08+00:00",
+     "closed_at": "2026-11-19T20:12:23+00:00",
+     "pnl_sol": -0.055646,
+     "pnl_pct": -55.6,
+     "min_ratio": 0.4763,
+     "max_ratio": 1.2191,
+     "reason": "stop-loss (x0.48)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": -0.34205045928590416
+    "pnl_sol": -0.3976969566752375
    }
   },
   "C_tot": {
@@ -319,8 +331,8 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0003207848929,
-     "min_ratio": 0.771259028938154,
+     "last_price_usd": 0.0002831205478,
+     "min_ratio": 0.7229752496523287,
      "max_ratio": 1.0
     },
     "B3jQ5Z2pFgcRTCcrHsvziasGdzUAYhr17xhW1Ta9jVCQ": {
@@ -332,9 +344,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.004990197e-05,
+     "last_price_usd": 2.463588605e-05,
      "min_ratio": 0.8831126631819619,
-     "max_ratio": 1.1763979701476306
+     "max_ratio": 1.4349473499372871
     },
     "ArZVkoMXabtrxAC9w5ms3owTQsi7S8n9APrgxb11mww": {
      "name": "BUTTHOLE / SOL",
@@ -347,7 +359,7 @@
      "sol_out": 0.0,
      "last_price_usd": 7.53975243e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.0042214192071244
+     "max_ratio": 1.0071769772657133
     }
    },
    "closed": [
