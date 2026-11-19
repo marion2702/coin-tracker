@@ -143,3 +143,5 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-19T22:30:39+00:00,HRWK8WsoySya163Akxb5d5QbKYWzVmGZw9rXjERnQXXW,Doge Coin (DOGEC),ACHAT,3.6030534129708743e-05,1.00,0.1000,,,,C_tot_v2
 2026-11-19T22:32:40+00:00,5fpqPAxm7xr9ZWTCpkoxrHR4MAd9xnAgwYvTaxd7Tf7M,mihao / SOL,ACHAT,1.855966466e-05,1.00,0.1000,,,,A_rapide
 2026-11-19T22:32:40+00:00,XPPPZjeKSVMNokA5R799yEfu4rJL2aQptoA8W7dpump,3 Billies (3B),take-profit 1 (x2.76),3.115796532443231e-05,0.50,0.0500,0.1287,+0.0787,+157.5,C_tot_v2
+2026-11-19T22:40:23+00:00,7ZwcEsmBBUWshL3rpkgDchG6rhL1U9jHockwuzgZpump,DATITTY / SOL,stop-loss (x0.62),7.352481311e-05,1.00,0.1000,0.0576,-0.0424,-42.4,A_rapide
+2026-11-19T22:40:23+00:00,7hft6UFLsqBbAHTURNhaLqukvEi6LtPZJemuvWbeTj7S,Leonida / SOL,take-profit 2 (x2.29),3.558216895e-05,0.50,0.0500,0.1067,+0.0567,+113.5,A_rapide
