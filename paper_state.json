@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-19T21:21:43+00:00",
+ "processed_until": "2026-11-19T21:25:43+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -25,7 +25,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0002281404601,
+     "last_price_usd": 0.000229677844,
      "min_ratio": 0.7762499316657469,
      "max_ratio": 1.1784294352332187
     },
@@ -38,7 +38,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.22619284e-05,
+     "last_price_usd": 1.317690419e-05,
      "min_ratio": 0.8541530591513591,
      "max_ratio": 1.0
     }
@@ -477,7 +477,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.22619284e-05,
+     "last_price_usd": 1.317690419e-05,
      "min_ratio": 0.8541530591513591,
      "max_ratio": 1.0
     }
