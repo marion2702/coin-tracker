@@ -1,0 +1,43 @@
+{
+  "coins": [
+    {
+      "name": "BLUEALIEN",
+      "mint": "4GVXo66be5PeSWbk9ZGxMzqWNrfwcxUok4L2n2S4pump"
+    },
+    {
+      "name": "KIWI",
+      "mint": "GL5nnxPXunYTxGtpLtUVp7SrEjx7PK7RwwjxeVJApump"
+    },
+    {
+      "name": "JETDOG",
+      "mint": "4sPUQuYLTxWQ9sHR8WCeqrHu8RZZ2XTTAkN9N758pump"
+    }
+  ],
+  "telegram": {
+    "bot_token": "COLLE_ICI_secret_TG_BOT_TOKEN",
+    "chat_id": "COLLE_ICI_secret_TG_CHAT_ID"
+  },
+  "interval_seconds": 300,
+  "summary_every_minutes": 240,
+  "holders_every_minutes": 5,
+  "solana_rpc": "COLLE_ICI_URL_HELIUS (optionnel)",
+  "alerts": {
+    "price_up_pct": 15,
+    "price_down_pct": 15,
+    "mcap_milestones_usd": [
+      10000,
+      25000,
+      50000,
+      69000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "volume_h1_usd": 5000,
+    "sell_buy_ratio": 2,
+    "min_txns_for_ratio": 10,
+    "whale_sell_pct_supply": 1.0,
+    "new_whale_pct_supply": 2.0
+  }
+}
