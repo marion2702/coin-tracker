@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-19T22:45:44+00:00",
+ "processed_until": "2026-11-19T22:49:44+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,25 +12,11 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07019764919336288,
-     "last_price_usd": 3.351619195e-05,
+     "last_price_usd": 3.529401121e-05,
      "suspect_ticks": 0,
      "min_ratio": 1.0,
-     "max_ratio": 1.798848753845033,
+     "max_ratio": 1.8956160911861528,
      "last_reason": "take-profit 1 (x1.51)"
-    },
-    "H2VBfvSGAV98cu5b4ZVwtcQXAFGUAEN7jGD19Bmvpump": {
-     "name": "CHOMEL / SOL",
-     "opened_at": "2026-11-19T22:42:40+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.1657783213751432e-06,
-     "tokens": 82777.31557588869,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 8.518106885e-05,
-     "suspect_ticks": 0,
-     "min_ratio": 0.9990963597126408,
-     "max_ratio": 1.0
     },
     "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump": {
      "name": "AI / AAPLx",
@@ -38,13 +24,28 @@
      "size_sol": 0.1,
      "entry_price_sol": 1.8819702751813963e-06,
      "tokens": 51276.04897516179,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.08104770111928396,
+     "last_price_usd": 0.0002709954774,
+     "suspect_ticks": 0,
+     "min_ratio": 1.0,
+     "max_ratio": 1.9703298477000408,
+     "last_reason": "take-profit 1 (x1.74)"
+    },
+    "B4qGBT9MC2vyGrgyieyq2x7WhAroGp42XQ7gpuXxpump": {
+     "name": "NVDA / SOL",
+     "opened_at": "2026-11-19T22:50:16+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 9.443375425254386e-07,
+     "tokens": 102188.03727947784,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.000197305571,
+     "last_price_usd": 6.901406406e-05,
      "suspect_ticks": 0,
      "min_ratio": 1.0,
-     "max_ratio": 1.499971152494489
+     "max_ratio": 1.0
     }
    },
    "closed": [
@@ -410,11 +411,22 @@
      "min_ratio": 1.0,
      "max_ratio": 2.2922,
      "reason": "take-profit 2 (x2.29)"
+    },
+    {
+     "mint": "H2VBfvSGAV98cu5b4ZVwtcQXAFGUAEN7jGD19Bmvpump",
+     "name": "CHOMEL / SOL",
+     "opened_at": "2026-11-19T22:42:40+00:00",
+     "closed_at": "2026-11-19T22:50:16+00:00",
+     "pnl_sol": -0.038243,
+     "pnl_pct": -38.2,
+     "min_ratio": 0.6632,
+     "max_ratio": 1.0,
+     "reason": "stop-loss (x0.66)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": 0.16433351567558938
+    "pnl_sol": 0.12609003300061122
    }
   },
   "B_patient": {
@@ -802,7 +814,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 3.617211023899874e-05,
+     "last_price_usd": 3.614635079824382e-05,
      "suspect_ticks": 0,
      "min_ratio": 1.0,
      "max_ratio": 1.0
@@ -816,9 +828,23 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.044097212252355e-06,
+     "last_price_usd": 2.0426415382347648e-06,
      "suspect_ticks": 0,
      "min_ratio": 0.670907345175228,
+     "max_ratio": 1.0
+    },
+    "ELe3WnVwmQakKvAfsfxMm6Ww1ysnCyLsNZfv3KG58w5h": {
+     "name": "Frog Coin (FROG)",
+     "opened_at": "2026-11-19T22:50:16+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 5.6359999999999996e-08,
+     "tokens": 1712207.2391767213,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 2.622912515464963e-06,
+     "suspect_ticks": 0,
+     "min_ratio": 0.6367991483321505,
      "max_ratio": 1.0
     }
    },
@@ -864,8 +890,8 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-19T22:46:24+00:00",
+  "checked_at": "2026-11-19T22:52:07+00:00",
   "ok": true,
-  "new_coins_10min": 83
+  "new_coins_10min": 101
  }
 }
