@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-19T23:31:43+00:00",
+ "processed_until": "2026-11-19T23:39:43+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,10 +12,10 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.227365831e-07,
+     "last_price_usd": 7.654572632e-07,
      "suspect_ticks": 0,
      "min_ratio": 0.9940232231553221,
-     "max_ratio": 1.0
+     "max_ratio": 1.052749050690697
     },
     "7CFkFzfogJnSR7awZm63pfk2zW7YN3zwnKFTCoUoqmFL": {
      "name": "NEX Ai / SOL",
@@ -26,9 +26,23 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.583716503e-05,
+     "last_price_usd": 2.693718939e-05,
      "suspect_ticks": 0,
-     "min_ratio": 0.9847134019961459,
+     "min_ratio": 0.9769870908964748,
+     "max_ratio": 1.0266081004795375
+    },
+    "AJsDVx4C7Y8Wehdp7ZnqAXAi3PZVQ6htxCm8gGPXpump": {
+     "name": "BIAOQING / SOL",
+     "opened_at": "2026-11-19T23:38:24+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 7.424248560001271e-07,
+     "tokens": 129979.48441530019,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 4.957554588e-05,
+     "suspect_ticks": 0,
+     "min_ratio": 0.9150651141183336,
      "max_ratio": 1.0
     }
    },
@@ -897,7 +911,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.039540025197025e-06,
+     "last_price_usd": 2.0395991162317547e-06,
      "suspect_ticks": 0,
      "min_ratio": 0.670907345175228,
      "max_ratio": 1.0
@@ -911,7 +925,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.6189299285982553e-06,
+     "last_price_usd": 2.6190058061380206e-06,
      "suspect_ticks": 0,
      "min_ratio": 0.6367991483321505,
      "max_ratio": 1.0
@@ -970,8 +984,8 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-19T23:34:24+00:00",
+  "checked_at": "2026-11-19T23:40:24+00:00",
   "ok": true,
-  "new_coins_10min": 45
+  "new_coins_10min": 55
  }
 }
