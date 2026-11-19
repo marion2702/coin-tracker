@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-19T22:35:43+00:00",
+ "processed_until": "2026-11-19T22:45:44+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -9,13 +9,42 @@
      "size_sol": 0.1,
      "entry_price_sol": 2.547653061561596e-07,
      "tokens": 378779.9895361336,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07019764919336288,
+     "last_price_usd": 3.351619195e-05,
+     "suspect_ticks": 0,
+     "min_ratio": 1.0,
+     "max_ratio": 1.798848753845033,
+     "last_reason": "take-profit 1 (x1.51)"
+    },
+    "H2VBfvSGAV98cu5b4ZVwtcQXAFGUAEN7jGD19Bmvpump": {
+     "name": "CHOMEL / SOL",
+     "opened_at": "2026-11-19T22:42:40+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.1657783213751432e-06,
+     "tokens": 82777.31557588869,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.141880329e-05,
+     "last_price_usd": 8.518106885e-05,
+     "suspect_ticks": 0,
+     "min_ratio": 0.9990963597126408,
+     "max_ratio": 1.0
+    },
+    "8SacNb6sgiAcscRe4m915B6nL9XX55dk8FS7L532pump": {
+     "name": "AI / AAPLx",
+     "opened_at": "2026-11-19T22:42:40+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.8819702751813963e-06,
+     "tokens": 51276.04897516179,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 0.000197305571,
      "suspect_ticks": 0,
      "min_ratio": 1.0,
-     "max_ratio": 1.1533681655263726
+     "max_ratio": 1.499971152494489
     }
    },
    "closed": [
@@ -764,35 +793,6 @@
   },
   "C_tot_v2": {
    "positions": {
-    "23PYUoUBzcmMgzfoPP3M3t5Le9m3aw8wsYJXpewCpump": {
-     "name": "Wojak Theft Auto VI (WTA6)",
-     "opened_at": "2026-11-19T22:30:39+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 6.603e-07,
-     "tokens": 146145.6913524156,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 5.273454727036034e-05,
-     "suspect_ticks": 2,
-     "min_ratio": 1.0,
-     "max_ratio": 1.2945630773890655
-    },
-    "XPPPZjeKSVMNokA5R799yEfu4rJL2aQptoA8W7dpump": {
-     "name": "3 Billies (3B)",
-     "opened_at": "2026-11-19T22:30:39+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.547e-07,
-     "tokens": 623787.9767291532,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.12872816176470586,
-     "last_price_usd": 3.725224374044659e-05,
-     "suspect_ticks": 2,
-     "min_ratio": 1.0,
-     "max_ratio": 3.343244990303814,
-     "last_reason": "take-profit 1 (x2.76)"
-    },
     "HRWK8WsoySya163Akxb5d5QbKYWzVmGZw9rXjERnQXXW": {
      "name": "Doge Coin (DOGEC)",
      "opened_at": "2026-11-19T22:30:39+00:00",
@@ -802,22 +802,70 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 3.6052971774e-05,
+     "last_price_usd": 3.617211023899874e-05,
      "suspect_ticks": 0,
      "min_ratio": 1.0,
      "max_ratio": 1.0
+    },
+    "BBLnf2aisbZL4ScDSJBMpcNe87jpezyz6FKQ8m1xpump": {
+     "name": "maffin lover (lover)",
+     "opened_at": "2026-11-19T22:44:23+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 4.166e-08,
+     "tokens": 2316370.619299088,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 2.044097212252355e-06,
+     "suspect_ticks": 0,
+     "min_ratio": 0.670907345175228,
+     "max_ratio": 1.0
     }
    },
-   "closed": [],
+   "closed": [
+    {
+     "mint": "23PYUoUBzcmMgzfoPP3M3t5Le9m3aw8wsYJXpewCpump",
+     "name": "Wojak Theft Auto VI (WTA6)",
+     "opened_at": "2026-11-19T22:30:39+00:00",
+     "closed_at": "2026-11-19T22:42:40+00:00",
+     "pnl_sol": -0.097261,
+     "pnl_pct": -97.3,
+     "min_ratio": 0.0294,
+     "max_ratio": 1.2946,
+     "reason": "stop-loss (x0.03)"
+    },
+    {
+     "mint": "XPPPZjeKSVMNokA5R799yEfu4rJL2aQptoA8W7dpump",
+     "name": "3 Billies (3B)",
+     "opened_at": "2026-11-19T22:30:39+00:00",
+     "closed_at": "2026-11-19T22:42:40+00:00",
+     "pnl_sol": 0.03463,
+     "pnl_pct": 34.6,
+     "min_ratio": 0.1268,
+     "max_ratio": 3.3432,
+     "reason": "stop-loss (x0.13)"
+    },
+    {
+     "mint": "8mgnc6mz3TGwrkJHwsyzJadrzH8Z9jb2hxSNiacCpump",
+     "name": "TrumpINU (TINU)",
+     "opened_at": "2026-11-19T22:42:40+00:00",
+     "closed_at": "2026-11-19T22:44:23+00:00",
+     "pnl_sol": -0.089091,
+     "pnl_pct": -89.1,
+     "min_ratio": 0.1171,
+     "max_ratio": 1.0,
+     "reason": "stop-loss (x0.12)"
+    }
+   ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": 0.0
+    "pnl_sol": -0.15172235108124194
    }
   }
  },
  "listener": {
-  "checked_at": "2026-11-19T22:40:23+00:00",
+  "checked_at": "2026-11-19T22:46:24+00:00",
   "ok": true,
-  "new_coins_10min": 91
+  "new_coins_10min": 83
  }
 }
