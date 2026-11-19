@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-19T21:41:43+00:00",
+ "processed_until": "2026-11-19T21:51:44+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -14,7 +14,7 @@
      "sol_out": 0.0,
      "last_price_usd": 9.465532933e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.00361486240607
+     "max_ratio": 1.0041008745633446
     },
     "4XReHLfYYTUKHZcp5TNgeQSUtjmyi5aoH1xD6ucmpump": {
      "name": "DIP / TTWO",
@@ -25,9 +25,20 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.618543447e-06,
+     "last_price_usd": 8.439803808e-06,
      "min_ratio": 0.7877497243186988,
      "max_ratio": 1.0
+    },
+    "3hcJWcNvWJu3QBq6PiC8xavYQJJwBnr6adhdpHXppump": {
+     "name": "FIONA / SOL",
+     "opened_at": "2026-11-19T21:52:24+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 2.2856918727489103e-06,
+     "tokens": 42219.16398728902,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 0.0001649870015
     }
    },
    "closed": [
@@ -303,7 +314,7 @@
      "sol_out": 0.0,
      "last_price_usd": 7.53975243e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.0188512968997891
+     "max_ratio": 1.0193446874774865
     },
     "HymfNir6bcgN8KmBX1eLvKk4zrj6S5ChviYom3EeJWa": {
      "name": "\\nu / SOL",
@@ -316,7 +327,7 @@
      "sol_out": 0.0,
      "last_price_usd": 6.912463012e-07,
      "min_ratio": 0.9976373532555413,
-     "max_ratio": 1.0132234185093323
+     "max_ratio": 1.0137140837215335
     },
     "R62HzufPyawnjThzNe4qDxES1veHsEz9xTe6uUtc9A9": {
      "name": "LOOSY / SOL",
@@ -329,7 +340,7 @@
      "sol_out": 0.0,
      "last_price_usd": 8.307303199e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1649606348620716
+     "max_ratio": 1.1655247805841986
     }
    },
    "closed": [
@@ -473,7 +484,7 @@
      "sol_out": 0.0,
      "last_price_usd": 8.607747285e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.0484809959011225
+     "max_ratio": 1.048988735004804
     },
     "6UE4K8fVY1wt4977X6G23B6MBAZMMvShoXCPvgNARB2z": {
      "name": "FIONA / SOL",
@@ -486,7 +497,18 @@
      "sol_out": 0.0,
      "last_price_usd": 9.465532933e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.00361486240607
+     "max_ratio": 1.0041008745633446
+    },
+    "3hcJWcNvWJu3QBq6PiC8xavYQJJwBnr6adhdpHXppump": {
+     "name": "FIONA / SOL",
+     "opened_at": "2026-11-19T21:52:24+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 2.2856918727489103e-06,
+     "tokens": 42219.16398728902,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 0.0001649870015
     }
    },
    "closed": [
