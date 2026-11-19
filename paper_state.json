@@ -1,21 +1,8 @@
 {
- "processed_until": "2026-11-19T21:25:43+00:00",
+ "processed_until": "2026-11-19T21:31:44+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "CqATSeCZUEhgvuBgBAuU7wTcdc87AVQvax5jww5253b": {
-     "name": "LOOSY / SOL",
-     "opened_at": "2026-11-19T20:58:31+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.1368067354677417e-08,
-     "tokens": 8488690.028766839,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 8.607747285e-07,
-     "min_ratio": 1.0,
-     "max_ratio": 1.046200777320154
-    },
     "ArapZ1NKA4JLb6F8NQyWNzMjmRu8RoAiTHtS5CZqpump": {
      "name": "\\nu / ANT",
      "opened_at": "2026-11-19T21:08:24+00:00",
@@ -25,7 +12,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.000229677844,
+     "last_price_usd": 0.0001924736829,
      "min_ratio": 0.7762499316657469,
      "max_ratio": 1.1784294352332187
     },
@@ -38,9 +25,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.317690419e-05,
+     "last_price_usd": 1.642886817e-05,
      "min_ratio": 0.8541530591513591,
-     "max_ratio": 1.0
+     "max_ratio": 1.2124548708289684
+    },
+    "6UE4K8fVY1wt4977X6G23B6MBAZMMvShoXCPvgNARB2z": {
+     "name": "FIONA / SOL",
+     "opened_at": "2026-11-19T21:32:32+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.305977455275287e-06,
+     "tokens": 73891.01520106928,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 9.465532933e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.003137505324457
     }
    },
    "closed": [
@@ -263,11 +263,22 @@
      "min_ratio": 1.0,
      "max_ratio": 1.1553,
      "reason": "stop temps 30 min (x1.15)"
+    },
+    {
+     "mint": "CqATSeCZUEhgvuBgBAuU7wTcdc87AVQvax5jww5253b",
+     "name": "LOOSY / SOL",
+     "opened_at": "2026-11-19T20:58:31+00:00",
+     "closed_at": "2026-11-19T21:30:23+00:00",
+     "pnl_sol": -0.003072,
+     "pnl_pct": -3.1,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0462,
+     "reason": "stop temps 32 min (x1.04)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": 0.4661371925352909
+    "pnl_sol": 0.46306508539392904
    }
   },
   "B_patient": {
@@ -283,7 +294,7 @@
      "sol_out": 0.0,
      "last_price_usd": 7.53975243e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.0166355164826744
+     "max_ratio": 1.0183666927952624
     },
     "HymfNir6bcgN8KmBX1eLvKk4zrj6S5ChviYom3EeJWa": {
      "name": "\\nu / SOL",
@@ -296,7 +307,7 @@
      "sol_out": 0.0,
      "last_price_usd": 6.912463012e-07,
      "min_ratio": 0.9976373532555413,
-     "max_ratio": 1.0110198775061199
+     "max_ratio": 1.0127414912360333
     },
     "R62HzufPyawnjThzNe4qDxES1veHsEz9xTe6uUtc9A9": {
      "name": "LOOSY / SOL",
@@ -309,7 +320,7 @@
      "sol_out": 0.0,
      "last_price_usd": 8.307303199e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1624270983496372
+     "max_ratio": 1.1644065356456463
     }
    },
    "closed": [
@@ -442,19 +453,6 @@
   },
   "C_tot": {
    "positions": {
-    "MwuoaWg3qA6ghFfXyqz8UZDW8EYvEdaFHbbSan45FnP": {
-     "name": "LOOSY / SOL",
-     "opened_at": "2026-11-19T20:32:24+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 9.61986435974417e-09,
-     "tokens": 10031326.471069528,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 8.669763533e-07,
-     "min_ratio": 1.0,
-     "max_ratio": 1.2452325720441528
-    },
     "CqATSeCZUEhgvuBgBAuU7wTcdc87AVQvax5jww5253b": {
      "name": "LOOSY / SOL",
      "opened_at": "2026-11-19T20:58:31+00:00",
@@ -466,7 +464,7 @@
      "sol_out": 0.0,
      "last_price_usd": 8.607747285e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.046200777320154
+     "max_ratio": 1.047982298794216
     },
     "HKKHgUGdJL1t5LXrnwAYdUjDBPLvmgMJB6UANvv6adNs": {
      "name": "MORALS / SOL",
@@ -477,9 +475,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.317690419e-05,
+     "last_price_usd": 1.642886817e-05,
      "min_ratio": 0.8541530591513591,
-     "max_ratio": 1.0
+     "max_ratio": 1.2124548708289684
+    },
+    "6UE4K8fVY1wt4977X6G23B6MBAZMMvShoXCPvgNARB2z": {
+     "name": "FIONA / SOL",
+     "opened_at": "2026-11-19T21:32:32+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.305977455275287e-06,
+     "tokens": 73891.01520106928,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 9.465532933e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.003137505324457
     }
    },
    "closed": [
@@ -559,11 +570,22 @@
      "min_ratio": 1.0,
      "max_ratio": 4.0234,
      "reason": "take-profit 2 (x4.02)"
+    },
+    {
+     "mint": "MwuoaWg3qA6ghFfXyqz8UZDW8EYvEdaFHbbSan45FnP",
+     "name": "LOOSY / SOL",
+     "opened_at": "2026-11-19T20:32:24+00:00",
+     "closed_at": "2026-11-19T21:32:32+00:00",
+     "pnl_sol": 0.015793,
+     "pnl_pct": 15.8,
+     "min_ratio": 1.0,
+     "max_ratio": 1.2452,
+     "reason": "stop temps 60 min (x1.24)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": 986.6779011575678
+    "pnl_sol": 986.6936944864765
    }
   }
  }
