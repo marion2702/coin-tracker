@@ -119,7 +119,10 @@ def report():
     if not full:
         print("Pas encore de simulation.")
         return
+    cfg = load_json(CONFIG_PATH, {"strategies": {}})
     for name, state in migrate(full)["strategies"].items():
+        if name not in cfg["strategies"]:
+            continue  # ancienne stratégie retirée du réglage
         print("\n" + totals(state, f"[{name}] "))
         report_one(state)
 
@@ -191,6 +194,14 @@ def run_strategy(state, cfg, px, sol_usd, new_alerts, now, events):
             else:
                 continue
         else:
+            last = pos.get("last_price_usd") or 0
+            if last > 0 and not (1 / cfg["max_price_jump_x"] <= p_usd / last <= cfg["max_price_jump_x"]):
+                # saut x20 entre deux passages (2 min) : donnée de prix douteuse, on attend la suivante
+                log(f"[{tag}] prix douteux ignoré pour {short(pos['name'])} (x{p_usd / last:.1f})")
+                pos["suspect_ticks"] = pos.get("suspect_ticks", 0) + 1
+                if pos["suspect_ticks"] < 3:
+                    continue
+            pos["suspect_ticks"] = 0
             pos["last_price_usd"] = p_usd
             price_sol = p_usd / sol_usd
             ratio = price_sol / pos["entry_price_sol"]
@@ -294,6 +305,8 @@ def early_candidates(live, cfg, sol_usd, now_iso, ds):
         buys, sells = m5.get("buys", 0), m5.get("sells", 0)
         if buys < cfg["early_min_buys_5m"] or buys / max(sells, 1) < cfg["early_min_buy_sell_ratio"]:
             continue
+        if (p.get("quoteToken") or {}).get("address") != SOL_MINT:
+            continue
         price_sol = float(p.get("priceNative") or 0)
         mcap_sol = price_sol * 1_000_000_000
         if not price_sol or mcap_sol < t["mcap_sol_start"] * (1 + cfg["early_min_mcap_growth_pct"] / 100):
@@ -358,9 +371,30 @@ def main():
     if new_alerts:
         full["processed_until"] = max(r["time_utc"] for r in new_alerts)
 
+    # coins tout jeunes + positions de la stratégie « tôt » : DexScreener (plus frais, couvre la bonding curve)
+    live = load_live()
+    early_names = [n for n, c in strategies.items() if c.get("entry_source") == "early"]
+    ds = {}
+    if early_names:
+        want = [m for n in early_names for m in full["strategies"][n]["positions"]]
+        if live:
+            want += [m for m, t in live.items() if time.time() - t["created_at"] <= 6 * 60]
+        ds = dexscreener(want)
+        for m, p in ds.items():
+            if p.get("priceNative") and p.get("quoteToken", {}).get("address") == SOL_MINT:
+                px[m] = float(p["priceNative"]) * sol_usd
+
+    full["listener"] = {"checked_at": now.isoformat(timespec="seconds"),
+                        "ok": live is not None, "new_coins_10min": len(live or {})}
     events = []
     for name, scfg in strategies.items():
-        run_strategy(full["strategies"][name], scfg, px, sol_usd, new_alerts, now, events)
+        if scfg.get("entry_source") == "early":
+            if live is None:
+                log(f"[{name}] pas de données temps réel (listener arrêté ?)")
+            alerts = early_candidates(live, scfg, sol_usd, now.isoformat(timespec="seconds"), ds) if live else []
+        else:
+            alerts = new_alerts
+        run_strategy(full["strategies"][name], scfg, px, sol_usd, alerts, now, events)
 
     open_count = sum(len(full["strategies"][n]["positions"]) for n in strategies)
     log(f"{len(new_alerts)} nouvelles alertes, {open_count} positions ouvertes, {len(events)} évènements")
