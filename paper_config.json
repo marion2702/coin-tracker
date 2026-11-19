@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "mode": "simulation",
+  "size_sol": 0.1,
+  "max_open_positions": 3,
+  "max_daily_loss_sol": 0.5,
+  "take_profit_1_pct": 50,
+  "take_profit_1_sell_fraction": 0.5,
+  "take_profit_2_pct": 100,
+  "stop_loss_pct": -25,
+  "time_stop_minutes": 30,
+  "max_alert_age_minutes": 10,
+  "cost_pct_per_side": 3.5,
+  "close_as_rug_after_hours_without_price": 6
+}

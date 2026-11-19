@@ -6,7 +6,7 @@ on:
   workflow_dispatch:         # bouton "Run workflow" pour lancer à la main
   push:                      # relance immédiate quand le code ou la config change
     branches: [main]
-    paths: ["tracker.py", "config.json", "scanner.py", "scanner_config.json", ".github/workflows/**"]
+    paths: ["tracker.py", "config.json", "scanner.py", "scanner_config.json", "paper_trader.py", "paper_config.json", ".github/workflows/**"]
 
 permissions:
   contents: write
@@ -35,6 +35,12 @@ jobs:
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
         run: python scanner.py
+      - name: Paper trading (simulation, aucun vrai SOL)
+        continue-on-error: true
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+        run: python paper_trader.py
       - name: Sauvegarde de l'état
         run: |
           git config user.name "coin-tracker-bot"
