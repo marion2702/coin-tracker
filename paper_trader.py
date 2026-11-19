@@ -96,7 +96,7 @@ def write_trade(row):
         w = csv.writer(fh)
         if new:
             w.writerow(["time_utc", "mint", "name", "action", "price_usd", "fraction",
-                        "sol_in", "sol_out", "pnl_sol", "pnl_pct"])
+                        "sol_in", "sol_out", "pnl_sol", "pnl_pct", "strategy"])
         w.writerow(row)
 
 
@@ -104,21 +104,26 @@ def short(name):
     return (name or "?").split(" / ")[0][:24]
 
 
-def totals(state):
+def totals(state, label=""):
     closed = state["closed"]
     pnl = sum(c["pnl_sol"] for c in closed)
     wins = sum(1 for c in closed if c["pnl_sol"] > 0)
     rate = f"{100 * wins / len(closed):.0f}%" if closed else "-"
-    return (f"📊 Bilan simu : {pnl:+.3f} SOL sur {len(closed)} trades clôturés "
+    return (f"📊 {label}Bilan : {pnl:+.3f} SOL sur {len(closed)} trades clôturés "
             f"({rate} gagnants) · {len(state['positions'])} en cours · aujourd'hui {state['day']['pnl_sol']:+.3f} SOL")
 
 
 def report():
-    state = load_json(STATE_PATH, None)
-    if not state:
+    full = load_json(STATE_PATH, None)
+    if not full:
         print("Pas encore de simulation.")
         return
-    print(totals(state))
+    for name, state in migrate(full)["strategies"].items():
+        print("\n" + totals(state, f"[{name}] "))
+        report_one(state)
+
+
+def report_one(state):
     for c in state["closed"][-20:]:
         print(f"  {c['closed_at'][:16]}  {short(c['name']):24} {c['pnl_sol']:+.3f} SOL ({c['pnl_pct']:+.0f}%)  {c['reason']}")
     for m, p in state["positions"].items():
@@ -126,6 +131,7 @@ def report():
 
 
 def sell(pos, frac_of_initial, price_sol, cfg, reason, now_iso, events, mint):
+    tag = cfg["_name"]
     """Vend une fraction de la position initiale au prix courant (en SOL)."""
     cost = cfg["cost_pct_per_side"] / 100
     tokens = pos["tokens"] * frac_of_initial
@@ -136,58 +142,41 @@ def sell(pos, frac_of_initial, price_sol, cfg, reason, now_iso, events, mint):
     pos["last_reason"] = reason
     pct = (sol_out / sol_in - 1) * 100 if sol_in else 0
     write_trade([now_iso, mint, pos["name"], reason, pos["last_price_usd"], f"{frac_of_initial:.2f}",
-                 f"{sol_in:.4f}", f"{sol_out:.4f}", f"{sol_out - sol_in:+.4f}", f"{pct:+.1f}"])
+                 f"{sol_in:.4f}", f"{sol_out:.4f}", f"{sol_out - sol_in:+.4f}", f"{pct:+.1f}", tag])
     emoji = "🟢" if sol_out >= sol_in else "🔴"
-    events.append(f"{emoji} VENTE simu {short(pos['name'])} ({frac_of_initial:.0%}) · {reason} · "
+    events.append(f"{emoji} [{tag}] VENTE {short(pos['name'])} ({frac_of_initial:.0%}) · {reason} · "
                   f"{sol_out - sol_in:+.3f} SOL ({pct:+.0f}%)")
 
 
-def main():
-    if "--report" in sys.argv:
-        report()
-        return
-    dry = "--dry" in sys.argv
-    cfg = load_json(CONFIG_PATH, None)
-    if not cfg or not cfg.get("enabled"):
-        log("Simulation désactivée (paper_config.json).")
-        return
-    if cfg.get("mode") != "simulation":
-        sys.exit("Seul le mode 'simulation' existe pour l'instant.")
+def empty_strategy(today):
+    return {"positions": {}, "closed": [], "day": {"date": today, "pnl_sol": 0.0}}
 
-    now = datetime.now(timezone.utc)
+
+def migrate(full):
+    """Ancien format (une seule stratégie) -> {"processed_until", "strategies": {...}}."""
+    if "strategies" in full:
+        return full
+    return {"processed_until": full.get("processed_until", ""),
+            "strategies": {"A_rapide": {k: full[k] for k in ("positions", "closed", "day")}}}
+
+
+def strategy_configs(cfg):
+    common = {k: v for k, v in cfg.items() if k not in ("strategies", "enabled", "mode")}
+    out = {}
+    for name, over in cfg["strategies"].items():
+        c = dict(common)
+        c.update(over)
+        c["_name"] = name
+        out[name] = c
+    return out
+
+
+def run_strategy(state, cfg, px, sol_usd, new_alerts, now, events):
     now_iso = now.isoformat(timespec="seconds")
     today = now.date().isoformat()
-    state = load_json(STATE_PATH, None)
-    if state is None:
-        # premier passage : on ne rejoue pas l'historique, seulement les alertes récentes
-        state = {"processed_until": "", "positions": {}, "closed": [],
-                 "day": {"date": today, "pnl_sol": 0.0}}
+    tag = cfg["_name"]
     if state["day"]["date"] != today:
         state["day"] = {"date": today, "pnl_sol": 0.0}
-
-    # nouvelles alertes du scanner
-    new_alerts = []
-    if os.path.exists(ALERTS_PATH):
-        with open(ALERTS_PATH, newline="") as fh:
-            for row in csv.DictReader(fh):
-                if row["time_utc"] > state["processed_until"]:
-                    new_alerts.append(row)
-
-    # prix courants
-    need = list(state["positions"]) + [r["mint"] for r in new_alerts]
-    try:
-        px = prices_usd([SOL_MINT] + need)
-    except Exception as e:  # noqa: BLE001
-        log(f"Prix indisponibles ({e}), on réessaie au prochain passage.")
-        return
-    sol_usd = px.get(SOL_MINT)
-    if not sol_usd:
-        log("Prix du SOL indisponible, passage ignoré.")
-        return
-
-    if new_alerts:
-        state["processed_until"] = max(r["time_utc"] for r in new_alerts)
-    events = []
 
     # 1. gestion des positions ouvertes
     for mint in list(state["positions"]):
@@ -204,6 +193,8 @@ def main():
             pos["last_price_usd"] = p_usd
             price_sol = p_usd / sol_usd
             ratio = price_sol / pos["entry_price_sol"]
+            pos["min_ratio"] = min(pos.get("min_ratio", 1.0), ratio)
+            pos["max_ratio"] = max(pos.get("max_ratio", 1.0), ratio)
             if ratio <= 1 + cfg["stop_loss_pct"] / 100:
                 sell(pos, pos["remaining"], price_sol, cfg, f"stop-loss (x{ratio:.2f})", now_iso, events, mint)
             else:
@@ -222,6 +213,8 @@ def main():
             state["closed"].append({"mint": mint, "name": pos["name"], "opened_at": pos["opened_at"],
                                     "closed_at": now_iso, "pnl_sol": round(pnl, 6),
                                     "pnl_pct": round(pnl / pos["size_sol"] * 100, 1),
+                                    "min_ratio": round(pos.get("min_ratio", 1.0), 4),
+                                    "max_ratio": round(pos.get("max_ratio", 1.0), 4),
                                     "reason": pos.get("last_reason", "")})
             del state["positions"][mint]
 
@@ -233,15 +226,14 @@ def main():
         if mint in state["positions"] or mint in traded_today:
             continue
         if alert_age > cfg["max_alert_age_minutes"]:
-            log(f"Alerte trop vieille ({alert_age:.0f} min) : {short(row['name'])} ignoré")
+            log(f"[{tag}] alerte trop vieille ({alert_age:.0f} min) : {short(row['name'])} ignoré")
             continue
         if len(state["positions"]) >= cfg["max_open_positions"]:
-            log(f"{cfg['max_open_positions']} positions déjà ouvertes : {short(row['name'])} ignoré")
+            log(f"[{tag}] {cfg['max_open_positions']} positions déjà ouvertes : {short(row['name'])} ignoré")
             continue
         if state["day"]["pnl_sol"] <= -cfg["max_daily_loss_sol"]:
-            events.append(f"⛔ Perte max du jour atteinte ({state['day']['pnl_sol']:+.3f} SOL) : plus d'achat aujourd'hui")
+            events.append(f"⛔ [{tag}] perte max du jour atteinte ({state['day']['pnl_sol']:+.3f} SOL) : plus d'achat aujourd'hui")
             break
-        # prix d'entrée : prix actuel si dispo (plus réaliste), sinon prix de l'alerte
         p_usd = px.get(mint) or float(row["price_usd"])
         price_sol = p_usd / sol_usd
         cost = cfg["cost_pct_per_side"] / 100
@@ -251,16 +243,66 @@ def main():
             "entry_price_sol": price_sol, "tokens": size * (1 - cost) / price_sol,
             "remaining": 1.0, "tp1_done": False, "sol_out": 0.0, "last_price_usd": p_usd,
         }
-        write_trade([now_iso, mint, row["name"], "ACHAT", p_usd, "1.00", f"{size:.4f}", "", "", ""])
-        events.append(f"🛒 ACHAT simu {short(row['name'])} · {size} SOL · MC ${float(row['mcap_usd'])/1e3:.0f}k\n"
+        write_trade([now_iso, mint, row["name"], "ACHAT", p_usd, "1.00", f"{size:.4f}", "", "", "", tag])
+        events.append(f"🛒 [{tag}] ACHAT {short(row['name'])} · {size} SOL · MC ${float(row['mcap_usd'])/1e3:.0f}k\n"
                       f"pump.fun/coin/{mint}")
 
-    log(f"{len(new_alerts)} nouvelles alertes, {len(state['positions'])} positions ouvertes, {len(events)} évènements")
+
+def main():
+    if "--report" in sys.argv:
+        report()
+        return
+    dry = "--dry" in sys.argv
+    cfg = load_json(CONFIG_PATH, None)
+    if not cfg or not cfg.get("enabled"):
+        log("Simulation désactivée (paper_config.json).")
+        return
+    if cfg.get("mode") != "simulation":
+        sys.exit("Seul le mode 'simulation' existe pour l'instant.")
+    strategies = strategy_configs(cfg)
+
+    now = datetime.now(timezone.utc)
+    today = now.date().isoformat()
+    full = load_json(STATE_PATH, None)
+    full = migrate(full) if full else {"processed_until": "", "strategies": {}}
+    for name in strategies:
+        full["strategies"].setdefault(name, empty_strategy(today))
+
+    # nouvelles alertes du scanner
+    new_alerts = []
+    if os.path.exists(ALERTS_PATH):
+        with open(ALERTS_PATH, newline="") as fh:
+            for row in csv.DictReader(fh):
+                if row["time_utc"] > full["processed_until"]:
+                    new_alerts.append(row)
+
+    # prix courants (un seul appel pour toutes les stratégies)
+    need = [m for name in strategies for m in full["strategies"][name]["positions"]]
+    need += [r["mint"] for r in new_alerts]
+    try:
+        px = prices_usd([SOL_MINT] + need)
+    except Exception as e:  # noqa: BLE001
+        log(f"Prix indisponibles ({e}), on réessaie au prochain passage.")
+        return
+    sol_usd = px.get(SOL_MINT)
+    if not sol_usd:
+        log("Prix du SOL indisponible, passage ignoré.")
+        return
+    if new_alerts:
+        full["processed_until"] = max(r["time_utc"] for r in new_alerts)
+
+    events = []
+    for name, scfg in strategies.items():
+        run_strategy(full["strategies"][name], scfg, px, sol_usd, new_alerts, now, events)
+
+    open_count = sum(len(full["strategies"][n]["positions"]) for n in strategies)
+    log(f"{len(new_alerts)} nouvelles alertes, {open_count} positions ouvertes, {len(events)} évènements")
     if events:
-        telegram("🧪 PAPER TRADING (aucun vrai SOL)\n\n" + "\n\n".join(events) + "\n\n" + totals(state), dry)
+        bilans = "\n".join(totals(full["strategies"][n], f"[{n}] ") for n in strategies)
+        telegram("🧪 PAPER TRADING (aucun vrai SOL)\n\n" + "\n\n".join(events) + "\n\n" + bilans, dry)
     if not dry:
         with open(STATE_PATH, "w") as fh:
-            json.dump(state, fh, indent=1)
+            json.dump(full, fh, indent=1)
 
 
 if __name__ == "__main__":

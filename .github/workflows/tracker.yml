@@ -1,50 +1,67 @@
 name: Coin Tracker
 
+# Le cron de GitHub est trop peu fiable (passages sautés ou décalés de 15 min et plus).
+# Ici, un seul job tourne en boucle ~5 h 30 (un passage toutes les 2 min), puis se relance tout seul.
+# Le cron horaire sert juste de filet de sécurité si la relance échoue.
+# Dépôt public : les minutes GitHub Actions sont gratuites.
+
 on:
   schedule:
-    - cron: "*/5 * * * *"   # toutes les 5 min (GitHub peut décaler de quelques minutes)
-  workflow_dispatch:         # bouton "Run workflow" pour lancer à la main
-  push:                      # relance immédiate quand le code ou la config change
+    - cron: "17 * * * *"
+  workflow_dispatch:
+  push:
     branches: [main]
     paths: ["tracker.py", "config.json", "scanner.py", "scanner_config.json", "paper_trader.py", "paper_config.json", ".github/workflows/**"]
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: coin-tracker
-  cancel-in-progress: false
+  cancel-in-progress: false   # une seule boucle à la fois ; les autres attendent leur tour
 
 jobs:
   track:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 350
+    env:
+      TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+      TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+      GH_TOKEN: ${{ github.token }}
+      LOOP_MINUTES: 330
+      CYCLE_SECONDS: 120
+      SAVE_EVERY: 3
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Check des coins
-        env:
-          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
-          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
-        run: python tracker.py --cron
-      - name: Scanner des coins qui démarrent
-        continue-on-error: true
-        env:
-          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
-          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
-        run: python scanner.py
-      - name: Paper trading (simulation, aucun vrai SOL)
-        continue-on-error: true
-        env:
-          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
-          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
-        run: python paper_trader.py
-      - name: Sauvegarde de l'état
+      - name: Boucle (tracker + scanner + paper trading)
         run: |
           git config user.name "coin-tracker-bot"
           git config user.email "coin-tracker-bot@users.noreply.github.com"
-          git add -A
-          git diff --cached --quiet || git commit -m "maj état" -q
-          git pull --rebase -q && git push -q
+          save() {
+            git add -A
+            git diff --cached --quiet && return 0
+            git commit -m "maj état" -q
+            for i in 1 2 3; do
+              git pull --rebase -q -X theirs && git push -q && return 0
+              sleep 5
+            done
+            echo "Sauvegarde impossible ce tour-ci"
+          }
+          start=$(date +%s); n=0
+          while [ $(( $(date +%s) - start )) -lt $(( LOOP_MINUTES * 60 )) ]; do
+            t0=$(date +%s); n=$((n + 1))
+            python tracker.py --cron || echo "tracker en erreur"
+            python scanner.py || echo "scanner en erreur"
+            python paper_trader.py || echo "paper trading en erreur"
+            [ $((n % SAVE_EVERY)) -eq 0 ] && save
+            wait=$(( CYCLE_SECONDS - ($(date +%s) - t0) ))
+            [ $wait -gt 0 ] && sleep $wait
+          done
+          save
+      - name: Relance de la boucle
+        if: always()
+        run: gh workflow run tracker.yml --ref main -R ${{ github.repository }} || echo "relance impossible, le cron horaire prendra le relais"

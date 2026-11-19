@@ -1,3 +1,3 @@
-time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct
-2026-11-19T18:54:23+00:00,ALjzrjh1sArWs2zbcEvRgf8nkUCxt5FLcYJy5mtaDShr,Leonida / SOL,ACHAT,2.10704485e-05,1.00,0.1000,,,
-2026-11-19T18:54:23+00:00,DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump,jingyu / SOL,ACHAT,9.819403465e-05,1.00,0.1000,,,
+time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,strategy
+2026-11-19T18:54:23+00:00,ALjzrjh1sArWs2zbcEvRgf8nkUCxt5FLcYJy5mtaDShr,Leonida / SOL,ACHAT,2.10704485e-05,1.00,0.1000,,,,A_rapide
+2026-11-19T18:54:23+00:00,DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump,jingyu / SOL,ACHAT,9.819403465e-05,1.00,0.1000,,,,A_rapide
