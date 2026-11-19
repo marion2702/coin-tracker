@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-19T20:33:43+00:00",
+ "processed_until": "2026-11-19T20:43:43+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,22 +12,35 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.138249948e-07,
+     "last_price_usd": 8.403535393e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1613175714273087
+     "max_ratio": 1.1988939939266483
     },
-    "2bP2UXR2UBCHupz1jqjNB25uTkB7PzH2MV9rUzcoGbRt": {
-     "name": "Leonida / SOL",
-     "opened_at": "2026-11-19T20:34:23+00:00",
+    "R62HzufPyawnjThzNe4qDxES1veHsEz9xTe6uUtc9A9": {
+     "name": "LOOSY / SOL",
+     "opened_at": "2026-11-19T20:42:24+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 4.2355104469844244e-07,
-     "tokens": 227835.58489084957,
+     "entry_price_sol": 9.87430424221913e-09,
+     "tokens": 9772840.458712947,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 3.629724547e-05,
-     "min_ratio": 0.9269590873317943,
-     "max_ratio": 1.17640492190107
+     "last_price_usd": 7.529047166e-07,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0464565796301244
+    },
+    "DonJApNyWhGqLLYhg82NZLVHQESv9dLvWYzKGpoSpump": {
+     "name": "FEAR / SOL",
+     "opened_at": "2026-11-19T20:44:24+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 4.0136855948988824e-07,
+     "tokens": 240427.4019934318,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 2.923429957e-05,
+     "min_ratio": 0.9996248473485999,
+     "max_ratio": 1.0
     }
    },
    "closed": [
@@ -206,11 +219,22 @@
      "min_ratio": 0.0757,
      "max_ratio": 1.8337,
      "reason": "stop-loss (x0.08)"
+    },
+    {
+     "mint": "2bP2UXR2UBCHupz1jqjNB25uTkB7PzH2MV9rUzcoGbRt",
+     "name": "Leonida / SOL",
+     "opened_at": "2026-11-19T20:34:23+00:00",
+     "closed_at": "2026-11-19T20:42:24+00:00",
+     "pnl_sol": -0.099982,
+     "pnl_pct": -100.0,
+     "min_ratio": 0.0002,
+     "max_ratio": 1.1764,
+     "reason": "stop-loss (x0.00)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": 0.5676024064467956
+    "pnl_sol": 0.46762068981190263
    }
   },
   "B_patient": {
@@ -241,18 +265,18 @@
      "min_ratio": 0.9976373532555413,
      "max_ratio": 1.0066341792259068
     },
-    "2bP2UXR2UBCHupz1jqjNB25uTkB7PzH2MV9rUzcoGbRt": {
-     "name": "Leonida / SOL",
-     "opened_at": "2026-11-19T20:34:23+00:00",
+    "R62HzufPyawnjThzNe4qDxES1veHsEz9xTe6uUtc9A9": {
+     "name": "LOOSY / SOL",
+     "opened_at": "2026-11-19T20:42:24+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 4.2355104469844244e-07,
-     "tokens": 227835.58489084957,
+     "entry_price_sol": 9.87430424221913e-09,
+     "tokens": 9772840.458712947,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 3.629724547e-05,
-     "min_ratio": 0.9269590873317943,
-     "max_ratio": 1.17640492190107
+     "last_price_usd": 7.529047166e-07,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0464565796301244
     }
    },
    "closed": [
@@ -365,28 +389,26 @@
      "min_ratio": 0.0757,
      "max_ratio": 1.8337,
      "reason": "stop-loss (x0.08)"
+    },
+    {
+     "mint": "2bP2UXR2UBCHupz1jqjNB25uTkB7PzH2MV9rUzcoGbRt",
+     "name": "Leonida / SOL",
+     "opened_at": "2026-11-19T20:34:23+00:00",
+     "closed_at": "2026-11-19T20:42:24+00:00",
+     "pnl_sol": -0.099982,
+     "pnl_pct": -100.0,
+     "min_ratio": 0.0002,
+     "max_ratio": 1.1764,
+     "reason": "stop-loss (x0.00)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": -0.33017775678471933
+    "pnl_sol": -0.4301594734196123
    }
   },
   "C_tot": {
    "positions": {
-    "Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump": {
-     "name": "CATMARIO / GMEx",
-     "opened_at": "2026-11-19T19:42:39+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 5.360442482465252e-06,
-     "tokens": 18002.245209358152,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 0.0003830723313,
-     "min_ratio": 0.7229752496523287,
-     "max_ratio": 1.0341095616665275
-    },
     "ArZVkoMXabtrxAC9w5ms3owTQsi7S8n9APrgxb11mww": {
      "name": "BUTTHOLE / SOL",
      "opened_at": "2026-11-19T20:00:39+00:00",
@@ -409,9 +431,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.138249948e-07,
+     "last_price_usd": 8.403535393e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1613175714273087
+     "max_ratio": 1.1988939939266483
+    },
+    "DonJApNyWhGqLLYhg82NZLVHQESv9dLvWYzKGpoSpump": {
+     "name": "FEAR / SOL",
+     "opened_at": "2026-11-19T20:44:24+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 4.0136855948988824e-07,
+     "tokens": 240427.4019934318,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 2.923429957e-05,
+     "min_ratio": 0.9996248473485999,
+     "max_ratio": 1.0
     }
    },
    "closed": [
@@ -447,11 +482,22 @@
      "min_ratio": 0.0024,
      "max_ratio": 3.2836,
      "reason": "stop-loss (x0.00)"
+    },
+    {
+     "mint": "Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump",
+     "name": "CATMARIO / GMEx",
+     "opened_at": "2026-11-19T19:42:39+00:00",
+     "closed_at": "2026-11-19T20:44:24+00:00",
+     "pnl_sol": -0.019266,
+     "pnl_pct": -19.3,
+     "min_ratio": 0.723,
+     "max_ratio": 1.0341,
+     "reason": "stop temps 62 min (x0.87)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": 986.582896278956
+    "pnl_sol": 986.5636301388224
    }
   }
  }
