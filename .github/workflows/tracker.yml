@@ -6,7 +6,7 @@ on:
   workflow_dispatch:         # bouton "Run workflow" pour lancer à la main
   push:                      # relance immédiate quand le code ou la config change
     branches: [main]
-    paths: ["tracker.py", "config.json", ".github/workflows/**"]
+    paths: ["tracker.py", "config.json", "scanner.py", "scanner_config.json", ".github/workflows/**"]
 
 permissions:
   contents: write
@@ -18,7 +18,7 @@ concurrency:
 jobs:
   track:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -29,6 +29,12 @@ jobs:
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
         run: python tracker.py --cron
+      - name: Scanner des coins qui démarrent
+        continue-on-error: true
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+        run: python scanner.py
       - name: Sauvegarde de l'état
         run: |
           git config user.name "coin-tracker-bot"

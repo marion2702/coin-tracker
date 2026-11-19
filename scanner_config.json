@@ -1,0 +1,27 @@
+{
+  "sources": [
+    "/trending_pools?duration=5m",
+    "/trending_pools?duration=1h",
+    "/dexes/pumpswap/pools?sort=h24_tx_count_desc",
+    "/dexes/pump-fun/pools?sort=h24_volume_usd_desc"
+  ],
+  "max_age_hours": 48,
+  "min_mcap_usd": 6000,
+  "max_mcap_usd": 1500000,
+  "min_volume_h1_usd": 3000,
+  "min_buyers_15m": 8,
+  "min_buyers_1h": 20,
+  "min_buy_sell_ratio": 1.1,
+  "min_acceleration": 0.9,
+  "max_drop_5m_pct": -10,
+  "max_dev_holding_pct": 10,
+  "max_top10_pct_graduated": 70,
+  "max_safety_checks": 4,
+  "max_alerts_per_run": 3,
+  "realert_after_hours": 24,
+  "ignore": [],
+  "dexes": [
+    "pumpswap",
+    "pump-fun"
+  ]
+}
