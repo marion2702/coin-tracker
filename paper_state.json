@@ -1,21 +1,8 @@
 {
- "processed_until": "2026-11-19T21:07:44+00:00",
+ "processed_until": "2026-11-19T21:15:43+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "R62HzufPyawnjThzNe4qDxES1veHsEz9xTe6uUtc9A9": {
-     "name": "LOOSY / SOL",
-     "opened_at": "2026-11-19T20:42:24+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 9.87430424221913e-09,
-     "tokens": 9772840.458712947,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 8.307303199e-07,
-     "min_ratio": 1.0,
-     "max_ratio": 1.1552872257213365
-    },
     "CqATSeCZUEhgvuBgBAuU7wTcdc87AVQvax5jww5253b": {
      "name": "LOOSY / SOL",
      "opened_at": "2026-11-19T20:58:31+00:00",
@@ -38,9 +25,20 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0002002671605,
-     "min_ratio": 0.9728231110147587,
-     "max_ratio": 1.0
+     "last_price_usd": 0.0002429436264,
+     "min_ratio": 0.7762499316657469,
+     "max_ratio": 1.1784294352332187
+    },
+    "HKKHgUGdJL1t5LXrnwAYdUjDBPLvmgMJB6UANvv6adNs": {
+     "name": "MORALS / SOL",
+     "opened_at": "2026-11-19T21:16:24+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.8753966648671016e-07,
+     "tokens": 514557.80959724804,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 1.368544069e-05
     }
    },
    "closed": [
@@ -252,11 +250,22 @@
      "min_ratio": 1.0,
      "max_ratio": 1.2364,
      "reason": "stop temps 32 min (x1.24)"
+    },
+    {
+     "mint": "R62HzufPyawnjThzNe4qDxES1veHsEz9xTe6uUtc9A9",
+     "name": "LOOSY / SOL",
+     "opened_at": "2026-11-19T20:42:24+00:00",
+     "closed_at": "2026-11-19T21:12:31+00:00",
+     "pnl_sol": 0.00749,
+     "pnl_pct": 7.5,
+     "min_ratio": 1.0,
+     "max_ratio": 1.1553,
+     "reason": "stop temps 30 min (x1.15)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": 0.4586469703395138
+    "pnl_sol": 0.4661371925352909
    }
   },
   "B_patient": {
@@ -457,19 +466,16 @@
      "min_ratio": 1.0,
      "max_ratio": 1.0397747912911803
     },
-    "FieLZjbD3zkQ21ZCP7555jWUysSpqMLwEayjyR4KBp7k": {
-     "name": "Leonida / SOL",
-     "opened_at": "2026-11-19T21:00:40+00:00",
+    "HKKHgUGdJL1t5LXrnwAYdUjDBPLvmgMJB6UANvv6adNs": {
+     "name": "MORALS / SOL",
+     "opened_at": "2026-11-19T21:16:24+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 2.524519871403523e-07,
-     "tokens": 382250.9028077097,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.12823627699666237,
-     "last_price_usd": 5.066460298e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 2.754141630576121,
-     "last_reason": "take-profit 1 (x2.75)"
+     "entry_price_sol": 1.8753966648671016e-07,
+     "tokens": 514557.80959724804,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 1.368544069e-05
     }
    },
    "closed": [
@@ -538,11 +544,22 @@
      "min_ratio": 1.0,
      "max_ratio": 1.0122,
      "reason": "stop temps 60 min (x1.01)"
+    },
+    {
+     "mint": "FieLZjbD3zkQ21ZCP7555jWUysSpqMLwEayjyR4KBp7k",
+     "name": "Leonida / SOL",
+     "opened_at": "2026-11-19T21:00:40+00:00",
+     "closed_at": "2026-11-19T21:14:07+00:00",
+     "pnl_sol": 0.215569,
+     "pnl_pct": 215.6,
+     "min_ratio": 1.0,
+     "max_ratio": 4.0234,
+     "reason": "take-profit 2 (x4.02)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": 986.4623323508889
+    "pnl_sol": 986.6779011575678
    }
   }
  }
