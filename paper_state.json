@@ -2,34 +2,7 @@
  "processed_until": "2026-11-19T22:13:43+00:00",
  "strategies": {
   "A_rapide": {
-   "positions": {
-    "Gk1WHA7dAwhRrFm4wDzoZVJhm9CN35dkTpwmLFE9pump": {
-     "name": "FIONA / SOL",
-     "opened_at": "2026-11-19T22:10:32+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 3.9115583058358556e-07,
-     "tokens": 246704.74643322246,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 2.47204336e-05,
-     "min_ratio": 0.8735634165163293,
-     "max_ratio": 1.0
-    },
-    "FAa88Jzd69VcMV8uSYAnKrgafYEppTFSKGJ8SiEVpump": {
-     "name": "Fiona / SOL",
-     "opened_at": "2026-11-19T22:14:32+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 4.017428107085218e-07,
-     "tokens": 240203.42723696944,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 2.907036029e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.0002083203718748
-    }
-   },
+   "positions": {},
    "closed": [
     {
      "mint": "ALjzrjh1sArWs2zbcEvRgf8nkUCxt5FLcYJy5mtaDShr",
@@ -349,11 +322,33 @@
      "min_ratio": 0.0445,
      "max_ratio": 1.1296,
      "reason": "stop-loss (x0.04)"
+    },
+    {
+     "mint": "Gk1WHA7dAwhRrFm4wDzoZVJhm9CN35dkTpwmLFE9pump",
+     "name": "FIONA / SOL",
+     "opened_at": "2026-11-19T22:10:32+00:00",
+     "closed_at": "2026-11-19T22:18:23+00:00",
+     "pnl_sol": -0.066009,
+     "pnl_pct": -66.0,
+     "min_ratio": 0.365,
+     "max_ratio": 1.0,
+     "reason": "stop-loss (x0.37)"
+    },
+    {
+     "mint": "FAa88Jzd69VcMV8uSYAnKrgafYEppTFSKGJ8SiEVpump",
+     "name": "Fiona / SOL",
+     "opened_at": "2026-11-19T22:14:32+00:00",
+     "closed_at": "2026-11-19T22:20:15+00:00",
+     "pnl_sol": 0.087057,
+     "pnl_pct": 87.1,
+     "min_ratio": 1.0,
+     "max_ratio": 2.2558,
+     "reason": "take-profit 2 (x2.26)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": 0.09978582461302195
+    "pnl_sol": 0.12083357810268276
    }
   },
   "B_patient": {
@@ -541,31 +536,19 @@
      "min_ratio": 0.9999866555314938,
      "max_ratio": 1.0056257631617456
     },
-    "Gk1WHA7dAwhRrFm4wDzoZVJhm9CN35dkTpwmLFE9pump": {
-     "name": "FIONA / SOL",
-     "opened_at": "2026-11-19T22:10:32+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 3.9115583058358556e-07,
-     "tokens": 246704.74643322246,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 2.47204336e-05,
-     "min_ratio": 0.8735634165163293,
-     "max_ratio": 1.0
-    },
     "FAa88Jzd69VcMV8uSYAnKrgafYEppTFSKGJ8SiEVpump": {
      "name": "Fiona / SOL",
      "opened_at": "2026-11-19T22:14:32+00:00",
      "size_sol": 0.1,
      "entry_price_sol": 4.017428107085218e-07,
      "tokens": 240203.42723696944,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 2.907036029e-05,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.10503228671176087,
+     "last_price_usd": 6.375010977e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.0002083203718748
+     "max_ratio": 2.2557875209914013,
+     "last_reason": "take-profit 1 (x2.26)"
     }
    },
    "closed": [
@@ -711,11 +694,22 @@
      "min_ratio": 0.0445,
      "max_ratio": 1.1296,
      "reason": "stop-loss (x0.04)"
+    },
+    {
+     "mint": "Gk1WHA7dAwhRrFm4wDzoZVJhm9CN35dkTpwmLFE9pump",
+     "name": "FIONA / SOL",
+     "opened_at": "2026-11-19T22:10:32+00:00",
+     "closed_at": "2026-11-19T22:18:23+00:00",
+     "pnl_sol": -0.066009,
+     "pnl_pct": -66.0,
+     "min_ratio": 0.365,
+     "max_ratio": 1.0,
+     "reason": "stop-loss (x0.37)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": 986.3433687806951
+    "pnl_sol": 986.2773599364723
    }
   }
  }
