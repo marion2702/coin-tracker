@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-19T23:09:43+00:00",
+ "processed_until": "2026-11-19T23:15:43+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -23,13 +23,14 @@
      "size_sol": 0.1,
      "entry_price_sol": 2.3208104142169794e-07,
      "tokens": 415803.02901457914,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 1.454641389e-05,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.08209328688359019,
+     "last_price_usd": 2.986133182e-05,
      "suspect_ticks": 0,
      "min_ratio": 0.8582625603817108,
-     "max_ratio": 1.0
+     "max_ratio": 1.7631246344028606,
+     "last_reason": "take-profit 1 (x1.76)"
     },
     "DRE1WcKaaz9NV3DpoyfYL3NMjEyNM88xUdzCZEhUpump": {
      "name": "LOOSY / SOL",
@@ -40,7 +41,10 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.900449411e-06
+     "last_price_usd": 2.900449411e-06,
+     "suspect_ticks": 0,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0007131634112505
     }
    },
    "closed": [
@@ -864,7 +868,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 3.612020611829706e-05,
+     "last_price_usd": 3.609446486660552e-05,
      "suspect_ticks": 0,
      "min_ratio": 1.0,
      "max_ratio": 1.0
@@ -878,7 +882,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.0411640942304946e-06,
+     "last_price_usd": 2.03970944808254e-06,
      "suspect_ticks": 0,
      "min_ratio": 0.670907345175228,
      "max_ratio": 1.0
@@ -892,7 +896,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.621015361070929e-06,
+     "last_price_usd": 2.619147480918868e-06,
      "suspect_ticks": 0,
      "min_ratio": 0.6367991483321505,
      "max_ratio": 1.0
@@ -940,8 +944,8 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-19T23:10:31+00:00",
+  "checked_at": "2026-11-19T23:16:16+00:00",
   "ok": true,
-  "new_coins_10min": 113
+  "new_coins_10min": 103
  }
 }
