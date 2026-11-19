@@ -1,21 +1,8 @@
 {
- "processed_until": "2026-11-19T20:57:43+00:00",
+ "processed_until": "2026-11-19T20:59:43+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "MwuoaWg3qA6ghFfXyqz8UZDW8EYvEdaFHbbSan45FnP": {
-     "name": "LOOSY / SOL",
-     "opened_at": "2026-11-19T20:32:24+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 9.61986435974417e-09,
-     "tokens": 10031326.471069528,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 8.669763533e-07,
-     "min_ratio": 1.0,
-     "max_ratio": 1.234193679201081
-    },
     "R62HzufPyawnjThzNe4qDxES1veHsEz9xTe6uUtc9A9": {
      "name": "LOOSY / SOL",
      "opened_at": "2026-11-19T20:42:24+00:00",
@@ -27,7 +14,7 @@
      "sol_out": 0.0,
      "last_price_usd": 8.307303199e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1521222697861668
+     "max_ratio": 1.1541476111881068
     },
     "CqATSeCZUEhgvuBgBAuU7wTcdc87AVQvax5jww5253b": {
      "name": "LOOSY / SOL",
@@ -38,7 +25,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.30121427e-07
+     "last_price_usd": 8.607747285e-07,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0387491221440976
     }
    },
    "closed": [
@@ -239,11 +228,22 @@
      "min_ratio": 0.052,
      "max_ratio": 1.5779,
      "reason": "stop-loss (x0.05)"
+    },
+    {
+     "mint": "MwuoaWg3qA6ghFfXyqz8UZDW8EYvEdaFHbbSan45FnP",
+     "name": "LOOSY / SOL",
+     "opened_at": "2026-11-19T20:32:24+00:00",
+     "closed_at": "2026-11-19T21:04:15+00:00",
+     "pnl_sol": 0.015133,
+     "pnl_pct": 15.1,
+     "min_ratio": 1.0,
+     "max_ratio": 1.2364,
+     "reason": "stop temps 32 min (x1.24)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": 0.44351372932993577
+    "pnl_sol": 0.4586469703395138
    }
   },
   "B_patient": {
@@ -285,7 +285,7 @@
      "sol_out": 0.0,
      "last_price_usd": 8.307303199e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1521222697861668
+     "max_ratio": 1.1541476111881068
     }
    },
    "closed": [
@@ -418,19 +418,6 @@
   },
   "C_tot": {
    "positions": {
-    "ArZVkoMXabtrxAC9w5ms3owTQsi7S8n9APrgxb11mww": {
-     "name": "BUTTHOLE / SOL",
-     "opened_at": "2026-11-19T20:00:39+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.0247170832414477e-08,
-     "tokens": 9417233.456745476,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 7.53975243e-07,
-     "min_ratio": 1.0,
-     "max_ratio": 1.0122254581490642
-    },
     "MwuoaWg3qA6ghFfXyqz8UZDW8EYvEdaFHbbSan45FnP": {
      "name": "LOOSY / SOL",
      "opened_at": "2026-11-19T20:32:24+00:00",
@@ -442,7 +429,7 @@
      "sol_out": 0.0,
      "last_price_usd": 8.669763533e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.234193679201081
+     "max_ratio": 1.2363632957617978
     },
     "CqATSeCZUEhgvuBgBAuU7wTcdc87AVQvax5jww5253b": {
      "name": "LOOSY / SOL",
@@ -453,7 +440,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.30121427e-07
+     "last_price_usd": 8.607747285e-07,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0387491221440976
+    },
+    "FieLZjbD3zkQ21ZCP7555jWUysSpqMLwEayjyR4KBp7k": {
+     "name": "Leonida / SOL",
+     "opened_at": "2026-11-19T21:00:40+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 2.524519871403523e-07,
+     "tokens": 382250.9028077097,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 3.40366195e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.849589817795506
     }
    },
    "closed": [
@@ -511,11 +513,22 @@
      "min_ratio": 0.052,
      "max_ratio": 1.5779,
      "reason": "stop-loss (x0.05)"
+    },
+    {
+     "mint": "ArZVkoMXabtrxAC9w5ms3owTQsi7S8n9APrgxb11mww",
+     "name": "BUTTHOLE / SOL",
+     "opened_at": "2026-11-19T20:00:39+00:00",
+     "closed_at": "2026-11-19T21:00:40+00:00",
+     "pnl_sol": -0.006143,
+     "pnl_pct": -6.1,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0122,
+     "reason": "stop temps 60 min (x1.01)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": 986.4684755346816
+    "pnl_sol": 986.4623323508889
    }
   }
  }
