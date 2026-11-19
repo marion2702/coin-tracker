@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-19T19:55:42+00:00",
+ "processed_until": "2026-11-19T20:03:43+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,9 +12,35 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.564170052e-05,
-     "min_ratio": 0.9043060976373987,
-     "max_ratio": 1.0
+     "last_price_usd": 1.72690163e-05,
+     "min_ratio": 0.8831126631819619,
+     "max_ratio": 1.0029033218015726
+    },
+    "ArZVkoMXabtrxAC9w5ms3owTQsi7S8n9APrgxb11mww": {
+     "name": "BUTTHOLE / SOL",
+     "opened_at": "2026-11-19T20:00:39+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.0247170832414477e-08,
+     "tokens": 9417233.456745476,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 7.53975243e-07,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0042214192071244
+    },
+    "7CaDw1gCnUXmMb9c7SpPwhEGRYBD29WSWne8fdkypump": {
+     "name": "ScamCenter / SOL",
+     "opened_at": "2026-11-19T20:02:40+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.5127413908520693e-06,
+     "tokens": 63791.47194858286,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 0.0001516419934,
+     "min_ratio": 1.0,
+     "max_ratio": 1.3681419694056458
     }
    },
    "closed": [
@@ -138,11 +164,22 @@
      "min_ratio": 0.9101,
      "max_ratio": 2.2485,
      "reason": "take-profit 2 (x2.25)"
+    },
+    {
+     "mint": "BuG9Lpmj85P4zrV18vFV4MEFRuWpEF1V3V7CpisRpump",
+     "name": "smol / SOL",
+     "opened_at": "2026-11-19T20:00:39+00:00",
+     "closed_at": "2026-11-19T20:02:40+00:00",
+     "pnl_sol": -0.043556,
+     "pnl_pct": -43.6,
+     "min_ratio": 0.6061,
+     "max_ratio": 1.0,
+     "reason": "stop-loss (x0.61)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": 0.5439348891535711
+    "pnl_sol": 0.5003790316047239
    }
   },
   "B_patient": {
@@ -156,8 +193,8 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0003604596146,
-     "min_ratio": 0.5389251355440833,
+     "last_price_usd": 0.0005811244503,
+     "min_ratio": 0.5047479606576235,
      "max_ratio": 1.2191135786990603
     },
     "B3jQ5Z2pFgcRTCcrHsvziasGdzUAYhr17xhW1Ta9jVCQ": {
@@ -169,9 +206,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.564170052e-05,
-     "min_ratio": 0.9043060976373987,
-     "max_ratio": 1.0
+     "last_price_usd": 1.72690163e-05,
+     "min_ratio": 0.8831126631819619,
+     "max_ratio": 1.0029033218015726
+    },
+    "ArZVkoMXabtrxAC9w5ms3owTQsi7S8n9APrgxb11mww": {
+     "name": "BUTTHOLE / SOL",
+     "opened_at": "2026-11-19T20:00:39+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.0247170832414477e-08,
+     "tokens": 9417233.456745476,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 7.53975243e-07,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0042214192071244
     }
    },
    "closed": [
@@ -269,8 +319,8 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0003494354761,
-     "min_ratio": 0.8834425490021349,
+     "last_price_usd": 0.0003257069005,
+     "min_ratio": 0.8292828616815247,
      "max_ratio": 1.0
     },
     "B3jQ5Z2pFgcRTCcrHsvziasGdzUAYhr17xhW1Ta9jVCQ": {
@@ -282,9 +332,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.564170052e-05,
-     "min_ratio": 0.9043060976373987,
-     "max_ratio": 1.0
+     "last_price_usd": 1.72690163e-05,
+     "min_ratio": 0.8831126631819619,
+     "max_ratio": 1.0029033218015726
+    },
+    "ArZVkoMXabtrxAC9w5ms3owTQsi7S8n9APrgxb11mww": {
+     "name": "BUTTHOLE / SOL",
+     "opened_at": "2026-11-19T20:00:39+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.0247170832414477e-08,
+     "tokens": 9417233.456745476,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 7.53975243e-07,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0042214192071244
     }
    },
    "closed": [
