@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-19T23:51:43+00:00",
+ "processed_until": "2026-11-19T23:57:43+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,10 +12,10 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.400959763e-07,
+     "last_price_usd": 8.567938536e-07,
      "suspect_ticks": 0,
      "min_ratio": 0.9940232231553221,
-     "max_ratio": 1.1528821392732256
+     "max_ratio": 1.1771781991216372
     },
     "2JpbB4kmawtf7LBuSS9nKU5SvdgXpbFPWDickwMmhfaa": {
      "name": "COOKIE / SOL",
@@ -26,7 +26,25 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.047635415e-07
+     "last_price_usd": 4.047635415e-07,
+     "suspect_ticks": 0,
+     "min_ratio": 1.0,
+     "max_ratio": 1.001174689584339
+    },
+    "FKGzWoCSUh25yiXe541PtE5UPDiDNDdSfah27LHFAXrp": {
+     "name": "PIPI / SOL",
+     "opened_at": "2026-11-19T23:55:10+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 2.3265323136975688e-07,
+     "tokens": 414780.3984146349,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07360646141618694,
+     "last_price_usd": 2.686590301e-05,
+     "suspect_ticks": 0,
+     "min_ratio": 1.0,
+     "max_ratio": 1.5808523485986081,
+     "last_reason": "take-profit 1 (x1.58)"
     }
    },
    "closed": [
@@ -982,7 +1000,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-19T23:52:24+00:00",
+  "checked_at": "2026-11-19T23:58:24+00:00",
   "ok": true,
   "new_coins_10min": 59
  }
