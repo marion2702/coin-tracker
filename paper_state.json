@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-19T20:59:43+00:00",
+ "processed_until": "2026-11-19T21:07:44+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -14,7 +14,7 @@
      "sol_out": 0.0,
      "last_price_usd": 8.307303199e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1541476111881068
+     "max_ratio": 1.1552872257213365
     },
     "CqATSeCZUEhgvuBgBAuU7wTcdc87AVQvax5jww5253b": {
      "name": "LOOSY / SOL",
@@ -27,7 +27,20 @@
      "sol_out": 0.0,
      "last_price_usd": 8.607747285e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.0387491221440976
+     "max_ratio": 1.0397747912911803
+    },
+    "ArapZ1NKA4JLb6F8NQyWNzMjmRu8RoAiTHtS5CZqpump": {
+     "name": "\\nu / ANT",
+     "opened_at": "2026-11-19T21:08:24+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 2.8251159718278213e-06,
+     "tokens": 34157.88978657945,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 0.0002002671605,
+     "min_ratio": 0.9728231110147587,
+     "max_ratio": 1.0
     }
    },
    "closed": [
@@ -285,7 +298,7 @@
      "sol_out": 0.0,
      "last_price_usd": 8.307303199e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1541476111881068
+     "max_ratio": 1.1552872257213365
     }
    },
    "closed": [
@@ -429,7 +442,7 @@
      "sol_out": 0.0,
      "last_price_usd": 8.669763533e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.2363632957617978
+     "max_ratio": 1.237584090716051
     },
     "CqATSeCZUEhgvuBgBAuU7wTcdc87AVQvax5jww5253b": {
      "name": "LOOSY / SOL",
@@ -442,7 +455,7 @@
      "sol_out": 0.0,
      "last_price_usd": 8.607747285e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.0387491221440976
+     "max_ratio": 1.0397747912911803
     },
     "FieLZjbD3zkQ21ZCP7555jWUysSpqMLwEayjyR4KBp7k": {
      "name": "Leonida / SOL",
@@ -450,12 +463,13 @@
      "size_sol": 0.1,
      "entry_price_sol": 2.524519871403523e-07,
      "tokens": 382250.9028077097,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 3.40366195e-05,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.12823627699666237,
+     "last_price_usd": 5.066460298e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.849589817795506
+     "max_ratio": 2.754141630576121,
+     "last_reason": "take-profit 1 (x2.75)"
     }
    },
    "closed": [
