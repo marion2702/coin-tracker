@@ -124,3 +124,7 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-19T22:10:32+00:00,7ZWTswUmU4cYoUDDnFP8kxsnS4FdKTJikDtn3pw8pump,YouTube / SOL,stop-loss (x0.03),1.36632621e-06,1.00,0.1000,0.0031,-0.0969,-96.9,C_tot
 2026-11-19T22:10:32+00:00,6mg6Wdue6NfyvCgoFpEnEUojqMSpjsSARLeshT8ahVcw,Leonida / SOL,ACHAT,2.195074942e-05,1.00,0.1000,,,,C_tot
 2026-11-19T22:10:32+00:00,Gk1WHA7dAwhRrFm4wDzoZVJhm9CN35dkTpwmLFE9pump,FIONA / SOL,ACHAT,2.828543538e-05,1.00,0.1000,,,,C_tot
+2026-11-19T22:14:32+00:00,6mg6Wdue6NfyvCgoFpEnEUojqMSpjsSARLeshT8ahVcw,Leonida / SOL,stop-loss (x0.04),9.778483996e-07,1.00,0.1000,0.0041,-0.0959,-95.9,A_rapide
+2026-11-19T22:14:32+00:00,FAa88Jzd69VcMV8uSYAnKrgafYEppTFSKGJ8SiEVpump,Fiona / SOL,ACHAT,2.907036029e-05,1.00,0.1000,,,,A_rapide
+2026-11-19T22:14:32+00:00,6mg6Wdue6NfyvCgoFpEnEUojqMSpjsSARLeshT8ahVcw,Leonida / SOL,stop-loss (x0.04),9.778483996e-07,1.00,0.1000,0.0041,-0.0959,-95.9,C_tot
+2026-11-19T22:14:32+00:00,FAa88Jzd69VcMV8uSYAnKrgafYEppTFSKGJ8SiEVpump,Fiona / SOL,ACHAT,2.907036029e-05,1.00,0.1000,,,,C_tot
