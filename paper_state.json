@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-19T22:57:43+00:00",
+ "processed_until": "2026-11-19T23:03:43+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,41 +12,37 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.08104770111928396,
-     "last_price_usd": 0.0002125234566,
+     "last_price_usd": 0.0001850106632,
      "suspect_ticks": 0,
      "min_ratio": 1.0,
      "max_ratio": 1.9703298477000408,
      "last_reason": "take-profit 1 (x1.74)"
     },
-    "B4qGBT9MC2vyGrgyieyq2x7WhAroGp42XQ7gpuXxpump": {
-     "name": "NVDA / SOL",
-     "opened_at": "2026-11-19T22:50:16+00:00",
+    "84g8TPgeKWuMUpRCCdyoaoLbwM4jU9xr246kRvCRU6UZ": {
+     "name": "MORALS / SOL",
+     "opened_at": "2026-11-19T23:00:54+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 9.443375425254386e-07,
-     "tokens": 102188.03727947784,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.08992565821424811,
-     "last_price_usd": 0.0001126144307,
-     "suspect_ticks": 0,
-     "min_ratio": 1.0,
-     "max_ratio": 1.9313411520147785,
-     "last_reason": "take-profit 1 (x1.93)"
+     "entry_price_sol": 1.9347528463051677e-07,
+     "tokens": 498771.7174536675,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 1.41469803e-05,
+     "suspect_ticks": 2
     },
-    "GtpB8pdYeCBfuGkFNY1jhRZjMTHLLbiUdDHGvPNK7CrA": {
-     "name": "AMD / SOL",
-     "opened_at": "2026-11-19T22:56:31+00:00",
+    "12e6UqzmDpkkeX4MFQNevusZHVRC6uW44wukN4VVj3NS": {
+     "name": "AI / SOL",
+     "opened_at": "2026-11-19T23:03:10+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.0426421839873245e-06,
-     "tokens": 92553.32412406322,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07239693693863182,
-     "last_price_usd": 0.00011854917,
+     "entry_price_sol": 1.2403397975292246e-08,
+     "tokens": 7780126.074502281,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 9.177191678e-07,
      "suspect_ticks": 0,
      "min_ratio": 1.0,
-     "max_ratio": 1.5548752866091828,
-     "last_reason": "take-profit 1 (x1.55)"
+     "max_ratio": 1.0114601505957874
     }
    },
    "closed": [
@@ -434,11 +430,33 @@
      "min_ratio": 1.0,
      "max_ratio": 2.4873,
      "reason": "take-profit 2 (x2.49)"
+    },
+    {
+     "mint": "B4qGBT9MC2vyGrgyieyq2x7WhAroGp42XQ7gpuXxpump",
+     "name": "NVDA / SOL",
+     "opened_at": "2026-11-19T22:50:16+00:00",
+     "closed_at": "2026-11-19T23:00:54+00:00",
+     "pnl_sol": 0.085716,
+     "pnl_pct": 85.7,
+     "min_ratio": 1.0,
+     "max_ratio": 2.0573,
+     "reason": "take-profit 2 (x2.06)"
+    },
+    {
+     "mint": "GtpB8pdYeCBfuGkFNY1jhRZjMTHLLbiUdDHGvPNK7CrA",
+     "name": "AMD / SOL",
+     "opened_at": "2026-11-19T22:56:31+00:00",
+     "closed_at": "2026-11-19T23:00:54+00:00",
+     "pnl_sol": -0.016931,
+     "pnl_pct": -16.9,
+     "min_ratio": 0.2292,
+     "max_ratio": 1.5549,
+     "reason": "stop-loss (x0.23)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": 0.21210021997692277
+    "pnl_sol": 0.2808850102425748
    }
   },
   "B_patient": {
@@ -826,7 +844,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 3.616777371736666e-05,
+     "last_price_usd": 3.6180491207855996e-05,
      "suspect_ticks": 0,
      "min_ratio": 1.0,
      "max_ratio": 1.0
@@ -840,7 +858,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.043852154064695e-06,
+     "last_price_usd": 2.044570823412e-06,
      "suspect_ticks": 0,
      "min_ratio": 0.670907345175228,
      "max_ratio": 1.0
@@ -854,7 +872,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.624467041480569e-06,
+     "last_price_usd": 2.6253898694903998e-06,
      "suspect_ticks": 0,
      "min_ratio": 0.6367991483321505,
      "max_ratio": 1.0
@@ -902,8 +920,8 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-19T22:59:10+00:00",
+  "checked_at": "2026-11-19T23:04:54+00:00",
   "ok": true,
-  "new_coins_10min": 90
+  "new_coins_10min": 73
  }
 }
