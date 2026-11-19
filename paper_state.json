@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-19T20:51:43+00:00",
+ "processed_until": "2026-11-19T20:57:43+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,9 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.476465131e-07,
+     "last_price_usd": 8.669763533e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.2083280920951585
+     "max_ratio": 1.234193679201081
     },
     "R62HzufPyawnjThzNe4qDxES1veHsEz9xTe6uUtc9A9": {
      "name": "LOOSY / SOL",
@@ -25,23 +25,20 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.810247101e-07,
+     "last_price_usd": 8.307303199e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.0846692070967263
+     "max_ratio": 1.1521222697861668
     },
-    "DonJApNyWhGqLLYhg82NZLVHQESv9dLvWYzKGpoSpump": {
-     "name": "FEAR / SOL",
-     "opened_at": "2026-11-19T20:44:24+00:00",
+    "CqATSeCZUEhgvuBgBAuU7wTcdc87AVQvax5jww5253b": {
+     "name": "LOOSY / SOL",
+     "opened_at": "2026-11-19T20:58:31+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 4.0136855948988824e-07,
-     "tokens": 240427.4019934318,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07347034158843495,
-     "last_price_usd": 4.618402044e-05,
-     "min_ratio": 0.9996246346700999,
-     "max_ratio": 1.5779288912654823,
-     "last_reason": "take-profit 1 (x1.58)"
+     "entry_price_sol": 1.1368067354677417e-08,
+     "tokens": 8488690.028766839,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 8.30121427e-07
     }
    },
    "closed": [
@@ -231,11 +228,22 @@
      "min_ratio": 0.0002,
      "max_ratio": 1.1764,
      "reason": "stop-loss (x0.00)"
+    },
+    {
+     "mint": "DonJApNyWhGqLLYhg82NZLVHQESv9dLvWYzKGpoSpump",
+     "name": "FEAR / SOL",
+     "opened_at": "2026-11-19T20:44:24+00:00",
+     "closed_at": "2026-11-19T20:54:23+00:00",
+     "pnl_sol": -0.024107,
+     "pnl_pct": -24.1,
+     "min_ratio": 0.052,
+     "max_ratio": 1.5779,
+     "reason": "stop-loss (x0.05)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": 0.46762068981190263
+    "pnl_sol": 0.44351372932993577
    }
   },
   "B_patient": {
@@ -275,9 +283,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.810247101e-07,
+     "last_price_usd": 8.307303199e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.0846692070967263
+     "max_ratio": 1.1521222697861668
     }
    },
    "closed": [
@@ -432,22 +440,20 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.476465131e-07,
+     "last_price_usd": 8.669763533e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.2083280920951585
+     "max_ratio": 1.234193679201081
     },
-    "DonJApNyWhGqLLYhg82NZLVHQESv9dLvWYzKGpoSpump": {
-     "name": "FEAR / SOL",
-     "opened_at": "2026-11-19T20:44:24+00:00",
+    "CqATSeCZUEhgvuBgBAuU7wTcdc87AVQvax5jww5253b": {
+     "name": "LOOSY / SOL",
+     "opened_at": "2026-11-19T20:58:31+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 4.0136855948988824e-07,
-     "tokens": 240427.4019934318,
+     "entry_price_sol": 1.1368067354677417e-08,
+     "tokens": 8488690.028766839,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.618402044e-05,
-     "min_ratio": 0.9996246346700999,
-     "max_ratio": 1.5779288912654823
+     "last_price_usd": 8.30121427e-07
     }
    },
    "closed": [
@@ -494,11 +500,22 @@
      "min_ratio": 0.723,
      "max_ratio": 1.0341,
      "reason": "stop temps 62 min (x0.87)"
+    },
+    {
+     "mint": "DonJApNyWhGqLLYhg82NZLVHQESv9dLvWYzKGpoSpump",
+     "name": "FEAR / SOL",
+     "opened_at": "2026-11-19T20:44:24+00:00",
+     "closed_at": "2026-11-19T20:54:23+00:00",
+     "pnl_sol": -0.095155,
+     "pnl_pct": -95.2,
+     "min_ratio": 0.052,
+     "max_ratio": 1.5779,
+     "reason": "stop-loss (x0.05)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": 986.5636301388224
+    "pnl_sol": 986.4684755346816
    }
   }
  }
