@@ -1,0 +1,28 @@
+name: Test strategie tot (temporaire)
+on: workflow_dispatch
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q websockets
+      - run: |
+          python early_listener.py --minutes 7 > listener.log 2>&1 &
+          sleep 150
+          for i in 1 2 3; do
+            python - <<'PY'
+          import json, time, paper_trader as pt
+          live = pt.load_live(); print("coins vus:", len(live or {}))
+          young = [m for m,t in live.items() if time.time()-t["created_at"] <= 360]
+          ds = pt.dexscreener(young); print("trouvés sur DexScreener:", len(ds), "sur", len(young))
+          for m,p in list(ds.items())[:5]:
+              print(" ", p["baseToken"]["symbol"][:12], p["dexId"], p["txns"]["m5"], p.get("priceNative"), round((time.time()-live[m]["created_at"])/60,1), "min")
+          cfg = pt.strategy_configs(json.load(open("paper_config.json")))["C_tot"]
+          c = pt.early_candidates(live, cfg, 140.0, "t", ds); print("candidats C:", [x["name"] for x in c])
+          PY
+            sleep 60
+          done
+          cat listener.log

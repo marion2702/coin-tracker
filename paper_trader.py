@@ -30,6 +30,7 @@ CONFIG_PATH = os.path.join(HERE, "paper_config.json")
 STATE_PATH = os.path.join(HERE, "paper_state.json")
 TRADES_PATH = os.path.join(HERE, "paper_trades.csv")
 ALERTS_PATH = os.path.join(HERE, "scanner_alerts.csv")
+LIVE_PATH = os.path.join(HERE, "early_live.json")
 SOL_MINT = "So11111111111111111111111111111111111111112"
 GT = "https://api.geckoterminal.com/api/v2/networks/solana"
 
@@ -246,6 +247,72 @@ def run_strategy(state, cfg, px, sol_usd, new_alerts, now, events):
         write_trade([now_iso, mint, row["name"], "ACHAT", p_usd, "1.00", f"{size:.4f}", "", "", "", tag])
         events.append(f"🛒 [{tag}] ACHAT {short(row['name'])} · {size} SOL · MC ${float(row['mcap_usd'])/1e3:.0f}k\n"
                       f"pump.fun/coin/{mint}")
+
+
+def load_live():
+    """Nouveaux coins vus par early_listener.py (None si absent ou vieux de plus d'1 min)."""
+    live = load_json(LIVE_PATH, None)
+    if not live or time.time() - live.get("updated", 0) > 60:
+        return None
+    return live["tokens"]
+
+
+def dexscreener(mints):
+    """Paires DexScreener par mint (30 par appel, gratuit, ~300 appels/min)."""
+    out = {}
+    mints = list(dict.fromkeys(mints))
+    for i in range(0, len(mints), 30):
+        url = "https://api.dexscreener.com/tokens/v1/solana/" + ",".join(mints[i:i + 30])
+        req = urllib.request.Request(url, headers={"Accept": "application/json", "User-Agent": "paper-trader/1.0"})
+        try:
+            with urllib.request.urlopen(req, timeout=20) as r:
+                pairs = json.loads(r.read().decode())
+        except Exception as e:  # noqa: BLE001
+            log(f"DexScreener indisponible : {e}")
+            continue
+        for p in pairs or []:
+            m = p["baseToken"]["address"]
+            # garde la paire la plus liquide / la plus active
+            if m not in out or (p.get("volume") or {}).get("h24", 0) > (out[m].get("volume") or {}).get("h24", 0):
+                out[m] = p
+    return out
+
+
+def early_candidates(live, cfg, sol_usd, now_iso, ds):
+    """Coins de quelques minutes qui démarrent fort et passent les filtres anti-arnaque."""
+    out = []
+    for mint, t in live.items():
+        age_min = (time.time() - t["created_at"]) / 60
+        if not (cfg["early_min_age_minutes"] <= age_min <= cfg["early_max_age_minutes"]):
+            continue
+        if t["dev_initial_pct"] > cfg["early_max_dev_pct"]:
+            continue
+        p = ds.get(mint)
+        if not p:
+            continue
+        m5 = (p.get("txns") or {}).get("m5") or {}
+        buys, sells = m5.get("buys", 0), m5.get("sells", 0)
+        if buys < cfg["early_min_buys_5m"] or buys / max(sells, 1) < cfg["early_min_buy_sell_ratio"]:
+            continue
+        price_sol = float(p.get("priceNative") or 0)
+        mcap_sol = price_sol * 1_000_000_000
+        if not price_sol or mcap_sol < t["mcap_sol_start"] * (1 + cfg["early_min_mcap_growth_pct"] / 100):
+            continue
+        if f_pct(p, "m5") < cfg["early_min_change_5m_pct"]:
+            continue
+        out.append((buys, {
+            "time_utc": now_iso, "mint": mint, "name": f"{t['name']} ({t['symbol']})",
+            "price_usd": price_sol * sol_usd, "mcap_usd": mcap_sol * sol_usd,
+        }))
+    out.sort(key=lambda x: -x[0])
+    return [r for _, r in out]
+
+
+def f_pct(pair, key):
+    try:
+        return float((pair.get("priceChange") or {}).get(key) or 0)
+    except (TypeError, ValueError):
+        return 0.0
 
 
 def main():
