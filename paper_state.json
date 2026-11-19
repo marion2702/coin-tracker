@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-19T23:41:43+00:00",
+ "processed_until": "2026-11-19T23:51:43+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,24 +12,21 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.083329018e-07,
+     "last_price_usd": 8.400959763e-07,
      "suspect_ticks": 0,
      "min_ratio": 0.9940232231553221,
-     "max_ratio": 1.1086014525905883
+     "max_ratio": 1.1528821392732256
     },
-    "7CFkFzfogJnSR7awZm63pfk2zW7YN3zwnKFTCoUoqmFL": {
-     "name": "NEX Ai / SOL",
-     "opened_at": "2026-11-19T23:32:31+00:00",
+    "2JpbB4kmawtf7LBuSS9nKU5SvdgXpbFPWDickwMmhfaa": {
+     "name": "COOKIE / SOL",
+     "opened_at": "2026-11-19T23:52:24+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 3.59570943853673e-07,
-     "tokens": 268375.41144389735,
+     "entry_price_sol": 5.534654056466789e-09,
+     "tokens": 17435597.422254004,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.691053133e-05,
-     "suspect_ticks": 2,
-     "min_ratio": 0.9769870908964748,
-     "max_ratio": 1.0266081004795375
+     "last_price_usd": 4.047635415e-07
     }
    },
    "closed": [
@@ -516,11 +513,22 @@
      "min_ratio": 0.4524,
      "max_ratio": 1.0,
      "reason": "stop-loss (x0.45)"
+    },
+    {
+     "mint": "7CFkFzfogJnSR7awZm63pfk2zW7YN3zwnKFTCoUoqmFL",
+     "name": "NEX Ai / SOL",
+     "opened_at": "2026-11-19T23:32:31+00:00",
+     "closed_at": "2026-11-19T23:48:23+00:00",
+     "pnl_sol": -0.099716,
+     "pnl_pct": -99.7,
+     "min_ratio": 0.003,
+     "max_ratio": 1.0266,
+     "reason": "stop-loss (x0.00)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": 1943.9007100769072
+    "pnl_sol": 1943.800994029344
    }
   },
   "B_patient": {
@@ -898,22 +906,7 @@
    }
   },
   "C_tot_v2": {
-   "positions": {
-    "ELe3WnVwmQakKvAfsfxMm6Ww1ysnCyLsNZfv3KG58w5h": {
-     "name": "Frog Coin (FROG)",
-     "opened_at": "2026-11-19T22:50:16+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 5.6359999999999996e-08,
-     "tokens": 1712207.2391767213,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 2.626365618511135e-06,
-     "suspect_ticks": 0,
-     "min_ratio": 0.6367991483321505,
-     "max_ratio": 1.0
-    }
-   },
+   "positions": {},
    "closed": [
     {
      "mint": "23PYUoUBzcmMgzfoPP3M3t5Le9m3aw8wsYJXpewCpump",
@@ -969,17 +962,28 @@
      "min_ratio": 0.6709,
      "max_ratio": 1.0,
      "reason": "stop temps 62 min (x0.67)"
+    },
+    {
+     "mint": "ELe3WnVwmQakKvAfsfxMm6Ww1ysnCyLsNZfv3KG58w5h",
+     "name": "Frog Coin (FROG)",
+     "opened_at": "2026-11-19T22:50:16+00:00",
+     "closed_at": "2026-11-19T23:52:24+00:00",
+     "pnl_sol": -0.0407,
+     "pnl_pct": -40.7,
+     "min_ratio": 0.6368,
+     "max_ratio": 1.0,
+     "reason": "stop temps 62 min (x0.64)"
     }
    ],
    "day": {
     "date": "2026-11-19",
-    "pnl_sol": -0.19612328183016176
+    "pnl_sol": -0.23682295313960108
    }
   }
  },
  "listener": {
-  "checked_at": "2026-11-19T23:46:23+00:00",
+  "checked_at": "2026-11-19T23:52:24+00:00",
   "ok": true,
-  "new_coins_10min": 93
+  "new_coins_10min": 59
  }
 }

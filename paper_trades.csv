@@ -182,3 +182,6 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-19T23:38:24+00:00,AJsDVx4C7Y8Wehdp7ZnqAXAi3PZVQ6htxCm8gGPXpump,BIAOQING / SOL,ACHAT,5.404020418e-05,1.00,0.1000,,,,A_rapide
 2026-11-19T23:44:07+00:00,AJsDVx4C7Y8Wehdp7ZnqAXAi3PZVQ6htxCm8gGPXpump,BIAOQING / SOL,stop-loss (x0.45),2.451995351e-05,1.00,0.1000,0.0421,-0.0579,-57.9,A_rapide
 2026-11-19T23:46:23+00:00,BBLnf2aisbZL4ScDSJBMpcNe87jpezyz6FKQ8m1xpump,maffin lover (lover),stop temps 62 min (x0.67),2.045330705973425e-06,1.00,0.1000,0.0625,-0.0375,-37.5,C_tot_v2
+2026-11-19T23:48:23+00:00,7CFkFzfogJnSR7awZm63pfk2zW7YN3zwnKFTCoUoqmFL,NEX Ai / SOL,stop-loss (x0.00),8.00511057e-08,1.00,0.1000,0.0003,-0.0997,-99.7,A_rapide
+2026-11-19T23:52:24+00:00,2JpbB4kmawtf7LBuSS9nKU5SvdgXpbFPWDickwMmhfaa,COOKIE / SOL,ACHAT,4.047635415e-07,1.00,0.1000,,,,A_rapide
+2026-11-19T23:52:24+00:00,ELe3WnVwmQakKvAfsfxMm6Ww1ysnCyLsNZfv3KG58w5h,Frog Coin (FROG),stop temps 62 min (x0.64),2.624728367161708e-06,1.00,0.1000,0.0593,-0.0407,-40.7,C_tot_v2
