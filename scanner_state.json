@@ -1,10 +1,5 @@
 {
  "alerted": {
-  "ArapZ1NKA4JLb6F8NQyWNzMjmRu8RoAiTHtS5CZqpump": {
-   "at": 1795122504.356243,
-   "price": 0.00017802207226171504,
-   "mc": 178019.6724063
-  },
   "HKKHgUGdJL1t5LXrnwAYdUjDBPLvmgMJB6UANvv6adNs": {
    "at": 1795122983.984232,
    "price": 1.2338628844812609e-05,
@@ -2284,6 +2279,11 @@
    "at": 1795208731.466458,
    "price": 4.510206961878051e-05,
    "mc": 38452.308801638
+  },
+  "CTVXGDLioK1hnAkFbFmUEgJTXWpD3C9tNjtSg6WTpump": {
+   "at": 1795208979.7696085,
+   "price": 5.235818580671678e-05,
+   "mc": 53803.9850091898
   }
  }
 }
