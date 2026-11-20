@@ -25,9 +25,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.842185026284595e-05,
+     "last_price_usd": 3.3463468427101864e-05,
      "min_ratio": 0.9954830547743307,
-     "max_ratio": 1.166664743316587
+     "max_ratio": 1.3736491379591849
     },
     "D9YQUBLbYG9SBzsSoxeH2Y6m66Lg7KT8msSmy62p3kA": {
      "name": "PATRICK / SOL",
@@ -38,9 +38,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.1548652064225e-07,
+     "last_price_usd": 7.318217285829241e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.0270653252447275
+     "max_ratio": 1.0610098827362908
     }
    },
    "closed": [
@@ -1363,7 +1363,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.17698880734e-07,
+     "last_price_usd": 8.176779090312001e-07,
      "min_ratio": 0.9582701296496721,
      "max_ratio": 1.0069388402623523
     },
@@ -1376,9 +1376,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.1548652064225e-07,
+     "last_price_usd": 7.318217285829241e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.0270653252447275
+     "max_ratio": 1.0610098827362908
     }
    },
    "closed": [
@@ -2403,7 +2403,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T19:55:32+00:00",
+  "checked_at": "2026-11-20T20:01:31+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
