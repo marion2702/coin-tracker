@@ -37,7 +37,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install -q websockets
       - name: Boucle (tracker + scanner + paper trading)
         run: |
           git config user.name "coin-tracker-bot"
@@ -52,7 +51,6 @@ jobs:
             done
             echo "Sauvegarde impossible ce tour-ci"
           }
-          python early_listener.py --minutes $((LOOP_MINUTES + 5)) > listener.log 2>&1 &
           start=$(date +%s); n=0
           while [ $(( $(date +%s) - start )) -lt $(( LOOP_MINUTES * 60 )) ]; do
             t0=$(date +%s); n=$((n + 1))

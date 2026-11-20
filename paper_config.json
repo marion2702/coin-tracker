@@ -23,21 +23,6 @@
       "stop_loss_pct": -50,
       "time_stop_minutes": 240,
       "entry_source": "scanner"
-    },
-    "C_tot_v2": {
-      "entry_source": "early",
-      "early_min_age_minutes": 1,
-      "early_max_age_minutes": 5,
-      "early_min_buys_5m": 25,
-      "early_min_buy_sell_ratio": 1.5,
-      "early_max_dev_pct": 10,
-      "early_min_mcap_growth_pct": 30,
-      "early_min_change_5m_pct": 0,
-      "take_profit_1_pct": 100,
-      "take_profit_1_sell_fraction": 0.5,
-      "take_profit_2_pct": 300,
-      "stop_loss_pct": -40,
-      "time_stop_minutes": 60
     }
   },
   "max_price_jump_x": 20
