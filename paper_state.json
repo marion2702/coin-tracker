@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T17:56:50+00:00",
+ "processed_until": "2026-11-20T18:06:51+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,7 +12,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.129670526195841e-07,
+     "last_price_usd": 7.134504528221521e-07,
      "min_ratio": 0.9895275489114095,
      "max_ratio": 1.0
     },
@@ -25,9 +25,20 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0003239440416408168,
+     "last_price_usd": 0.0002473571434300058,
      "min_ratio": 1.0,
      "max_ratio": 1.346221821926981
+    },
+    "FbUVaCVyXQqD1ZASsaVUUfeuRsymvG5i7jANdQ3V9U8": {
+     "name": "CLAUDIA / SOL",
+     "opened_at": "2026-11-20T18:07:24+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 8.428356193636009e-09,
+     "tokens": 11449444.919385843,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 5.826758278e-07
     }
    },
    "closed": [
@@ -1185,11 +1196,22 @@
      "min_ratio": 0.6015,
      "max_ratio": 1.1415,
      "reason": "stop-loss (x0.60)"
+    },
+    {
+     "mint": "C9BWH3CEXskjJvXxdZ269yqT8RP6Q4GZe1k1sKZjpump",
+     "name": "CLAUDIA / SOL",
+     "opened_at": "2026-11-20T18:03:32+00:00",
+     "closed_at": "2026-11-20T18:05:23+00:00",
+     "pnl_sol": -0.089712,
+     "pnl_pct": -89.7,
+     "min_ratio": 0.1105,
+     "max_ratio": 1.0,
+     "reason": "stop-loss (x0.11)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.21577860390048575
+    "pnl_sol": 0.12606661038431322
    },
    "rejected": [
     {
@@ -1207,19 +1229,6 @@
   },
   "B_patient": {
    "positions": {
-    "FyxWqk7YURMuRoFWvfKtiS6BmPx1SkcHkuYNxBf1u6M": {
-     "name": "Raja / SOL",
-     "opened_at": "2026-11-20T14:06:06+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 9.595517748106995e-09,
-     "tokens": 10056778.855840012,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 7.668540972943201e-07,
-     "min_ratio": 1.0,
-     "max_ratio": 1.163043026229788
-    },
     "14FN5g6j6Wb2UB5Zh4Gc8EHo9qbteRQ8FDqWEYHH9GR3": {
      "name": "GTA6 / SOL",
      "opened_at": "2026-11-20T14:58:06+00:00",
@@ -1229,7 +1238,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.0122244031868e-07,
+     "last_price_usd": 7.01697877533415e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1513501198598997
     },
@@ -1242,9 +1251,20 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.03985878507128e-07,
+     "last_price_usd": 7.04463189366059e-07,
      "min_ratio": 0.996577363207583,
      "max_ratio": 1.0
+    },
+    "FbUVaCVyXQqD1ZASsaVUUfeuRsymvG5i7jANdQ3V9U8": {
+     "name": "CLAUDIA / SOL",
+     "opened_at": "2026-11-20T18:07:24+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 8.428356193636009e-09,
+     "tokens": 11449444.919385843,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 5.826758278e-07
     }
    },
    "closed": [
@@ -1808,11 +1828,22 @@
      "min_ratio": 1.0,
      "max_ratio": 2.1916,
      "reason": "take-profit 2 (x2.19)"
+    },
+    {
+     "mint": "FyxWqk7YURMuRoFWvfKtiS6BmPx1SkcHkuYNxBf1u6M",
+     "name": "Raja / SOL",
+     "opened_at": "2026-11-20T14:06:06+00:00",
+     "closed_at": "2026-11-20T18:07:24+00:00",
+     "pnl_sol": 0.007723,
+     "pnl_pct": 7.7,
+     "min_ratio": 1.0,
+     "max_ratio": 1.163,
+     "reason": "stop temps 241 min (x1.16)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.0904556920413345
+    "pnl_sol": 0.09817887875566478
    }
   },
   "C_tot": {
@@ -2225,7 +2256,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T18:01:15+00:00",
+  "checked_at": "2026-11-20T18:07:24+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
