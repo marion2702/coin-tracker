@@ -1,34 +1,8 @@
 {
- "processed_until": "2026-11-20T16:05:27+00:00",
+ "processed_until": "2026-11-20T16:11:27+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "Fi5FqrUR5uKLALanSR45KUFJSGkQUJXRJAcFsw67GVY": {
-     "name": "RIEMANN / SOL",
-     "opened_at": "2026-11-20T15:38:07+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.0224996449048848e-08,
-     "tokens": 9437656.089257287,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 6.95684053780563e-07,
-     "min_ratio": 0.996577363207583,
-     "max_ratio": 1.0
-    },
-    "EvqrwbV1fwtdfyLPeEMydMQqJmThqMvhEvhDLzi4Eon": {
-     "name": "RIEMANN / SOL",
-     "opened_at": "2026-11-20T15:38:07+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.0368014473851804e-08,
-     "tokens": 9307471.574559776,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 7.95360081113205e-07,
-     "min_ratio": 1.0,
-     "max_ratio": 1.135222180648379
-    },
     "DYc8mChcizCPWXH9WnLeiFrBJABTYFny4MdCUjGfDgH": {
      "name": "RIEMANN / SOL",
      "opened_at": "2026-11-20T16:06:15+00:00",
@@ -38,7 +12,33 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.753321671e-07
+     "last_price_usd": 7.7258173982892e-07,
+     "min_ratio": 0.9677156280837648,
+     "max_ratio": 1.0
+    },
+    "18LmvT4qcw949fbR3XurNRYrbqF4c57Zri1vXrhmqYF": {
+     "name": "FIONA / SOL",
+     "opened_at": "2026-11-20T16:10:00+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.1748388092947025e-07,
+     "tokens": 821389.2768654142,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 8.2022082834384e-06,
+     "min_ratio": 1.0,
+     "max_ratio": 1.011202550172137
+    },
+    "5kDzqvfJGh8wYqwefP7JWWeoT8rq5RR5CBQFc65ipump": {
+     "name": "Joe / SOL",
+     "opened_at": "2026-11-20T16:12:08+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 6.571735938649408e-07,
+     "tokens": 146840.957854786,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 4.537268262e-05
     }
    },
    "closed": [
@@ -1020,11 +1020,33 @@
      "min_ratio": 0.8519,
      "max_ratio": 1.0912,
      "reason": "stop temps 30 min (x0.86)"
+    },
+    {
+     "mint": "Fi5FqrUR5uKLALanSR45KUFJSGkQUJXRJAcFsw67GVY",
+     "name": "RIEMANN / SOL",
+     "opened_at": "2026-11-20T15:38:07+00:00",
+     "closed_at": "2026-11-20T16:10:00+00:00",
+     "pnl_sol": -0.007196,
+     "pnl_pct": -7.2,
+     "min_ratio": 0.9966,
+     "max_ratio": 1.0,
+     "reason": "stop temps 32 min (x1.00)"
+    },
+    {
+     "mint": "EvqrwbV1fwtdfyLPeEMydMQqJmThqMvhEvhDLzi4Eon",
+     "name": "RIEMANN / SOL",
+     "opened_at": "2026-11-20T15:38:07+00:00",
+     "closed_at": "2026-11-20T16:10:00+00:00",
+     "pnl_sol": 0.004637,
+     "pnl_pct": 4.6,
+     "min_ratio": 1.0,
+     "max_ratio": 1.1352,
+     "reason": "stop temps 32 min (x1.12)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.5183282690665753
+    "pnl_sol": 0.5157689668809681
    },
    "rejected": [
     {
@@ -1051,7 +1073,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.5781089273447e-07,
+     "last_price_usd": 7.663679456748e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.163043026229788
     },
@@ -1064,7 +1086,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 6.92953203716655e-07,
+     "last_price_usd": 7.007778962702e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1513501198598997
     },
@@ -1077,7 +1099,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 6.95684053780563e-07,
+     "last_price_usd": 7.0353958256092e-07,
      "min_ratio": 0.996577363207583,
      "max_ratio": 1.0
     }
@@ -2060,9 +2082,9 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T16:06:15+00:00",
+  "checked_at": "2026-11-20T16:12:08+00:00",
   "ok": true,
-  "new_coins_10min": 66,
+  "new_coins_10min": 70,
   "log_tail": [
    "[15:58:37] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s",
    "[15:58:47] listener: connexion",
