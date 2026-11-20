@@ -257,6 +257,14 @@ def run_strategy(state, cfg, px, sol_usd, new_alerts, now, events):
                       f"pump.fun/coin/{mint}")
 
 
+def tail(path, n):
+    try:
+        with open(path, errors="replace") as fh:
+            return [l.strip()[:200] for l in fh.readlines()[-n:]]
+    except FileNotFoundError:
+        return ["listener.log absent"]
+
+
 def load_live():
     """Nouveaux coins vus par early_listener.py (None si absent ou vieux de plus d'1 min)."""
     live = load_json(LIVE_PATH, None)
@@ -389,7 +397,8 @@ def main():
             px[m] = ds_usd
 
     full["listener"] = {"checked_at": now.isoformat(timespec="seconds"),
-                        "ok": live is not None, "new_coins_10min": len(live or {})}
+                        "ok": live is not None, "new_coins_10min": len(live or {}),
+                        "log_tail": tail(os.path.join(HERE, "listener.log"), 4)}
     # nettoyage : trades à gain impossible (> x30) dus à des prix aberrants avant le garde-fou
     for n in strategies:
         st = full["strategies"][n]
