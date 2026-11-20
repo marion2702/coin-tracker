@@ -506,3 +506,5 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-20T21:51:26+00:00,FqjSkUk7eZF6ord8Tk8wkUMcv5qmztn3hbYfhQsxpump,GAY / SOL,stop-loss (x0.05),1.3599874822475458e-06,0.50,0.0500,0.0023,-0.0477,-95.4,A_rapide
 2026-11-20T21:53:34+00:00,FtSfZmvCyAxmgAExEYK8Ssq2ioKz9MaiHtr9G7NGpump,Rocket / SOL,ACHAT,2.772417482e-05,1.00,0.1000,,,,A_rapide
 2026-11-20T21:56:12+00:00,FtSfZmvCyAxmgAExEYK8Ssq2ioKz9MaiHtr9G7NGpump,Rocket / SOL,take-profit 1 (x1.63),4.513603326625183e-05,0.50,0.0500,0.0758,+0.0258,+51.6,A_rapide
+2026-11-20T21:59:34+00:00,FtSfZmvCyAxmgAExEYK8Ssq2ioKz9MaiHtr9G7NGpump,Rocket / SOL,stop-loss (x0.05),1.439287742579013e-06,0.50,0.0500,0.0024,-0.0476,-95.2,A_rapide
+2026-11-20T21:59:34+00:00,JBfhWtsEoiHkuTk2oGAnqBc75MSqibXiDUo1fhkGs2XX,h◡sh / SOL,ACHAT,1.25171586e-05,1.00,0.1000,,,,A_rapide
