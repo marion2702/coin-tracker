@@ -12,9 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.7258173982892e-07,
+     "last_price_usd": 7.9494321322556e-07,
      "min_ratio": 0.9677156280837648,
-     "max_ratio": 1.0
+     "max_ratio": 1.01086218474992
     },
     "18LmvT4qcw949fbR3XurNRYrbqF4c57Zri1vXrhmqYF": {
      "name": "FIONA / SOL",
@@ -25,9 +25,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.2022082834384e-06,
+     "last_price_usd": 8.226415830243601e-06,
      "min_ratio": 1.0,
-     "max_ratio": 1.011202550172137
+     "max_ratio": 1.0112025501721371
     },
     "5kDzqvfJGh8wYqwefP7JWWeoT8rq5RR5CBQFc65ipump": {
      "name": "Joe / SOL",
@@ -38,7 +38,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.537268262e-05
+     "last_price_usd": 5.38525554813169e-05,
+     "min_ratio": 0.9697589890244052,
+     "max_ratio": 1.1834011701934408
     }
    },
    "closed": [
@@ -1073,7 +1075,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.663679456748e-07,
+     "last_price_usd": 7.686297619167e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.163043026229788
     },
@@ -1086,7 +1088,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.007778962702e-07,
+     "last_price_usd": 7.028461336445501e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1513501198598997
     },
@@ -1099,7 +1101,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.0353958256092e-07,
+     "last_price_usd": 7.056159706244301e-07,
      "min_ratio": 0.996577363207583,
      "max_ratio": 1.0
     }
@@ -2082,9 +2084,9 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T16:12:08+00:00",
+  "checked_at": "2026-11-20T16:16:30+00:00",
   "ok": true,
-  "new_coins_10min": 70,
+  "new_coins_10min": 66,
   "log_tail": [
    "[15:58:37] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s",
    "[15:58:47] listener: connexion",
