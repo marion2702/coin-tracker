@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T13:51:25+00:00",
+ "processed_until": "2026-11-20T13:59:26+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,22 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.2374378762674e-05,
+     "last_price_usd": 8.44784741410993e-05,
      "min_ratio": 0.9992805096465294,
-     "max_ratio": 1.1033125779860438
-    },
-    "5cbSosfaHCCygwkuyt54BYqqV8LGMUf6ZwpazF94EHNS": {
-     "name": "RUDY / SOL",
-     "opened_at": "2026-11-20T13:42:52+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 9.758335746453365e-07,
-     "tokens": 98889.81329123935,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 7.553359990349e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.1733558157354307
+     "max_ratio": 1.134808525281493
     },
     "8kHg9BLhbHP9a8Wq2hCL4aqPTrBF39NbAPYvQZKQjoRZ": {
      "name": "CRIME / SOL",
@@ -38,9 +25,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.793566707142305e-05,
-     "min_ratio": 0.9746810631995879,
+     "last_price_usd": 1.772698006577315e-05,
+     "min_ratio": 0.9584903478640465,
      "max_ratio": 1.273052817240278
+    },
+    "6vJT1cQbPmEWN6eGrV9rUTbHXwDXRUiqeJF7vB5dhz4": {
+     "name": "zc / SOL",
+     "opened_at": "2026-11-20T13:56:14+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 7.119276421305068e-07,
+     "tokens": 135547.4830436632,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 4.8875308966915226e-05,
+     "min_ratio": 0.9662498817174706,
+     "max_ratio": 1.0
     }
    },
    "closed": [
@@ -813,11 +813,22 @@
      "min_ratio": 0.0,
      "max_ratio": 1.0,
      "reason": "stop-loss (x0.00)"
+    },
+    {
+     "mint": "5cbSosfaHCCygwkuyt54BYqqV8LGMUf6ZwpazF94EHNS",
+     "name": "RUDY / SOL",
+     "opened_at": "2026-11-20T13:42:52+00:00",
+     "closed_at": "2026-11-20T13:56:14+00:00",
+     "pnl_sol": -0.099994,
+     "pnl_pct": -100.0,
+     "min_ratio": 0.0001,
+     "max_ratio": 1.1734,
+     "reason": "stop-loss (x0.00)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.7575072208567302
+    "pnl_sol": 0.6575136451147828
    },
    "rejected": [
     {
@@ -844,7 +855,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07023420483730501,
-     "last_price_usd": 8.109173272657699e-05,
+     "last_price_usd": 8.1707523349255e-05,
      "min_ratio": 0.9555495857404066,
      "max_ratio": 1.8823368093682258,
      "last_reason": "take-profit 1 (x1.51)"
@@ -858,22 +869,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.2374378762674e-05,
+     "last_price_usd": 8.44784741410993e-05,
      "min_ratio": 0.9992805096465294,
-     "max_ratio": 1.1033125779860438
+     "max_ratio": 1.134808525281493
     },
-    "5cbSosfaHCCygwkuyt54BYqqV8LGMUf6ZwpazF94EHNS": {
-     "name": "RUDY / SOL",
-     "opened_at": "2026-11-20T13:42:52+00:00",
+    "6vJT1cQbPmEWN6eGrV9rUTbHXwDXRUiqeJF7vB5dhz4": {
+     "name": "zc / SOL",
+     "opened_at": "2026-11-20T13:56:14+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 9.758335746453365e-07,
-     "tokens": 98889.81329123935,
+     "entry_price_sol": 7.119276421305068e-07,
+     "tokens": 135547.4830436632,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.553359990349e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.1733558157354307
+     "last_price_usd": 4.8875308966915226e-05,
+     "min_ratio": 0.9662498817174706,
+     "max_ratio": 1.0
     }
    },
    "closed": [
@@ -1327,11 +1338,22 @@
      "min_ratio": 0.0,
      "max_ratio": 1.0,
      "reason": "stop-loss (x0.00)"
+    },
+    {
+     "mint": "5cbSosfaHCCygwkuyt54BYqqV8LGMUf6ZwpazF94EHNS",
+     "name": "RUDY / SOL",
+     "opened_at": "2026-11-20T13:42:52+00:00",
+     "closed_at": "2026-11-20T13:56:14+00:00",
+     "pnl_sol": -0.099994,
+     "pnl_pct": -100.0,
+     "min_ratio": 0.0001,
+     "max_ratio": 1.1734,
+     "reason": "stop-loss (x0.00)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.3895310533702969
+    "pnl_sol": 0.2895374776283496
    }
   },
   "C_tot": {
@@ -1744,14 +1766,14 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T13:54:14+00:00",
+  "checked_at": "2026-11-20T14:00:14+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
-   "[13:54:27] listener: connexion",
-   "[13:54:28] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s",
-   "[13:54:38] listener: connexion",
-   "[13:54:38] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s"
+   "[14:00:30] listener: connexion",
+   "[14:00:30] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s",
+   "[14:00:40] listener: connexion",
+   "[14:00:40] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s"
   ]
  }
 }
