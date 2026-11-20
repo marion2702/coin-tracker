@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T05:55:59+00:00",
+ "processed_until": "2026-11-20T06:04:00+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -799,7 +799,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.886585173715998e-07,
+     "last_price_usd": 9.8956658135712e-07,
      "min_ratio": 0.9840516294645165,
      "max_ratio": 1.1490423218298247
     },
@@ -812,9 +812,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.345441014283799e-07,
+     "last_price_usd": 8.35310614263216e-07,
      "min_ratio": 0.9945633186289521,
      "max_ratio": 1.2259446880870128
+    },
+    "Lz34uviRpUnRbxjGTh9chKhFuWVcCtGotThpmEW7ops": {
+     "name": "APCY / SOL",
+     "opened_at": "2026-11-20T06:01:10+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 9.988286154695829e-09,
+     "tokens": 9661317.117414793,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 7.24734231229526e-07,
+     "min_ratio": 0.9981692400064817,
+     "max_ratio": 1.0
     }
    },
    "closed": [
@@ -1542,8 +1555,8 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T05:58:24+00:00",
+  "checked_at": "2026-11-20T06:05:40+00:00",
   "ok": true,
-  "new_coins_10min": 39
+  "new_coins_10min": 38
  }
 }
