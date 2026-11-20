@@ -533,3 +533,4 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-20T23:32:55+00:00,FvHyqFFPr1V8mxLQJ5sx1bwXyRq5z6PRaU4nkrv9Gcc,Trader / SOL,ACHAT,7.722999823e-07,1.00,0.1000,,,,A_rapide
 2026-11-20T23:32:55+00:00,AVhePHwxfCntNyeQMFshA7U8zA1YJSg39QswZbb9yKUa,h◡sh / SOL,stop-loss (x0.00),1.199705453383656e-09,1.00,0.1000,0.0000,-0.1000,-100.0,B_patient
 2026-11-20T23:32:55+00:00,FvHyqFFPr1V8mxLQJ5sx1bwXyRq5z6PRaU4nkrv9Gcc,Trader / SOL,ACHAT,7.722999823e-07,1.00,0.1000,,,,B_patient
+2026-11-20T23:50:09+00:00,GyDywECoEv26AZAHtMMPFV4mxEgC7ybsWwwcoKWzuCFB,Anthropic / SOL,ACHAT,4.460689536e-05,1.00,0.1000,,,,A_rapide
