@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T23:06:54+00:00",
+ "processed_until": "2026-11-20T23:19:03+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -25,9 +25,23 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.4322684526088051e-05,
+     "last_price_usd": 1.290837333545748e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.3514199379663545
+    },
+    "6WcBvG5MaLSmk6BzDEZzEXc1JFrSopcmUdgfo2R4pump": {
+     "name": "FARM / SOL",
+     "opened_at": "2026-11-20T23:16:53+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 8.527085224474696e-07,
+     "tokens": 113168.79972422792,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07142196119395748,
+     "last_price_usd": 9.527113975445e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.6125088043607605,
+     "last_reason": "take-profit 1 (x1.53)"
     }
    },
    "closed": [
@@ -1559,7 +1573,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.76129975045643e-07,
+     "last_price_usd": 7.75333857347124e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.0871956842297825
     },
@@ -1572,7 +1586,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.4322684526088051e-05,
+     "last_price_usd": 1.290837333545748e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.3514199379663545
     }
@@ -2610,7 +2624,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T23:14:43+00:00",
+  "checked_at": "2026-11-20T23:20:44+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
