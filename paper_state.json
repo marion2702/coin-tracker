@@ -799,7 +799,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.8166275836776e-07,
+     "last_price_usd": 9.8145416472976e-07,
      "min_ratio": 0.9840516294645165,
      "max_ratio": 1.1490423218298247
     },
@@ -812,23 +812,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.28638857798668e-07,
+     "last_price_usd": 8.28462780227768e-07,
      "min_ratio": 0.9945633186289521,
      "max_ratio": 1.2259446880870128
-    },
-    "EMcDsSrraqiBtNbWdrLNwqa7dfRqKzSY8hoi198ndGdN": {
-     "name": "DCTY / SOL",
-     "opened_at": "2026-11-20T05:22:40+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 3.9366304430799936e-07,
-     "tokens": 245133.5003254688,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07937563692301368,
-     "last_price_usd": 4.8440726260338514e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.7047574307608508,
-     "last_reason": "take-profit 1 (x1.70)"
     }
    },
    "closed": [
@@ -1117,11 +1103,22 @@
      "min_ratio": 1.0,
      "max_ratio": 1.3016,
      "reason": "stop temps 241 min (x1.30)"
+    },
+    {
+     "mint": "EMcDsSrraqiBtNbWdrLNwqa7dfRqKzSY8hoi198ndGdN",
+     "name": "DCTY / SOL",
+     "opened_at": "2026-11-20T05:22:40+00:00",
+     "closed_at": "2026-11-20T05:31:40+00:00",
+     "pnl_sol": 0.084441,
+     "pnl_pct": 84.4,
+     "min_ratio": 1.0,
+     "max_ratio": 2.2565,
+     "reason": "take-profit 2 (x2.26)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.6546026001804776
+    "pnl_sol": 0.7390436197271137
    }
   },
   "C_tot": {
@@ -1534,8 +1531,8 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T05:28:24+00:00",
+  "checked_at": "2026-11-20T05:35:40+00:00",
   "ok": true,
-  "new_coins_10min": 30
+  "new_coins_10min": 35
  }
 }
