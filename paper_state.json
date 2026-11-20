@@ -1,46 +1,42 @@
 {
- "processed_until": "2026-11-20T01:37:57+00:00",
+ "processed_until": "2026-11-20T01:45:57+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "QCKJLCYRfSj5vNMJYFA9wrMnnbkgKisH1svpAgbF4Tx": {
+    "EQoFHVrqQbcaU7fPtmrW4iJYdsUURRZkZ7jCrELJ55T": {
      "name": "FIONA / SOL",
-     "opened_at": "2026-11-20T01:13:35+00:00",
+     "opened_at": "2026-11-20T01:43:16+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.0402387629201728e-08,
-     "tokens": 9276716.40778929,
+     "entry_price_sol": 1.0478807105540137e-08,
+     "tokens": 9209063.496261949,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.52715244339636e-07,
-     "min_ratio": 1.0,
-     "max_ratio": 1.2843205306535226
+     "last_price_usd": 7.965728810776959e-07,
+     "min_ratio": 0.9982052245689118,
+     "max_ratio": 1.0459205794718234
     },
-    "GT8WxWKEgxzZiKL89Uu288vb8jnescwpNSrvyHzcpump": {
+    "S2QTbsbvnym92tq6HbekQDFeG7DbamK8KpVfS4D8ijb": {
      "name": "RUGGED / SOL",
-     "opened_at": "2026-11-20T01:39:45+00:00",
+     "opened_at": "2026-11-20T01:47:08+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 2.9505665306193434e-06,
-     "tokens": 32705.58348662079,
+     "entry_price_sol": 1.157513217627686e-08,
+     "tokens": 8336837.846031337,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0002925884660942139,
-     "min_ratio": 1.0,
-     "max_ratio": 1.3614334597487638
+     "last_price_usd": 8.412806922e-07
     },
-    "F56ksKoTh8xMVCt6kCrYnjQwbPzg2oVC9eosfbWJpump": {
-     "name": "RCTY / SOL",
-     "opened_at": "2026-11-20T01:39:45+00:00",
+    "6E3qff613R4x1ojCrjQaXdHAzSxXC5zC2Y1nw3fmQGWj": {
+     "name": "mihao / SOL",
+     "opened_at": "2026-11-20T01:47:08+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.0177279988463838e-07,
-     "tokens": 948190.4802598021,
+     "entry_price_sol": 1.2667610242021004e-07,
+     "tokens": 761785.357745616,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 5.6762308097391305e-06,
-     "min_ratio": 0.7657252241103251,
-     "max_ratio": 1.0
+     "last_price_usd": 9.206820061e-06
     }
    },
    "closed": [
@@ -670,11 +666,44 @@
      "min_ratio": 1.0,
      "max_ratio": 2.1362,
      "reason": "take-profit 2 (x2.14)"
+    },
+    {
+     "mint": "F56ksKoTh8xMVCt6kCrYnjQwbPzg2oVC9eosfbWJpump",
+     "name": "RCTY / SOL",
+     "opened_at": "2026-11-20T01:39:45+00:00",
+     "closed_at": "2026-11-20T01:43:16+00:00",
+     "pnl_sol": -0.042346,
+     "pnl_pct": -42.3,
+     "min_ratio": 0.6191,
+     "max_ratio": 1.0,
+     "reason": "stop-loss (x0.62)"
+    },
+    {
+     "mint": "QCKJLCYRfSj5vNMJYFA9wrMnnbkgKisH1svpAgbF4Tx",
+     "name": "FIONA / SOL",
+     "opened_at": "2026-11-20T01:13:35+00:00",
+     "closed_at": "2026-11-20T01:45:07+00:00",
+     "pnl_sol": 0.021211,
+     "pnl_pct": 21.2,
+     "min_ratio": 1.0,
+     "max_ratio": 1.3016,
+     "reason": "stop temps 32 min (x1.30)"
+    },
+    {
+     "mint": "GT8WxWKEgxzZiKL89Uu288vb8jnescwpNSrvyHzcpump",
+     "name": "RUGGED / SOL",
+     "opened_at": "2026-11-20T01:39:45+00:00",
+     "closed_at": "2026-11-20T01:45:07+00:00",
+     "pnl_sol": -0.032712,
+     "pnl_pct": -32.7,
+     "min_ratio": 0.7226,
+     "max_ratio": 1.4248,
+     "reason": "stop-loss (x0.72)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 1.0677770046863333
+    "pnl_sol": 1.0139297125813822
    },
    "rejected": [
     {
@@ -701,7 +730,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.71865556173199e-07,
+     "last_price_usd": 8.69979688549272e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.0006585500022707
     },
@@ -714,9 +743,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.52715244339636e-07,
+     "last_price_usd": 9.84087300163504e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.2843205306535226
+     "max_ratio": 1.3016242503778963
     },
     "GT8WxWKEgxzZiKL89Uu288vb8jnescwpNSrvyHzcpump": {
      "name": "RUGGED / SOL",
@@ -727,9 +756,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0002925884660942139,
-     "min_ratio": 1.0,
-     "max_ratio": 1.3614334597487638
+     "last_price_usd": 0.0001557532558530568,
+     "min_ratio": 0.7225730983779848,
+     "max_ratio": 1.424811118940454
     }
    },
    "closed": [
@@ -1204,7 +1233,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 5.162726033546896e-06,
+     "last_price_usd": 5.0330905122838e-06,
      "min_ratio": 0.8667191394464121,
      "max_ratio": 1.1626656172110716
     }
@@ -1405,8 +1434,8 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T01:41:00+00:00",
+  "checked_at": "2026-11-20T01:47:08+00:00",
   "ok": true,
-  "new_coins_10min": 105
+  "new_coins_10min": 71
  }
 }
