@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T02:51:59+00:00",
+ "processed_until": "2026-11-20T02:57:58+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -23,9 +23,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 3.724648979693931e-05,
+     "last_price_usd": 4.303215787803894e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.061387447874835
+     "max_ratio": 1.217383282410684
     },
     "9zNmYyZshyDdbi1t2tGLgiq6RKJSKE4MDTAWKZqtkcDB": {
      "name": "mihao / SOL",
@@ -33,12 +33,13 @@
      "size_sol": 0.1,
      "entry_price_sol": 1.1639102734680233e-07,
      "tokens": 829101.7117021022,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 9.61594737553935e-06,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07496779132295993,
+     "last_price_usd": 1.3596739818486761e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.1469956322510948
+     "max_ratio": 1.6100897489427353,
+     "last_reason": "take-profit 1 (x1.61)"
     }
    },
    "closed": [
@@ -776,7 +777,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.62193933222517e-07,
+     "last_price_usd": 8.684790588435781e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.0006585500022707
     },
@@ -789,7 +790,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.752803555415941e-07,
+     "last_price_usd": 9.82389846010196e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.3016242503778965
     },
@@ -802,7 +803,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.83203608060765e-07,
+     "last_price_usd": 9.8674312450064e-07,
      "min_ratio": 0.9840516294645165,
      "max_ratio": 1.1490423218298247
     }
@@ -1488,8 +1489,8 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T02:52:31+00:00",
+  "checked_at": "2026-11-20T02:59:09+00:00",
   "ok": true,
-  "new_coins_10min": 37
+  "new_coins_10min": 30
  }
 }
