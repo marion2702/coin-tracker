@@ -280,3 +280,4 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-20T01:45:07+00:00,GT8WxWKEgxzZiKL89Uu288vb8jnescwpNSrvyHzcpump,RUGGED / SOL,stop-loss (x0.72),0.0001549728626681924,1.00,0.1000,0.0673,-0.0327,-32.7,A_rapide
 2026-11-20T01:47:08+00:00,S2QTbsbvnym92tq6HbekQDFeG7DbamK8KpVfS4D8ijb,RUGGED / SOL,ACHAT,8.412806922e-07,1.00,0.1000,,,,A_rapide
 2026-11-20T01:47:08+00:00,6E3qff613R4x1ojCrjQaXdHAzSxXC5zC2Y1nw3fmQGWj,mihao / SOL,ACHAT,9.206820061e-06,1.00,0.1000,,,,A_rapide
+2026-11-20T01:54:30+00:00,GT8WxWKEgxzZiKL89Uu288vb8jnescwpNSrvyHzcpump,RUGGED / SOL,take-profit 1 (x1.60),0.00034158816698150223,0.50,0.0500,0.0744,+0.0244,+48.8,B_patient
