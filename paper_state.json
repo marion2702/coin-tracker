@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T17:30:40+00:00",
+ "processed_until": "2026-11-20T17:36:40+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,9 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.00010311928645705682,
+     "last_price_usd": 0.00010483532338647059,
      "min_ratio": 1.0,
-     "max_ratio": 1.0809038498617378
+     "max_ratio": 1.0997399759317144
     },
     "EMsvC1jpLgKiwhkDRqjSeyRpurQabHS7NwyRoffNVqE": {
      "name": "MI / SOL",
@@ -25,7 +25,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 5.934197007508644e-07,
+     "last_price_usd": 5.929618488776262e-07,
      "min_ratio": 0.997005727271202,
      "max_ratio": 1.0
     },
@@ -38,7 +38,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.694642249529322e-05,
+     "last_price_usd": 8.68793391437286e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.001747451433889
     }
@@ -1163,7 +1163,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.6717431613494e-07,
+     "last_price_usd": 7.665824042093699e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.163043026229788
     },
@@ -1176,7 +1176,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.015152530423101e-07,
+     "last_price_usd": 7.009740002455049e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1513501198598997
     },
@@ -1189,7 +1189,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.042798451725261e-07,
+     "last_price_usd": 7.03736459359773e-07,
      "min_ratio": 0.996577363207583,
      "max_ratio": 1.0
     }
@@ -2172,9 +2172,9 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T17:31:21+00:00",
+  "checked_at": "2026-11-20T17:37:29+00:00",
   "ok": true,
-  "new_coins_10min": 105,
+  "new_coins_10min": 78,
   "log_tail": [
    "[16:23:57] listener: coupure (no close frame received or sent), reconnexion dans 10 s",
    "[16:24:07] listener: connexion",
