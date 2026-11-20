@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T08:38:06+00:00",
+ "processed_until": "2026-11-20T08:52:18+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -790,19 +790,6 @@
   },
   "B_patient": {
    "positions": {
-    "9LUZkfYZ352Gr83W6yRoCvxD3PWH4GiqektgZExxKoF": {
-     "name": "ARTIFICIAL / SOL",
-     "opened_at": "2026-11-20T04:53:09+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 9.559974535464653e-09,
-     "tokens": 10094169.14679153,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 8.338753925442359e-07,
-     "min_ratio": 0.9945633186289521,
-     "max_ratio": 1.2259446880870128
-    },
     "Lz34uviRpUnRbxjGTh9chKhFuWVcCtGotThpmEW7ops": {
      "name": "APCY / SOL",
      "opened_at": "2026-11-20T06:01:10+00:00",
@@ -825,9 +812,20 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.34601764837393e-07,
+     "last_price_usd": 8.344568214426211e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.042210068909805
+    },
+    "AEE4usWZhSxj2fzNKwTocAqVh5YFEvfBkT7qb4gb6LQW": {
+     "name": "BABYDOG / SOL",
+     "opened_at": "2026-11-20T08:54:22+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.2334317577697135e-06,
+     "tokens": 78236.99964924766,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 8.957750601e-05
     }
    },
    "closed": [
@@ -1160,11 +1158,22 @@
      "min_ratio": 1.0,
      "max_ratio": 2.2707,
      "reason": "take-profit 2 (x2.27)"
+    },
+    {
+     "mint": "9LUZkfYZ352Gr83W6yRoCvxD3PWH4GiqektgZExxKoF",
+     "name": "ARTIFICIAL / SOL",
+     "opened_at": "2026-11-20T04:53:09+00:00",
+     "closed_at": "2026-11-20T08:54:22+00:00",
+     "pnl_sol": 0.011825,
+     "pnl_pct": 11.8,
+     "min_ratio": 0.9946,
+     "max_ratio": 1.2259,
+     "reason": "stop temps 241 min (x1.20)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.7720446852232867
+    "pnl_sol": 0.7838699098652726
    }
   },
   "C_tot": {
@@ -1577,8 +1586,8 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T08:44:48+00:00",
+  "checked_at": "2026-11-20T08:54:22+00:00",
   "ok": true,
-  "new_coins_10min": 50
+  "new_coins_10min": 36
  }
 }
