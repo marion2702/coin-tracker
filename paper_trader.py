@@ -195,8 +195,8 @@ def run_strategy(state, cfg, px, sol_usd, new_alerts, now, events):
                 continue
         else:
             last = pos.get("last_price_usd") or 0
-            if last > 0 and not (1 / cfg["max_price_jump_x"] <= p_usd / last <= cfg["max_price_jump_x"]):
-                # saut x20 entre deux passages (2 min) : donnée de prix douteuse, on attend la suivante
+            if last > 0 and p_usd / last > cfg["max_price_jump_x"]:
+                # hausse de plus de x20 en 2 min : donnée douteuse, on attend. Les chutes (rugs) sont toujours prises en compte.
                 log(f"[{tag}] prix douteux ignoré pour {short(pos['name'])} (x{p_usd / last:.1f})")
                 continue  # jamais accepté automatiquement : il faut un prix cohérent
             pos["last_price_usd"] = p_usd
