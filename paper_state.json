@@ -1,34 +1,8 @@
 {
- "processed_until": "2026-11-20T17:48:50+00:00",
+ "processed_until": "2026-11-20T17:54:50+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "EMsvC1jpLgKiwhkDRqjSeyRpurQabHS7NwyRoffNVqE": {
-     "name": "MI / SOL",
-     "opened_at": "2026-11-20T17:25:36+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 8.61178603607406e-09,
-     "tokens": 11205573.338186698,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 5.91074167380651e-07,
-     "min_ratio": 0.997005727271202,
-     "max_ratio": 1.0
-    },
-    "4aHPq26F2hDnxUAMJEBpfY1mQkaBzYY47E4Hi5EEQrDJ": {
-     "name": "AudaCity / SOL",
-     "opened_at": "2026-11-20T17:25:36+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.255805540807031e-06,
-     "tokens": 76843.10736356939,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 8.6602760606203e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.001747451433889
-    },
     "8uQ36p67Nx4JmFmSVP7AW9GS9m5TKggG7KC3RdPKTpL": {
      "name": "MI / SOL",
      "opened_at": "2026-11-20T17:39:21+00:00",
@@ -38,9 +12,31 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.104455401081201e-07,
+     "last_price_usd": 7.09939584793224e-07,
      "min_ratio": 0.9895275489114095,
      "max_ratio": 1.0
+    },
+    "4kgnpiMbXkdRNVkpN22AXuBYGbSZSFcHUL3grwPc4xLg": {
+     "name": "Marmo / SOL",
+     "opened_at": "2026-11-20T17:55:39+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 4.6262974718512243e-07,
+     "tokens": 208590.13192981144,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 3.182550103e-05
+    },
+    "74XxfZkt4bXYgUtho6FdSstr7uUW8MJaJBqzxViFizdQ": {
+     "name": "HANDLE / SOL",
+     "opened_at": "2026-11-20T17:55:39+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.1752294721503792e-06,
+     "tokens": 82111.62354823256,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 8.084708561e-05
     }
    },
    "closed": [
@@ -1143,11 +1139,33 @@
      "min_ratio": 1.0,
      "max_ratio": 1.1048,
      "reason": "stop temps 30 min (x1.10)"
+    },
+    {
+     "mint": "EMsvC1jpLgKiwhkDRqjSeyRpurQabHS7NwyRoffNVqE",
+     "name": "MI / SOL",
+     "opened_at": "2026-11-20T17:25:36+00:00",
+     "closed_at": "2026-11-20T17:55:39+00:00",
+     "pnl_sol": -0.007156,
+     "pnl_pct": -7.2,
+     "min_ratio": 0.997,
+     "max_ratio": 1.0,
+     "reason": "stop temps 30 min (x1.00)"
+    },
+    {
+     "mint": "4aHPq26F2hDnxUAMJEBpfY1mQkaBzYY47E4Hi5EEQrDJ",
+     "name": "AudaCity / SOL",
+     "opened_at": "2026-11-20T17:25:36+00:00",
+     "closed_at": "2026-11-20T17:55:39+00:00",
+     "pnl_sol": -0.006715,
+     "pnl_pct": -6.7,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0017,
+     "reason": "stop temps 30 min (x1.00)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.40434771139963605
+    "pnl_sol": 0.3904766042836009
    },
    "rejected": [
     {
@@ -1174,7 +1192,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.6414200534885e-07,
+     "last_price_usd": 7.6359780922527e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.163043026229788
     },
@@ -1187,7 +1205,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 6.98742464350525e-07,
+     "last_price_usd": 6.98244843570855e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1513501198598997
     },
@@ -1200,7 +1218,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.014961292346651e-07,
+     "last_price_usd": 7.009965473878831e-07,
      "min_ratio": 0.996577363207583,
      "max_ratio": 1.0
     }
@@ -2183,7 +2201,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T17:50:01+00:00",
+  "checked_at": "2026-11-20T17:55:39+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
