@@ -812,22 +812,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.2222305064446276e-05,
+     "last_price_usd": 4.2135039429168395e-05,
      "min_ratio": 0.9984369869031378,
      "max_ratio": 1.0
-    },
-    "6FSpRpM2Ltjvn4j85pqcDahx7MY1ZJWTqkWAvLtmA38X": {
-     "name": "RUGGED / SOL",
-     "opened_at": "2026-11-20T11:06:43+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.2445503726382365e-07,
-     "tokens": 775380.4275148486,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 1.1686659926259778e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.4904981275026365
     }
    },
    "closed": [
@@ -1215,11 +1202,22 @@
      "min_ratio": 1.0,
      "max_ratio": 2.0879,
      "reason": "take-profit 2 (x2.09)"
+    },
+    {
+     "mint": "6FSpRpM2Ltjvn4j85pqcDahx7MY1ZJWTqkWAvLtmA38X",
+     "name": "RUGGED / SOL",
+     "opened_at": "2026-11-20T11:06:43+00:00",
+     "closed_at": "2026-11-20T11:15:35+00:00",
+     "pnl_sol": 0.070749,
+     "pnl_pct": 70.7,
+     "min_ratio": 1.0,
+     "max_ratio": 2.0771,
+     "reason": "take-profit 2 (x2.08)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.7204975251099341
+    "pnl_sol": 0.7912463751942616
    }
   },
   "C_tot": {
@@ -1632,7 +1630,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T11:11:26+00:00",
+  "checked_at": "2026-11-20T11:18:12+00:00",
   "ok": false,
   "new_coins_10min": 0
  }
