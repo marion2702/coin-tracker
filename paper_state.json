@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T22:38:54+00:00",
+ "processed_until": "2026-11-20T22:48:54+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -25,9 +25,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.98822285166148e-07,
+     "last_price_usd": 7.81436898622017e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1764357294963437
+     "max_ratio": 1.1876301871299593
     },
     "D5MCjdZn5TbFK7cUTnY1ABn7zWzJ652UShH2uAYxKV9": {
      "name": "Singularity / SOL",
@@ -38,7 +38,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 5.4010337204659275e-05,
+     "last_price_usd": 5.1907273601317745e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.0893240313616332
     }
@@ -1528,7 +1528,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.292272856395999e-07,
+     "last_price_usd": 8.276472006588e-07,
      "min_ratio": 0.9582701296496721,
      "max_ratio": 1.0069388402623523
     },
@@ -1541,7 +1541,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.732544438589269e-07,
+     "last_price_usd": 7.71781014614331e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.0871956842297825
     }
@@ -2568,7 +2568,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T22:43:18+00:00",
+  "checked_at": "2026-11-20T22:49:57+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
