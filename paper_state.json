@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T13:23:25+00:00",
+ "processed_until": "2026-11-20T13:27:26+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -822,12 +822,13 @@
      "size_sol": 0.1,
      "entry_price_sol": 6.258178632735635e-07,
      "tokens": 154198.21910359405,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 6.158668482461628e-05,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07023420483730501,
+     "last_price_usd": 6.477738631155092e-05,
      "min_ratio": 0.9555495857404066,
-     "max_ratio": 1.3892220900379757
+     "max_ratio": 1.5084261019045884,
+     "last_reason": "take-profit 1 (x1.51)"
     }
    },
    "closed": [
@@ -1665,8 +1666,14 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T13:24:06+00:00",
+  "checked_at": "2026-11-20T13:29:58+00:00",
   "ok": false,
-  "new_coins_10min": 0
+  "new_coins_10min": 0,
+  "log_tail": [
+   "[13:30:16] listener: connexion",
+   "[13:30:16] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s",
+   "[13:30:26] listener: connexion",
+   "[13:30:26] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s"
+  ]
  }
 }
