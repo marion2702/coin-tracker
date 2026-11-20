@@ -1,22 +1,8 @@
 {
- "processed_until": "2026-11-20T01:01:43+00:00",
+ "processed_until": "2026-11-20T01:05:43+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "SWGqBQLz6XzDoG2wkp6WEcdfhP7g1o3Q8VqZjirHh83": {
-     "name": "COOKIE / SOL",
-     "opened_at": "2026-11-20T00:39:10+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 9.677416056311756e-09,
-     "tokens": 9971670.065488324,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 7.95532784641092e-07,
-     "suspect_ticks": 0,
-     "min_ratio": 0.9871282210864373,
-     "max_ratio": 1.1480337246380856
-    },
     "RF8bkegfJxEgawCv3t58BrtqGngxkzW9wkRn3P3hSYp": {
      "name": "COOKIE / SOL",
      "opened_at": "2026-11-20T00:52:24+00:00",
@@ -26,9 +12,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.70432123597246e-07,
+     "last_price_usd": 8.77446263876301e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.0006585500022707
+    },
+    "8AwRtCN6AR7paM3BCGY4TYthZHxXemHaftnFV8Gz5mHv": {
+     "name": "CRIME / SOL",
+     "opened_at": "2026-11-20T01:06:24+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.332020362715986e-07,
+     "tokens": 724463.3993675349,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 9.368223268453739e-06,
+     "min_ratio": 0.9376733531710373,
+     "max_ratio": 1.0
     }
    },
    "closed": [
@@ -603,11 +602,22 @@
      "min_ratio": 1.0,
      "max_ratio": 1.2854,
      "reason": "stop temps 30 min (x1.08)"
+    },
+    {
+     "mint": "SWGqBQLz6XzDoG2wkp6WEcdfhP7g1o3Q8VqZjirHh83",
+     "name": "COOKIE / SOL",
+     "opened_at": "2026-11-20T00:39:10+00:00",
+     "closed_at": "2026-11-20T01:10:31+00:00",
+     "pnl_sol": 0.005272,
+     "pnl_pct": 5.3,
+     "min_ratio": 0.9871,
+     "max_ratio": 1.148,
+     "reason": "stop temps 31 min (x1.13)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.8368086182167458
+    "pnl_sol": 0.8420805362651126
    },
    "rejected": [
     {
@@ -631,12 +641,13 @@
      "size_sol": 0.1,
      "entry_price_sol": 2.79276542523394e-07,
      "tokens": 345535.64408982376,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 2.5349426757393476e-05,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07048961692996814,
+     "last_price_usd": 3.0992838794227236e-05,
      "min_ratio": 0.9334833410799694,
-     "max_ratio": 1.284031937519283
+     "max_ratio": 1.5139116095458804,
+     "last_reason": "take-profit 1 (x1.51)"
     },
     "RF8bkegfJxEgawCv3t58BrtqGngxkzW9wkRn3P3hSYp": {
      "name": "COOKIE / SOL",
@@ -647,22 +658,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.70432123597246e-07,
+     "last_price_usd": 8.77446263876301e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.0006585500022707
-    },
-    "5qB4paQnWcJGe9S7YiHeH8kACfcJvt5a5qCUHUSupump": {
-     "name": "PEPESURVIV / SOL",
-     "opened_at": "2026-11-20T01:02:24+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 3.7659108391109847e-07,
-     "tokens": 256246.10916911848,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 2.743671388e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.0018929041168974
     }
    },
    "closed": [
@@ -874,11 +872,22 @@
      "min_ratio": 0.4591,
      "max_ratio": 1.0,
      "reason": "stop-loss (x0.46)"
+    },
+    {
+     "mint": "5qB4paQnWcJGe9S7YiHeH8kACfcJvt5a5qCUHUSupump",
+     "name": "PEPESURVIV / SOL",
+     "opened_at": "2026-11-20T01:02:24+00:00",
+     "closed_at": "2026-11-20T01:08:23+00:00",
+     "pnl_sol": 0.175962,
+     "pnl_pct": 176.0,
+     "min_ratio": 1.0,
+     "max_ratio": 2.9634,
+     "reason": "take-profit 2 (x2.96)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.22802718408592884
+    "pnl_sol": 0.4039888688945193
    }
   },
   "C_tot": {
@@ -1093,7 +1102,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.2518100473459454e-06,
+     "last_price_usd": 4.673849104824808e-06,
      "suspect_ticks": 0,
      "min_ratio": 0.6318874560375146,
      "max_ratio": 1.0
@@ -1107,7 +1116,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.09500843523118076,
-     "last_price_usd": 7.111074132545922e-05,
+     "last_price_usd": 7.608932513814541e-05,
      "suspect_ticks": 0,
      "min_ratio": 1.0,
      "max_ratio": 2.0405043943446697,
@@ -1122,8 +1131,8 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.238927285176939e-06,
-     "min_ratio": 1.0,
+     "last_price_usd": 8.30531843752589e-06,
+     "min_ratio": 0.9999999999999999,
      "max_ratio": 1.0000000000000002
     }
    },
@@ -1246,8 +1255,8 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T01:04:32+00:00",
+  "checked_at": "2026-11-20T01:10:31+00:00",
   "ok": true,
-  "new_coins_10min": 77
+  "new_coins_10min": 81
  }
 }
