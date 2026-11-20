@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T20:24:51+00:00",
+ "processed_until": "2026-11-20T20:30:51+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -16,16 +16,29 @@
      "min_ratio": 1.0,
      "max_ratio": 1.1427368876813813
     },
-    "CDpTzrbzTsc65ocCboqv6F2c4HFG6VueKTA67bq3pump": {
-     "name": "NVDA / SOL",
-     "opened_at": "2026-11-20T20:25:40+00:00",
+    "14ggMvUeNWoDcxu3PmrYVzxmTxYNKPbYFvYTpjuNJkfu": {
+     "name": "PATRICK / SOL",
+     "opened_at": "2026-11-20T20:28:41+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 4.00371254054792e-07,
-     "tokens": 241026.29502664966,
+     "entry_price_sol": 1.0240148868772635e-08,
+     "tokens": 9423691.123698117,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.732396141e-05
+     "last_price_usd": 7.22619575294076e-07,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0370942977582798
+    },
+    "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": {
+     "name": "Singularity / SOL",
+     "opened_at": "2026-11-20T20:32:10+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.151684185168271e-06,
+     "tokens": 83790.33179647294,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 7.836436316e-05
     }
    },
    "closed": [
@@ -1326,11 +1339,22 @@
      "min_ratio": 1.0,
      "max_ratio": 1.0872,
      "reason": "stop temps 31 min (x1.09)"
+    },
+    {
+     "mint": "CDpTzrbzTsc65ocCboqv6F2c4HFG6VueKTA67bq3pump",
+     "name": "NVDA / SOL",
+     "opened_at": "2026-11-20T20:25:40+00:00",
+     "closed_at": "2026-11-20T20:32:10+00:00",
+     "pnl_sol": 0.096992,
+     "pnl_pct": 97.0,
+     "min_ratio": 1.0,
+     "max_ratio": 2.5376,
+     "reason": "take-profit 2 (x2.54)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.25737640184575483
+    "pnl_sol": 0.35436881969852707
    },
    "rejected": [
     {
@@ -1370,7 +1394,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.189587379196001e-07,
+     "last_price_usd": 8.165192941176e-07,
      "min_ratio": 0.9582701296496721,
      "max_ratio": 1.0069388402623523
     },
@@ -1383,7 +1407,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.636790231100271e-07,
+     "last_price_usd": 7.61404241764662e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.0871956842297825
     }
@@ -2410,7 +2434,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T20:25:40+00:00",
+  "checked_at": "2026-11-20T20:32:10+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
