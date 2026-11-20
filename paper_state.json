@@ -12,7 +12,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.12137370516845e-07,
+     "last_price_usd": 7.04290908037255e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1513501198598997
     },
@@ -25,9 +25,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.00010727665413992671,
+     "last_price_usd": 0.00010900896714547071,
      "min_ratio": 1.0,
-     "max_ratio": 1.0487335227964685
+     "max_ratio": 1.0775411146587652
     },
     "FMWYmSLD4eNQrvxrXWsTf7HEsNQYqSCqzPbdEUqNpump": {
      "name": "RIEMANN / ANT",
@@ -38,7 +38,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0003195625704
+     "last_price_usd": 0.0002990828312,
+     "min_ratio": 0.9463401630062337,
+     "max_ratio": 1.2961057175436779
     }
    },
    "closed": [
@@ -974,22 +976,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.7879062194453e-07,
+     "last_price_usd": 7.7020976149887e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.163043026229788
-    },
-    "BoqbQpJTx4wPhjXY2BvbJBUvc6QyKQsvVNjwSP851oYA": {
-     "name": "DUO / SOL",
-     "opened_at": "2026-11-20T14:42:52+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 9.917240825537009e-07,
-     "tokens": 97305.29055169398,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 5.0789777587895966e-05,
-     "min_ratio": 0.6542142229009228,
-     "max_ratio": 1.1394298271856391
     },
     "14FN5g6j6Wb2UB5Zh4Gc8EHo9qbteRQ8FDqWEYHH9GR3": {
      "name": "GTA6 / SOL",
@@ -1000,7 +989,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.12137370516845e-07,
+     "last_price_usd": 7.04290908037255e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1513501198598997
     }
@@ -1522,11 +1511,22 @@
      "min_ratio": 0.0305,
      "max_ratio": 1.0422,
      "reason": "stop-loss (x0.03)"
+    },
+    {
+     "mint": "BoqbQpJTx4wPhjXY2BvbJBUvc6QyKQsvVNjwSP851oYA",
+     "name": "DUO / SOL",
+     "opened_at": "2026-11-20T14:42:52+00:00",
+     "closed_at": "2026-11-20T15:17:57+00:00",
+     "pnl_sol": -0.077652,
+     "pnl_pct": -77.7,
+     "min_ratio": 0.24,
+     "max_ratio": 1.1394,
+     "reason": "stop-loss (x0.24)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.14474569390271655
+    "pnl_sol": 0.0670937999837241
    }
   },
   "C_tot": {
@@ -1939,14 +1939,14 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T15:12:14+00:00",
+  "checked_at": "2026-11-20T15:17:57+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
-   "[15:12:25] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s",
-   "[15:12:35] listener: connexion",
-   "[15:12:35] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s",
-   "[15:12:45] listener: connexion"
+   "[15:18:17] listener: connexion",
+   "[15:18:17] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s",
+   "[15:18:27] listener: connexion",
+   "[15:18:28] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s"
   ]
  }
 }
