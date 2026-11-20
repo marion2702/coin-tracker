@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T12:51:20+00:00",
+ "processed_until": "2026-11-20T12:59:19+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -803,19 +803,6 @@
      "min_ratio": 0.9981692400064817,
      "max_ratio": 1.0
     },
-    "7BxTuUxu39D5cBzA93HgKTQL2rfdjXyzvpGYWFaE9Fh": {
-     "name": "FIONA / SOL",
-     "opened_at": "2026-11-20T09:00:05+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 5.851145416918288e-07,
-     "tokens": 164924.97301635196,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 4.16097104823938e-05,
-     "min_ratio": 0.9984369869031378,
-     "max_ratio": 1.0
-    },
     "5BF2NzrQEEzAN4WrGSU3ZKJLPKvDjeKdJGBXN61yPAYZ": {
      "name": "FLOAT / SOL",
      "opened_at": "2026-11-20T11:22:06+00:00",
@@ -828,6 +815,17 @@
      "last_price_usd": 1.566606420987326e-05,
      "min_ratio": 0.9853651600941807,
      "max_ratio": 1.2578883488225185
+    },
+    "656J1vyxTWC4Wq4D4Bmk6SVF7eScJZ9iWiCtCJ7dpump": {
+     "name": "BITCAT / SOL",
+     "opened_at": "2026-11-20T13:00:52+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 3.225904309605539e-07,
+     "tokens": 299140.9252675568,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 2.293886773e-05
     }
    },
    "closed": [
@@ -1226,11 +1224,22 @@
      "min_ratio": 1.0,
      "max_ratio": 2.0771,
      "reason": "take-profit 2 (x2.08)"
+    },
+    {
+     "mint": "7BxTuUxu39D5cBzA93HgKTQL2rfdjXyzvpGYWFaE9Fh",
+     "name": "FIONA / SOL",
+     "opened_at": "2026-11-20T09:00:05+00:00",
+     "closed_at": "2026-11-20T13:00:52+00:00",
+     "pnl_sol": -0.007023,
+     "pnl_pct": -7.0,
+     "min_ratio": 0.9984,
+     "max_ratio": 1.0,
+     "reason": "stop temps 241 min (x1.00)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.7912463751942616
+    "pnl_sol": 0.784223323507149
    }
   },
   "C_tot": {
@@ -1643,7 +1652,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T12:54:30+00:00",
+  "checked_at": "2026-11-20T13:00:52+00:00",
   "ok": false,
   "new_coins_10min": 0
  }
