@@ -1,46 +1,44 @@
 {
- "processed_until": "2026-11-20T14:21:26+00:00",
+ "processed_until": "2026-11-20T14:29:25+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "6vJT1cQbPmEWN6eGrV9rUTbHXwDXRUiqeJF7vB5dhz4": {
-     "name": "zc / SOL",
-     "opened_at": "2026-11-20T13:56:14+00:00",
+    "CEF8Fe1rhfWeyeVPAAvjutnPAuzqRaqypEboXBFn5Hu": {
+     "name": "\u8682\u8681 / SOL",
+     "opened_at": "2026-11-20T14:25:58+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 7.119276421305068e-07,
-     "tokens": 135547.4830436632,
+     "entry_price_sol": 1.0956961671096752e-08,
+     "tokens": 8807186.051819118,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 5.35886786265142e-05,
-     "min_ratio": 0.9662498817174706,
-     "max_ratio": 1.059096396009555
+     "last_price_usd": 8.03643858711452e-07,
+     "min_ratio": 0.9984519731285093,
+     "max_ratio": 1.025831826139346
     },
-    "5b72njFqG6jZuUL1RPdUgiVUjodDz4dCsdTJWwsmpeM": {
-     "name": "RUDY / SOL",
-     "opened_at": "2026-11-20T14:12:05+00:00",
+    "EdrMFHcPqFVpustvvFqvv7FDCXZw2eMrDEJJHGMhXvvr": {
+     "name": "FIONA / SOL",
+     "opened_at": "2026-11-20T14:27:57+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.0073402039773022e-08,
-     "tokens": 9579683.171483383,
+     "entry_price_sol": 6.815355956941837e-07,
+     "tokens": 141592.01751114574,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.71136821084455e-07,
+     "last_price_usd": 5.8164081767061045e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.0820574774007137
+     "max_ratio": 1.1936280439929228
     },
-    "5hbnnGLEz6SBJaNkAweQJ9etuEd6vPL41o9XKFrQKtF9": {
-     "name": "mihao / SOL",
-     "opened_at": "2026-11-20T14:14:06+00:00",
+    "H7ZDQjUw2jzGXxWLFu9V8juUzTwYqeugg53aozy1XonX": {
+     "name": "War Dog / SOL",
+     "opened_at": "2026-11-20T14:29:58+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 5.0011706535208507e-11,
-     "tokens": 1929548233.5133574,
+     "entry_price_sol": 2.859948476238195e-07,
+     "tokens": 337418.66611153196,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.975806331687201e-09,
-     "min_ratio": 0.837203984841495,
-     "max_ratio": 1.0
+     "last_price_usd": 2.04482209e-05
     }
    },
    "closed": [
@@ -846,11 +844,44 @@
      "min_ratio": 0.9993,
      "max_ratio": 1.4335,
      "reason": "stop temps 31 min (x1.43)"
+    },
+    {
+     "mint": "5hbnnGLEz6SBJaNkAweQJ9etuEd6vPL41o9XKFrQKtF9",
+     "name": "mihao / SOL",
+     "opened_at": "2026-11-20T14:14:06+00:00",
+     "closed_at": "2026-11-20T14:25:58+00:00",
+     "pnl_sol": 0.109849,
+     "pnl_pct": 109.8,
+     "min_ratio": 0.8372,
+     "max_ratio": 2.2535,
+     "reason": "take-profit 2 (x2.25)"
+    },
+    {
+     "mint": "6vJT1cQbPmEWN6eGrV9rUTbHXwDXRUiqeJF7vB5dhz4",
+     "name": "zc / SOL",
+     "opened_at": "2026-11-20T13:56:14+00:00",
+     "closed_at": "2026-11-20T14:27:57+00:00",
+     "pnl_sol": -0.002852,
+     "pnl_pct": -2.9,
+     "min_ratio": 0.9662,
+     "max_ratio": 1.0591,
+     "reason": "stop temps 32 min (x1.04)"
+    },
+    {
+     "mint": "5b72njFqG6jZuUL1RPdUgiVUjodDz4dCsdTJWwsmpeM",
+     "name": "RUDY / SOL",
+     "opened_at": "2026-11-20T14:12:05+00:00",
+     "closed_at": "2026-11-20T14:27:57+00:00",
+     "pnl_sol": -0.059389,
+     "pnl_pct": -59.4,
+     "min_ratio": 0.4361,
+     "max_ratio": 1.1406,
+     "reason": "stop-loss (x0.44)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.5910095951434455
+    "pnl_sol": 0.6386168286481526
    },
    "rejected": [
     {
@@ -868,20 +899,6 @@
   },
   "B_patient": {
    "positions": {
-    "7xyFhKe8kibujbCzY4b7Fr6wmGW7X86yP5NmQRrANZce": {
-     "name": "DCTY / SOL",
-     "opened_at": "2026-11-20T13:42:52+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.0477538487870141e-06,
-     "tokens": 92101.78527305642,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07079150445103981,
-     "last_price_usd": 0.00012089435324098231,
-     "min_ratio": 0.9992805096465294,
-     "max_ratio": 1.6234729196836164,
-     "last_reason": "take-profit 1 (x1.52)"
-    },
     "6vJT1cQbPmEWN6eGrV9rUTbHXwDXRUiqeJF7vB5dhz4": {
      "name": "zc / SOL",
      "opened_at": "2026-11-20T13:56:14+00:00",
@@ -891,7 +908,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 5.35886786265142e-05,
+     "last_price_usd": 5.335222841374426e-05,
      "min_ratio": 0.9662498817174706,
      "max_ratio": 1.059096396009555
     },
@@ -904,9 +921,20 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.73268996626624e-07,
+     "last_price_usd": 7.7218449057684e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1338627352491124
+     "max_ratio": 1.1599165664818585
+    },
+    "H7ZDQjUw2jzGXxWLFu9V8juUzTwYqeugg53aozy1XonX": {
+     "name": "War Dog / SOL",
+     "opened_at": "2026-11-20T14:29:58+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 2.859948476238195e-07,
+     "tokens": 337418.66611153196,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 2.04482209e-05
     }
    },
    "closed": [
@@ -1382,11 +1410,22 @@
      "min_ratio": 0.4535,
      "max_ratio": 1.8823,
      "reason": "stop-loss (x0.45)"
+    },
+    {
+     "mint": "7xyFhKe8kibujbCzY4b7Fr6wmGW7X86yP5NmQRrANZce",
+     "name": "DCTY / SOL",
+     "opened_at": "2026-11-20T13:42:52+00:00",
+     "closed_at": "2026-11-20T14:29:58+00:00",
+     "pnl_sol": -0.01265,
+     "pnl_pct": -12.7,
+     "min_ratio": 0.3556,
+     "max_ratio": 1.7056,
+     "reason": "stop-loss (x0.36)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.28088658430127655
+    "pnl_sol": 0.2682361016578138
    }
   },
   "C_tot": {
@@ -1799,14 +1838,14 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T14:23:50+00:00",
+  "checked_at": "2026-11-20T14:29:58+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
-   "[14:23:31] listener: connexion",
-   "[14:23:31] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s",
-   "[14:23:41] listener: connexion",
-   "[14:23:41] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s"
+   "[14:30:15] listener: connexion",
+   "[14:30:15] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s",
+   "[14:30:25] listener: connexion",
+   "[14:30:25] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s"
   ]
  }
 }
