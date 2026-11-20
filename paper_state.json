@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T14:29:25+00:00",
+ "processed_until": "2026-11-20T14:31:25+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,22 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.03643858711452e-07,
+     "last_price_usd": 7.94824553415309e-07,
      "min_ratio": 0.9984519731285093,
      "max_ratio": 1.025831826139346
-    },
-    "EdrMFHcPqFVpustvvFqvv7FDCXZw2eMrDEJJHGMhXvvr": {
-     "name": "FIONA / SOL",
-     "opened_at": "2026-11-20T14:27:57+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 6.815355956941837e-07,
-     "tokens": 141592.01751114574,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 5.8164081767061045e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.1936280439929228
     },
     "H7ZDQjUw2jzGXxWLFu9V8juUzTwYqeugg53aozy1XonX": {
      "name": "War Dog / SOL",
@@ -38,7 +25,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.04482209e-05
+     "last_price_usd": 2.315451295267158e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.137782735261062
     }
    },
    "closed": [
@@ -877,11 +866,22 @@
      "min_ratio": 0.4361,
      "max_ratio": 1.1406,
      "reason": "stop-loss (x0.44)"
+    },
+    {
+     "mint": "EdrMFHcPqFVpustvvFqvv7FDCXZw2eMrDEJJHGMhXvvr",
+     "name": "FIONA / SOL",
+     "opened_at": "2026-11-20T14:27:57+00:00",
+     "closed_at": "2026-11-20T14:35:58+00:00",
+     "pnl_sol": 0.093682,
+     "pnl_pct": 93.7,
+     "min_ratio": 1.0,
+     "max_ratio": 2.6059,
+     "reason": "take-profit 2 (x2.61)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.6386168286481526
+    "pnl_sol": 0.73229877950143
    },
    "rejected": [
     {
@@ -908,9 +908,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 5.335222841374426e-05,
+     "last_price_usd": 5.501153645885187e-05,
      "min_ratio": 0.9662498817174706,
-     "max_ratio": 1.059096396009555
+     "max_ratio": 1.0859249651922904
     },
     "FyxWqk7YURMuRoFWvfKtiS6BmPx1SkcHkuYNxBf1u6M": {
      "name": "Raja / SOL",
@@ -921,9 +921,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.7218449057684e-07,
+     "last_price_usd": 7.8984355800447e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1599165664818585
+     "max_ratio": 1.163043026229788
     },
     "H7ZDQjUw2jzGXxWLFu9V8juUzTwYqeugg53aozy1XonX": {
      "name": "War Dog / SOL",
@@ -934,7 +934,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.04482209e-05
+     "last_price_usd": 2.315451295267158e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.137782735261062
     }
    },
    "closed": [
@@ -1838,14 +1840,14 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T14:29:58+00:00",
+  "checked_at": "2026-11-20T14:35:58+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
-   "[14:30:15] listener: connexion",
-   "[14:30:15] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s",
-   "[14:30:25] listener: connexion",
-   "[14:30:25] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s"
+   "[14:36:17] listener: connexion",
+   "[14:36:17] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s",
+   "[14:36:27] listener: connexion",
+   "[14:36:28] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s"
   ]
  }
 }
