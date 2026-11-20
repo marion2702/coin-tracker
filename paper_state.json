@@ -1,21 +1,8 @@
 {
- "processed_until": "2026-11-20T17:14:41+00:00",
+ "processed_until": "2026-11-20T17:24:40+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "CptDkxR8rV68ngdh2JgFdSodu2KQSmyNEyyin9RdWZp1": {
-     "name": "TTWO / SOL",
-     "opened_at": "2026-11-20T16:49:13+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.4978316506895125e-06,
-     "tokens": 64426.46605549906,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 0.00013579330679324743,
-     "min_ratio": 1.0,
-     "max_ratio": 1.3145669602412193
-    },
     "DSMVMHroNz5LzfHHkCnJe7KXYgGkCn9S2N6V6c4zk7AC": {
      "name": "HANDLE / SOL",
      "opened_at": "2026-11-20T17:09:13+00:00",
@@ -25,9 +12,31 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.84829060948488e-05,
+     "last_price_usd": 0.000101251912293528,
      "min_ratio": 1.0,
-     "max_ratio": 1.0345380010741028
+     "max_ratio": 1.0606187910171474
+    },
+    "EMsvC1jpLgKiwhkDRqjSeyRpurQabHS7NwyRoffNVqE": {
+     "name": "MI / SOL",
+     "opened_at": "2026-11-20T17:25:36+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 8.61178603607406e-09,
+     "tokens": 11205573.338186698,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 5.956009593e-07
+    },
+    "4aHPq26F2hDnxUAMJEBpfY1mQkaBzYY47E4Hi5EEQrDJ": {
+     "name": "AudaCity / SOL",
+     "opened_at": "2026-11-20T17:25:36+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.255805540807031e-06,
+     "tokens": 76843.10736356939,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 8.685294568e-05
     }
    },
    "closed": [
@@ -1108,11 +1117,22 @@
      "min_ratio": 0.674,
      "max_ratio": 1.5518,
      "reason": "stop-loss (x0.67)"
+    },
+    {
+     "mint": "CptDkxR8rV68ngdh2JgFdSodu2KQSmyNEyyin9RdWZp1",
+     "name": "TTWO / SOL",
+     "opened_at": "2026-11-20T16:49:13+00:00",
+     "closed_at": "2026-11-20T17:21:05+00:00",
+     "pnl_sol": 0.02484,
+     "pnl_pct": 24.8,
+     "min_ratio": 1.0,
+     "max_ratio": 1.3406,
+     "reason": "stop temps 32 min (x1.34)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.3766244748378095
+    "pnl_sol": 0.40146492664287114
    },
    "rejected": [
     {
@@ -1139,7 +1159,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.655183877120601e-07,
+     "last_price_usd": 7.676886792747e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.163043026229788
     },
@@ -1152,7 +1172,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.000010482231901e-07,
+     "last_price_usd": 7.0198559411155e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1513501198598997
     },
@@ -1165,7 +1185,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.027596730437741e-07,
+     "last_price_usd": 7.0475203980263e-07,
      "min_ratio": 0.996577363207583,
      "max_ratio": 1.0
     }
@@ -2148,9 +2168,9 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T17:19:04+00:00",
+  "checked_at": "2026-11-20T17:25:36+00:00",
   "ok": true,
-  "new_coins_10min": 115,
+  "new_coins_10min": 141,
   "log_tail": [
    "[16:23:57] listener: coupure (no close frame received or sent), reconnexion dans 10 s",
    "[16:24:07] listener: connexion",
