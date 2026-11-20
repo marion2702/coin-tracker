@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T14:31:25+00:00",
+ "processed_until": "2026-11-20T14:41:25+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,7 +12,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.94824553415309e-07,
+     "last_price_usd": 7.794432730216e-07,
      "min_ratio": 0.9984519731285093,
      "max_ratio": 1.025831826139346
     },
@@ -22,12 +22,24 @@
      "size_sol": 0.1,
      "entry_price_sol": 2.859948476238195e-07,
      "tokens": 337418.66611153196,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07272477300835029,
+     "last_price_usd": 3.165248273261352e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.5619162502800137,
+     "last_reason": "take-profit 1 (x1.56)"
+    },
+    "BoqbQpJTx4wPhjXY2BvbJBUvc6QyKQsvVNjwSP851oYA": {
+     "name": "DUO / SOL",
+     "opened_at": "2026-11-20T14:42:52+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 9.917240825537009e-07,
+     "tokens": 97305.29055169398,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.315451295267158e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.137782735261062
+     "last_price_usd": 7.027206044e-05
     }
    },
    "closed": [
@@ -899,19 +911,6 @@
   },
   "B_patient": {
    "positions": {
-    "6vJT1cQbPmEWN6eGrV9rUTbHXwDXRUiqeJF7vB5dhz4": {
-     "name": "zc / SOL",
-     "opened_at": "2026-11-20T13:56:14+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 7.119276421305068e-07,
-     "tokens": 135547.4830436632,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 5.501153645885187e-05,
-     "min_ratio": 0.9662498817174706,
-     "max_ratio": 1.0859249651922904
-    },
     "FyxWqk7YURMuRoFWvfKtiS6BmPx1SkcHkuYNxBf1u6M": {
      "name": "Raja / SOL",
      "opened_at": "2026-11-20T14:06:06+00:00",
@@ -921,7 +920,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.8984355800447e-07,
+     "last_price_usd": 7.8652912095816e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.163043026229788
     },
@@ -931,12 +930,24 @@
      "size_sol": 0.1,
      "entry_price_sol": 2.859948476238195e-07,
      "tokens": 337418.66611153196,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07272477300835029,
+     "last_price_usd": 3.165248273261352e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.5619162502800137,
+     "last_reason": "take-profit 1 (x1.56)"
+    },
+    "BoqbQpJTx4wPhjXY2BvbJBUvc6QyKQsvVNjwSP851oYA": {
+     "name": "DUO / SOL",
+     "opened_at": "2026-11-20T14:42:52+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 9.917240825537009e-07,
+     "tokens": 97305.29055169398,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.315451295267158e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.137782735261062
+     "last_price_usd": 7.027206044e-05
     }
    },
    "closed": [
@@ -1423,11 +1434,22 @@
      "min_ratio": 0.3556,
      "max_ratio": 1.7056,
      "reason": "stop-loss (x0.36)"
+    },
+    {
+     "mint": "6vJT1cQbPmEWN6eGrV9rUTbHXwDXRUiqeJF7vB5dhz4",
+     "name": "zc / SOL",
+     "opened_at": "2026-11-20T13:56:14+00:00",
+     "closed_at": "2026-11-20T14:42:52+00:00",
+     "pnl_sol": -0.099995,
+     "pnl_pct": -100.0,
+     "min_ratio": 0.0001,
+     "max_ratio": 1.0931,
+     "reason": "stop-loss (x0.00)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.2682361016578138
+    "pnl_sol": 0.16824132332639358
    }
   },
   "C_tot": {
@@ -1840,14 +1862,14 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T14:35:58+00:00",
+  "checked_at": "2026-11-20T14:42:52+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
-   "[14:36:17] listener: connexion",
-   "[14:36:17] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s",
-   "[14:36:27] listener: connexion",
-   "[14:36:28] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s"
+   "[14:42:40] listener: connexion",
+   "[14:42:41] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s",
+   "[14:42:51] listener: connexion",
+   "[14:42:51] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s"
   ]
  }
 }
