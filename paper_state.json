@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T15:03:25+00:00",
+ "processed_until": "2026-11-20T15:11:25+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,9 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 6.897199020481288e-07,
+     "last_price_usd": 7.12137370516845e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1388724338318612
+     "max_ratio": 1.1513501198598997
     },
     "ENwzDLfXjEQ9HEM2epJQGd7uCzTXhPqHBFL9cQcmwuGP": {
      "name": "HANDLE / SOL",
@@ -25,9 +25,20 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.00010416206995125121,
+     "last_price_usd": 0.00010727665413992671,
      "min_ratio": 1.0,
-     "max_ratio": 1.0096375052690658
+     "max_ratio": 1.0487335227964685
+    },
+    "FMWYmSLD4eNQrvxrXWsTf7HEsNQYqSCqzPbdEUqNpump": {
+     "name": "RIEMANN / ANT",
+     "opened_at": "2026-11-20T15:12:14+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 4.5546831606462875e-06,
+     "tokens": 21186.98416473543,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 0.0003195625704
     }
    },
    "closed": [
@@ -921,11 +932,22 @@
      "min_ratio": 0.6865,
      "max_ratio": 1.1394,
      "reason": "stop-loss (x0.69)"
+    },
+    {
+     "mint": "WR2VjkxyS3TneYo1DKpU1ojaK41eDhVWJvPc5n5wqSW",
+     "name": "AMC / SOL",
+     "opened_at": "2026-11-20T15:07:58+00:00",
+     "closed_at": "2026-11-20T15:09:58+00:00",
+     "pnl_sol": -0.099962,
+     "pnl_pct": -100.0,
+     "min_ratio": 0.0004,
+     "max_ratio": 1.0,
+     "reason": "stop-loss (x0.00)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.6783717577543482
+    "pnl_sol": 0.5784095530402494
    },
    "rejected": [
     {
@@ -952,7 +974,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.854612611813101e-07,
+     "last_price_usd": 7.7879062194453e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.163043026229788
     },
@@ -965,7 +987,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.6101622672038156e-05,
+     "last_price_usd": 5.0789777587895966e-05,
      "min_ratio": 0.6542142229009228,
      "max_ratio": 1.1394298271856391
     },
@@ -978,9 +1000,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 6.897199020481288e-07,
+     "last_price_usd": 7.12137370516845e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1388724338318612
+     "max_ratio": 1.1513501198598997
     }
    },
    "closed": [
@@ -1917,14 +1939,14 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T15:05:50+00:00",
+  "checked_at": "2026-11-20T15:12:14+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
-   "[15:05:31] listener: connexion",
-   "[15:05:31] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s",
-   "[15:05:41] listener: connexion",
-   "[15:05:41] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s"
+   "[15:12:25] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s",
+   "[15:12:35] listener: connexion",
+   "[15:12:35] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s",
+   "[15:12:45] listener: connexion"
   ]
  }
 }
