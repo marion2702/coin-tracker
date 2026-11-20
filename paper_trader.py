@@ -198,10 +198,7 @@ def run_strategy(state, cfg, px, sol_usd, new_alerts, now, events):
             if last > 0 and not (1 / cfg["max_price_jump_x"] <= p_usd / last <= cfg["max_price_jump_x"]):
                 # saut x20 entre deux passages (2 min) : donnée de prix douteuse, on attend la suivante
                 log(f"[{tag}] prix douteux ignoré pour {short(pos['name'])} (x{p_usd / last:.1f})")
-                pos["suspect_ticks"] = pos.get("suspect_ticks", 0) + 1
-                if pos["suspect_ticks"] < 3:
-                    continue
-            pos["suspect_ticks"] = 0
+                continue  # jamais accepté automatiquement : il faut un prix cohérent
             pos["last_price_usd"] = p_usd
             price_sol = p_usd / sol_usd
             ratio = price_sol / pos["entry_price_sol"]
@@ -374,18 +371,37 @@ def main():
     # coins tout jeunes + positions de la stratégie « tôt » : DexScreener (plus frais, couvre la bonding curve)
     live = load_live()
     early_names = [n for n, c in strategies.items() if c.get("entry_source") == "early"]
-    ds = {}
-    if early_names:
-        want = [m for n in early_names for m in full["strategies"][n]["positions"]]
-        if live:
-            want += [m for m, t in live.items() if time.time() - t["created_at"] <= 6 * 60]
-        ds = dexscreener(want)
-        for m, p in ds.items():
-            if p.get("priceNative") and p.get("quoteToken", {}).get("address") == SOL_MINT:
-                px[m] = float(p["priceNative"]) * sol_usd
+    # 2e source de prix : DexScreener pour toutes les positions (+ coins tout jeunes pour la stratégie « tôt »)
+    want = [m for n in strategies for m in full["strategies"][n]["positions"]]
+    if early_names and live:
+        want += [m for m, t in live.items() if time.time() - t["created_at"] <= 6 * 60]
+    ds = dexscreener(want)
+    for m, p in ds.items():
+        if not p.get("priceNative") or (p.get("quoteToken") or {}).get("address") != SOL_MINT:
+            continue
+        ds_usd = float(p["priceNative"]) * sol_usd
+        gt_usd = px.get(m)
+        if gt_usd and max(gt_usd, ds_usd) / min(gt_usd, ds_usd) > 2:
+            # les deux sources ne sont pas d'accord : on garde la plus prudente (la plus basse)
+            log(f"prix en désaccord pour {m[:6]}… (GT {gt_usd:.3g} / DS {ds_usd:.3g}) : on garde le plus bas")
+            px[m] = min(gt_usd, ds_usd)
+        else:
+            px[m] = ds_usd
 
     full["listener"] = {"checked_at": now.isoformat(timespec="seconds"),
                         "ok": live is not None, "new_coins_10min": len(live or {})}
+    # nettoyage : trades à gain impossible (> x30) dus à des prix aberrants avant le garde-fou
+    for n in strategies:
+        st = full["strategies"][n]
+        bad = [c for c in st["closed"] if c["pnl_pct"] > 3000]
+        if bad:
+            st.setdefault("rejected", []).extend(bad)
+            st["closed"] = [c for c in st["closed"] if c["pnl_pct"] <= 3000]
+            for c in bad:
+                if c["closed_at"][:10] == st["day"]["date"]:
+                    st["day"]["pnl_sol"] -= c["pnl_sol"]
+            log(f"[{n}] {len(bad)} trade(s) aberrant(s) retiré(s) du bilan")
+
     events = []
     for name, scfg in strategies.items():
         if scfg.get("entry_source") == "early":
