@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T05:21:59+00:00",
+ "processed_until": "2026-11-20T05:25:59+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -799,7 +799,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.785574687031198e-07,
+     "last_price_usd": 9.8166275836776e-07,
      "min_ratio": 0.9840516294645165,
      "max_ratio": 1.1490423218298247
     },
@@ -812,9 +812,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.396886514533389e-07,
+     "last_price_usd": 8.28638857798668e-07,
      "min_ratio": 0.9945633186289521,
-     "max_ratio": 1.2207145486327167
+     "max_ratio": 1.2259446880870128
     },
     "EMcDsSrraqiBtNbWdrLNwqa7dfRqKzSY8hoi198ndGdN": {
      "name": "DCTY / SOL",
@@ -822,10 +822,13 @@
      "size_sol": 0.1,
      "entry_price_sol": 3.9366304430799936e-07,
      "tokens": 245133.5003254688,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 2.83251406e-05
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07937563692301368,
+     "last_price_usd": 4.8440726260338514e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.7047574307608508,
+     "last_reason": "take-profit 1 (x1.70)"
     }
    },
    "closed": [
@@ -1531,8 +1534,8 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T05:22:40+00:00",
+  "checked_at": "2026-11-20T05:28:24+00:00",
   "ok": true,
-  "new_coins_10min": 33
+  "new_coins_10min": 30
  }
 }
