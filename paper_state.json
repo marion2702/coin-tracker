@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T06:10:00+00:00",
+ "processed_until": "2026-11-20T06:15:59+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -790,19 +790,6 @@
   },
   "B_patient": {
    "positions": {
-    "Mz47dKXZtXDF2Bb5WJvcGYYNjjUbyJRavEz3GnzAsYN": {
-     "name": "RUGGED / SOL",
-     "opened_at": "2026-11-20T02:12:38+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.1879457997911404e-08,
-     "tokens": 8123266.231251141,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 9.8630100615344e-07,
-     "min_ratio": 0.9840516294645165,
-     "max_ratio": 1.1490423218298247
-    },
     "9LUZkfYZ352Gr83W6yRoCvxD3PWH4GiqektgZExxKoF": {
      "name": "ARTIFICIAL / SOL",
      "opened_at": "2026-11-20T04:53:09+00:00",
@@ -812,7 +799,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.32554084605992e-07,
+     "last_price_usd": 8.325953716430559e-07,
      "min_ratio": 0.9945633186289521,
      "max_ratio": 1.2259446880870128
     },
@@ -828,6 +815,19 @@
      "last_price_usd": 7.24734231229526e-07,
      "min_ratio": 0.9981692400064817,
      "max_ratio": 1.0
+    },
+    "ApChgPtszPw9hD7zVidhJBjTskn74sf2BxFi19bCk9uq": {
+     "name": "APCY / SOL",
+     "opened_at": "2026-11-20T06:15:10+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.5431548166025838e-07,
+     "tokens": 625342.311489231,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 1.1720157844731519e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.047205363074194
     }
    },
    "closed": [
@@ -1138,11 +1138,22 @@
      "min_ratio": 0.4909,
      "max_ratio": 1.1191,
      "reason": "stop-loss (x0.49)"
+    },
+    {
+     "mint": "Mz47dKXZtXDF2Bb5WJvcGYYNjjUbyJRavEz3GnzAsYN",
+     "name": "RUGGED / SOL",
+     "opened_at": "2026-11-20T02:12:38+00:00",
+     "closed_at": "2026-11-20T06:15:10+00:00",
+     "pnl_sol": 0.00661,
+     "pnl_pct": 6.6,
+     "min_ratio": 0.9841,
+     "max_ratio": 1.149,
+     "reason": "stop temps 243 min (x1.14)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.6847604132265667
+    "pnl_sol": 0.6913701592455066
    }
   },
   "C_tot": {
@@ -1555,8 +1566,8 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T06:11:10+00:00",
+  "checked_at": "2026-11-20T06:17:17+00:00",
   "ok": true,
-  "new_coins_10min": 34
+  "new_coins_10min": 42
  }
 }
