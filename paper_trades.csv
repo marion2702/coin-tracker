@@ -525,3 +525,4 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-20T23:07:35+00:00,AVhePHwxfCntNyeQMFshA7U8zA1YJSg39QswZbb9yKUa,h◡sh / SOL,ACHAT,1.059785452e-05,1.00,0.1000,,,,A_rapide
 2026-11-20T23:07:35+00:00,K4j9KUTDgQaF1q4jZZpRWbKmNckvCQVWiTzwgcAqA2y,BIGFOOT / SOL,stop temps 242 min (x1.01),8.322800134428e-07,1.00,0.1000,0.0938,-0.0062,-6.2,B_patient
 2026-11-20T23:07:35+00:00,AVhePHwxfCntNyeQMFshA7U8zA1YJSg39QswZbb9yKUa,h◡sh / SOL,ACHAT,1.059785452e-05,1.00,0.1000,,,,B_patient
+2026-11-20T23:09:26+00:00,28zrmrWKjTnNhjw9GcPibfSeYWy2aXGXGjYmxkipyB5g,mihao / SOL,take-profit 2 (x2.20),3.606501749700689e-05,0.50,0.0500,0.1023,+0.0523,+104.6,A_rapide
