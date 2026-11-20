@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T11:06:55+00:00",
+ "processed_until": "2026-11-20T11:20:55+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -812,9 +812,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.2135039429168395e-05,
+     "last_price_usd": 4.2093147032712054e-05,
      "min_ratio": 0.9984369869031378,
      "max_ratio": 1.0
+    },
+    "5BF2NzrQEEzAN4WrGSU3ZKJLPKvDjeKdJGBXN61yPAYZ": {
+     "name": "FLOAT / SOL",
+     "opened_at": "2026-11-20T11:22:06+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.7282932956927644e-07,
+     "tokens": 558354.3038701612,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 1.398541567793463e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.123073268198946
     }
    },
    "closed": [
@@ -1630,7 +1643,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T11:18:12+00:00",
+  "checked_at": "2026-11-20T11:23:57+00:00",
   "ok": false,
   "new_coins_10min": 0
  }
