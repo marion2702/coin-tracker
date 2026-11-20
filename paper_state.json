@@ -1,46 +1,20 @@
 {
- "processed_until": "2026-11-20T14:49:25+00:00",
+ "processed_until": "2026-11-20T14:57:25+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "CEF8Fe1rhfWeyeVPAAvjutnPAuzqRaqypEboXBFn5Hu": {
-     "name": "\u8682\u8681 / SOL",
-     "opened_at": "2026-11-20T14:25:58+00:00",
+    "14FN5g6j6Wb2UB5Zh4Gc8EHo9qbteRQ8FDqWEYHH9GR3": {
+     "name": "GTA6 / SOL",
+     "opened_at": "2026-11-20T14:58:06+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.0956961671096752e-08,
-     "tokens": 8807186.051819118,
+     "entry_price_sol": 8.815737128889245e-09,
+     "tokens": 10946333.651869982,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.42522316625161e-07,
-     "min_ratio": 0.9984519731285093,
-     "max_ratio": 1.0869801645302144
-    },
-    "BoqbQpJTx4wPhjXY2BvbJBUvc6QyKQsvVNjwSP851oYA": {
-     "name": "DUO / SOL",
-     "opened_at": "2026-11-20T14:42:52+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 9.917240825537009e-07,
-     "tokens": 97305.29055169398,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 7.625852706313379e-05,
+     "last_price_usd": 6.765501850178239e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1394298271856391
-    },
-    "4p3Eh7kvWoyjHSd3fJJMcpwmuFKUBGbDfPMXwkK1pump": {
-     "name": "Trencher / SOL",
-     "opened_at": "2026-11-20T14:50:14+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 6.533121207455227e-07,
-     "tokens": 147708.87748091936,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 3.55118558308842e-05,
-     "min_ratio": 0.7683922952893422,
-     "max_ratio": 1.0422277168575957
+     "max_ratio": 1.0817019451215768
     }
    },
    "closed": [
@@ -901,11 +875,44 @@
      "min_ratio": 1.0,
      "max_ratio": 2.1679,
      "reason": "take-profit 2 (x2.17)"
+    },
+    {
+     "mint": "CEF8Fe1rhfWeyeVPAAvjutnPAuzqRaqypEboXBFn5Hu",
+     "name": "\u8682\u8681 / SOL",
+     "opened_at": "2026-11-20T14:25:58+00:00",
+     "closed_at": "2026-11-20T14:58:06+00:00",
+     "pnl_sol": 0.005642,
+     "pnl_pct": 5.6,
+     "min_ratio": 0.9985,
+     "max_ratio": 1.1344,
+     "reason": "stop temps 32 min (x1.13)"
+    },
+    {
+     "mint": "4p3Eh7kvWoyjHSd3fJJMcpwmuFKUBGbDfPMXwkK1pump",
+     "name": "Trencher / SOL",
+     "opened_at": "2026-11-20T14:50:14+00:00",
+     "closed_at": "2026-11-20T14:58:06+00:00",
+     "pnl_sol": -0.097159,
+     "pnl_pct": -97.2,
+     "min_ratio": 0.0305,
+     "max_ratio": 1.0422,
+     "reason": "stop-loss (x0.03)"
+    },
+    {
+     "mint": "BoqbQpJTx4wPhjXY2BvbJBUvc6QyKQsvVNjwSP851oYA",
+     "name": "DUO / SOL",
+     "opened_at": "2026-11-20T14:42:52+00:00",
+     "closed_at": "2026-11-20T14:59:57+00:00",
+     "pnl_sol": -0.036073,
+     "pnl_pct": -36.1,
+     "min_ratio": 0.6865,
+     "max_ratio": 1.1394,
+     "reason": "stop-loss (x0.69)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.805962346477045
+    "pnl_sol": 0.6783717577543482
    },
    "rejected": [
     {
@@ -932,7 +939,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.8522231020481e-07,
+     "last_price_usd": 7.8751122626865e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.163043026229788
     },
@@ -945,22 +952,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.625852706313379e-05,
-     "min_ratio": 1.0,
+     "last_price_usd": 4.8300688544477194e-05,
+     "min_ratio": 0.6864812622548524,
      "max_ratio": 1.1394298271856391
     },
-    "4p3Eh7kvWoyjHSd3fJJMcpwmuFKUBGbDfPMXwkK1pump": {
-     "name": "Trencher / SOL",
-     "opened_at": "2026-11-20T14:50:14+00:00",
+    "14FN5g6j6Wb2UB5Zh4Gc8EHo9qbteRQ8FDqWEYHH9GR3": {
+     "name": "GTA6 / SOL",
+     "opened_at": "2026-11-20T14:58:06+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 6.533121207455227e-07,
-     "tokens": 147708.87748091936,
+     "entry_price_sol": 8.815737128889245e-09,
+     "tokens": 10946333.651869982,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 3.55118558308842e-05,
-     "min_ratio": 0.7683922952893422,
-     "max_ratio": 1.0422277168575957
+     "last_price_usd": 6.765501850178239e-07,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0817019451215768
     }
    },
    "closed": [
@@ -1469,11 +1476,22 @@
      "min_ratio": 1.0,
      "max_ratio": 2.1679,
      "reason": "take-profit 2 (x2.17)"
+    },
+    {
+     "mint": "4p3Eh7kvWoyjHSd3fJJMcpwmuFKUBGbDfPMXwkK1pump",
+     "name": "Trencher / SOL",
+     "opened_at": "2026-11-20T14:50:14+00:00",
+     "closed_at": "2026-11-20T14:58:06+00:00",
+     "pnl_sol": -0.097159,
+     "pnl_pct": -97.2,
+     "min_ratio": 0.0305,
+     "max_ratio": 1.0422,
+     "reason": "stop-loss (x0.03)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.24190489030200865
+    "pnl_sol": 0.14474569390271655
    }
   },
   "C_tot": {
@@ -1886,14 +1904,14 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T14:54:05+00:00",
+  "checked_at": "2026-11-20T14:59:57+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
-   "[14:54:16] listener: connexion",
-   "[14:54:16] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s",
-   "[14:54:26] listener: connexion",
-   "[14:54:26] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s"
+   "[15:00:09] listener: connexion",
+   "[15:00:09] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s",
+   "[15:00:19] listener: connexion",
+   "[15:00:19] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s"
   ]
  }
 }
