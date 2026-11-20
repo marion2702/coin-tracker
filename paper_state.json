@@ -1,21 +1,8 @@
 {
- "processed_until": "2026-11-20T16:36:40+00:00",
+ "processed_until": "2026-11-20T16:42:40+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "18LmvT4qcw949fbR3XurNRYrbqF4c57Zri1vXrhmqYF": {
-     "name": "FIONA / SOL",
-     "opened_at": "2026-11-20T16:10:00+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.1748388092947025e-07,
-     "tokens": 821389.2768654142,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 8.20563691901184e-06,
-     "min_ratio": 1.0,
-     "max_ratio": 1.0112025501721371
-    },
     "CkuA615mQA6ZDXncmXJLrTR5kDkZCaKqJmuf758zPZY6": {
      "name": "ANT / SOL",
      "opened_at": "2026-11-20T16:31:13+00:00",
@@ -25,9 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.00010802707189675519,
+     "last_price_usd": 0.000112685570595554,
      "min_ratio": 1.0,
-     "max_ratio": 1.05795028282142
+     "max_ratio": 1.101242366005928
     },
     "Fxb1wzBqZ1dY78VMsAXBHgxPdKivE7wqudBQpV3jhxG": {
      "name": "DCTY / SOL",
@@ -38,7 +25,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.184052996e-07
+     "last_price_usd": 7.6831070860605e-07,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0672085776863889
+    },
+    "BfNcetwXyxFJjsnmMboPpHqpZg19ez1ueQGPGE9upump": {
+     "name": "Mo\u0301m / SOL",
+     "opened_at": "2026-11-20T16:41:21+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.6890609071951011e-06,
+     "tokens": 57132.338797805955,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 0.00012016102613874799,
+     "min_ratio": 1.0,
+     "max_ratio": 1.027790053398872
     }
    },
    "closed": [
@@ -1064,11 +1066,22 @@
      "min_ratio": 0.9677,
      "max_ratio": 1.0109,
      "reason": "stop temps 31 min (x1.01)"
+    },
+    {
+     "mint": "18LmvT4qcw949fbR3XurNRYrbqF4c57Zri1vXrhmqYF",
+     "name": "FIONA / SOL",
+     "opened_at": "2026-11-20T16:10:00+00:00",
+     "closed_at": "2026-11-20T16:41:21+00:00",
+     "pnl_sol": -0.005834,
+     "pnl_pct": -5.8,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0112,
+     "reason": "stop temps 31 min (x1.01)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.41436046423731476
+    "pnl_sol": 0.4085261737157196
    },
    "rejected": [
     {
@@ -1095,7 +1108,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.666882979884799e-07,
+     "last_price_usd": 7.6831070860605e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.163043026229788
     },
@@ -1108,7 +1121,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.010708310435199e-07,
+     "last_price_usd": 7.02554386698325e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1513501198598997
     },
@@ -1121,7 +1134,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.03833671756992e-07,
+     "last_price_usd": 7.053230739365451e-07,
      "min_ratio": 0.996577363207583,
      "max_ratio": 1.0
     }
@@ -2104,9 +2117,9 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T16:37:21+00:00",
+  "checked_at": "2026-11-20T16:43:21+00:00",
   "ok": true,
-  "new_coins_10min": 72,
+  "new_coins_10min": 63,
   "log_tail": [
    "[15:58:47] listener: coupure ([Errno 111] Connect call failed ('216.155.134.164', 443)), reconnexion dans 10 s",
    "[15:58:57] listener: connexion",
