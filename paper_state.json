@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T20:06:51+00:00",
+ "processed_until": "2026-11-20T20:14:51+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -16,20 +16,6 @@
      "min_ratio": 1.0,
      "max_ratio": 1.1427368876813813
     },
-    "GpDRNYN3rwcm9X6MrxHzR6XfzsxTxN43YhQreAGSQWQE": {
-     "name": "NEX Ai / SOL",
-     "opened_at": "2026-11-20T19:47:32+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 3.5751487510822585e-07,
-     "tokens": 269918.83895960357,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07203344299227864,
-     "last_price_usd": 4.1980475093156074e-05,
-     "min_ratio": 0.9954830547743307,
-     "max_ratio": 1.7232849397203291,
-     "last_reason": "take-profit 1 (x1.55)"
-    },
     "D9YQUBLbYG9SBzsSoxeH2Y6m66Lg7KT8msSmy62p3kA": {
      "name": "PATRICK / SOL",
      "opened_at": "2026-11-20T19:52:17+00:00",
@@ -39,7 +25,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.62476085525753e-07,
+     "last_price_usd": 7.6304930686377e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.0871956842297825
     }
@@ -1320,11 +1306,22 @@
      "min_ratio": 0.2501,
      "max_ratio": 1.3012,
      "reason": "stop-loss (x0.25)"
+    },
+    {
+     "mint": "GpDRNYN3rwcm9X6MrxHzR6XfzsxTxN43YhQreAGSQWQE",
+     "name": "NEX Ai / SOL",
+     "opened_at": "2026-11-20T19:47:32+00:00",
+     "closed_at": "2026-11-20T20:19:31+00:00",
+     "pnl_sol": 0.059239,
+     "pnl_pct": 59.2,
+     "min_ratio": 0.9955,
+     "max_ratio": 1.8729,
+     "reason": "stop temps 32 min (x1.87)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.19707528910889927
+    "pnl_sol": 0.2563146504299245
    },
    "rejected": [
     {
@@ -1364,7 +1361,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.176687244244e-07,
+     "last_price_usd": 8.18283438996e-07,
      "min_ratio": 0.9582701296496721,
      "max_ratio": 1.0069388402623523
     },
@@ -1377,7 +1374,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.62476085525753e-07,
+     "last_price_usd": 7.6304930686377e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.0871956842297825
     }
@@ -2404,7 +2401,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T20:13:32+00:00",
+  "checked_at": "2026-11-20T20:19:31+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
