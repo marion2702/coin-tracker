@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T02:57:58+00:00",
+ "processed_until": "2026-11-20T02:59:58+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -23,9 +23,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.303215787803894e-05,
+     "last_price_usd": 4.683772191697825e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.217383282410684
+     "max_ratio": 1.3187805748589858
     },
     "9zNmYyZshyDdbi1t2tGLgiq6RKJSKE4MDTAWKZqtkcDB": {
      "name": "mihao / SOL",
@@ -36,8 +36,8 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07496779132295993,
-     "last_price_usd": 1.3596739818486761e-05,
-     "min_ratio": 1.0,
+     "last_price_usd": 6.636741172485136e-06,
+     "min_ratio": 0.7821908791021698,
      "max_ratio": 1.6100897489427353,
      "last_reason": "take-profit 1 (x1.61)"
     }
@@ -777,7 +777,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.684790588435781e-07,
+     "last_price_usd": 8.72603161628373e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.0006585500022707
     },
@@ -790,7 +790,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.82389846010196e-07,
+     "last_price_usd": 9.87054871215386e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.3016242503778965
     },
@@ -803,7 +803,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.8674312450064e-07,
+     "last_price_usd": 9.9142882190024e-07,
      "min_ratio": 0.9840516294645165,
      "max_ratio": 1.1490423218298247
     }
@@ -1489,8 +1489,8 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T02:59:09+00:00",
+  "checked_at": "2026-11-20T03:04:30+00:00",
   "ok": true,
-  "new_coins_10min": 30
+  "new_coins_10min": 29
  }
 }
