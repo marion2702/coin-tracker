@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T06:39:59+00:00",
+ "processed_until": "2026-11-20T06:58:10+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -799,7 +799,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.340490890586679e-07,
+     "last_price_usd": 8.320610806094719e-07,
      "min_ratio": 0.9945633186289521,
      "max_ratio": 1.2259446880870128
     },
@@ -816,19 +816,18 @@
      "min_ratio": 0.9981692400064817,
      "max_ratio": 1.0
     },
-    "ApChgPtszPw9hD7zVidhJBjTskn74sf2BxFi19bCk9uq": {
-     "name": "APCY / SOL",
-     "opened_at": "2026-11-20T06:15:10+00:00",
+    "ETUmSvsQ4uHAh3mjDWpKE1Z3StC7JzsA96E7purujmb": {
+     "name": "apocry / SOL",
+     "opened_at": "2026-11-20T06:54:42+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.5431548166025838e-07,
-     "tokens": 625342.311489231,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07494915205891878,
-     "last_price_usd": 1.9376384325082473e-05,
+     "entry_price_sol": 1.1274118673878277e-08,
+     "tokens": 8559427.374450741,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 8.516304614251999e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.7282776629448486,
-     "last_reason": "take-profit 1 (x1.61)"
+     "max_ratio": 1.042210068909805
     }
    },
    "closed": [
@@ -1150,11 +1149,22 @@
      "min_ratio": 0.9841,
      "max_ratio": 1.149,
      "reason": "stop temps 243 min (x1.14)"
+    },
+    {
+     "mint": "ApChgPtszPw9hD7zVidhJBjTskn74sf2BxFi19bCk9uq",
+     "name": "APCY / SOL",
+     "opened_at": "2026-11-20T06:15:10+00:00",
+     "closed_at": "2026-11-20T06:54:42+00:00",
+     "pnl_sol": 0.080675,
+     "pnl_pct": 80.7,
+     "min_ratio": 1.0,
+     "max_ratio": 2.2707,
+     "reason": "take-profit 2 (x2.27)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.6913701592455066
+    "pnl_sol": 0.7720446852232867
    }
   },
   "C_tot": {
@@ -1567,8 +1577,8 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T06:52:33+00:00",
+  "checked_at": "2026-11-20T06:58:42+00:00",
   "ok": true,
-  "new_coins_10min": 66
+  "new_coins_10min": 63
  }
 }

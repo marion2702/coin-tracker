@@ -311,3 +311,5 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-20T06:15:10+00:00,Mz47dKXZtXDF2Bb5WJvcGYYNjjUbyJRavEz3GnzAsYN,RUGGED / SOL,stop temps 243 min (x1.14),9.8634991762592e-07,1.00,0.1000,0.1066,+0.0066,+6.6,B_patient
 2026-11-20T06:15:10+00:00,ApChgPtszPw9hD7zVidhJBjTskn74sf2BxFi19bCk9uq,APCY / SOL,ACHAT,1.119184284e-05,1.00,0.1000,,,,B_patient
 2026-11-20T06:37:10+00:00,ApChgPtszPw9hD7zVidhJBjTskn74sf2BxFi19bCk9uq,APCY / SOL,take-profit 1 (x1.61),1.804135134417588e-05,0.50,0.0500,0.0749,+0.0249,+49.9,B_patient
+2026-11-20T06:54:42+00:00,ApChgPtszPw9hD7zVidhJBjTskn74sf2BxFi19bCk9uq,APCY / SOL,take-profit 2 (x2.27),2.5462456949963038e-05,0.50,0.0500,0.1057,+0.0557,+111.5,B_patient
+2026-11-20T06:54:42+00:00,ETUmSvsQ4uHAh3mjDWpKE1Z3StC7JzsA96E7purujmb,apocry / SOL,ACHAT,8.19254456e-07,1.00,0.1000,,,,B_patient
