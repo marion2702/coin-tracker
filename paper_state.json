@@ -1,23 +1,8 @@
 {
- "processed_until": "2026-11-20T00:25:43+00:00",
+ "processed_until": "2026-11-20T00:33:43+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "25Bq87pQeB33wBFtTsm8R7Jc8CVhYdRQ9uBSCeLjz9UC": {
-     "name": "BABYDOG / SOL",
-     "opened_at": "2026-11-20T00:02:24+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 3.97617731662926e-07,
-     "tokens": 242695.41400081804,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07188462824883156,
-     "last_price_usd": 4.660527817e-05,
-     "suspect_ticks": 0,
-     "min_ratio": 1.0,
-     "max_ratio": 1.6031632088707373,
-     "last_reason": "take-profit 1 (x1.54)"
-    },
     "14iWXdxL4omnQXnqQ6dK5zeuFgVs7x7KbZVfEmXYmGk1": {
      "name": "COOKIE / SOL",
      "opened_at": "2026-11-20T00:08:16+00:00",
@@ -30,7 +15,7 @@
      "last_price_usd": 8.648641292e-07,
      "suspect_ticks": 0,
      "min_ratio": 1.0,
-     "max_ratio": 1.1447529949483033
+     "max_ratio": 1.148770074730141
     },
     "14thNoVZZi6t3wud6LzF1PdYSoopJD1rGojoYsWH1ZAt": {
      "name": "COOKIE / SOL",
@@ -41,10 +26,21 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.013255395e-07,
+     "last_price_usd": 7.883808112e-07,
      "suspect_ticks": 0,
      "min_ratio": 1.0,
-     "max_ratio": 1.105086545059583
+     "max_ratio": 1.246619762095566
+    },
+    "7bCiddGLe5aM8HE2pigT9jsqkmC1HSPxyXN6GkHEpump": {
+     "name": "OGTA / SOL",
+     "opened_at": "2026-11-20T00:34:32+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.3770456411759828e-05,
+     "tokens": 7007.756105860804,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 0.001003271864
     }
    },
    "closed": [
@@ -575,11 +571,33 @@
      "min_ratio": 1.0,
      "max_ratio": 1.0042,
      "reason": "stop temps 30 min (x1.00)"
+    },
+    {
+     "mint": "25Bq87pQeB33wBFtTsm8R7Jc8CVhYdRQ9uBSCeLjz9UC",
+     "name": "BABYDOG / SOL",
+     "opened_at": "2026-11-20T00:02:24+00:00",
+     "closed_at": "2026-11-20T00:32:32+00:00",
+     "pnl_sol": 0.050585,
+     "pnl_pct": 50.6,
+     "min_ratio": 1.0,
+     "max_ratio": 1.6903,
+     "reason": "stop temps 30 min (x1.69)"
+    },
+    {
+     "mint": "HeXj4G4Ar5sPDNuJ6Y6XfqTCcYC2UPU1VP8MMgDgpump",
+     "name": "LUCIFROG / SOL",
+     "opened_at": "2026-11-20T00:32:32+00:00",
+     "closed_at": "2026-11-20T00:34:32+00:00",
+     "pnl_sol": 0.678859,
+     "pnl_pct": 678.9,
+     "min_ratio": 1.0,
+     "max_ratio": 8.3638,
+     "reason": "take-profit 2 (x8.36)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.07068987320072029
+    "pnl_sol": 0.8001340333096746
    }
   },
   "B_patient": {
@@ -607,10 +625,10 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07188462824883156,
-     "last_price_usd": 4.660527817e-05,
+     "last_price_usd": 5.040517805e-05,
      "suspect_ticks": 0,
      "min_ratio": 1.0,
-     "max_ratio": 1.6031632088707373,
+     "max_ratio": 1.739959388174249,
      "last_reason": "take-profit 1 (x1.54)"
     },
     "C1uePh3BMXqjD5AmchiZ1c3AZFYU9ufqwNFH82B7ijE4": {
@@ -622,10 +640,10 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.55067053e-05,
+     "last_price_usd": 1.690703675e-05,
      "suspect_ticks": 0,
      "min_ratio": 1.0,
-     "max_ratio": 1.174031213193134
+     "max_ratio": 1.432194957660081
     }
    },
    "closed": [
@@ -990,9 +1008,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.257340767583119e-06,
+     "last_price_usd": 3.7783554379945744e-06,
      "suspect_ticks": 0,
-     "min_ratio": 0.6742217011853588,
+     "min_ratio": 0.6318874560375146,
      "max_ratio": 1.0
     },
     "GiNDGcqc7xk9F88sgE9KF7Bo5migm4Bh8Y8CJVM7pump": {
@@ -1004,24 +1022,21 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.166666043947011e-05,
+     "last_price_usd": 6.715214437330503e-05,
      "suspect_ticks": 0,
      "min_ratio": 1.0,
      "max_ratio": 1.6354604508979746
     },
-    "7xqv1x18ehhLXXNTYwTFE7ohXH516Zwbp4i8mh2hpump": {
-     "name": "Blue Chip (BLUECHIP)",
-     "opened_at": "2026-11-20T00:22:24+00:00",
+    "9UJUfuMcLALAheT5Pg6hxHGzkvJfKU6TWgRKNK49pump": {
+     "name": "Smoking Turkey Fish (STF)",
+     "opened_at": "2026-11-20T00:34:32+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 7.777e-07,
-     "tokens": 124083.83695512409,
+     "entry_price_sol": 1.116e-07,
+     "tokens": 864695.3405017921,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 5.4180139546688996e-05,
-     "suspect_ticks": 1,
-     "min_ratio": 0.9528095666709528,
-     "max_ratio": 1.0
+     "last_price_usd": 8.13082273197444e-06
     }
    },
    "closed": [
@@ -1112,17 +1127,28 @@
      "min_ratio": 0.3367,
      "max_ratio": 1.0,
      "reason": "stop-loss (x0.34)"
+    },
+    {
+     "mint": "7xqv1x18ehhLXXNTYwTFE7ohXH516Zwbp4i8mh2hpump",
+     "name": "Blue Chip (BLUECHIP)",
+     "opened_at": "2026-11-20T00:22:24+00:00",
+     "closed_at": "2026-11-20T00:32:32+00:00",
+     "pnl_sol": -0.097788,
+     "pnl_pct": -97.8,
+     "min_ratio": 0.0237,
+     "max_ratio": 1.0,
+     "reason": "stop-loss (x0.02)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": -0.11467723037113975
+    "pnl_sol": -0.21246561589897825
    }
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T00:28:16+00:00",
+  "checked_at": "2026-11-20T00:34:32+00:00",
   "ok": true,
-  "new_coins_10min": 105
+  "new_coins_10min": 96
  }
 }
