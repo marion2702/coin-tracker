@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T01:31:57+00:00",
+ "processed_until": "2026-11-20T01:37:57+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,23 +12,35 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.73531356329272e-07,
+     "last_price_usd": 9.52715244339636e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.2843205306535226
     },
-    "44DZsPNJUtUyTkELAFYdwCpe82sEt12HZKrMgK1Spump": {
-     "name": "iAgent / SOL",
-     "opened_at": "2026-11-20T01:26:38+00:00",
+    "GT8WxWKEgxzZiKL89Uu288vb8jnescwpNSrvyHzcpump": {
+     "name": "RUGGED / SOL",
+     "opened_at": "2026-11-20T01:39:45+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.4474446310669968e-05,
-     "tokens": 6666.921685899941,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07723512101985577,
-     "last_price_usd": 0.002073854970144542,
+     "entry_price_sol": 2.9505665306193434e-06,
+     "tokens": 32705.58348662079,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 0.0002925884660942139,
      "min_ratio": 1.0,
-     "max_ratio": 1.9662237428053089,
-     "last_reason": "take-profit 1 (x1.66)"
+     "max_ratio": 1.3614334597487638
+    },
+    "F56ksKoTh8xMVCt6kCrYnjQwbPzg2oVC9eosfbWJpump": {
+     "name": "RCTY / SOL",
+     "opened_at": "2026-11-20T01:39:45+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.0177279988463838e-07,
+     "tokens": 948190.4802598021,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 5.6762308097391305e-06,
+     "min_ratio": 0.7657252241103251,
+     "max_ratio": 1.0
     }
    },
    "closed": [
@@ -647,11 +659,22 @@
      "min_ratio": 1.0,
      "max_ratio": 2.1213,
      "reason": "take-profit 2 (x2.12)"
+    },
+    {
+     "mint": "44DZsPNJUtUyTkELAFYdwCpe82sEt12HZKrMgK1Spump",
+     "name": "iAgent / SOL",
+     "opened_at": "2026-11-20T01:26:38+00:00",
+     "closed_at": "2026-11-20T01:39:45+00:00",
+     "pnl_sol": 0.076698,
+     "pnl_pct": 76.7,
+     "min_ratio": 1.0,
+     "max_ratio": 2.1362,
+     "reason": "take-profit 2 (x2.14)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.991078745726705
+    "pnl_sol": 1.0677770046863333
    },
    "rejected": [
     {
@@ -678,7 +701,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.722432885674691e-07,
+     "last_price_usd": 8.71865556173199e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.0006585500022707
     },
@@ -691,23 +714,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.73531356329272e-07,
+     "last_price_usd": 9.52715244339636e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.2843205306535226
     },
-    "44DZsPNJUtUyTkELAFYdwCpe82sEt12HZKrMgK1Spump": {
-     "name": "iAgent / SOL",
-     "opened_at": "2026-11-20T01:26:38+00:00",
+    "GT8WxWKEgxzZiKL89Uu288vb8jnescwpNSrvyHzcpump": {
+     "name": "RUGGED / SOL",
+     "opened_at": "2026-11-20T01:39:45+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.4474446310669968e-05,
-     "tokens": 6666.921685899941,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07723512101985577,
-     "last_price_usd": 0.002073854970144542,
+     "entry_price_sol": 2.9505665306193434e-06,
+     "tokens": 32705.58348662079,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 0.0002925884660942139,
      "min_ratio": 1.0,
-     "max_ratio": 1.9662237428053089,
-     "last_reason": "take-profit 1 (x1.66)"
+     "max_ratio": 1.3614334597487638
     }
    },
    "closed": [
@@ -952,11 +974,22 @@
      "min_ratio": 0.245,
      "max_ratio": 1.5631,
      "reason": "stop-loss (x0.25)"
+    },
+    {
+     "mint": "44DZsPNJUtUyTkELAFYdwCpe82sEt12HZKrMgK1Spump",
+     "name": "iAgent / SOL",
+     "opened_at": "2026-11-20T01:26:38+00:00",
+     "closed_at": "2026-11-20T01:39:45+00:00",
+     "pnl_sol": 0.076698,
+     "pnl_pct": 76.7,
+     "min_ratio": 1.0,
+     "max_ratio": 2.1362,
+     "reason": "take-profit 2 (x2.14)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.4750283876207212
+    "pnl_sol": 0.5517266465803496
    }
   },
   "C_tot": {
@@ -1162,19 +1195,6 @@
   },
   "C_tot_v2": {
    "positions": {
-    "BvqcRe9XuEgvZc1iyE8Smgcxs2edcEvcdAvcNR3wpump": {
-     "name": "Jenson 6 (Jenson 6)",
-     "opened_at": "2026-11-20T00:40:15+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.133e-07,
-     "tokens": 851721.094439541,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 8.25607055928941e-06,
-     "min_ratio": 0.9999999999999999,
-     "max_ratio": 1.0000000000000002
-    },
     "BnyFKCVoRp5edqnqqZmnYz9zGSo471pEEfPhqCZopump": {
      "name": "ZENTRO (ZEN)",
      "opened_at": "2026-11-20T01:20:59+00:00",
@@ -1184,7 +1204,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 5.240746642754584e-06,
+     "last_price_usd": 5.162726033546896e-06,
      "min_ratio": 0.8667191394464121,
      "max_ratio": 1.1626656172110716
     }
@@ -1365,17 +1385,28 @@
      "min_ratio": 0.4811,
      "max_ratio": 1.0,
      "reason": "stop-loss (x0.48)"
+    },
+    {
+     "mint": "BvqcRe9XuEgvZc1iyE8Smgcxs2edcEvcdAvcNR3wpump",
+     "name": "Jenson 6 (Jenson 6)",
+     "opened_at": "2026-11-20T00:40:15+00:00",
+     "closed_at": "2026-11-20T01:41:00+00:00",
+     "pnl_sol": -0.006878,
+     "pnl_pct": -6.9,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0,
+     "reason": "stop temps 61 min (x1.00)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": -0.5428818251196544
+    "pnl_sol": -0.5497593251196544
    }
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T01:35:07+00:00",
+  "checked_at": "2026-11-20T01:41:00+00:00",
   "ok": true,
-  "new_coins_10min": 113
+  "new_coins_10min": 105
  }
 }
