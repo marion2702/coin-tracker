@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T10:52:55+00:00",
+ "processed_until": "2026-11-20T10:58:55+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -803,19 +803,6 @@
      "min_ratio": 0.9981692400064817,
      "max_ratio": 1.0
     },
-    "ETUmSvsQ4uHAh3mjDWpKE1Z3StC7JzsA96E7purujmb": {
-     "name": "apocry / SOL",
-     "opened_at": "2026-11-20T06:54:42+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.1274118673878277e-08,
-     "tokens": 8559427.374450741,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 8.336028235916551e-07,
-     "min_ratio": 1.0,
-     "max_ratio": 1.042210068909805
-    },
     "7BxTuUxu39D5cBzA93HgKTQL2rfdjXyzvpGYWFaE9Fh": {
      "name": "FIONA / SOL",
      "opened_at": "2026-11-20T09:00:05+00:00",
@@ -825,9 +812,23 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.23838789853999e-05,
+     "last_price_usd": 4.236080013039946e-05,
      "min_ratio": 0.9984369869031378,
      "max_ratio": 1.0
+    },
+    "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump": {
+     "name": "RUDY / USDC",
+     "opened_at": "2026-11-20T10:56:43+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 8.995167347511441e-07,
+     "tokens": 107279.82734717795,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.08524880470324459,
+     "last_price_usd": 0.0001251563777,
+     "min_ratio": 1.0,
+     "max_ratio": 1.9188504828317452,
+     "last_reason": "take-profit 1 (x1.83)"
     }
    },
    "closed": [
@@ -1193,11 +1194,22 @@
      "min_ratio": 0.3588,
      "max_ratio": 1.0,
      "reason": "stop-loss (x0.36)"
+    },
+    {
+     "mint": "ETUmSvsQ4uHAh3mjDWpKE1Z3StC7JzsA96E7purujmb",
+     "name": "apocry / SOL",
+     "opened_at": "2026-11-20T06:54:42+00:00",
+     "closed_at": "2026-11-20T10:56:43+00:00",
+     "pnl_sol": -0.005094,
+     "pnl_pct": -5.1,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0422,
+     "reason": "stop temps 242 min (x1.02)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.6431262729948323
+    "pnl_sol": 0.6380319198086359
    }
   },
   "C_tot": {
@@ -1610,7 +1622,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T10:54:05+00:00",
+  "checked_at": "2026-11-20T11:00:13+00:00",
   "ok": false,
   "new_coins_10min": 0
  }
