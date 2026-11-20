@@ -812,7 +812,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.28887641298529e-07,
+     "last_price_usd": 8.266380518455141e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.042210068909805
     },
@@ -825,7 +825,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.214413925557882e-05,
+     "last_price_usd": 4.202976065171012e-05,
      "min_ratio": 0.9984369869031378,
      "max_ratio": 1.0
     }
@@ -1610,7 +1610,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T10:18:05+00:00",
+  "checked_at": "2026-11-20T10:23:19+00:00",
   "ok": false,
   "new_coins_10min": 0
  }
