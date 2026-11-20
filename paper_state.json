@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T07:02:09+00:00",
+ "processed_until": "2026-11-20T07:10:10+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -799,7 +799,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.345312482860641e-07,
+     "last_price_usd": 8.346101301706278e-07,
      "min_ratio": 0.9945633186289521,
      "max_ratio": 1.2259446880870128
     },
@@ -825,7 +825,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.33804304689996e-07,
+     "last_price_usd": 8.353371424791389e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.042210068909805
     }
@@ -1577,8 +1577,8 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T07:04:34+00:00",
+  "checked_at": "2026-11-20T07:11:20+00:00",
   "ok": true,
-  "new_coins_10min": 32
+  "new_coins_10min": 53
  }
 }
