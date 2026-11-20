@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T01:05:43+00:00",
+ "processed_until": "2026-11-20T01:15:57+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,7 +12,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.77446263876301e-07,
+     "last_price_usd": 8.77095799922475e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.0006585500022707
     },
@@ -25,9 +25,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.368223268453739e-06,
-     "min_ratio": 0.9376733531710373,
-     "max_ratio": 1.0
+     "last_price_usd": 1.168728321534125e-05,
+     "min_ratio": 0.9324181782533453,
+     "max_ratio": 1.1974291419598113
+    },
+    "QCKJLCYRfSj5vNMJYFA9wrMnnbkgKisH1svpAgbF4Tx": {
+     "name": "FIONA / SOL",
+     "opened_at": "2026-11-20T01:13:35+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.0402387629201728e-08,
+     "tokens": 9276716.40778929,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 8.214071777051751e-07,
+     "min_ratio": 1.0,
+     "max_ratio": 1.077637211723502
     }
    },
    "closed": [
@@ -635,20 +648,6 @@
   },
   "B_patient": {
    "positions": {
-    "DSU32hvD7PnYpePWmXFq4QhvYVqWyyabf34fq4ZuJBrb": {
-     "name": "AI / SOL",
-     "opened_at": "2026-11-20T00:46:32+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 2.79276542523394e-07,
-     "tokens": 345535.64408982376,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07048961692996814,
-     "last_price_usd": 3.0992838794227236e-05,
-     "min_ratio": 0.9334833410799694,
-     "max_ratio": 1.5139116095458804,
-     "last_reason": "take-profit 1 (x1.51)"
-    },
     "RF8bkegfJxEgawCv3t58BrtqGngxkzW9wkRn3P3hSYp": {
      "name": "COOKIE / SOL",
      "opened_at": "2026-11-20T00:52:24+00:00",
@@ -658,9 +657,33 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.77446263876301e-07,
+     "last_price_usd": 8.77095799922475e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.0006585500022707
+    },
+    "QCKJLCYRfSj5vNMJYFA9wrMnnbkgKisH1svpAgbF4Tx": {
+     "name": "FIONA / SOL",
+     "opened_at": "2026-11-20T01:13:35+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.0402387629201728e-08,
+     "tokens": 9276716.40778929,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 8.214071777051751e-07,
+     "min_ratio": 1.0,
+     "max_ratio": 1.077637211723502
+    },
+    "3emn4AZwHpsH8K6rqjsMTeFHJTg4XqdPe9PBHpV3JANJ": {
+     "name": "I / SOL",
+     "opened_at": "2026-11-20T01:17:07+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 4.909568155038041e-07,
+     "tokens": 196554.96563577556,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 3.597461661e-05
     }
    },
    "closed": [
@@ -883,11 +906,22 @@
      "min_ratio": 1.0,
      "max_ratio": 2.9634,
      "reason": "take-profit 2 (x2.96)"
+    },
+    {
+     "mint": "DSU32hvD7PnYpePWmXFq4QhvYVqWyyabf34fq4ZuJBrb",
+     "name": "AI / SOL",
+     "opened_at": "2026-11-20T00:46:32+00:00",
+     "closed_at": "2026-11-20T01:15:08+00:00",
+     "pnl_sol": 0.086852,
+     "pnl_pct": 86.9,
+     "min_ratio": 0.9335,
+     "max_ratio": 2.4991,
+     "reason": "take-profit 2 (x2.50)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.4039888688945193
+    "pnl_sol": 0.49084089837569256
    }
   },
   "C_tot": {
@@ -1093,35 +1127,6 @@
   },
   "C_tot_v2": {
    "positions": {
-    "7BJigZEjjSWCWHBWVcEikvsmnGakueJZDbSph7uupump": {
-     "name": "Bawsaq (BAWSAQ)",
-     "opened_at": "2026-11-20T00:14:07+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 7.677e-08,
-     "tokens": 1257001.4328513741,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 4.673849104824808e-06,
-     "suspect_ticks": 0,
-     "min_ratio": 0.6318874560375146,
-     "max_ratio": 1.0
-    },
-    "GiNDGcqc7xk9F88sgE9KF7Bo5migm4Bh8Y8CJVM7pump": {
-     "name": "Cookie (COOKIE)",
-     "opened_at": "2026-11-20T00:16:07+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 7.851e-07,
-     "tokens": 122914.27843586805,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.09500843523118076,
-     "last_price_usd": 7.608932513814541e-05,
-     "suspect_ticks": 0,
-     "min_ratio": 1.0,
-     "max_ratio": 2.0405043943446697,
-     "last_reason": "take-profit 1 (x2.04)"
-    },
     "BvqcRe9XuEgvZc1iyE8Smgcxs2edcEvcdAvcNR3wpump": {
      "name": "Jenson 6 (Jenson 6)",
      "opened_at": "2026-11-20T00:40:15+00:00",
@@ -1131,9 +1136,20 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.30531843752589e-06,
+     "last_price_usd": 8.30200118055275e-06,
      "min_ratio": 0.9999999999999999,
      "max_ratio": 1.0000000000000002
+    },
+    "47ubrZhhuahv1DDouJCSEkWxJim3yzQBh1FKyKcvpump": {
+     "name": "? (?)",
+     "opened_at": "2026-11-20T01:17:07+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 2.131e-07,
+     "tokens": 452839.04270295636,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 1.561479657171925e-05
     }
    },
    "closed": [
@@ -1246,17 +1262,39 @@
      "min_ratio": 0.4569,
      "max_ratio": 1.0493,
      "reason": "stop-loss (x0.46)"
+    },
+    {
+     "mint": "7BJigZEjjSWCWHBWVcEikvsmnGakueJZDbSph7uupump",
+     "name": "Bawsaq (BAWSAQ)",
+     "opened_at": "2026-11-20T00:14:07+00:00",
+     "closed_at": "2026-11-20T01:15:08+00:00",
+     "pnl_sol": -0.047974,
+     "pnl_pct": -48.0,
+     "min_ratio": 0.5587,
+     "max_ratio": 1.0,
+     "reason": "stop-loss (x0.56)"
+    },
+    {
+     "mint": "GiNDGcqc7xk9F88sgE9KF7Bo5migm4Bh8Y8CJVM7pump",
+     "name": "Cookie (COOKIE)",
+     "opened_at": "2026-11-20T00:16:07+00:00",
+     "closed_at": "2026-11-20T01:17:07+00:00",
+     "pnl_sol": 0.03928,
+     "pnl_pct": 39.3,
+     "min_ratio": 0.9508,
+     "max_ratio": 2.0405,
+     "reason": "stop temps 61 min (x0.95)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": -0.2699179790262184
+    "pnl_sol": -0.27861166701969586
    }
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T01:10:31+00:00",
+  "checked_at": "2026-11-20T01:17:07+00:00",
   "ok": true,
-  "new_coins_10min": 81
+  "new_coins_10min": 22
  }
 }
