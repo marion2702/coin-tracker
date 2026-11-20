@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T12:59:19+00:00",
+ "processed_until": "2026-11-20T13:05:26+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -816,16 +816,18 @@
      "min_ratio": 0.9853651600941807,
      "max_ratio": 1.2578883488225185
     },
-    "656J1vyxTWC4Wq4D4Bmk6SVF7eScJZ9iWiCtCJ7dpump": {
-     "name": "BITCAT / SOL",
-     "opened_at": "2026-11-20T13:00:52+00:00",
+    "6UcP72PqRuoM24e2Ro5kCvMQ1eQLp55mhuxPhF7q3FDP": {
+     "name": "ZINGA / SOL",
+     "opened_at": "2026-11-20T13:04:14+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 3.225904309605539e-07,
-     "tokens": 299140.9252675568,
+     "entry_price_sol": 6.258178632735635e-07,
+     "tokens": 154198.21910359405,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.293886773e-05
+     "last_price_usd": 4.383575023735962e-05,
+     "min_ratio": 0.9852706932567469,
+     "max_ratio": 1.0
     }
    },
    "closed": [
@@ -1235,11 +1237,22 @@
      "min_ratio": 0.9984,
      "max_ratio": 1.0,
      "reason": "stop temps 241 min (x1.00)"
+    },
+    {
+     "mint": "656J1vyxTWC4Wq4D4Bmk6SVF7eScJZ9iWiCtCJ7dpump",
+     "name": "BITCAT / SOL",
+     "opened_at": "2026-11-20T13:00:52+00:00",
+     "closed_at": "2026-11-20T13:04:14+00:00",
+     "pnl_sol": -0.094717,
+     "pnl_pct": -94.7,
+     "min_ratio": 0.0567,
+     "max_ratio": 1.0001,
+     "reason": "stop-loss (x0.06)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.784223323507149
+    "pnl_sol": 0.6895060026769114
    }
   },
   "C_tot": {
@@ -1652,7 +1665,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T13:00:52+00:00",
+  "checked_at": "2026-11-20T13:06:07+00:00",
   "ok": false,
   "new_coins_10min": 0
  }
