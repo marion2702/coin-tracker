@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T21:34:53+00:00",
+ "processed_until": "2026-11-20T21:46:53+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -16,19 +16,6 @@
      "min_ratio": 1.0,
      "max_ratio": 1.1427368876813813
     },
-    "676tZECtUU1ruNXbT1GEBAdKR7b6C38esVoxdPrRjqA": {
-     "name": "Singularity / SOL",
-     "opened_at": "2026-11-20T21:17:32+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 8.70731902003658e-09,
-     "tokens": 11082630.575259961,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 7.7326464643425e-07,
-     "min_ratio": 1.0,
-     "max_ratio": 1.3057980273648264
-    },
     "9wrd5ikoDVbk2XLjZSk5G97rK3Lpy9y351YpE28QjXL": {
      "name": "FLOAT / SOL",
      "opened_at": "2026-11-20T21:35:34+00:00",
@@ -38,9 +25,23 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.1827693824337e-07,
+     "last_price_usd": 7.77761884442105e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.099615576179398
+     "max_ratio": 1.1943193100130305
+    },
+    "FqjSkUk7eZF6ord8Tk8wkUMcv5qmztn3hbYfhQsxpump": {
+     "name": "GAY / SOL",
+     "opened_at": "2026-11-20T21:47:34+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 4.008261754680079e-07,
+     "tokens": 240752.73998093017,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07453030722137652,
+     "last_price_usd": 4.3965817185731684e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.6006938649923814,
+     "last_reason": "take-profit 1 (x1.60)"
     }
    },
    "closed": [
@@ -1418,11 +1419,22 @@
      "min_ratio": 1.0,
      "max_ratio": 1.3617,
      "reason": "stop temps 30 min (x1.36)"
+    },
+    {
+     "mint": "676tZECtUU1ruNXbT1GEBAdKR7b6C38esVoxdPrRjqA",
+     "name": "Singularity / SOL",
+     "opened_at": "2026-11-20T21:17:32+00:00",
+     "closed_at": "2026-11-20T21:47:34+00:00",
+     "pnl_sol": 0.022669,
+     "pnl_pct": 22.7,
+     "min_ratio": 1.0,
+     "max_ratio": 1.3173,
+     "reason": "stop temps 30 min (x1.32)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.41583368062712633
+    "pnl_sol": 0.43850233128092
    },
    "rejected": [
     {
@@ -1462,7 +1474,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.248156228632001e-07,
+     "last_price_usd": 8.223033139476e-07,
      "min_ratio": 0.9582701296496721,
      "max_ratio": 1.0069388402623523
     },
@@ -1475,7 +1487,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.69140568319934e-07,
+     "last_price_usd": 7.66797840256137e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.0871956842297825
     }
@@ -2502,7 +2514,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T21:43:26+00:00",
+  "checked_at": "2026-11-20T21:49:17+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
