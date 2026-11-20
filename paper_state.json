@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T20:44:52+00:00",
+ "processed_until": "2026-11-20T20:50:51+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -25,22 +25,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.83019047558264e-07,
+     "last_price_usd": 7.716660647090079e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1318194831467479
-    },
-    "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": {
-     "name": "Singularity / SOL",
-     "opened_at": "2026-11-20T20:32:10+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.151684185168271e-06,
-     "tokens": 83790.33179647294,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 8.877368666881439e-05,
-     "min_ratio": 0.9351522004642627,
-     "max_ratio": 1.3284891984311253
     }
    },
    "closed": [
@@ -1352,11 +1339,22 @@
      "min_ratio": 1.0,
      "max_ratio": 2.5376,
      "reason": "take-profit 2 (x2.54)"
+    },
+    {
+     "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
+     "name": "Singularity / SOL",
+     "opened_at": "2026-11-20T20:32:10+00:00",
+     "closed_at": "2026-11-20T20:55:24+00:00",
+     "pnl_sol": 0.087024,
+     "pnl_pct": 87.0,
+     "min_ratio": 0.9352,
+     "max_ratio": 2.2715,
+     "reason": "take-profit 2 (x2.27)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.35436881969852707
+    "pnl_sol": 0.4413926108331855
    },
    "rejected": [
     {
@@ -1396,7 +1394,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.107185997151999e-07,
+     "last_price_usd": 8.066195798351999e-07,
      "min_ratio": 0.9582701296496721,
      "max_ratio": 1.0069388402623523
     },
@@ -1409,7 +1407,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.559950942344239e-07,
+     "last_price_usd": 7.52172758196324e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.0871956842297825
     }
@@ -2436,7 +2434,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T20:49:15+00:00",
+  "checked_at": "2026-11-20T20:55:24+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
