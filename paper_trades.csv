@@ -423,3 +423,5 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-20T16:37:21+00:00,Fxb1wzBqZ1dY78VMsAXBHgxPdKivE7wqudBQpV3jhxG,DCTY / SOL,ACHAT,7.184052996e-07,1.00,0.1000,,,,A_rapide
 2026-11-20T16:41:21+00:00,18LmvT4qcw949fbR3XurNRYrbqF4c57Zri1vXrhmqYF,FIONA / SOL,stop temps 31 min (x1.01),8.22241767211524e-06,1.00,0.1000,0.0942,-0.0058,-5.8,A_rapide
 2026-11-20T16:41:21+00:00,BfNcetwXyxFJjsnmMboPpHqpZg19ez1ueQGPGE9upump,Móm / SOL,ACHAT,0.0001169037395,1.00,0.1000,,,,A_rapide
+2026-11-20T16:49:13+00:00,BfNcetwXyxFJjsnmMboPpHqpZg19ez1ueQGPGE9upump,Móm / SOL,stop-loss (x0.54),6.270191906e-05,1.00,0.1000,0.0500,-0.0500,-50.0,A_rapide
+2026-11-20T16:49:13+00:00,CptDkxR8rV68ngdh2JgFdSodu2KQSmyNEyyin9RdWZp1,TTWO / SOL,ACHAT,0.0001034669152,1.00,0.1000,,,,A_rapide
