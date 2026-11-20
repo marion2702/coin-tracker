@@ -799,7 +799,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.740182873354031e-07,
+     "last_price_usd": 8.682031809748081e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.0006585500022707
     },
@@ -812,7 +812,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.88655606559846e-07,
+     "last_price_usd": 9.82077783659056e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.3016242503778965
     },
@@ -825,7 +825,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.9303665060664e-07,
+     "last_price_usd": 9.8642967930304e-07,
      "min_ratio": 0.9840516294645165,
      "max_ratio": 1.1490423218298247
     }
@@ -1511,8 +1511,8 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T04:05:09+00:00",
+  "checked_at": "2026-11-20T04:10:31+00:00",
   "ok": true,
-  "new_coins_10min": 47
+  "new_coins_10min": 49
  }
 }
