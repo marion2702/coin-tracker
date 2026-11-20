@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T05:25:59+00:00",
+ "processed_until": "2026-11-20T05:37:59+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -799,7 +799,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.8145416472976e-07,
+     "last_price_usd": 9.8401585622952e-07,
      "min_ratio": 0.9840516294645165,
      "max_ratio": 1.1490423218298247
     },
@@ -812,9 +812,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.28462780227768e-07,
+     "last_price_usd": 8.306251492290359e-07,
      "min_ratio": 0.9945633186289521,
      "max_ratio": 1.2259446880870128
+    },
+    "8VvT87FRAZY9m2VsvpvVA5zhHSZGXd5eC2SrPDHbpump": {
+     "name": "ANTCAP / SOL",
+     "opened_at": "2026-11-20T05:39:09+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.5458360011807409e-06,
+     "tokens": 62425.768274442664,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 0.0001223507950650087,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0939064678972283
     }
    },
    "closed": [
@@ -1531,8 +1544,8 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T05:35:40+00:00",
+  "checked_at": "2026-11-20T05:40:32+00:00",
   "ok": true,
-  "new_coins_10min": 35
+  "new_coins_10min": 34
  }
 }
