@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T18:30:52+00:00",
+ "processed_until": "2026-11-20T18:36:52+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -25,9 +25,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.573589344361041e-05,
+     "last_price_usd": 7.92389116915968e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.0224002068248006
+     "max_ratio": 1.0710859309593148
     },
     "CNu3Pf6vQsJQaaCQv9SnTtACbyCife2ei4ghbiv1ojdJ": {
      "name": "BIGFOOT / SOL",
@@ -38,9 +38,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0001074312261393338,
+     "last_price_usd": 0.00012308351929717442,
      "min_ratio": 0.983398004084554,
-     "max_ratio": 1.0223379250516604
+     "max_ratio": 1.1728176196364113
     }
    },
    "closed": [
@@ -1284,7 +1284,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.0395541982843e-07,
+     "last_price_usd": 7.030375469140801e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1513501198598997
     },
@@ -1297,7 +1297,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.067296283794781e-07,
+     "last_price_usd": 7.058081382319681e-07,
      "min_ratio": 0.996577363207583,
      "max_ratio": 1.0
     },
@@ -2304,7 +2304,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T18:31:24+00:00",
+  "checked_at": "2026-11-20T18:38:10+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
