@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T18:50:52+00:00",
+ "processed_until": "2026-11-20T18:56:51+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -16,32 +16,18 @@
      "min_ratio": 1.0,
      "max_ratio": 1.1427368876813813
     },
-    "AFHS3ERmXjAzVS7PZoq2wj92QJNmV4cmU3s2UPdLSWcK": {
-     "name": "PUSSY / SOL",
-     "opened_at": "2026-11-20T18:25:32+00:00",
+    "C2As2w55q3V3snKVCyA3nZvmQJSx2NApM5SLK5krpump": {
+     "name": "DYSON / SOL",
+     "opened_at": "2026-11-20T18:57:24+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.0680749013063592e-06,
-     "tokens": 90349.4688265506,
+     "entry_price_sol": 5.7512284887454365e-06,
+     "tokens": 16779.02385357156,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.842721903344439e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.2021628805522377
-    },
-    "CNu3Pf6vQsJQaaCQv9SnTtACbyCife2ei4ghbiv1ojdJ": {
-     "name": "BIGFOOT / SOL",
-     "opened_at": "2026-11-20T18:27:32+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.5151545903197578e-06,
-     "tokens": 63689.870734335214,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07833169434212837,
-     "last_price_usd": 0.0002026112760096522,
-     "min_ratio": 0.983398004084554,
-     "max_ratio": 1.9417160590716496,
-     "last_reason": "take-profit 1 (x1.68)"
+     "last_price_usd": 0.00038769137437888625,
+     "min_ratio": 0.9783996603528204,
+     "max_ratio": 1.2659903904440886
     }
    },
    "closed": [
@@ -1254,11 +1240,33 @@
      "min_ratio": 0.0059,
      "max_ratio": 1.3482,
      "reason": "stop-loss (x0.01)"
+    },
+    {
+     "mint": "AFHS3ERmXjAzVS7PZoq2wj92QJNmV4cmU3s2UPdLSWcK",
+     "name": "PUSSY / SOL",
+     "opened_at": "2026-11-20T18:25:32+00:00",
+     "closed_at": "2026-11-20T18:57:24+00:00",
+     "pnl_sol": 0.01561,
+     "pnl_pct": 15.6,
+     "min_ratio": 1.0,
+     "max_ratio": 1.2415,
+     "reason": "stop temps 32 min (x1.24)"
+    },
+    {
+     "mint": "CNu3Pf6vQsJQaaCQv9SnTtACbyCife2ei4ghbiv1ojdJ",
+     "name": "BIGFOOT / SOL",
+     "opened_at": "2026-11-20T18:27:32+00:00",
+     "closed_at": "2026-11-20T18:59:15+00:00",
+     "pnl_sol": 0.068372,
+     "pnl_pct": 68.4,
+     "min_ratio": 0.9834,
+     "max_ratio": 1.9556,
+     "reason": "stop temps 32 min (x1.93)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.2313452879801812
+    "pnl_sol": 0.31532722164197347
    },
    "rejected": [
     {
@@ -1276,19 +1284,6 @@
   },
   "B_patient": {
    "positions": {
-    "14FN5g6j6Wb2UB5Zh4Gc8EHo9qbteRQ8FDqWEYHH9GR3": {
-     "name": "GTA6 / SOL",
-     "opened_at": "2026-11-20T14:58:06+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 8.815737128889245e-09,
-     "tokens": 10946333.651869982,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 6.99015789088365e-07,
-     "min_ratio": 1.0,
-     "max_ratio": 1.1513501198598997
-    },
     "Fi5FqrUR5uKLALanSR45KUFJSGkQUJXRJAcFsw67GVY": {
      "name": "RIEMANN / SOL",
      "opened_at": "2026-11-20T15:38:07+00:00",
@@ -1298,7 +1293,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.01770531114329e-07,
+     "last_price_usd": 7.02074836488511e-07,
      "min_ratio": 0.996577363207583,
      "max_ratio": 1.0
     },
@@ -1888,11 +1883,22 @@
      "min_ratio": 1.0,
      "max_ratio": 1.163,
      "reason": "stop temps 241 min (x1.16)"
+    },
+    {
+     "mint": "14FN5g6j6Wb2UB5Zh4Gc8EHo9qbteRQ8FDqWEYHH9GR3",
+     "name": "GTA6 / SOL",
+     "opened_at": "2026-11-20T14:58:06+00:00",
+     "closed_at": "2026-11-20T18:59:15+00:00",
+     "pnl_sol": 0.007217,
+     "pnl_pct": 7.2,
+     "min_ratio": 1.0,
+     "max_ratio": 1.1514,
+     "reason": "stop temps 241 min (x1.15)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.09817887875566478
+    "pnl_sol": 0.10539548029231828
    }
   },
   "C_tot": {
@@ -2305,7 +2311,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T18:55:23+00:00",
+  "checked_at": "2026-11-20T19:01:15+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
