@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T01:45:57+00:00",
+ "processed_until": "2026-11-20T01:47:57+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,9 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.965728810776959e-07,
+     "last_price_usd": 8.201224860661441e-07,
      "min_ratio": 0.9982052245689118,
-     "max_ratio": 1.0459205794718234
+     "max_ratio": 1.076458406609687
     },
     "S2QTbsbvnym92tq6HbekQDFeG7DbamK8KpVfS4D8ijb": {
      "name": "RUGGED / SOL",
@@ -25,7 +25,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.412806922e-07
+     "last_price_usd": 8.41207195371036e-07,
+     "min_ratio": 0.9978287784628179,
+     "max_ratio": 1.0064679886659593
     },
     "6E3qff613R4x1ojCrjQaXdHAzSxXC5zC2Y1nw3fmQGWj": {
      "name": "mihao / SOL",
@@ -730,7 +732,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.69979688549272e-07,
+     "last_price_usd": 8.702895530329561e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.0006585500022707
     },
@@ -743,9 +745,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.84087300163504e-07,
+     "last_price_usd": 9.844378068559922e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.3016242503778963
+     "max_ratio": 1.3016242503778965
     },
     "GT8WxWKEgxzZiKL89Uu288vb8jnescwpNSrvyHzcpump": {
      "name": "RUGGED / SOL",
@@ -756,7 +758,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0001557532558530568,
+     "last_price_usd": 0.0001616158868,
      "min_ratio": 0.7225730983779848,
      "max_ratio": 1.424811118940454
     }
@@ -1233,7 +1235,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 5.0330905122838e-06,
+     "last_price_usd": 5.151939659809129e-06,
      "min_ratio": 0.8667191394464121,
      "max_ratio": 1.1626656172110716
     }
@@ -1434,8 +1436,8 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T01:47:08+00:00",
+  "checked_at": "2026-11-20T01:52:29+00:00",
   "ok": true,
-  "new_coins_10min": 71
+  "new_coins_10min": 64
  }
 }
