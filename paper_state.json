@@ -1,22 +1,8 @@
 {
- "processed_until": "2026-11-20T00:33:43+00:00",
+ "processed_until": "2026-11-20T00:37:43+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "14iWXdxL4omnQXnqQ6dK5zeuFgVs7x7KbZVfEmXYmGk1": {
-     "name": "COOKIE / SOL",
-     "opened_at": "2026-11-20T00:08:16+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.0333429313616101e-08,
-     "tokens": 9338622.936419023,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 8.648641292e-07,
-     "suspect_ticks": 0,
-     "min_ratio": 1.0,
-     "max_ratio": 1.148770074730141
-    },
     "14thNoVZZi6t3wud6LzF1PdYSoopJD1rGojoYsWH1ZAt": {
      "name": "COOKIE / SOL",
      "opened_at": "2026-11-20T00:22:24+00:00",
@@ -26,10 +12,10 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.883808112e-07,
+     "last_price_usd": 8.294103931e-07,
      "suspect_ticks": 0,
      "min_ratio": 1.0,
-     "max_ratio": 1.246619762095566
+     "max_ratio": 1.3118535760981425
     },
     "7bCiddGLe5aM8HE2pigT9jsqkmC1HSPxyXN6GkHEpump": {
      "name": "OGTA / SOL",
@@ -40,7 +26,24 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.001003271864
+     "last_price_usd": 0.001075276984,
+     "suspect_ticks": 0,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0720613654948918
+    },
+    "SWGqBQLz6XzDoG2wkp6WEcdfhP7g1o3Q8VqZjirHh83": {
+     "name": "COOKIE / SOL",
+     "opened_at": "2026-11-20T00:39:10+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 9.677416056311756e-09,
+     "tokens": 9971670.065488324,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 6.958014841e-07,
+     "suspect_ticks": 0,
+     "min_ratio": 0.9871282210864373,
+     "max_ratio": 1.0
     }
    },
    "closed": [
@@ -593,11 +596,22 @@
      "min_ratio": 1.0,
      "max_ratio": 8.3638,
      "reason": "take-profit 2 (x8.36)"
+    },
+    {
+     "mint": "14iWXdxL4omnQXnqQ6dK5zeuFgVs7x7KbZVfEmXYmGk1",
+     "name": "COOKIE / SOL",
+     "opened_at": "2026-11-20T00:08:16+00:00",
+     "closed_at": "2026-11-20T00:39:10+00:00",
+     "pnl_sol": 0.007001,
+     "pnl_pct": 7.0,
+     "min_ratio": 1.0,
+     "max_ratio": 1.1517,
+     "reason": "stop temps 31 min (x1.15)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": 0.8001340333096746
+    "pnl_sol": 0.8071354693143319
    }
   },
   "B_patient": {
@@ -625,10 +639,10 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07188462824883156,
-     "last_price_usd": 5.040517805e-05,
+     "last_price_usd": 5.444343255e-05,
      "suspect_ticks": 0,
      "min_ratio": 1.0,
-     "max_ratio": 1.739959388174249,
+     "max_ratio": 1.8798681320065613,
      "last_reason": "take-profit 1 (x1.54)"
     },
     "C1uePh3BMXqjD5AmchiZ1c3AZFYU9ufqwNFH82B7ijE4": {
@@ -637,13 +651,14 @@
      "size_sol": 0.1,
      "entry_price_sol": 1.8065428473130138e-07,
      "tokens": 534169.4504701651,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 1.690703675e-05,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.0701158397943161,
+     "last_price_usd": 1.981491188e-05,
      "suspect_ticks": 0,
      "min_ratio": 1.0,
-     "max_ratio": 1.432194957660081
+     "max_ratio": 1.5058839656219734,
+     "last_reason": "take-profit 1 (x1.51)"
     }
    },
    "closed": [
@@ -1008,7 +1023,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 3.7783554379945744e-06,
+     "last_price_usd": 4.32287913403254e-06,
      "suspect_ticks": 0,
      "min_ratio": 0.6318874560375146,
      "max_ratio": 1.0
@@ -1022,21 +1037,21 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 6.715214437330503e-05,
+     "last_price_usd": 0.0001047396831463992,
      "suspect_ticks": 0,
      "min_ratio": 1.0,
-     "max_ratio": 1.6354604508979746
+     "max_ratio": 1.831613807158324
     },
-    "9UJUfuMcLALAheT5Pg6hxHGzkvJfKU6TWgRKNK49pump": {
-     "name": "Smoking Turkey Fish (STF)",
-     "opened_at": "2026-11-20T00:34:32+00:00",
+    "BvqcRe9XuEgvZc1iyE8Smgcxs2edcEvcdAvcNR3wpump": {
+     "name": "Jenson 6 (Jenson 6)",
+     "opened_at": "2026-11-20T00:40:15+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.116e-07,
-     "tokens": 864695.3405017921,
+     "entry_price_sol": 1.133e-07,
+     "tokens": 851721.094439541,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.13082273197444e-06
+     "last_price_usd": 8.25243817836372e-06
     }
    },
    "closed": [
@@ -1138,17 +1153,28 @@
      "min_ratio": 0.0237,
      "max_ratio": 1.0,
      "reason": "stop-loss (x0.02)"
+    },
+    {
+     "mint": "9UJUfuMcLALAheT5Pg6hxHGzkvJfKU6TWgRKNK49pump",
+     "name": "Smoking Turkey Fish (STF)",
+     "opened_at": "2026-11-20T00:34:32+00:00",
+     "closed_at": "2026-11-20T00:40:15+00:00",
+     "pnl_sol": -0.057452,
+     "pnl_pct": -57.5,
+     "min_ratio": 0.4569,
+     "max_ratio": 1.0493,
+     "reason": "stop-loss (x0.46)"
     }
    ],
    "day": {
     "date": "2026-11-20",
-    "pnl_sol": -0.21246561589897825
+    "pnl_sol": -0.2699179790262184
    }
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T00:34:32+00:00",
+  "checked_at": "2026-11-20T00:40:15+00:00",
   "ok": true,
-  "new_coins_10min": 96
+  "new_coins_10min": 90
  }
 }
