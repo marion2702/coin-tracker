@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-20T12:39:19+00:00",
+ "processed_until": "2026-11-20T12:43:19+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -812,7 +812,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.1712171734466054e-05,
+     "last_price_usd": 4.1595565407221975e-05,
      "min_ratio": 0.9984369869031378,
      "max_ratio": 1.0
     },
@@ -1643,7 +1643,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T12:42:30+00:00",
+  "checked_at": "2026-11-20T12:47:52+00:00",
   "ok": false,
   "new_coins_10min": 0
  }
