@@ -2,34 +2,7 @@
  "processed_until": "2026-11-21T05:45:37+00:00",
  "strategies": {
   "A_rapide": {
-   "positions": {
-    "7M7yAQmtvo9jJ6TgrMPEj5eXbxFiJCJjqWfQyMQrpump": {
-     "name": "tittcoin / SOL",
-     "opened_at": "2026-11-21T05:20:17+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 2.5757098242066818e-06,
-     "tokens": 37465.40044732018,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 0.00017026123145122,
-     "min_ratio": 1.0,
-     "max_ratio": 1.1887985095305118
-    },
-    "Ct55BG15jBXpQSmpBEf62PhouytgVJJfWjE3k8TL2xD": {
-     "name": "MARS / SOL",
-     "opened_at": "2026-11-21T05:30:18+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 9.654582974869441e-09,
-     "tokens": 9995253.05766042,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 7.069708637690401e-07,
-     "min_ratio": 1.0,
-     "max_ratio": 1.118639720442824
-    }
-   },
+   "positions": {},
    "closed": [
     {
      "mint": "ALjzrjh1sArWs2zbcEvRgf8nkUCxt5FLcYJy5mtaDShr",
@@ -1944,11 +1917,33 @@
      "min_ratio": 1.0,
      "max_ratio": 2.2315,
      "reason": "take-profit 2 (x2.23)"
+    },
+    {
+     "mint": "7M7yAQmtvo9jJ6TgrMPEj5eXbxFiJCJjqWfQyMQrpump",
+     "name": "tittcoin / SOL",
+     "opened_at": "2026-11-21T05:20:17+00:00",
+     "closed_at": "2026-11-21T05:52:09+00:00",
+     "pnl_sol": -0.000106,
+     "pnl_pct": -0.1,
+     "min_ratio": 1.0,
+     "max_ratio": 1.1888,
+     "reason": "stop temps 32 min (x1.07)"
+    },
+    {
+     "mint": "Ct55BG15jBXpQSmpBEf62PhouytgVJJfWjE3k8TL2xD",
+     "name": "MARS / SOL",
+     "opened_at": "2026-11-21T05:30:18+00:00",
+     "closed_at": "2026-11-21T05:52:09+00:00",
+     "pnl_sol": -0.09849,
+     "pnl_pct": -98.5,
+     "min_ratio": 0.0162,
+     "max_ratio": 1.1186,
+     "reason": "stop-loss (x0.02)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.3110818969209058
+    "pnl_sol": 0.21248617945341394
    },
    "rejected": [
     {
@@ -1966,19 +1961,6 @@
   },
   "B_patient": {
    "positions": {
-    "9VZJoGZ6oe5MJ3oZxgGoYNDCHvpFQMXYg4o9EA3oCa8": {
-     "name": "ONE / SOL",
-     "opened_at": "2026-11-21T01:50:09+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 8.690779451723992e-09,
-     "tokens": 11103722.115610387,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 8.10705402063886e-07,
-     "min_ratio": 1.0,
-     "max_ratio": 1.424498236178825
-    },
     "6oA8yep6vXWZz5G9aNGYC9fNvwiDvrZbT7L6ro6kw35r": {
      "name": "FLOAT / SOL",
      "opened_at": "2026-11-21T03:50:00+00:00",
@@ -1988,7 +1970,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07487754980310897,
-     "last_price_usd": 2.1249911386892647e-05,
+     "last_price_usd": 2.1192072824999997e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.7963690257795817,
      "last_reason": "take-profit 1 (x1.61)"
@@ -2720,11 +2702,22 @@
      "min_ratio": 0.3676,
      "max_ratio": 1.0,
      "reason": "stop-loss (x0.37)"
+    },
+    {
+     "mint": "9VZJoGZ6oe5MJ3oZxgGoYNDCHvpFQMXYg4o9EA3oCa8",
+     "name": "ONE / SOL",
+     "opened_at": "2026-11-21T01:50:09+00:00",
+     "closed_at": "2026-11-21T05:52:09+00:00",
+     "pnl_sol": 0.032653,
+     "pnl_pct": 32.7,
+     "min_ratio": 1.0,
+     "max_ratio": 1.4245,
+     "reason": "stop temps 242 min (x1.42)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.06790123421257072
+    "pnl_sol": 0.10055407121113333
    }
   },
   "C_tot": {
@@ -3137,7 +3130,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T05:50:02+00:00",
+  "checked_at": "2026-11-21T05:56:17+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
