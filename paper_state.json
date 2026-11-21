@@ -3075,7 +3075,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.002673971263712496,
+     "last_price_usd": 0.0026726438189433837,
      "min_ratio": 1.0,
      "max_ratio": 1.0007130021688404
     },
@@ -4478,7 +4478,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T19:26:13+00:00",
+  "checked_at": "2026-11-21T19:32:13+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
