@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-21T06:05:37+00:00",
+ "processed_until": "2026-11-21T06:09:37+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,9 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.747360453923841e-07,
+     "last_price_usd": 7.73969803504095e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.2347162986482747
+     "max_ratio": 1.235759133359971
     },
     "3ysanRR2CqgeEE6vxavavmbCAejoHZ68zwGEMPU5hke6": {
      "name": "Leonida / SOL",
@@ -25,9 +25,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.195475299773552e-05,
+     "last_price_usd": 1.635460243016248e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.059146169404334
+     "max_ratio": 1.4516157680287096
     },
     "12pDg7WVnEwMyTpHN6bsUyWbLZNMW1rF5tc6kj9iuB6J": {
      "name": "MARS / SOL",
@@ -38,9 +38,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 6.90980797241856e-07,
+     "last_price_usd": 7.27596929201318e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1157928705635138
+     "max_ratio": 1.1770769486815857
     }
    },
    "closed": [
@@ -2010,7 +2010,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07487754980310897,
-     "last_price_usd": 2.12332640819112e-05,
+     "last_price_usd": 2.1194362973593145e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.7963690257795817,
      "last_reason": "take-profit 1 (x1.61)"
@@ -2024,9 +2024,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.747360453923841e-07,
+     "last_price_usd": 7.73969803504095e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.2347162986482747
+     "max_ratio": 1.235759133359971
     },
     "3ysanRR2CqgeEE6vxavavmbCAejoHZ68zwGEMPU5hke6": {
      "name": "Leonida / SOL",
@@ -2037,9 +2037,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.195475299773552e-05,
+     "last_price_usd": 1.635460243016248e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.059146169404334
+     "max_ratio": 1.4516157680287096
     }
    },
    "closed": [
@@ -3196,7 +3196,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T06:08:02+00:00",
+  "checked_at": "2026-11-21T06:14:09+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [

@@ -1,10 +1,5 @@
 {
  "alerted": {
-  "6gXBJm22pVwtaqZby1dxcBPnekVqTuWVa2RdyS6eH6r": {
-   "at": 1795155070.1607397,
-   "price": 8.662800261150139e-06,
-   "mc": 8503.071856
-  },
   "ApChgPtszPw9hD7zVidhJBjTskn74sf2BxFi19bCk9uq": {
    "at": 1795155310.0631933,
    "price": 1.127184795857874e-05,
@@ -1959,6 +1954,11 @@
    "at": 1795241185.9663992,
    "price": 6.817776220945891e-05,
    "mc": 67866.9164067919
+  },
+  "GwCM8UQKnWAhkWYadYEqVY75kF2qBmsKRddsk7UzrXJY": {
+   "at": 1795241425.8987544,
+   "price": 6.785491290958536e-05,
+   "mc": 67707.02242
   }
  }
 }
