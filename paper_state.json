@@ -1,21 +1,8 @@
 {
- "processed_until": "2026-11-20T23:53:28+00:00",
+ "processed_until": "2026-11-20T23:57:28+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "FbUVaCVyXQqD1ZASsaVUUfeuRsymvG5i7jANdQ3V9U8": {
-     "name": "CLAUDIA / SOL",
-     "opened_at": "2026-11-20T18:07:24+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 8.428356193636009e-09,
-     "tokens": 11449444.919385843,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 6.660684068e-07,
-     "min_ratio": 1.0,
-     "max_ratio": 1.1427368876813813
-    },
     "FvHyqFFPr1V8mxLQJ5sx1bwXyRq5z6PRaU4nkrv9Gcc": {
      "name": "Trader / SOL",
      "opened_at": "2026-11-20T23:32:55+00:00",
@@ -25,9 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.64931371523304e-07,
+     "last_price_usd": 8.695828561641541e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1251985254609838
+     "max_ratio": 1.1314695363512919
     },
     "GyDywECoEv26AZAHtMMPFV4mxEgC7ybsWwwcoKWzuCFB": {
      "name": "Anthropic / SOL",
@@ -38,9 +25,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 5.286686416548093e-05,
+     "last_price_usd": 6.236485757034765e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.196770136457458
+     "max_ratio": 1.4029123609190295
     }
    },
    "closed": [
@@ -1550,11 +1537,22 @@
      "min_ratio": 0.0334,
      "max_ratio": 1.6477,
      "reason": "stop-loss (x0.03)"
+    },
+    {
+     "mint": "FbUVaCVyXQqD1ZASsaVUUfeuRsymvG5i7jANdQ3V9U8",
+     "name": "CLAUDIA / SOL",
+     "opened_at": "2026-11-20T18:07:24+00:00",
+     "closed_at": "2026-11-21T00:00:09+00:00",
+     "pnl_sol": -0.090257,
+     "pnl_pct": -90.3,
+     "min_ratio": 0.1046,
+     "max_ratio": 1.1427,
+     "reason": "stop-loss (x0.10)"
     }
    ],
    "day": {
-    "date": "2026-11-20",
-    "pnl_sol": 0.37364496716586043
+    "date": "2026-11-21",
+    "pnl_sol": -0.09025746670952786
    },
    "rejected": [
     {
@@ -1572,19 +1570,6 @@
   },
   "B_patient": {
    "positions": {
-    "FbUVaCVyXQqD1ZASsaVUUfeuRsymvG5i7jANdQ3V9U8": {
-     "name": "CLAUDIA / SOL",
-     "opened_at": "2026-11-20T18:07:24+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 8.428356193636009e-09,
-     "tokens": 11449444.919385843,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 6.660684068e-07,
-     "min_ratio": 1.0,
-     "max_ratio": 1.1427368876813813
-    },
     "FvHyqFFPr1V8mxLQJ5sx1bwXyRq5z6PRaU4nkrv9Gcc": {
      "name": "Trader / SOL",
      "opened_at": "2026-11-20T23:32:55+00:00",
@@ -1594,9 +1579,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.64931371523304e-07,
+     "last_price_usd": 8.695828561641541e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1251985254609838
+     "max_ratio": 1.1314695363512919
     },
     "DZ22UZ9dPzvpcRdPK2EC8qv22iASPZvAQPW9p4KuWce3": {
      "name": "STBL / SOL",
@@ -1607,9 +1592,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.663086507773222e-05,
+     "last_price_usd": 8.8817251342182e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.0089488228855767
+     "max_ratio": 1.0346136578079441
     }
    },
    "closed": [
@@ -2250,11 +2235,22 @@
      "min_ratio": 1.0,
      "max_ratio": 1.0872,
      "reason": "stop temps 242 min (x1.09)"
+    },
+    {
+     "mint": "FbUVaCVyXQqD1ZASsaVUUfeuRsymvG5i7jANdQ3V9U8",
+     "name": "CLAUDIA / SOL",
+     "opened_at": "2026-11-20T18:07:24+00:00",
+     "closed_at": "2026-11-21T00:00:09+00:00",
+     "pnl_sol": -0.090257,
+     "pnl_pct": -90.3,
+     "min_ratio": 0.1046,
+     "max_ratio": 1.1427,
+     "reason": "stop-loss (x0.10)"
     }
    ],
    "day": {
-    "date": "2026-11-20",
-    "pnl_sol": -0.08366768076745242
+    "date": "2026-11-21",
+    "pnl_sol": -0.09025746670952786
    }
   },
   "C_tot": {
@@ -2667,7 +2663,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-20T23:56:00+00:00",
+  "checked_at": "2026-11-21T00:02:08+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
