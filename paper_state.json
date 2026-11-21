@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-21T05:33:38+00:00",
+ "processed_until": "2026-11-21T05:41:38+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,7 +12,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0001870199775729766,
+     "last_price_usd": 0.00018269115919727859,
      "min_ratio": 1.0,
      "max_ratio": 1.1887985095305118
     },
@@ -38,9 +38,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.497963718650608e-05,
+     "last_price_usd": 2.635308516403596e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.112238218756425
+     "max_ratio": 1.1734462968326436
     }
    },
    "closed": [
@@ -1977,7 +1977,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.620840117912642e-05,
+     "last_price_usd": 4.6206266312203136e-05,
      "min_ratio": 0.9988386710650137,
      "max_ratio": 1.0
     },
@@ -1990,7 +1990,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.103980827278441e-07,
+     "last_price_usd": 8.10360641656148e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.424498236178825
     },
@@ -2003,7 +2003,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07487754980310897,
-     "last_price_usd": 2.1241856045653098e-05,
+     "last_price_usd": 2.1240874654072697e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.7963690257795817,
      "last_reason": "take-profit 1 (x1.61)"
@@ -3130,7 +3130,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T05:38:02+00:00",
+  "checked_at": "2026-11-21T05:44:01+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
