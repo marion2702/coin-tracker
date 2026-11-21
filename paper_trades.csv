@@ -649,3 +649,4 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T06:03:03+00:00,3ysanRR2CqgeEE6vxavavmbCAejoHZ68zwGEMPU5hke6,Leonida / SOL,ACHAT,1.127588123e-05,1.00,0.1000,,,,A_rapide
 2026-11-21T06:03:03+00:00,12pDg7WVnEwMyTpHN6bsUyWbLZNMW1rF5tc6kj9iuB6J,MARS / SOL,ACHAT,6.186545072e-07,1.00,0.1000,,,,A_rapide
 2026-11-21T06:03:03+00:00,3ysanRR2CqgeEE6vxavavmbCAejoHZ68zwGEMPU5hke6,Leonida / SOL,ACHAT,1.127588123e-05,1.00,0.1000,,,,B_patient
+2026-11-21T06:30:18+00:00,6NUt5uKsPJXq5exkzxgnbAXSEu9i6v4XbKjruu7H7q3,MARS / SOL,stop temps 32 min (x1.20),7.541275919556069e-07,1.00,0.1000,0.1114,+0.0114,+11.4,A_rapide
