@@ -554,3 +554,5 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T00:26:09+00:00,Hv4ZF1XAdezZBs75nhG8pNjCdXPJzZ8ATnhaGjGGpump,Gestalt / ZEC,ACHAT,4.406724324e-05,1.00,0.1000,,,,A_rapide
 2026-11-21T00:26:09+00:00,HmJRWZ8tFfuCY9A4MrSftnrvEFCApw1hyqHtb9Rzpump,Mandy / SOL,take-profit 2 (x2.83),3.33190301410002e-05,0.50,0.0500,0.1319,+0.0819,+163.7,B_patient
 2026-11-21T00:26:09+00:00,Hv4ZF1XAdezZBs75nhG8pNjCdXPJzZ8ATnhaGjGGpump,Gestalt / ZEC,ACHAT,4.406724324e-05,1.00,0.1000,,,,B_patient
+2026-11-21T00:28:01+00:00,DkHsZ1kjd2Fua8sgKE6PhHhyCdXYscbDVN7mAfiGpump,JENSEN / SOL,ACHAT,0.001460644723,1.00,0.1000,,,,A_rapide
+2026-11-21T00:30:01+00:00,2fC3huo7ho2uQqyTyNdSHYwaiWVHpTdjkcRGMCPVsdTT,MI / SOL,ACHAT,1.083084755e-05,1.00,0.1000,,,,A_rapide

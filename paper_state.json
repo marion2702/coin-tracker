@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-21T00:25:29+00:00",
+ "processed_until": "2026-11-21T00:31:29+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,7 +12,35 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.406724324e-05
+     "last_price_usd": 4.406724324e-05,
+     "min_ratio": 0.9996574128771918,
+     "max_ratio": 1.0001740486927995
+    },
+    "DkHsZ1kjd2Fua8sgKE6PhHhyCdXYscbDVN7mAfiGpump": {
+     "name": "JENSEN / SOL",
+     "opened_at": "2026-11-21T00:28:01+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 2.1239659900420398e-05,
+     "tokens": 4543.387250663556,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 0.00200533040307721,
+     "min_ratio": 1.0,
+     "max_ratio": 1.3724325218325664
+    },
+    "2fC3huo7ho2uQqyTyNdSHYwaiWVHpTdjkcRGMCPVsdTT": {
+     "name": "MI / SOL",
+     "opened_at": "2026-11-21T00:30:01+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.575213607425892e-07,
+     "tokens": 612615.3275027493,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 1.220396615800676e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.1261964673470228
     }
    },
    "closed": [
@@ -1619,7 +1647,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.438070171931321e-07,
+     "last_price_usd": 8.44096193679498e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1332612537485227
     },
@@ -1632,9 +1660,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.724067826496241e-05,
+     "last_price_usd": 9.92690144645082e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.1340648931321187
+     "max_ratio": 1.1573236497805144
     },
     "Hv4ZF1XAdezZBs75nhG8pNjCdXPJzZ8ATnhaGjGGpump": {
      "name": "Gestalt / ZEC",
@@ -1645,7 +1673,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.406724324e-05
+     "last_price_usd": 4.406724324e-05,
+     "min_ratio": 0.9996574128771918,
+     "max_ratio": 1.0001740486927995
     }
    },
    "closed": [
@@ -2725,7 +2755,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T00:26:09+00:00",
+  "checked_at": "2026-11-21T00:32:01+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
