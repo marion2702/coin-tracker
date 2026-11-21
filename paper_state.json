@@ -1,8 +1,20 @@
 {
- "processed_until": "2026-11-21T01:25:28+00:00",
+ "processed_until": "2026-11-21T01:43:28+00:00",
  "strategies": {
   "A_rapide": {
-   "positions": {},
+   "positions": {
+    "QytgqFPUdyQh46TXSi7PGiAdmywsA6Jf3NwzPA6eQKk": {
+     "name": "ONE / SOL",
+     "opened_at": "2026-11-21T01:44:17+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 7.067207352387876e-07,
+     "tokens": 136546.15633627117,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 4.850619733e-05
+    }
+   },
    "closed": [
     {
      "mint": "ALjzrjh1sArWs2zbcEvRgf8nkUCxt5FLcYJy5mtaDShr",
@@ -1695,9 +1707,20 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.421676913118809e-07,
+     "last_price_usd": 8.42158736205756e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1332612537485227
+    },
+    "QytgqFPUdyQh46TXSi7PGiAdmywsA6Jf3NwzPA6eQKk": {
+     "name": "ONE / SOL",
+     "opened_at": "2026-11-21T01:44:17+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 7.067207352387876e-07,
+     "tokens": 136546.15633627117,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 4.850619733e-05
     }
    },
    "closed": [
@@ -2810,7 +2833,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T01:38:09+00:00",
+  "checked_at": "2026-11-21T01:44:17+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
