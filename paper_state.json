@@ -1,21 +1,8 @@
 {
- "processed_until": "2026-11-21T10:49:48+00:00",
+ "processed_until": "2026-11-21T10:55:48+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "3A9zqBmHwpd7XYABbNzWw6j83BuHwSeaVrc6B2v3pump": {
-     "name": "Napeception / SOL",
-     "opened_at": "2026-11-21T10:24:28+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.5314799548793187e-07,
-     "tokens": 630109.4551877712,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 1.419418030437783e-05,
-     "min_ratio": 0.9983806808104686,
-     "max_ratio": 1.36273412743718
-    },
     "Eiuy8fLJebeyRMD7tbRYNSP7avZkCi12CDjYRfsviQcs": {
      "name": "STONK / SOL",
      "opened_at": "2026-11-21T10:32:21+00:00",
@@ -25,20 +12,31 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.9326931227828078e-05,
+     "last_price_usd": 2.9343891032246562e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.0577772105600072
     },
-    "B5XBnQfpnpVJGXsnVWbVeKxNp832Ps6r6GiG7chvdeRs": {
-     "name": "ZAN / SOL",
-     "opened_at": "2026-11-21T10:50:36+00:00",
+    "8bSwBq7iiA6kibfxHRxZEKGJCcKVMm1MrKszBCAfLTYe": {
+     "name": "NEX Ai / SOL",
+     "opened_at": "2026-11-21T10:56:37+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.2381943503734694e-06,
-     "tokens": 77936.06873661898,
+     "entry_price_sol": 5.429117647010399e-07,
+     "tokens": 177745.27330999865,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.421252449e-05
+     "last_price_usd": 3.694606601e-05
+    },
+    "91r3SsPfCdhMtVM27Px2riMiVW8TPgHyp3yggWNoMZ2b": {
+     "name": "win / SOL",
+     "opened_at": "2026-11-21T10:56:37+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.1895860442714955e-07,
+     "tokens": 811206.5576483521,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 8.095334707e-06
     }
    },
    "closed": [
@@ -2307,11 +2305,33 @@
      "min_ratio": 0.9919,
      "max_ratio": 1.0016,
      "reason": "stop temps 31 min (x1.00)"
+    },
+    {
+     "mint": "3A9zqBmHwpd7XYABbNzWw6j83BuHwSeaVrc6B2v3pump",
+     "name": "Napeception / SOL",
+     "opened_at": "2026-11-21T10:24:28+00:00",
+     "closed_at": "2026-11-21T10:56:37+00:00",
+     "pnl_sol": -0.006724,
+     "pnl_pct": -6.7,
+     "min_ratio": 0.9984,
+     "max_ratio": 1.3627,
+     "reason": "stop temps 32 min (x1.00)"
+    },
+    {
+     "mint": "B5XBnQfpnpVJGXsnVWbVeKxNp832Ps6r6GiG7chvdeRs",
+     "name": "ZAN / SOL",
+     "opened_at": "2026-11-21T10:50:36+00:00",
+     "closed_at": "2026-11-21T10:56:37+00:00",
+     "pnl_sol": -0.073624,
+     "pnl_pct": -73.6,
+     "min_ratio": 0.2832,
+     "max_ratio": 1.0176,
+     "reason": "stop-loss (x0.28)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.0336464159086248
+    "pnl_sol": -0.04670229830024959
    },
    "rejected": [
     {
@@ -2335,12 +2355,13 @@
      "size_sol": 0.1,
      "entry_price_sol": 3.1147521085919065e-07,
      "tokens": 309815.98739048606,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 2.565426358797948e-05,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.0732033989546209,
+     "last_price_usd": 2.4804842952815102e-05,
      "min_ratio": 0.5971582762137866,
-     "max_ratio": 1.2110112999346254
+     "max_ratio": 1.5721957411929641,
+     "last_reason": "take-profit 1 (x1.57)"
     },
     "3A9zqBmHwpd7XYABbNzWw6j83BuHwSeaVrc6B2v3pump": {
      "name": "Napeception / SOL",
@@ -2351,7 +2372,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.419418030437783e-05,
+     "last_price_usd": 1.0439130065738922e-05,
      "min_ratio": 0.9983806808104686,
      "max_ratio": 1.36273412743718
     },
@@ -2364,7 +2385,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.8805672191765836e-05,
+     "last_price_usd": 4.883389657871088e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.07138764630515
     }
@@ -3600,7 +3621,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T10:50:36+00:00",
+  "checked_at": "2026-11-21T10:56:37+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
