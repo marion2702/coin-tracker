@@ -1,20 +1,29 @@
 {
- "processed_until": "2026-11-21T15:46:00+00:00",
+ "processed_until": "2026-11-21T15:56:00+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "ETX78hHJeiAmCRCMijKLGB4MTJXe3cJPjPPsh6iNHrC": {
-     "name": "win / SOL",
-     "opened_at": "2026-11-21T15:24:32+00:00",
+    "DteSceZfUSFyYuj5ARX775NRiN7tEgZhmA85TUWdcDtv": {
+     "name": "Emily / SOL",
+     "opened_at": "2026-11-21T15:57:40+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.1445726690744292e-08,
-     "tokens": 8431094.207241183,
+     "entry_price_sol": 1.6709788563366147e-07,
+     "tokens": 577505.8112438516,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.7585652838692e-07,
-     "min_ratio": 1.0,
-     "max_ratio": 1.0868685174930603
+     "last_price_usd": 1.17442585e-05
+    },
+    "2y8pf2tZkfMMyRfEZStopHVukXDNoVf9wMjnNaZBpump": {
+     "name": "Mei-chan / SOL",
+     "opened_at": "2026-11-21T15:57:40+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 3.9781083310847087e-07,
+     "tokens": 242577.60716558315,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 2.795961924e-05
     }
    },
    "closed": [
@@ -2800,11 +2809,22 @@
      "min_ratio": 1.0,
      "max_ratio": 2.0972,
      "reason": "take-profit 2 (x2.10)"
+    },
+    {
+     "mint": "ETX78hHJeiAmCRCMijKLGB4MTJXe3cJPjPPsh6iNHrC",
+     "name": "win / SOL",
+     "opened_at": "2026-11-21T15:24:32+00:00",
+     "closed_at": "2026-11-21T15:54:32+00:00",
+     "pnl_sol": 0.00349,
+     "pnl_pct": 3.5,
+     "min_ratio": 1.0,
+     "max_ratio": 1.1113,
+     "reason": "stop temps 30 min (x1.11)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.2570708048979852
+    "pnl_sol": 0.26056080007302923
    },
    "rejected": [
     {
@@ -2822,33 +2842,6 @@
   },
   "B_patient": {
    "positions": {
-    "PtefCZ8NRX7fVqMGG19HpE3o7KpRb4DHgtXQsJbEL8T": {
-     "name": "Mochi / SOL",
-     "opened_at": "2026-11-21T11:54:30+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 7.446126168490585e-09,
-     "tokens": 12959758.91576407,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07103503056908601,
-     "last_price_usd": 8.0333786084363e-07,
-     "min_ratio": 0.9630511003621155,
-     "max_ratio": 1.6075472976341545,
-     "last_reason": "take-profit 1 (x1.53)"
-    },
-    "62ZQG5YbVD5nh7oLPyyC3S9XhtwD7quoiRFKPdsiSZV": {
-     "name": "Bigfoot / SOL",
-     "opened_at": "2026-11-21T14:30:40+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 9.39679805349751e-08,
-     "tokens": 1026945.5558224163,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 8.378370327817e-06,
-     "min_ratio": 0.9995958140766794,
-     "max_ratio": 1.28448008899239
-    },
     "3oDgK1Fgs1JGRpvHQNdXKKm6GXs7eVdxoZdXxBfUFogK": {
      "name": "Emily / SOL",
      "opened_at": "2026-11-21T14:30:40+00:00",
@@ -2861,6 +2854,28 @@
      "last_price_usd": 1.59315844115935e-05,
      "min_ratio": 0.9129513771350616,
      "max_ratio": 1.2746469776772924
+    },
+    "DteSceZfUSFyYuj5ARX775NRiN7tEgZhmA85TUWdcDtv": {
+     "name": "Emily / SOL",
+     "opened_at": "2026-11-21T15:57:40+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.6709788563366147e-07,
+     "tokens": 577505.8112438516,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 1.17442585e-05
+    },
+    "2y8pf2tZkfMMyRfEZStopHVukXDNoVf9wMjnNaZBpump": {
+     "name": "Mei-chan / SOL",
+     "opened_at": "2026-11-21T15:57:40+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 3.9781083310847087e-07,
+     "tokens": 242577.60716558315,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 2.795961924e-05
     }
    },
    "closed": [
@@ -3732,11 +3747,33 @@
      "min_ratio": 1.0,
      "max_ratio": 1.0714,
      "reason": "stop temps 242 min (x1.07)"
+    },
+    {
+     "mint": "62ZQG5YbVD5nh7oLPyyC3S9XhtwD7quoiRFKPdsiSZV",
+     "name": "Bigfoot / SOL",
+     "opened_at": "2026-11-21T14:30:40+00:00",
+     "closed_at": "2026-11-21T15:52:23+00:00",
+     "pnl_sol": -0.085165,
+     "pnl_pct": -85.2,
+     "min_ratio": 0.1593,
+     "max_ratio": 1.2845,
+     "reason": "stop-loss (x0.16)"
+    },
+    {
+     "mint": "PtefCZ8NRX7fVqMGG19HpE3o7KpRb4DHgtXQsJbEL8T",
+     "name": "Mochi / SOL",
+     "opened_at": "2026-11-21T11:54:30+00:00",
+     "closed_at": "2026-11-21T15:54:32+00:00",
+     "pnl_sol": 0.042383,
+     "pnl_pct": 42.4,
+     "min_ratio": 0.9631,
+     "max_ratio": 1.6075,
+     "reason": "stop temps 240 min (x1.53)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.06855944979340664
+    "pnl_sol": 0.025777471962109874
    }
   },
   "C_tot": {
@@ -4149,7 +4186,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T15:50:24+00:00",
+  "checked_at": "2026-11-21T15:57:40+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
