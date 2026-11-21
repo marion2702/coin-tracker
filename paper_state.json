@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-21T12:49:51+00:00",
+ "processed_until": "2026-11-21T12:55:52+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,7 +12,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.3114033620223e-06,
+     "last_price_usd": 9.2982668900765e-06,
      "min_ratio": 0.9981276904246329,
      "max_ratio": 1.0
     },
@@ -25,8 +25,8 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.369364747217852e-06,
-     "min_ratio": 0.8397824976586602,
+     "last_price_usd": 1.3390886963626899e-06,
+     "min_ratio": 0.8393491733564629,
      "max_ratio": 1.0
     },
     "Cnvkjc9mGS9Vozmdzeikou5Qt4RdHcGnj1pTfZU6GJU": {
@@ -38,7 +38,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.594061613e-09
+     "last_price_usd": 1.8140261947628799e-09,
+     "min_ratio": 1.0,
+     "max_ratio": 1.1395977500739278
     }
    },
    "closed": [
@@ -2547,7 +2549,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.12065140791982e-06,
+     "last_price_usd": 7.984757069173499e-06,
      "min_ratio": 0.5286389791917302,
      "max_ratio": 1.3881996909110899
     },
@@ -2560,7 +2562,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.967927920139185e-05,
+     "last_price_usd": 4.96091919726312e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.07138764630515
     },
@@ -2573,7 +2575,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07103503056908601,
-     "last_price_usd": 7.89911616064494e-07,
+     "last_price_usd": 7.887972135001699e-07,
      "min_ratio": 0.9630511003621155,
      "max_ratio": 1.6075472976341545,
      "last_reason": "take-profit 1 (x1.53)"
@@ -3843,7 +3845,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T12:50:31+00:00",
+  "checked_at": "2026-11-21T12:56:32+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
