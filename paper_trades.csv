@@ -808,3 +808,5 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T14:06:32+00:00,6qmVTdMG9CtogD7AJx3UJhnoCVEjNCf5aRsEGi6mpump,PUMPAPI / SOL,take-profit 2 (x2.07),5.7286332018023684e-05,0.50,0.0500,0.0966,+0.0466,+93.1,A_rapide
 2026-11-21T14:06:32+00:00,9msk9ehERMECbvsp3mvNabSXy2k7GNcrxJgdWfh7pump,win / SPCX,ACHAT,8.969417543e-05,1.00,0.1000,,,,A_rapide
 2026-11-21T14:12:24+00:00,ELChwHrBZvZkbjZj2DkvHvqkj7vieTP67c4Fg3JnJuF,Emily / SOL,ACHAT,7.22600699e-07,1.00,0.1000,,,,A_rapide
+2026-11-21T14:16:32+00:00,NGK4MVhgG1Vtpri7vCoregDMd1xotEJMhsWRfg7pump,Milky / SOL,ACHAT,2.819061127e-05,1.00,0.1000,,,,A_rapide
+2026-11-21T14:20:15+00:00,NGK4MVhgG1Vtpri7vCoregDMd1xotEJMhsWRfg7pump,Milky / SOL,stop-loss (x0.75),2.105270698221702e-05,1.00,0.1000,0.0695,-0.0305,-30.5,A_rapide
