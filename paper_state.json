@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-21T16:20:01+00:00",
+ "processed_until": "2026-11-21T16:24:00+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,7 +12,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.002655324645766408,
+     "last_price_usd": 0.0026545321076459675,
      "min_ratio": 1.0,
      "max_ratio": 1.0007130021688404
     },
@@ -25,9 +25,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.922381208017181e-05,
+     "last_price_usd": 0.0001208710047958246,
      "min_ratio": 0.9544648272423942,
-     "max_ratio": 1.0
+     "max_ratio": 1.1630430674247847
     },
     "DsJ5ABQZANNnUZnZq1N1J94Z2NVgD3goeQrpedexg8Dx": {
      "name": "CATME / SOL",
@@ -38,7 +38,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.302831381e-05
+     "last_price_usd": 9.51254106228312e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.022847855719693
     }
    },
    "closed": [
@@ -2934,7 +2936,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.002655324645766408,
+     "last_price_usd": 0.0026545321076459675,
      "min_ratio": 1.0,
      "max_ratio": 1.0007130021688404
     },
@@ -2947,9 +2949,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.922381208017181e-05,
+     "last_price_usd": 0.0001208710047958246,
      "min_ratio": 0.9544648272423942,
-     "max_ratio": 1.0
+     "max_ratio": 1.1630430674247847
     }
    },
    "closed": [
@@ -4293,7 +4295,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T16:20:33+00:00",
+  "checked_at": "2026-11-21T16:26:24+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
