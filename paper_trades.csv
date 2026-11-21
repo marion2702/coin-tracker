@@ -605,3 +605,4 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T03:02:09+00:00,CYeMdMtdwGG1K6weqWFDXCWmoyCVDySj3VBbRPB7qc6,Cyber / SOL,take-profit 1 (x1.64),2.1378029547937503e-05,0.50,0.0500,0.0763,+0.0263,+52.5,A_rapide
 2026-11-21T03:04:01+00:00,F9aTwYErHJQYzMojGAJ1ReEa6gU7SMhGUMC7c6bopump,Crypto / SOL,stop-loss (x0.70),6.4609178626345505e-06,0.50,0.0500,0.0326,-0.0174,-34.8,A_rapide
 2026-11-21T03:04:01+00:00,M8onAsQXzP2VWJ86wwmYuEp7dYLoSGDuZXvKvSwfGsc,蚂蚁 / SOL,ACHAT,7.57658182e-07,1.00,0.1000,,,,A_rapide
+2026-11-21T03:11:52+00:00,8wK18h2Gnz2t1kGcfTBP91oZGj34cQbKj4nxR5iKbVZ,ANT / SOL,stop temps 31 min (x1.13),7.87452344139951e-07,1.00,0.1000,0.1053,+0.0053,+5.3,A_rapide

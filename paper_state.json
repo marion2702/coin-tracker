@@ -1,21 +1,8 @@
 {
- "processed_until": "2026-11-21T03:07:28+00:00",
+ "processed_until": "2026-11-21T03:09:28+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "8wK18h2Gnz2t1kGcfTBP91oZGj34cQbKj4nxR5iKbVZ": {
-     "name": "ANT / SOL",
-     "opened_at": "2026-11-21T02:40:55+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.0271321681393387e-08,
-     "tokens": 9395090.816288114,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 7.5378848086167e-07,
-     "min_ratio": 0.9998713231427868,
-     "max_ratio": 1.1079392071436138
-    },
     "CYeMdMtdwGG1K6weqWFDXCWmoyCVDySj3VBbRPB7qc6": {
      "name": "Cyber / SOL",
      "opened_at": "2026-11-21T03:00:09+00:00",
@@ -25,7 +12,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07626575206080526,
-     "last_price_usd": 2.1221522546781252e-05,
+     "last_price_usd": 2.12251139788125e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.637966164155929,
      "last_reason": "take-profit 1 (x1.64)"
@@ -39,9 +26,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.85705650772029e-07,
+     "last_price_usd": 8.09610747607824e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.044052776810484
+     "max_ratio": 1.0756360500934286
     }
    },
    "closed": [
@@ -1793,11 +1780,22 @@
      "min_ratio": 0.7001,
      "max_ratio": 1.5188,
      "reason": "stop-loss (x0.70)"
+    },
+    {
+     "mint": "8wK18h2Gnz2t1kGcfTBP91oZGj34cQbKj4nxR5iKbVZ",
+     "name": "ANT / SOL",
+     "opened_at": "2026-11-21T02:40:55+00:00",
+     "closed_at": "2026-11-21T03:11:52+00:00",
+     "pnl_sol": 0.005259,
+     "pnl_pct": 5.3,
+     "min_ratio": 0.9999,
+     "max_ratio": 1.1303,
+     "reason": "stop temps 31 min (x1.13)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.20641761145096374
+    "pnl_sol": 0.21167692067487004
    },
    "rejected": [
     {
@@ -1824,7 +1822,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.33241861276819e-07,
+     "last_price_usd": 8.33382875264094e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1332612537485227
     },
@@ -1837,7 +1835,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.793687285047323e-05,
+     "last_price_usd": 4.794498546445998e-05,
      "min_ratio": 0.9988386710650137,
      "max_ratio": 1.0
     },
@@ -1850,7 +1848,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.407118372132861e-07,
+     "last_price_usd": 8.40854115384636e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.424498236178825
     }
@@ -2965,7 +2963,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T03:08:01+00:00",
+  "checked_at": "2026-11-21T03:13:53+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
