@@ -3,20 +3,6 @@
  "strategies": {
   "A_rapide": {
    "positions": {
-    "GhjBM6WhME2QLERYrDh1Mfb59vXVVb3oEyXyTBtgG1Uo": {
-     "name": "\u30e1\u30a4 / SOL",
-     "opened_at": "2026-11-21T16:05:11+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.1900077056395951e-07,
-     "tokens": 810919.1187811176,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.08662684032335229,
-     "last_price_usd": 1.5541066693683002e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.8604921543848647,
-     "last_reason": "take-profit 1 (x1.86)"
-    },
     "DuQztAe3Q45VnLQLw8JumXskXEtQWx3udRNuD5UvoXu5": {
      "name": "APEC / SOL",
      "opened_at": "2026-11-21T16:09:11+00:00",
@@ -26,7 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.002654268132
+     "last_price_usd": 0.0026569089664976314,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0007130021688404
     }
    },
    "closed": [
@@ -2867,11 +2855,22 @@
      "min_ratio": 0.5997,
      "max_ratio": 1.0,
      "reason": "stop-loss (x0.60)"
+    },
+    {
+     "mint": "GhjBM6WhME2QLERYrDh1Mfb59vXVVb3oEyXyTBtgG1Uo",
+     "name": "\u30e1\u30a4 / SOL",
+     "opened_at": "2026-11-21T16:05:11+00:00",
+     "closed_at": "2026-11-21T16:12:24+00:00",
+     "pnl_sol": 0.130809,
+     "pnl_pct": 130.8,
+     "min_ratio": 1.0,
+     "max_ratio": 3.0966,
+     "reason": "take-profit 2 (x3.10)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.3643889123073809
+    "pnl_sol": 0.4951981855989144
    },
    "rejected": [
     {
@@ -2902,20 +2901,6 @@
      "min_ratio": 0.9129513771350616,
      "max_ratio": 1.2746469776772924
     },
-    "GhjBM6WhME2QLERYrDh1Mfb59vXVVb3oEyXyTBtgG1Uo": {
-     "name": "\u30e1\u30a4 / SOL",
-     "opened_at": "2026-11-21T16:05:11+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.1900077056395951e-07,
-     "tokens": 810919.1187811176,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.08662684032335229,
-     "last_price_usd": 1.5541066693683002e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.8604921543848647,
-     "last_reason": "take-profit 1 (x1.86)"
-    },
     "DuQztAe3Q45VnLQLw8JumXskXEtQWx3udRNuD5UvoXu5": {
      "name": "APEC / SOL",
      "opened_at": "2026-11-21T16:09:11+00:00",
@@ -2925,7 +2910,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.002654268132
+     "last_price_usd": 0.0026569089664976314,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0007130021688404
     }
    },
    "closed": [
@@ -3841,11 +3828,22 @@
      "min_ratio": 1.0,
      "max_ratio": 2.4753,
      "reason": "take-profit 2 (x2.48)"
+    },
+    {
+     "mint": "GhjBM6WhME2QLERYrDh1Mfb59vXVVb3oEyXyTBtgG1Uo",
+     "name": "\u30e1\u30a4 / SOL",
+     "opened_at": "2026-11-21T16:05:11+00:00",
+     "closed_at": "2026-11-21T16:12:24+00:00",
+     "pnl_sol": 0.130809,
+     "pnl_pct": 130.8,
+     "min_ratio": 1.0,
+     "max_ratio": 3.0966,
+     "reason": "take-profit 2 (x3.10)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.2064081325657115
+    "pnl_sol": 0.337217405857245
    }
   },
   "C_tot": {
@@ -4258,7 +4256,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T16:09:11+00:00",
+  "checked_at": "2026-11-21T16:14:33+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
