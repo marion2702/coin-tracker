@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-21T11:23:49+00:00",
+ "processed_until": "2026-11-21T11:29:49+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,9 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.17777282696664e-05,
+     "last_price_usd": 9.4214303682928e-05,
      "min_ratio": 0.9977864845929011,
-     "max_ratio": 1.078343187185933
+     "max_ratio": 1.0990805561702781
     },
     "55Fns2JLhnvKcS3Ng4UaViZiUMeTaEbzjVQVQq4kUR2A": {
      "name": "Leonida / SOL",
@@ -25,9 +25,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.91302938003491e-06,
+     "last_price_usd": 1.2511768921608e-05,
      "min_ratio": 0.9569611028265276,
-     "max_ratio": 1.0
+     "max_ratio": 1.3337690922867826
+    },
+    "GrJH1FkicpyMqpqgddSkG53rTFPQM9uTTbB9evcM4NWQ": {
+     "name": "Mochi / SOL",
+     "opened_at": "2026-11-21T11:30:30+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 8.703311113845577e-07,
+     "tokens": 110877.34166653416,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 5.9605246698676796e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0016877353874039
     }
    },
    "closed": [
@@ -2426,7 +2439,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.329236138082891e-06,
+     "last_price_usd": 9.332548949724e-06,
      "min_ratio": 0.8011858046791662,
      "max_ratio": 1.36273412743718
     },
@@ -2439,7 +2452,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.8712794235438326e-05,
+     "last_price_usd": 4.90625430499776e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.07138764630515
     },
@@ -2452,9 +2465,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.91302938003491e-06,
+     "last_price_usd": 1.2511768921608e-05,
      "min_ratio": 0.9569611028265276,
-     "max_ratio": 1.0
+     "max_ratio": 1.3337690922867826
     }
    },
    "closed": [
@@ -3710,7 +3723,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T11:26:22+00:00",
+  "checked_at": "2026-11-21T11:32:13+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [

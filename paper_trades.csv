@@ -757,3 +757,4 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T11:24:30+00:00,D5D2ieKCyhBToJjKJWWM3HeakiH8DPAVoCYkfd38pump,Mochi / SOL,stop-loss (x0.69),2.512731981994416e-05,1.00,0.1000,0.0641,-0.0359,-35.9,A_rapide
 2026-11-21T11:24:30+00:00,55Fns2JLhnvKcS3Ng4UaViZiUMeTaEbzjVQVQq4kUR2A,Leonida / SOL,ACHAT,9.338022492e-06,1.00,0.1000,,,,A_rapide
 2026-11-21T11:24:30+00:00,55Fns2JLhnvKcS3Ng4UaViZiUMeTaEbzjVQVQq4kUR2A,Leonida / SOL,ACHAT,9.338022492e-06,1.00,0.1000,,,,B_patient
+2026-11-21T11:30:30+00:00,GrJH1FkicpyMqpqgddSkG53rTFPQM9uTTbB9evcM4NWQ,Mochi / SOL,ACHAT,5.93538997e-05,1.00,0.1000,,,,A_rapide
