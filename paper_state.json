@@ -1,47 +1,18 @@
 {
- "processed_until": "2026-11-21T12:19:52+00:00",
+ "processed_until": "2026-11-21T12:25:51+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "PtefCZ8NRX7fVqMGG19HpE3o7KpRb4DHgtXQsJbEL8T": {
-     "name": "Mochi / SOL",
-     "opened_at": "2026-11-21T11:54:30+00:00",
+    "Bs9mhbXA8oj8oM6kLCzCgpN4asNxQKM3VeZin3AB6Jj8": {
+     "name": "win / SOL",
+     "opened_at": "2026-11-21T12:26:32+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 7.446126168490585e-09,
-     "tokens": 12959758.91576407,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07103503056908601,
-     "last_price_usd": 8.262700066494091e-07,
-     "min_ratio": 0.9630511003621155,
-     "max_ratio": 1.6075472976341545,
-     "last_reason": "take-profit 1 (x1.53)"
-    },
-    "Hjhd1edRTTPrdJD4UcZf31vsi2PfrEN9wzE2CQKVALz": {
-     "name": "Mochi / SOL",
-     "opened_at": "2026-11-21T11:56:21+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 6.731028874953074e-07,
-     "tokens": 143365.89813050348,
+     "entry_price_sol": 1.1694198808123234e-07,
+     "tokens": 825195.4801124763,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.61592943564294e-05,
-     "min_ratio": 0.9800879067014835,
-     "max_ratio": 1.033274426422437
-    },
-    "C77wTNSwkorDNDhQTujY39xJJNzG3q78MMRx4EDzpump": {
-     "name": "will / SOL",
-     "opened_at": "2026-11-21T12:06:30+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 6.388467617225943e-07,
-     "tokens": 151053.4384486762,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 4.101667819140174e-05,
-     "min_ratio": 0.8501256209479382,
-     "max_ratio": 1.138770740636393
+     "last_price_usd": 8.073017505e-06
     }
    },
    "closed": [
@@ -2453,11 +2424,44 @@
      "min_ratio": 1.0,
      "max_ratio": 1.148,
      "reason": "stop temps 32 min (x1.15)"
+    },
+    {
+     "mint": "C77wTNSwkorDNDhQTujY39xJJNzG3q78MMRx4EDzpump",
+     "name": "will / SOL",
+     "opened_at": "2026-11-21T12:06:30+00:00",
+     "closed_at": "2026-11-21T12:22:23+00:00",
+     "pnl_sol": -0.068748,
+     "pnl_pct": -68.7,
+     "min_ratio": 0.3356,
+     "max_ratio": 1.1388,
+     "reason": "stop-loss (x0.34)"
+    },
+    {
+     "mint": "PtefCZ8NRX7fVqMGG19HpE3o7KpRb4DHgtXQsJbEL8T",
+     "name": "Mochi / SOL",
+     "opened_at": "2026-11-21T11:54:30+00:00",
+     "closed_at": "2026-11-21T12:26:32+00:00",
+     "pnl_sol": 0.042383,
+     "pnl_pct": 42.4,
+     "min_ratio": 0.9631,
+     "max_ratio": 1.6075,
+     "reason": "stop temps 32 min (x1.53)"
+    },
+    {
+     "mint": "Hjhd1edRTTPrdJD4UcZf31vsi2PfrEN9wzE2CQKVALz",
+     "name": "Mochi / SOL",
+     "opened_at": "2026-11-21T11:56:21+00:00",
+     "closed_at": "2026-11-21T12:26:32+00:00",
+     "pnl_sol": -0.007487,
+     "pnl_pct": -7.5,
+     "min_ratio": 0.9801,
+     "max_ratio": 1.0333,
+     "reason": "stop temps 30 min (x0.99)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": -0.06784365786672511
+    "pnl_sol": -0.10169522142636067
    },
    "rejected": [
     {
@@ -2484,7 +2488,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 5.588539660679713e-06,
+     "last_price_usd": 7.5937816700460005e-06,
      "min_ratio": 0.5286389791917302,
      "max_ratio": 1.36273412743718
     },
@@ -2497,7 +2501,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.9534783356024725e-05,
+     "last_price_usd": 4.9539070240227366e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.07138764630515
     },
@@ -2510,7 +2514,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07103503056908601,
-     "last_price_usd": 8.262700066494091e-07,
+     "last_price_usd": 7.87682262320226e-07,
      "min_ratio": 0.9630511003621155,
      "max_ratio": 1.6075472976341545,
      "last_reason": "take-profit 1 (x1.53)"
@@ -3780,7 +3784,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T12:20:32+00:00",
+  "checked_at": "2026-11-21T12:26:32+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
