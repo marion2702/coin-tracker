@@ -913,3 +913,5 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T17:23:23+00:00,EDzyCybLk4BL2P3goJr3qL4VAY7uaDbiBVCrs6JLzjp,Singularity / SOL,ACHAT,5.176922534e-07,1.00,0.1000,,,,B_patient
 2026-11-21T17:27:23+00:00,5MzYUa4z7ZtJEWAyj6pcCmhky8NVS1PLa9NFGEQcpump,Prayge / SOL,ACHAT,2.873179918e-05,1.00,0.1000,,,,A_rapide
 2026-11-21T17:28:36+00:00,5MzYUa4z7ZtJEWAyj6pcCmhky8NVS1PLa9NFGEQcpump,Prayge / SOL,stop-loss (x0.70),1.996929370476612e-05,1.00,0.1000,0.0647,-0.0353,-35.3,A_rapide
+2026-11-21T17:35:23+00:00,DvxYaNCC3KavAbhsozqxqABmdvtnR9BdgRhaCDFFt27w,Club / SOL,ACHAT,5.197005881e-05,1.00,0.1000,,,,A_rapide
+2026-11-21T17:35:23+00:00,GVtp2nM3pciwm62U3WPAWMAJB9DQdyNjQou5rKyHDgEm,Prayge / SOL,ACHAT,5.379617078e-05,1.00,0.1000,,,,A_rapide
