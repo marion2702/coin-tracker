@@ -1,21 +1,8 @@
 {
- "processed_until": "2026-11-21T11:11:49+00:00",
+ "processed_until": "2026-11-21T11:19:50+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "5jSE1SKoRGiQs2qjeMn2eWrY7a4spJEW164pCZsvnsRv": {
-     "name": "DCTY / SOL",
-     "opened_at": "2026-11-21T11:02:36+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.80293501457095e-08,
-     "tokens": 5352383.708791878,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 1.2269688360804318e-06,
-     "min_ratio": 0.9994813930821723,
-     "max_ratio": 1.0
-    },
     "989pSXA2v7Mfr6WeQxiVuVejeZ7TrV1VQY39uMRMFKBZ": {
      "name": "ZAN / SOL",
      "opened_at": "2026-11-21T11:05:07+00:00",
@@ -25,9 +12,35 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.783517195026399e-05,
+     "last_price_usd": 9.011098846092158e-05,
      "min_ratio": 0.9977864845929011,
-     "max_ratio": 1.0288925380694185
+     "max_ratio": 1.0560106359720232
+    },
+    "D5D2ieKCyhBToJjKJWWM3HeakiH8DPAVoCYkfd38pump": {
+     "name": "Mochi / SOL",
+     "opened_at": "2026-11-21T11:16:30+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 5.363022393419994e-07,
+     "tokens": 179935.8513184616,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 5.264414620432239e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.4422837408790676
+    },
+    "AzLU2LMRoWMjXMowzqNgF7GrNLGua3rfGRu2SdcxKqfm": {
+     "name": "DCTY / SOL",
+     "opened_at": "2026-11-21T11:18:30+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.2595563418612404e-07,
+     "tokens": 766142.7821275736,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 9.35820310678e-06,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0916542232387707
     }
    },
    "closed": [
@@ -2362,11 +2375,22 @@
      "min_ratio": 0.0007,
      "max_ratio": 1.0,
      "reason": "stop-loss (x0.00)"
+    },
+    {
+     "mint": "5jSE1SKoRGiQs2qjeMn2eWrY7a4spJEW164pCZsvnsRv",
+     "name": "DCTY / SOL",
+     "opened_at": "2026-11-21T11:02:36+00:00",
+     "closed_at": "2026-11-21T11:16:30+00:00",
+     "pnl_sol": 0.093793,
+     "pnl_pct": 93.8,
+     "min_ratio": 0.9995,
+     "max_ratio": 2.0811,
+     "reason": "take-profit 2 (x2.08)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": -0.08678213595475892
+    "pnl_sol": 0.0070105505127268375
    },
    "rejected": [
     {
@@ -2384,20 +2408,6 @@
   },
   "B_patient": {
    "positions": {
-    "AJnaFi9YKgNWzi3aEqJXVbH6puHdNi4FuTr6to7Tpump": {
-     "name": "pointless / SOL",
-     "opened_at": "2026-11-21T10:06:21+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 3.1147521085919065e-07,
-     "tokens": 309815.98739048606,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.0732033989546209,
-     "last_price_usd": 1.3672327540785278e-05,
-     "min_ratio": 0.5971582762137866,
-     "max_ratio": 1.5721957411929641,
-     "last_reason": "take-profit 1 (x1.57)"
-    },
     "3A9zqBmHwpd7XYABbNzWw6j83BuHwSeaVrc6B2v3pump": {
      "name": "Napeception / SOL",
      "opened_at": "2026-11-21T10:24:28+00:00",
@@ -2407,8 +2417,8 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.16481716628336e-06,
-     "min_ratio": 0.8788884214328913,
+     "last_price_usd": 8.793307937425278e-06,
+     "min_ratio": 0.8436284104690159,
      "max_ratio": 1.36273412743718
     },
     "8fJCXUPTqGKukJpuMKU7MibSa4nL2k54gBwTNoYdpwC": {
@@ -2420,9 +2430,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.886086774535616e-05,
+     "last_price_usd": 4.8839611268547834e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.07138764630515
+    },
+    "AzLU2LMRoWMjXMowzqNgF7GrNLGua3rfGRu2SdcxKqfm": {
+     "name": "DCTY / SOL",
+     "opened_at": "2026-11-21T11:18:30+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.2595563418612404e-07,
+     "tokens": 766142.7821275736,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 9.35820310678e-06,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0916542232387707
     }
    },
    "closed": [
@@ -3239,11 +3262,22 @@
      "min_ratio": 1.0,
      "max_ratio": 2.0177,
      "reason": "take-profit 2 (x2.02)"
+    },
+    {
+     "mint": "AJnaFi9YKgNWzi3aEqJXVbH6puHdNi4FuTr6to7Tpump",
+     "name": "pointless / SOL",
+     "opened_at": "2026-11-21T10:06:21+00:00",
+     "closed_at": "2026-11-21T11:18:30+00:00",
+     "pnl_sol": -0.004194,
+     "pnl_pct": -4.2,
+     "min_ratio": 0.4854,
+     "max_ratio": 1.5722,
+     "reason": "stop-loss (x0.49)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.14877810772350142
+    "pnl_sol": 0.14458382222220784
    }
   },
   "C_tot": {
@@ -3656,7 +3690,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T11:14:29+00:00",
+  "checked_at": "2026-11-21T11:21:08+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
