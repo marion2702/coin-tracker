@@ -632,3 +632,4 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T05:16:17+00:00,DbMPw1vSRtE93EK5Sqw23xHuDtkD569RpqANLvdqpump,MARS / SOL,ACHAT,9.992622664e-05,1.00,0.1000,,,,A_rapide
 2026-11-21T05:20:17+00:00,DbMPw1vSRtE93EK5Sqw23xHuDtkD569RpqANLvdqpump,MARS / SOL,stop-loss (x0.72),7.1631019146276e-05,1.00,0.1000,0.0669,-0.0331,-33.1,A_rapide
 2026-11-21T05:20:17+00:00,7M7yAQmtvo9jJ6TgrMPEj5eXbxFiJCJjqWfQyMQrpump,tittcoin / SOL,ACHAT,0.0001698901655,1.00,0.1000,,,,A_rapide
+2026-11-21T05:24:09+00:00,2TngN4B7XaoGSKsYvttq5bFAdM4Z4xCSnuyRwGiFpump,PUNANI / SOL,stop temps 32 min (x0.75),0.0005681465369048088,1.00,0.1000,0.0701,-0.0299,-29.9,A_rapide
