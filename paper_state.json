@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-21T17:00:12+00:00",
+ "processed_until": "2026-11-21T17:04:12+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,9 +12,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.00010491173703773119,
+     "last_price_usd": 9.060856793548199e-05,
+     "min_ratio": 0.9979110036532765,
+     "max_ratio": 1.3795109279474813
+    },
+    "7Bak9aKRZ66CQVe1FemQyZpXU5Bc82AMugJCBvuTpump": {
+     "name": "FBI / SOL",
+     "opened_at": "2026-11-21T17:05:23+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.0776137464714767e-07,
+     "tokens": 895497.1140260437,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 8.9479489207314e-06,
      "min_ratio": 1.0,
-     "max_ratio": 1.1549032331999758
+     "max_ratio": 1.1766739280673817
     }
    },
    "closed": [
@@ -2987,7 +3000,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0026715074895745277,
+     "last_price_usd": 0.00267027119211732,
      "min_ratio": 1.0,
      "max_ratio": 1.0007130021688404
     },
@@ -3000,9 +3013,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.00010491173703773119,
-     "min_ratio": 1.0,
-     "max_ratio": 1.1549032331999758
+     "last_price_usd": 9.060856793548199e-05,
+     "min_ratio": 0.9979110036532765,
+     "max_ratio": 1.3795109279474813
     }
    },
    "closed": [
@@ -4368,7 +4381,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T17:02:36+00:00",
+  "checked_at": "2026-11-21T17:08:44+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
