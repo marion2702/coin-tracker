@@ -12,9 +12,9 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07078726654681439,
-     "last_price_usd": 2.7382450652224498e-05,
+     "last_price_usd": 2.849162500089942e-05,
      "min_ratio": 0.9027709498254426,
-     "max_ratio": 1.643315569846862,
+     "max_ratio": 1.703170068120611,
      "last_reason": "take-profit 1 (x1.52)"
     },
     "G437jxj6smw3WAZPZD6LyBky9mNeWQNwmkKubYA4V9j": {
@@ -26,23 +26,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 6.742782309564349e-07,
+     "last_price_usd": 6.81561654771879e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1745293819597542
-    },
-    "G8yh46v9zFfrW43iB8DZ9pZUdtW9vWkNxrJy2gzppump": {
-     "name": "NiggaInu / SOL",
-     "opened_at": "2026-11-21T01:10:09+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 4.0617944886368626e-07,
-     "tokens": 237579.72066278858,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07501532163983417,
-     "last_price_usd": 4.5011493862888e-05,
-     "min_ratio": 0.9999328108853468,
-     "max_ratio": 1.6111105616759467,
-     "last_reason": "take-profit 1 (x1.61)"
+     "max_ratio": 1.2185008481618584
     }
    },
    "closed": [
@@ -1662,11 +1648,22 @@
      "min_ratio": 0.5076,
      "max_ratio": 1.5589,
      "reason": "stop-loss (x0.51)"
+    },
+    {
+     "mint": "G8yh46v9zFfrW43iB8DZ9pZUdtW9vWkNxrJy2gzppump",
+     "name": "NiggaInu / SOL",
+     "opened_at": "2026-11-21T01:10:09+00:00",
+     "closed_at": "2026-11-21T01:19:53+00:00",
+     "pnl_sol": -0.019424,
+     "pnl_pct": -19.4,
+     "min_ratio": 0.1194,
+     "max_ratio": 1.6111,
+     "reason": "stop-loss (x0.12)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.14472985692432727
+    "pnl_sol": 0.1253059873244737
    },
    "rejected": [
     {
@@ -1693,7 +1690,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.4396550992915e-07,
+     "last_price_usd": 8.47290932527959e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1332612537485227
     },
@@ -1706,9 +1703,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.00011404195725041,
+     "last_price_usd": 0.0001158723866977926,
      "min_ratio": 1.0,
-     "max_ratio": 1.3297592594151717
+     "max_ratio": 1.3457997812416516
     },
     "Hv4ZF1XAdezZBs75nhG8pNjCdXPJzZ8ATnhaGjGGpump": {
      "name": "Gestalt / ZEC",
@@ -1719,7 +1716,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07549701490389987,
-     "last_price_usd": 7.620902058e-05,
+     "last_price_usd": 6.204770365e-05,
      "min_ratio": 0.7772370577916724,
      "max_ratio": 1.72905549074082,
      "last_reason": "take-profit 1 (x1.62)"
@@ -2802,7 +2799,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T01:14:08+00:00",
+  "checked_at": "2026-11-21T01:19:53+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [

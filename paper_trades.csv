@@ -570,3 +570,4 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T01:10:09+00:00,G8yh46v9zFfrW43iB8DZ9pZUdtW9vWkNxrJy2gzppump,NiggaInu / SOL,ACHAT,2.792547656e-05,1.00,0.1000,,,,A_rapide
 2026-11-21T01:11:53+00:00,Hv4ZF1XAdezZBs75nhG8pNjCdXPJzZ8ATnhaGjGGpump,Gestalt / ZEC,take-profit 1 (x1.62),7.143882292e-05,0.50,0.0500,0.0755,+0.0255,+51.0,B_patient
 2026-11-21T01:14:08+00:00,G8yh46v9zFfrW43iB8DZ9pZUdtW9vWkNxrJy2gzppump,NiggaInu / SOL,take-profit 1 (x1.61),4.5011493862888e-05,0.50,0.0500,0.0750,+0.0250,+50.0,A_rapide
+2026-11-21T01:19:53+00:00,G8yh46v9zFfrW43iB8DZ9pZUdtW9vWkNxrJy2gzppump,NiggaInu / SOL,stop-loss (x0.12),3.3498030266447673e-06,0.50,0.0500,0.0056,-0.0444,-88.9,A_rapide
