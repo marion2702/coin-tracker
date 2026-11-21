@@ -12,9 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 6.44046656195229e-07,
+     "last_price_usd": 6.842411217381001e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.0754279120527637
+     "max_ratio": 1.132730762385191
     },
     "9stF1ZyYsEeEYGrRp89tDo6KBv3CTz4upLVjSpRwytcM": {
      "name": "Leonida / SOL",
@@ -25,9 +25,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.5439247411938e-06,
+     "last_price_usd": 1.2302923698702699e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.0588521685743726
+     "max_ratio": 1.369488629876868
     }
    },
    "closed": [
@@ -2140,7 +2140,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.719944765972699e-07,
+     "last_price_usd": 7.69435849640785e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.235759133359971
     },
@@ -2153,7 +2153,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07414820516516021,
-     "last_price_usd": 1.64427419906463e-05,
+     "last_price_usd": 1.638824569025665e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.5924874260283006,
      "last_reason": "take-profit 1 (x1.59)"
@@ -2167,9 +2167,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 6.44046656195229e-07,
+     "last_price_usd": 6.842411217381001e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.0754279120527637
+     "max_ratio": 1.132730762385191
     }
    },
    "closed": [
@@ -3337,7 +3337,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T08:02:03+00:00",
+  "checked_at": "2026-11-21T08:08:04+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
