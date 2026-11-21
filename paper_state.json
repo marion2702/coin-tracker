@@ -1,22 +1,8 @@
 {
- "processed_until": "2026-11-21T11:49:49+00:00",
+ "processed_until": "2026-11-21T11:55:49+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "55Fns2JLhnvKcS3Ng4UaViZiUMeTaEbzjVQVQq4kUR2A": {
-     "name": "Leonida / SOL",
-     "opened_at": "2026-11-21T11:24:30+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.37205158717722e-07,
-     "tokens": 703326.3246211723,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07296131460038886,
-     "last_price_usd": 1.551574924030272e-05,
-     "min_ratio": 0.9569611028265276,
-     "max_ratio": 1.8971589875532762,
-     "last_reason": "take-profit 1 (x1.57)"
-    },
     "GrJH1FkicpyMqpqgddSkG53rTFPQM9uTTbB9evcM4NWQ": {
      "name": "Mochi / SOL",
      "opened_at": "2026-11-21T11:30:30+00:00",
@@ -26,23 +12,33 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 6.577687310915568e-05,
+     "last_price_usd": 6.73635667605008e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.0988921198950599
+     "max_ratio": 1.1255486414148896
     },
-    "J9fTvFe8grYMn3nyxcueym17E2urvAyT3pvCYPPhq62T": {
-     "name": "win / SOL",
-     "opened_at": "2026-11-21T11:40:38+00:00",
+    "PtefCZ8NRX7fVqMGG19HpE3o7KpRb4DHgtXQsJbEL8T": {
+     "name": "Mochi / SOL",
+     "opened_at": "2026-11-21T11:54:30+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.838253560009845e-07,
-     "tokens": 524954.7837104865,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07061744245951836,
-     "last_price_usd": 1.9174605000870558e-05,
-     "min_ratio": 0.9797342647280686,
-     "max_ratio": 1.516656929517965,
-     "last_reason": "take-profit 1 (x1.52)"
+     "entry_price_sol": 7.446126168490585e-09,
+     "tokens": 12959758.91576407,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 5.05295517105104e-07,
+     "min_ratio": 0.9868218498760037,
+     "max_ratio": 1.0
+    },
+    "Hjhd1edRTTPrdJD4UcZf31vsi2PfrEN9wzE2CQKVALz": {
+     "name": "Mochi / SOL",
+     "opened_at": "2026-11-21T11:56:21+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 6.731028874953074e-07,
+     "tokens": 143365.89813050348,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 4.628686331e-05
     }
    },
    "closed": [
@@ -2421,11 +2417,33 @@
      "min_ratio": 0.9978,
      "max_ratio": 1.1166,
      "reason": "stop temps 31 min (x1.12)"
+    },
+    {
+     "mint": "55Fns2JLhnvKcS3Ng4UaViZiUMeTaEbzjVQVQq4kUR2A",
+     "name": "Leonida / SOL",
+     "opened_at": "2026-11-21T11:24:30+00:00",
+     "closed_at": "2026-11-21T11:54:30+00:00",
+     "pnl_sol": 0.079417,
+     "pnl_pct": 79.4,
+     "min_ratio": 0.957,
+     "max_ratio": 2.2864,
+     "reason": "take-profit 2 (x2.29)"
+    },
+    {
+     "mint": "J9fTvFe8grYMn3nyxcueym17E2urvAyT3pvCYPPhq62T",
+     "name": "win / SOL",
+     "opened_at": "2026-11-21T11:40:38+00:00",
+     "closed_at": "2026-11-21T11:54:30+00:00",
+     "pnl_sol": -0.029322,
+     "pnl_pct": -29.3,
+     "min_ratio": 0.0013,
+     "max_ratio": 1.8033,
+     "reason": "stop-loss (x0.00)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": -0.12483931739913744
+    "pnl_sol": -0.0747439956036932
    },
    "rejected": [
     {
@@ -2452,8 +2470,8 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.52128249500668e-06,
-     "min_ratio": 0.8011858046791662,
+     "last_price_usd": 7.1035692592484005e-06,
+     "min_ratio": 0.6745109504756143,
      "max_ratio": 1.36273412743718
     },
     "8fJCXUPTqGKukJpuMKU7MibSa4nL2k54gBwTNoYdpwC": {
@@ -2465,23 +2483,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.935328747713312e-05,
+     "last_price_usd": 4.93467696073248e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.07138764630515
     },
-    "55Fns2JLhnvKcS3Ng4UaViZiUMeTaEbzjVQVQq4kUR2A": {
-     "name": "Leonida / SOL",
-     "opened_at": "2026-11-21T11:24:30+00:00",
+    "PtefCZ8NRX7fVqMGG19HpE3o7KpRb4DHgtXQsJbEL8T": {
+     "name": "Mochi / SOL",
+     "opened_at": "2026-11-21T11:54:30+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.37205158717722e-07,
-     "tokens": 703326.3246211723,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07296131460038886,
-     "last_price_usd": 1.551574924030272e-05,
-     "min_ratio": 0.9569611028265276,
-     "max_ratio": 1.8971589875532762,
-     "last_reason": "take-profit 1 (x1.57)"
+     "entry_price_sol": 7.446126168490585e-09,
+     "tokens": 12959758.91576407,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 5.05295517105104e-07,
+     "min_ratio": 0.9868218498760037,
+     "max_ratio": 1.0
     }
    },
    "closed": [
@@ -3320,11 +3337,22 @@
      "min_ratio": 0.0006,
      "max_ratio": 1.0917,
      "reason": "stop-loss (x0.00)"
+    },
+    {
+     "mint": "55Fns2JLhnvKcS3Ng4UaViZiUMeTaEbzjVQVQq4kUR2A",
+     "name": "Leonida / SOL",
+     "opened_at": "2026-11-21T11:24:30+00:00",
+     "closed_at": "2026-11-21T11:54:30+00:00",
+     "pnl_sol": 0.079417,
+     "pnl_pct": 79.4,
+     "min_ratio": 0.957,
+     "max_ratio": 2.2864,
+     "reason": "take-profit 2 (x2.29)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.044643619053438666
+    "pnl_sol": 0.1240605819800693
    }
   },
   "C_tot": {
@@ -3737,7 +3765,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T11:50:30+00:00",
+  "checked_at": "2026-11-21T11:56:21+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
