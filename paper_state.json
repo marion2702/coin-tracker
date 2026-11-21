@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-21T09:25:39+00:00",
+ "processed_until": "2026-11-21T09:35:40+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,9 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.591990485887579e-07,
+     "last_price_usd": 7.730811554337039e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1305375469479042
+     "max_ratio": 1.158826243386279
     },
     "QPahnK6pnbNo9zHed88qrUhwayu9HwiLhjaYnPKgrTj": {
      "name": "ELSA / SOL",
@@ -25,9 +25,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 6.313089496978009e-07,
+     "last_price_usd": 6.720481430540073e-07,
      "min_ratio": 0.98744105242052,
-     "max_ratio": 1.1207781157322443
+     "max_ratio": 1.200997161952306
+    },
+    "HP4Z65W28HxHnKiSPmBV2qUEGkkkpAUnUvHsZxznnG55": {
+     "name": "DCTY / SOL",
+     "opened_at": "2026-11-21T09:34:20+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.2872691582161745e-07,
+     "tokens": 749648.9711112499,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 1.009656121045936e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.1637037914245103
     }
    },
    "closed": [
@@ -2239,7 +2252,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.781959863550539e-07,
+     "last_price_usd": 7.730811554337039e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.235759133359971
     },
@@ -2252,7 +2265,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07414820516516021,
-     "last_price_usd": 1.6574828201093258e-05,
+     "last_price_usd": 1.646588720771176e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.5924874260283006,
      "last_reason": "take-profit 1 (x1.59)"
@@ -2266,9 +2279,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.591990485887579e-07,
+     "last_price_usd": 7.730811554337039e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1305375469479042
+     "max_ratio": 1.158826243386279
     }
    },
    "closed": [
@@ -3447,7 +3460,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T09:32:11+00:00",
+  "checked_at": "2026-11-21T09:38:11+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
