@@ -681,3 +681,5 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T08:02:03+00:00,B8X2ycczSyWK2HqemPsw7DwuA9QrMKeEmYdU82qJ5Y2S,win / SOL,stop temps 32 min (x1.13),7.8007114069419e-05,1.00,0.1000,0.1052,+0.0052,+5.2,A_rapide
 2026-11-21T08:10:12+00:00,BwyKetP6KvBwWvCsp2RcvhAJ8V1SvJ7JV6mJk3zGAtcX,win / SOL,ACHAT,1.1643529e-05,1.00,0.1000,,,,A_rapide
 2026-11-21T08:14:04+00:00,9stF1ZyYsEeEYGrRp89tDo6KBv3CTz4upLVjSpRwytcM,Leonida / SOL,take-profit 1 (x1.83),1.6429135620298108e-05,0.50,0.0500,0.0851,+0.0351,+70.3,A_rapide
+2026-11-21T08:16:19+00:00,9stF1ZyYsEeEYGrRp89tDo6KBv3CTz4upLVjSpRwytcM,Leonida / SOL,take-profit 2 (x2.07),1.8592162433052547e-05,0.50,0.0500,0.0962,+0.0462,+92.4,A_rapide
+2026-11-21T08:16:19+00:00,Q2t2rsjv1F39VUiQM1TnuoKdcWysU8AkZrsABXs9Hk4,win / SOL,ACHAT,6.355205317e-07,1.00,0.1000,,,,A_rapide
