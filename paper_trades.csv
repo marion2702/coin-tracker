@@ -787,3 +787,7 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T12:50:31+00:00,Cnvkjc9mGS9Vozmdzeikou5Qt4RdHcGnj1pTfZU6GJU,Lazarus / SOL,ACHAT,1.594061613e-09,1.00,0.1000,,,,A_rapide
 2026-11-21T13:10:15+00:00,vzMSs8P1xjXeF1Q2mG9yrh9wsU2h9FFCUqMR2NxNVLL,DCTY / SOL,stop temps 31 min (x1.00),9.34795135135545e-06,1.00,0.1000,0.0929,-0.0071,-7.1,A_rapide
 2026-11-21T13:12:16+00:00,D5JYaow3EqtqZXYmnaRRvezp9DKzD93wvkayvP5qpump,GRUMP / SOL,stop temps 32 min (x0.86),1.373711667973112e-06,1.00,0.1000,0.0797,-0.0203,-20.3,A_rapide
+2026-11-21T13:16:40+00:00,3Apw28zFDYvdNhs5vGsqnND2cxzmScEZibTUioQ4RraF,Emily / SOL,ACHAT,6.741571101e-05,1.00,0.1000,,,,A_rapide
+2026-11-21T13:16:40+00:00,6nU7MJcdaoS461fJbHeSHGxnzvAw5Tt9DGx9Tdrypump,Poorfag / SOL,ACHAT,1.229625794e-05,1.00,0.1000,,,,A_rapide
+2026-11-21T13:18:23+00:00,6nU7MJcdaoS461fJbHeSHGxnzvAw5Tt9DGx9Tdrypump,Poorfag / SOL,take-profit 1 (x1.87),2.290131830262024e-05,0.50,0.0500,0.0869,+0.0369,+73.9,A_rapide
+2026-11-21T13:20:15+00:00,6nU7MJcdaoS461fJbHeSHGxnzvAw5Tt9DGx9Tdrypump,Poorfag / SOL,take-profit 2 (x2.31),2.8342695130638266e-05,0.50,0.0500,0.1074,+0.0574,+114.8,A_rapide
