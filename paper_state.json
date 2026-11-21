@@ -1,8 +1,44 @@
 {
- "processed_until": "2026-11-21T05:45:37+00:00",
+ "processed_until": "2026-11-21T06:01:37+00:00",
  "strategies": {
   "A_rapide": {
-   "positions": {},
+   "positions": {
+    "6NUt5uKsPJXq5exkzxgnbAXSEu9i6v4XbKjruu7H7q3": {
+     "name": "MARS / SOL",
+     "opened_at": "2026-11-21T05:58:25+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 9.589247354199526e-09,
+     "tokens": 10063354.967868118,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 7.151302799171061e-07,
+     "min_ratio": 1.0,
+     "max_ratio": 1.1408611745956188
+    },
+    "3ysanRR2CqgeEE6vxavavmbCAejoHZ68zwGEMPU5hke6": {
+     "name": "Leonida / SOL",
+     "opened_at": "2026-11-21T06:03:03+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.7249743734875693e-07,
+     "tokens": 559428.6006979651,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 1.127588123e-05
+    },
+    "12pDg7WVnEwMyTpHN6bsUyWbLZNMW1rF5tc6kj9iuB6J": {
+     "name": "MARS / SOL",
+     "opened_at": "2026-11-21T06:03:03+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 9.464122131078715e-09,
+     "tokens": 10196402.652403323,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 6.186545072e-07
+    }
+   },
    "closed": [
     {
      "mint": "ALjzrjh1sArWs2zbcEvRgf8nkUCxt5FLcYJy5mtaDShr",
@@ -1970,10 +2006,34 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07487754980310897,
-     "last_price_usd": 2.1192072824999997e-05,
+     "last_price_usd": 2.121204532295255e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.7963690257795817,
      "last_reason": "take-profit 1 (x1.61)"
+    },
+    "6NUt5uKsPJXq5exkzxgnbAXSEu9i6v4XbKjruu7H7q3": {
+     "name": "MARS / SOL",
+     "opened_at": "2026-11-21T05:58:25+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 9.589247354199526e-09,
+     "tokens": 10063354.967868118,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 7.151302799171061e-07,
+     "min_ratio": 1.0,
+     "max_ratio": 1.1408611745956188
+    },
+    "3ysanRR2CqgeEE6vxavavmbCAejoHZ68zwGEMPU5hke6": {
+     "name": "Leonida / SOL",
+     "opened_at": "2026-11-21T06:03:03+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.7249743734875693e-07,
+     "tokens": 559428.6006979651,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 1.127588123e-05
     }
    },
    "closed": [
@@ -3130,7 +3190,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T05:56:17+00:00",
+  "checked_at": "2026-11-21T06:03:03+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
