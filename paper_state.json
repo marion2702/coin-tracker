@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-21T00:31:29+00:00",
+ "processed_until": "2026-11-21T00:35:29+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -13,8 +13,8 @@
      "tp1_done": false,
      "sol_out": 0.0,
      "last_price_usd": 4.406724324e-05,
-     "min_ratio": 0.9996574128771918,
-     "max_ratio": 1.0001740486927995
+     "min_ratio": 0.9988787159835785,
+     "max_ratio": 1.0014382617045174
     },
     "DkHsZ1kjd2Fua8sgKE6PhHhyCdXYscbDVN7mAfiGpump": {
      "name": "JENSEN / SOL",
@@ -22,12 +22,13 @@
      "size_sol": 0.1,
      "entry_price_sol": 2.1239659900420398e-05,
      "tokens": 4543.387250663556,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 0.00200533040307721,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07352586304685085,
+     "last_price_usd": 0.0024457469330400002,
      "min_ratio": 1.0,
-     "max_ratio": 1.3724325218325664
+     "max_ratio": 1.6765805180946032,
+     "last_reason": "take-profit 1 (x1.58)"
     },
     "2fC3huo7ho2uQqyTyNdSHYwaiWVHpTdjkcRGMCPVsdTT": {
      "name": "MI / SOL",
@@ -38,9 +39,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.220396615800676e-05,
+     "last_price_usd": 1.4416239293600001e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.1261964673470228
+     "max_ratio": 1.3458492168972316
     }
    },
    "closed": [
@@ -1647,7 +1648,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.44096193679498e-07,
+     "last_price_usd": 8.4272156328e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1332612537485227
     },
@@ -1660,9 +1661,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.92690144645082e-05,
+     "last_price_usd": 0.000101167796472,
      "min_ratio": 1.0,
-     "max_ratio": 1.1573236497805144
+     "max_ratio": 1.1813844325202338
     },
     "Hv4ZF1XAdezZBs75nhG8pNjCdXPJzZ8ATnhaGjGGpump": {
      "name": "Gestalt / ZEC",
@@ -1674,8 +1675,8 @@
      "tp1_done": false,
      "sol_out": 0.0,
      "last_price_usd": 4.406724324e-05,
-     "min_ratio": 0.9996574128771918,
-     "max_ratio": 1.0001740486927995
+     "min_ratio": 0.9988787159835785,
+     "max_ratio": 1.0014382617045174
     }
    },
    "closed": [
@@ -2755,7 +2756,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T00:32:01+00:00",
+  "checked_at": "2026-11-21T00:37:52+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
