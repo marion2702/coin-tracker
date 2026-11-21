@@ -3,20 +3,6 @@
  "strategies": {
   "A_rapide": {
    "positions": {
-    "DvxYaNCC3KavAbhsozqxqABmdvtnR9BdgRhaCDFFt27w": {
-     "name": "Club / SOL",
-     "opened_at": "2026-11-21T17:35:23+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 7.355967934896791e-07,
-     "tokens": 131185.99870752965,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07741252987231648,
-     "last_price_usd": 8.6361810997477e-05,
-     "min_ratio": 0.9834191861660825,
-     "max_ratio": 1.6625956105627853,
-     "last_reason": "take-profit 1 (x1.66)"
-    },
     "9cEa7Gosbb2q2BY4Bmy3qi2LX5yvew3R4abvSds6kNQC": {
      "name": "Prayge / SOL",
      "opened_at": "2026-11-21T17:41:22+00:00",
@@ -39,9 +25,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 6.73735109343359e-07,
+     "last_price_usd": 7.18394957235693e-07,
      "min_ratio": 0.9862438214347061,
-     "max_ratio": 1.0532518804912168
+     "max_ratio": 1.1226885677178151
     }
    },
    "closed": [
@@ -3036,11 +3022,22 @@
      "min_ratio": 0.4087,
      "max_ratio": 1.4131,
      "reason": "stop-loss (x0.41)"
+    },
+    {
+     "mint": "DvxYaNCC3KavAbhsozqxqABmdvtnR9BdgRhaCDFFt27w",
+     "name": "Club / SOL",
+     "opened_at": "2026-11-21T17:35:23+00:00",
+     "closed_at": "2026-11-21T17:58:13+00:00",
+     "pnl_sol": -0.000408,
+     "pnl_pct": -0.4,
+     "min_ratio": 0.4763,
+     "max_ratio": 1.6626,
+     "reason": "stop-loss (x0.48)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.7448953399050232
+    "pnl_sol": 0.7444872242068243
    },
    "rejected": [
     {
@@ -3080,7 +3077,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.00267206126585816,
+     "last_price_usd": 0.0026729660945721354,
      "min_ratio": 1.0,
      "max_ratio": 1.0007130021688404
     },
@@ -4483,7 +4480,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T17:56:12+00:00",
+  "checked_at": "2026-11-21T18:02:12+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
