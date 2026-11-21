@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-21T10:01:40+00:00",
+ "processed_until": "2026-11-21T10:05:41+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,7 +12,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.7415839245677875e-05,
+     "last_price_usd": 4.7399262469629227e-05,
      "min_ratio": 0.9886011915159092,
      "max_ratio": 1.0
     },
@@ -25,9 +25,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.43287729296272e-05,
+     "last_price_usd": 0.0001099891155773681,
      "min_ratio": 1.0,
-     "max_ratio": 1.2852318442490192
+     "max_ratio": 1.4991284984432003
     },
     "BjnxH6a3D6HQz1LRPsGX5TZmW3GwstpexSNrK2utpump": {
      "name": "XV / TSLAx",
@@ -38,9 +38,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.576668796e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.0694275671362963
+     "last_price_usd": 0.000116793744,
+     "min_ratio": 0.9995415084598425,
+     "max_ratio": 1.304693039460375
     }
    },
    "closed": [
@@ -2276,20 +2276,6 @@
   },
   "B_patient": {
    "positions": {
-    "3ysanRR2CqgeEE6vxavavmbCAejoHZ68zwGEMPU5hke6": {
-     "name": "Leonida / SOL",
-     "opened_at": "2026-11-21T06:03:03+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.7249743734875693e-07,
-     "tokens": 559428.6006979651,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07414820516516021,
-     "last_price_usd": 1.6602679558146918e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.5924874260283006,
-     "last_reason": "take-profit 1 (x1.59)"
-    },
     "CQv2cyPXBPpBgtzk8Wivq8CdgzSm1nQWhwgdVR5BUcp9": {
      "name": "DCTY / SOL",
      "opened_at": "2026-11-21T09:42:20+00:00",
@@ -2299,9 +2285,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.43287729296272e-05,
+     "last_price_usd": 0.0001099891155773681,
      "min_ratio": 1.0,
-     "max_ratio": 1.2852318442490192
+     "max_ratio": 1.4991284984432003
     },
     "BjnxH6a3D6HQz1LRPsGX5TZmW3GwstpexSNrK2utpump": {
      "name": "XV / TSLAx",
@@ -2312,9 +2298,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.576668796e-05,
+     "last_price_usd": 0.000116793744,
+     "min_ratio": 0.9995415084598425,
+     "max_ratio": 1.304693039460375
+    },
+    "AJnaFi9YKgNWzi3aEqJXVbH6puHdNi4FuTr6to7Tpump": {
+     "name": "pointless / SOL",
+     "opened_at": "2026-11-21T10:06:21+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 3.1147521085919065e-07,
+     "tokens": 309815.98739048606,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 2.294893344165222e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.0694275671362963
+     "max_ratio": 1.0845164822850384
     }
    },
    "closed": [
@@ -3098,11 +3097,22 @@
      "min_ratio": 1.0,
      "max_ratio": 1.2358,
      "reason": "stop temps 242 min (x1.20)"
+    },
+    {
+     "mint": "3ysanRR2CqgeEE6vxavavmbCAejoHZ68zwGEMPU5hke6",
+     "name": "Leonida / SOL",
+     "opened_at": "2026-11-21T06:03:03+00:00",
+     "closed_at": "2026-11-21T10:04:13+00:00",
+     "pnl_sol": 0.040091,
+     "pnl_pct": 40.1,
+     "min_ratio": 1.0,
+     "max_ratio": 1.5925,
+     "reason": "stop temps 241 min (x1.42)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": -0.02904296015882385
+    "pnl_sol": 0.011047751456458837
    }
   },
   "C_tot": {
@@ -3515,7 +3525,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T10:02:21+00:00",
+  "checked_at": "2026-11-21T10:08:12+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [

@@ -712,3 +712,5 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T10:00:21+00:00,BjnxH6a3D6HQz1LRPsGX5TZmW3GwstpexSNrK2utpump,XV / TSLAx,ACHAT,8.954645656e-05,1.00,0.1000,,,,A_rapide
 2026-11-21T10:00:21+00:00,6NUt5uKsPJXq5exkzxgnbAXSEu9i6v4XbKjruu7H7q3,MARS / SOL,stop temps 242 min (x1.20),7.79477258306548e-07,1.00,0.1000,0.1114,+0.0114,+11.4,B_patient
 2026-11-21T10:00:21+00:00,BjnxH6a3D6HQz1LRPsGX5TZmW3GwstpexSNrK2utpump,XV / TSLAx,ACHAT,8.954645656e-05,1.00,0.1000,,,,B_patient
+2026-11-21T10:04:13+00:00,3ysanRR2CqgeEE6vxavavmbCAejoHZ68zwGEMPU5hke6,Leonida / SOL,stop temps 241 min (x1.42),1.660408511963012e-05,0.50,0.0500,0.0659,+0.0159,+31.9,B_patient
+2026-11-21T10:06:21+00:00,AJnaFi9YKgNWzi3aEqJXVbH6puHdNi4FuTr6to7Tpump,pointless / SOL,ACHAT,2.116494593e-05,1.00,0.1000,,,,B_patient
