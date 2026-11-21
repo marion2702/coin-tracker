@@ -1,49 +1,8 @@
 {
- "processed_until": "2026-11-21T17:10:12+00:00",
+ "processed_until": "2026-11-21T17:16:13+00:00",
  "strategies": {
   "A_rapide": {
-   "positions": {
-    "8GLeLQcAnz5owbn7zqZR2GmuMsdk7kmv374LCDLw9pJZ": {
-     "name": "Air / SOL",
-     "opened_at": "2026-11-21T17:01:23+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.2866878862938412e-06,
-     "tokens": 74998.76312503207,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 0.0001301621791630067,
-     "min_ratio": 0.9979110036532765,
-     "max_ratio": 1.4323597972998352
-    },
-    "7Bak9aKRZ66CQVe1FemQyZpXU5Bc82AMugJCBvuTpump": {
-     "name": "FBI / SOL",
-     "opened_at": "2026-11-21T17:05:23+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.0776137464714767e-07,
-     "tokens": 895497.1140260437,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07232974964844056,
-     "last_price_usd": 1.031833661189109e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.5534322993570955,
-     "last_reason": "take-profit 1 (x1.55)"
-    },
-    "EDmVrp6cRa5PnWH1Dh6vKoGsyxEnE7QkN3C55hPn3NG": {
-     "name": "GTA6 / SOL",
-     "opened_at": "2026-11-21T17:11:23+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 7.004009769591107e-09,
-     "tokens": 13777822.015464388,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 4.946586559184476e-07,
-     "min_ratio": 0.9907182068943768,
-     "max_ratio": 1.0
-    }
-   },
+   "positions": {},
    "closed": [
     {
      "mint": "ALjzrjh1sArWs2zbcEvRgf8nkUCxt5FLcYJy5mtaDShr",
@@ -2970,11 +2929,44 @@
      "min_ratio": 0.0479,
      "max_ratio": 1.0006,
      "reason": "stop-loss (x0.05)"
+    },
+    {
+     "mint": "8GLeLQcAnz5owbn7zqZR2GmuMsdk7kmv374LCDLw9pJZ",
+     "name": "Air / SOL",
+     "opened_at": "2026-11-21T17:01:23+00:00",
+     "closed_at": "2026-11-21T17:18:44+00:00",
+     "pnl_sol": -0.070088,
+     "pnl_pct": -70.1,
+     "min_ratio": 0.3212,
+     "max_ratio": 1.4324,
+     "reason": "stop-loss (x0.32)"
+    },
+    {
+     "mint": "EDmVrp6cRa5PnWH1Dh6vKoGsyxEnE7QkN3C55hPn3NG",
+     "name": "GTA6 / SOL",
+     "opened_at": "2026-11-21T17:11:23+00:00",
+     "closed_at": "2026-11-21T17:18:44+00:00",
+     "pnl_sol": 0.946098,
+     "pnl_pct": 946.1,
+     "min_ratio": 0.9907,
+     "max_ratio": 11.2336,
+     "reason": "take-profit 2 (x11.23)"
+    },
+    {
+     "mint": "7Bak9aKRZ66CQVe1FemQyZpXU5Bc82AMugJCBvuTpump",
+     "name": "FBI / SOL",
+     "opened_at": "2026-11-21T17:05:23+00:00",
+     "closed_at": "2026-11-21T17:20:44+00:00",
+     "pnl_sol": 0.005349,
+     "pnl_pct": 5.3,
+     "min_ratio": 0.7092,
+     "max_ratio": 1.5534,
+     "reason": "stop-loss (x0.71)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.06072406214933347
+    "pnl_sol": 0.9420829275614092
    },
    "rejected": [
     {
@@ -3014,22 +3006,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.002672456244996296,
+     "last_price_usd": 0.0026647746755242797,
      "min_ratio": 1.0,
      "max_ratio": 1.0007130021688404
-    },
-    "8GLeLQcAnz5owbn7zqZR2GmuMsdk7kmv374LCDLw9pJZ": {
-     "name": "Air / SOL",
-     "opened_at": "2026-11-21T17:01:23+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.2866878862938412e-06,
-     "tokens": 74998.76312503207,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 0.0001301621791630067,
-     "min_ratio": 0.9979110036532765,
-     "max_ratio": 1.4323597972998352
     }
    },
    "closed": [
@@ -3978,11 +3957,22 @@
      "min_ratio": 0.1188,
      "max_ratio": 1.2269,
      "reason": "stop-loss (x0.12)"
+    },
+    {
+     "mint": "8GLeLQcAnz5owbn7zqZR2GmuMsdk7kmv374LCDLw9pJZ",
+     "name": "Air / SOL",
+     "opened_at": "2026-11-21T17:01:23+00:00",
+     "closed_at": "2026-11-21T17:18:44+00:00",
+     "pnl_sol": -0.070088,
+     "pnl_pct": -70.1,
+     "min_ratio": 0.3212,
+     "max_ratio": 1.4324,
+     "reason": "stop-loss (x0.32)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.1735324883064483
+    "pnl_sol": 0.1034445824980389
    }
   },
   "C_tot": {
@@ -4395,7 +4385,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T17:14:45+00:00",
+  "checked_at": "2026-11-21T17:20:44+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
