@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-21T11:19:50+00:00",
+ "processed_until": "2026-11-21T11:23:49+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,35 +12,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.011098846092158e-05,
+     "last_price_usd": 9.17777282696664e-05,
      "min_ratio": 0.9977864845929011,
-     "max_ratio": 1.0560106359720232
+     "max_ratio": 1.078343187185933
     },
-    "D5D2ieKCyhBToJjKJWWM3HeakiH8DPAVoCYkfd38pump": {
-     "name": "Mochi / SOL",
-     "opened_at": "2026-11-21T11:16:30+00:00",
+    "55Fns2JLhnvKcS3Ng4UaViZiUMeTaEbzjVQVQq4kUR2A": {
+     "name": "Leonida / SOL",
+     "opened_at": "2026-11-21T11:24:30+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 5.363022393419994e-07,
-     "tokens": 179935.8513184616,
+     "entry_price_sol": 1.37205158717722e-07,
+     "tokens": 703326.3246211723,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 5.264414620432239e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.4422837408790676
-    },
-    "AzLU2LMRoWMjXMowzqNgF7GrNLGua3rfGRu2SdcxKqfm": {
-     "name": "DCTY / SOL",
-     "opened_at": "2026-11-21T11:18:30+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.2595563418612404e-07,
-     "tokens": 766142.7821275736,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 9.35820310678e-06,
-     "min_ratio": 1.0,
-     "max_ratio": 1.0916542232387707
+     "last_price_usd": 8.91302938003491e-06,
+     "min_ratio": 0.9569611028265276,
+     "max_ratio": 1.0
     }
    },
    "closed": [
@@ -2386,11 +2373,33 @@
      "min_ratio": 0.9995,
      "max_ratio": 2.0811,
      "reason": "take-profit 2 (x2.08)"
+    },
+    {
+     "mint": "AzLU2LMRoWMjXMowzqNgF7GrNLGua3rfGRu2SdcxKqfm",
+     "name": "DCTY / SOL",
+     "opened_at": "2026-11-21T11:18:30+00:00",
+     "closed_at": "2026-11-21T11:22:51+00:00",
+     "pnl_sol": -0.09994,
+     "pnl_pct": -99.9,
+     "min_ratio": 0.0006,
+     "max_ratio": 1.0917,
+     "reason": "stop-loss (x0.00)"
+    },
+    {
+     "mint": "D5D2ieKCyhBToJjKJWWM3HeakiH8DPAVoCYkfd38pump",
+     "name": "Mochi / SOL",
+     "opened_at": "2026-11-21T11:16:30+00:00",
+     "closed_at": "2026-11-21T11:24:30+00:00",
+     "pnl_sol": -0.035893,
+     "pnl_pct": -35.9,
+     "min_ratio": 0.6884,
+     "max_ratio": 1.4423,
+     "reason": "stop-loss (x0.69)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.0070105505127268375
+    "pnl_sol": -0.12882246742000347
    },
    "rejected": [
     {
@@ -2417,8 +2426,8 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.793307937425278e-06,
-     "min_ratio": 0.8436284104690159,
+     "last_price_usd": 8.329236138082891e-06,
+     "min_ratio": 0.8011858046791662,
      "max_ratio": 1.36273412743718
     },
     "8fJCXUPTqGKukJpuMKU7MibSa4nL2k54gBwTNoYdpwC": {
@@ -2430,22 +2439,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.8839611268547834e-05,
+     "last_price_usd": 4.8712794235438326e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.07138764630515
     },
-    "AzLU2LMRoWMjXMowzqNgF7GrNLGua3rfGRu2SdcxKqfm": {
-     "name": "DCTY / SOL",
-     "opened_at": "2026-11-21T11:18:30+00:00",
+    "55Fns2JLhnvKcS3Ng4UaViZiUMeTaEbzjVQVQq4kUR2A": {
+     "name": "Leonida / SOL",
+     "opened_at": "2026-11-21T11:24:30+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.2595563418612404e-07,
-     "tokens": 766142.7821275736,
+     "entry_price_sol": 1.37205158717722e-07,
+     "tokens": 703326.3246211723,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.35820310678e-06,
-     "min_ratio": 1.0,
-     "max_ratio": 1.0916542232387707
+     "last_price_usd": 8.91302938003491e-06,
+     "min_ratio": 0.9569611028265276,
+     "max_ratio": 1.0
     }
    },
    "closed": [
@@ -3273,11 +3282,22 @@
      "min_ratio": 0.4854,
      "max_ratio": 1.5722,
      "reason": "stop-loss (x0.49)"
+    },
+    {
+     "mint": "AzLU2LMRoWMjXMowzqNgF7GrNLGua3rfGRu2SdcxKqfm",
+     "name": "DCTY / SOL",
+     "opened_at": "2026-11-21T11:18:30+00:00",
+     "closed_at": "2026-11-21T11:22:51+00:00",
+     "pnl_sol": -0.09994,
+     "pnl_pct": -99.9,
+     "min_ratio": 0.0006,
+     "max_ratio": 1.0917,
+     "reason": "stop-loss (x0.00)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.14458382222220784
+    "pnl_sol": 0.044643619053438666
    }
   },
   "C_tot": {
@@ -3690,7 +3710,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T11:21:08+00:00",
+  "checked_at": "2026-11-21T11:26:22+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
