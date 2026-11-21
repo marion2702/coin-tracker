@@ -9,12 +9,13 @@
      "size_sol": 0.1,
      "entry_price_sol": 7.446126168490585e-09,
      "tokens": 12959758.91576407,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 7.2003150982668e-07,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07103503056908601,
+     "last_price_usd": 7.825372371446479e-07,
      "min_ratio": 0.9630511003621155,
-     "max_ratio": 1.4128151688480621
+     "max_ratio": 1.5283114659211927,
+     "last_reason": "take-profit 1 (x1.53)"
     },
     "Hjhd1edRTTPrdJD4UcZf31vsi2PfrEN9wzE2CQKVALz": {
      "name": "Mochi / SOL",
@@ -25,8 +26,8 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.6702330307860397e-05,
-     "min_ratio": 1.0,
+     "last_price_usd": 4.536377990723412e-05,
+     "min_ratio": 0.9800879067014835,
      "max_ratio": 1.033274426422437
     },
     "C77wTNSwkorDNDhQTujY39xJJNzG3q78MMRx4EDzpump": {
@@ -38,9 +39,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.0581718619744396e-05,
-     "min_ratio": 0.923695689415169,
-     "max_ratio": 1.0
+     "last_price_usd": 3.734586761803676e-05,
+     "min_ratio": 0.8501256209479382,
+     "max_ratio": 1.138770740636393
     }
    },
    "closed": [
@@ -2483,8 +2484,8 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 5.99544861763992e-06,
-     "min_ratio": 0.5394781677472917,
+     "last_price_usd": 5.6269790962694675e-06,
+     "min_ratio": 0.5343197587359101,
      "max_ratio": 1.36273412743718
     },
     "8fJCXUPTqGKukJpuMKU7MibSa4nL2k54gBwTNoYdpwC": {
@@ -2496,7 +2497,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.9350010644854396e-05,
+     "last_price_usd": 4.934523034929696e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.07138764630515
     },
@@ -2506,12 +2507,13 @@
      "size_sol": 0.1,
      "entry_price_sol": 7.446126168490585e-09,
      "tokens": 12959758.91576407,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 7.2003150982668e-07,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07103503056908601,
+     "last_price_usd": 7.825372371446479e-07,
      "min_ratio": 0.9630511003621155,
-     "max_ratio": 1.4128151688480621
+     "max_ratio": 1.5283114659211927,
+     "last_reason": "take-profit 1 (x1.53)"
     }
    },
    "closed": [
@@ -3778,7 +3780,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T12:08:22+00:00",
+  "checked_at": "2026-11-21T12:14:24+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
