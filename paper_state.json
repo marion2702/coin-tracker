@@ -1,19 +1,8 @@
 {
- "processed_until": "2026-11-21T12:37:51+00:00",
+ "processed_until": "2026-11-21T12:39:51+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "8LqS45peYbmb1fbJiUJveFeCr8UPcZEuWvPYU39AFsX": {
-     "name": "will / SOL",
-     "opened_at": "2026-11-21T12:39:09+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.0480724044348287e-08,
-     "tokens": 9207379.145912869,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 7.282818785e-07
-    },
     "vzMSs8P1xjXeF1Q2mG9yrh9wsU2h9FFCUqMR2NxNVLL": {
      "name": "DCTY / SOL",
      "opened_at": "2026-11-21T12:39:09+00:00",
@@ -23,7 +12,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.363633306e-06
+     "last_price_usd": 9.325036757224251e-06,
+     "min_ratio": 0.9981276904246329,
+     "max_ratio": 1.0
+    },
+    "D5JYaow3EqtqZXYmnaRRvezp9DKzD93wvkayvP5qpump": {
+     "name": "GRUMP / SOL",
+     "opened_at": "2026-11-21T12:40:24+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 2.3077404035011497e-08,
+     "tokens": 4181579.5162054035,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 1.3789961420162853e-06,
+     "min_ratio": 0.8545155239333737,
+     "max_ratio": 1.0
     }
    },
    "closed": [
@@ -2479,11 +2483,22 @@
      "min_ratio": 0.0003,
      "max_ratio": 1.1638,
      "reason": "stop-loss (x0.00)"
+    },
+    {
+     "mint": "8LqS45peYbmb1fbJiUJveFeCr8UPcZEuWvPYU39AFsX",
+     "name": "will / SOL",
+     "opened_at": "2026-11-21T12:39:09+00:00",
+     "closed_at": "2026-11-21T12:42:23+00:00",
+     "pnl_sol": -0.099844,
+     "pnl_pct": -99.8,
+     "min_ratio": 0.0017,
+     "max_ratio": 1.0305,
+     "reason": "stop-loss (x0.00)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": -0.20166848917752267
+    "pnl_sol": -0.3015125257317663
    },
    "rejected": [
     {
@@ -2510,9 +2525,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.03278330756156e-06,
+     "last_price_usd": 8.89518376172395e-06,
      "min_ratio": 0.5286389791917302,
-     "max_ratio": 1.36273412743718
+     "max_ratio": 1.3881996909110899
     },
     "8fJCXUPTqGKukJpuMKU7MibSa4nL2k54gBwTNoYdpwC": {
      "name": "RIEMANN / SOL",
@@ -2523,7 +2538,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.9864405722371765e-05,
+     "last_price_usd": 4.9752017672744406e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.07138764630515
     },
@@ -2536,7 +2551,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07103503056908601,
-     "last_price_usd": 7.92855169024891e-07,
+     "last_price_usd": 7.91068173977165e-07,
      "min_ratio": 0.9630511003621155,
      "max_ratio": 1.6075472976341545,
      "last_reason": "take-profit 1 (x1.53)"
@@ -3806,7 +3821,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T12:39:09+00:00",
+  "checked_at": "2026-11-21T12:44:15+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
