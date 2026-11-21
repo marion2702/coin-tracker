@@ -769,3 +769,4 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T11:54:30+00:00,55Fns2JLhnvKcS3Ng4UaViZiUMeTaEbzjVQVQq4kUR2A,Leonida / SOL,take-profit 2 (x2.29),2.157341211396143e-05,0.50,0.0500,0.1065,+0.0565,+112.9,B_patient
 2026-11-21T11:54:30+00:00,PtefCZ8NRX7fVqMGG19HpE3o7KpRb4DHgtXQsJbEL8T,Mochi / SOL,ACHAT,5.12076342e-07,1.00,0.1000,,,,B_patient
 2026-11-21T11:56:21+00:00,Hjhd1edRTTPrdJD4UcZf31vsi2PfrEN9wzE2CQKVALz,Mochi / SOL,ACHAT,4.628686331e-05,1.00,0.1000,,,,A_rapide
+2026-11-21T12:02:14+00:00,GrJH1FkicpyMqpqgddSkG53rTFPQM9uTTbB9evcM4NWQ,Mochi / SOL,stop temps 32 min (x1.15),6.866605703745745e-05,1.00,0.1000,0.1069,+0.0069,+6.9,A_rapide
