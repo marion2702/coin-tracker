@@ -899,3 +899,5 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T16:56:45+00:00,WXGFhNM7bNwKkVZJgmLB1pqm4G96wY4TiqwiJn5pump,kit / SOL,stop-loss (x0.12),2.912725960272126e-06,1.00,0.1000,0.0111,-0.0889,-88.9,A_rapide
 2026-11-21T16:56:45+00:00,D7Yr73o4rg6NMUKd8Hca5i52ysqFyFEEUziX6B1ypump,Air / SOL,stop-loss (x0.05),1.360118222552634e-06,1.00,0.1000,0.0045,-0.0955,-95.5,A_rapide
 2026-11-21T16:56:45+00:00,WXGFhNM7bNwKkVZJgmLB1pqm4G96wY4TiqwiJn5pump,kit / SOL,stop-loss (x0.12),2.912725960272126e-06,1.00,0.1000,0.0111,-0.0889,-88.9,B_patient
+2026-11-21T17:01:23+00:00,8GLeLQcAnz5owbn7zqZR2GmuMsdk7kmv374LCDLw9pJZ,Air / SOL,ACHAT,9.06913594e-05,1.00,0.1000,,,,A_rapide
+2026-11-21T17:01:23+00:00,8GLeLQcAnz5owbn7zqZR2GmuMsdk7kmv374LCDLw9pJZ,Air / SOL,ACHAT,9.06913594e-05,1.00,0.1000,,,,B_patient

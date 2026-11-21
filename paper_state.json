@@ -1,8 +1,22 @@
 {
- "processed_until": "2026-11-21T16:52:12+00:00",
+ "processed_until": "2026-11-21T17:00:12+00:00",
  "strategies": {
   "A_rapide": {
-   "positions": {},
+   "positions": {
+    "8GLeLQcAnz5owbn7zqZR2GmuMsdk7kmv374LCDLw9pJZ": {
+     "name": "Air / SOL",
+     "opened_at": "2026-11-21T17:01:23+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.2866878862938412e-06,
+     "tokens": 74998.76312503207,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 0.00010491173703773119,
+     "min_ratio": 1.0,
+     "max_ratio": 1.1549032331999758
+    }
+   },
    "closed": [
     {
      "mint": "ALjzrjh1sArWs2zbcEvRgf8nkUCxt5FLcYJy5mtaDShr",
@@ -2973,9 +2987,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.002668059799968464,
+     "last_price_usd": 0.0026715074895745277,
      "min_ratio": 1.0,
      "max_ratio": 1.0007130021688404
+    },
+    "8GLeLQcAnz5owbn7zqZR2GmuMsdk7kmv374LCDLw9pJZ": {
+     "name": "Air / SOL",
+     "opened_at": "2026-11-21T17:01:23+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.2866878862938412e-06,
+     "tokens": 74998.76312503207,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 0.00010491173703773119,
+     "min_ratio": 1.0,
+     "max_ratio": 1.1549032331999758
     }
    },
    "closed": [
@@ -4341,7 +4368,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T16:56:45+00:00",
+  "checked_at": "2026-11-21T17:02:36+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
