@@ -1,8 +1,33 @@
 {
- "processed_until": "2026-11-21T17:16:13+00:00",
+ "processed_until": "2026-11-21T17:26:12+00:00",
  "strategies": {
   "A_rapide": {
-   "positions": {},
+   "positions": {
+    "EDzyCybLk4BL2P3goJr3qL4VAY7uaDbiBVCrs6JLzjp": {
+     "name": "Singularity / SOL",
+     "opened_at": "2026-11-21T17:23:23+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 7.3301626809091346e-09,
+     "tokens": 13164782.856910815,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 5.446935374743116e-07,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0519548249703554
+    },
+    "5MzYUa4z7ZtJEWAyj6pcCmhky8NVS1PLa9NFGEQcpump": {
+     "name": "Prayge / SOL",
+     "opened_at": "2026-11-21T17:27:23+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 4.067441381887675e-07,
+     "tokens": 237249.88497612946,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 2.873179918e-05
+    }
+   },
    "closed": [
     {
      "mint": "ALjzrjh1sArWs2zbcEvRgf8nkUCxt5FLcYJy5mtaDShr",
@@ -3006,9 +3031,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0026647746755242797,
+     "last_price_usd": 0.00267296115393956,
      "min_ratio": 1.0,
      "max_ratio": 1.0007130021688404
+    },
+    "EDzyCybLk4BL2P3goJr3qL4VAY7uaDbiBVCrs6JLzjp": {
+     "name": "Singularity / SOL",
+     "opened_at": "2026-11-21T17:23:23+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 7.3301626809091346e-09,
+     "tokens": 13164782.856910815,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 5.446935374743116e-07,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0519548249703554
     }
    },
    "closed": [
@@ -4385,7 +4423,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T17:20:44+00:00",
+  "checked_at": "2026-11-21T17:27:23+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
