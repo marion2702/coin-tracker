@@ -688,3 +688,5 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T08:28:03+00:00,BwyKetP6KvBwWvCsp2RcvhAJ8V1SvJ7JV6mJk3zGAtcX,win / SOL,take-profit 1 (x1.51),1.761288394028405e-05,0.50,0.0500,0.0705,+0.0205,+41.0,A_rapide
 2026-11-21T08:32:03+00:00,BwyKetP6KvBwWvCsp2RcvhAJ8V1SvJ7JV6mJk3zGAtcX,win / SOL,take-profit 2 (x2.05),2.383052406331534e-05,0.50,0.0500,0.0957,+0.0457,+91.3,A_rapide
 2026-11-21T08:34:12+00:00,AWH6ucpocXQURgvVqi7icZewuDsqdq7fDZCMWYk5zoS,win / SOL,ACHAT,5.873551224e-07,1.00,0.1000,,,,A_rapide
+2026-11-21T08:48:12+00:00,Q2t2rsjv1F39VUiQM1TnuoKdcWysU8AkZrsABXs9Hk4,win / SOL,stop temps 32 min (x1.13),7.17559321985247e-07,1.00,0.1000,0.1053,+0.0053,+5.3,A_rapide
+2026-11-21T08:48:12+00:00,E8Jf9ETee8iKPEqua51c1uMQykKve4wte6ZisiNQu4jr,Cowboy Cat / SOL,ACHAT,2.95460666e-08,1.00,0.1000,,,,A_rapide
