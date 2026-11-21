@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-21T01:55:29+00:00",
+ "processed_until": "2026-11-21T02:01:29+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,7 +12,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.844329476312807e-05,
+     "last_price_usd": 4.8442749170547424e-05,
      "min_ratio": 0.9988386710650137,
      "max_ratio": 1.0
     },
@@ -25,9 +25,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 6.331461077838498e-07,
+     "last_price_usd": 6.831669754820791e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.0615848729390822
+     "max_ratio": 1.1454668773150405
     },
     "HNBXuRk7o5P8HWmpxHsMD74NmfDWSg5TssCZFfPqPyto": {
      "name": "NIAN / SOL",
@@ -38,9 +38,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.23023536710685e-05,
+     "last_price_usd": 9.44973305111826e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.017043656181672
+     "max_ratio": 1.0412409773696374
     }
    },
    "closed": [
@@ -1735,7 +1735,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.42044520107071e-07,
+     "last_price_usd": 8.420350365811261e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1332612537485227
     },
@@ -1748,7 +1748,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.844329476312807e-05,
+     "last_price_usd": 4.8442749170547424e-05,
      "min_ratio": 0.9988386710650137,
      "max_ratio": 1.0
     },
@@ -1761,9 +1761,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 6.331461077838498e-07,
+     "last_price_usd": 6.831669754820791e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.0615848729390822
+     "max_ratio": 1.1454668773150405
     }
    },
    "closed": [
@@ -2876,7 +2876,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T01:56:17+00:00",
+  "checked_at": "2026-11-21T02:02:17+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
