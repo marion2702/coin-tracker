@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-21T05:41:38+00:00",
+ "processed_until": "2026-11-21T05:45:37+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,7 +12,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.00018269115919727859,
+     "last_price_usd": 0.00017026123145122,
      "min_ratio": 1.0,
      "max_ratio": 1.1887985095305118
     },
@@ -28,19 +28,6 @@
      "last_price_usd": 7.069708637690401e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.118639720442824
-    },
-    "BZBY4yfc3PrWqHX1JeYLCpsLtKfr31LiHAetELkQqE52": {
-     "name": "Intel AI / SOL",
-     "opened_at": "2026-11-21T05:32:18+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 3.4309196857725367e-07,
-     "tokens": 281265.6921121463,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 2.635308516403596e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.1734462968326436
     }
    },
    "closed": [
@@ -1946,11 +1933,22 @@
      "min_ratio": 0.8568,
      "max_ratio": 1.0827,
      "reason": "stop temps 32 min (x1.08)"
+    },
+    {
+     "mint": "BZBY4yfc3PrWqHX1JeYLCpsLtKfr31LiHAetELkQqE52",
+     "name": "Intel AI / SOL",
+     "opened_at": "2026-11-21T05:32:18+00:00",
+     "closed_at": "2026-11-21T05:50:02+00:00",
+     "pnl_sol": 0.090416,
+     "pnl_pct": 90.4,
+     "min_ratio": 1.0,
+     "max_ratio": 2.2315,
+     "reason": "take-profit 2 (x2.23)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.22066621874017422
+    "pnl_sol": 0.3110818969209058
    },
    "rejected": [
     {
@@ -1968,19 +1966,6 @@
   },
   "B_patient": {
    "positions": {
-    "QytgqFPUdyQh46TXSi7PGiAdmywsA6Jf3NwzPA6eQKk": {
-     "name": "ONE / SOL",
-     "opened_at": "2026-11-21T01:44:17+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 7.067207352387876e-07,
-     "tokens": 136546.15633627117,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 4.6206266312203136e-05,
-     "min_ratio": 0.9988386710650137,
-     "max_ratio": 1.0
-    },
     "9VZJoGZ6oe5MJ3oZxgGoYNDCHvpFQMXYg4o9EA3oCa8": {
      "name": "ONE / SOL",
      "opened_at": "2026-11-21T01:50:09+00:00",
@@ -1990,7 +1975,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.10360641656148e-07,
+     "last_price_usd": 8.10705402063886e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.424498236178825
     },
@@ -2003,7 +1988,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07487754980310897,
-     "last_price_usd": 2.1240874654072697e-05,
+     "last_price_usd": 2.1249911386892647e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.7963690257795817,
      "last_reason": "take-profit 1 (x1.61)"
@@ -2713,11 +2698,33 @@
      "min_ratio": 1.0,
      "max_ratio": 1.1333,
      "reason": "stop temps 241 min (x1.10)"
+    },
+    {
+     "mint": "QytgqFPUdyQh46TXSi7PGiAdmywsA6Jf3NwzPA6eQKk",
+     "name": "ONE / SOL",
+     "opened_at": "2026-11-21T01:44:17+00:00",
+     "closed_at": "2026-11-21T05:46:09+00:00",
+     "pnl_sol": -0.006986,
+     "pnl_pct": -7.0,
+     "min_ratio": 0.9988,
+     "max_ratio": 1.0,
+     "reason": "stop temps 242 min (x1.00)"
+    },
+    {
+     "mint": "GJuKLw3dUeGbGiHpz2sjf4BquD35jaL27cf6TByYpump",
+     "name": "Bear / SOL",
+     "opened_at": "2026-11-21T05:46:09+00:00",
+     "closed_at": "2026-11-21T05:50:02+00:00",
+     "pnl_sol": -0.065772,
+     "pnl_pct": -65.8,
+     "min_ratio": 0.3676,
+     "max_ratio": 1.0,
+     "reason": "stop-loss (x0.37)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.1406586884462335
+    "pnl_sol": 0.06790123421257072
    }
   },
   "C_tot": {
@@ -3130,7 +3137,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T05:44:01+00:00",
+  "checked_at": "2026-11-21T05:50:02+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
