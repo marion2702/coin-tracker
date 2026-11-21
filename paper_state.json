@@ -1,33 +1,29 @@
 {
- "processed_until": "2026-11-21T16:40:13+00:00",
+ "processed_until": "2026-11-21T16:50:12+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "8dXyoy5zMrkQR6NSNPWs8pfRzuJC4crcf1vsG5o1R1jW": {
-     "name": "GOP / SOL",
-     "opened_at": "2026-11-21T16:16:32+00:00",
+    "WXGFhNM7bNwKkVZJgmLB1pqm4G96wY4TiqwiJn5pump": {
+     "name": "kit / SOL",
+     "opened_at": "2026-11-21T16:51:23+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.481458467238943e-06,
-     "tokens": 65138.51190162026,
+     "entry_price_sol": 3.478681984654678e-07,
+     "tokens": 277403.9145448915,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0001153476240399,
-     "min_ratio": 0.9544648272423942,
-     "max_ratio": 1.1670931303409475
+     "last_price_usd": 2.452252612e-05
     },
-    "DsJ5ABQZANNnUZnZq1N1J94Z2NVgD3goeQrpedexg8Dx": {
-     "name": "CATME / SOL",
-     "opened_at": "2026-11-21T16:20:33+00:00",
+    "D7Yr73o4rg6NMUKd8Hca5i52ysqFyFEEUziX6B1ypump": {
+     "name": "Air / SOL",
+     "opened_at": "2026-11-21T16:51:23+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.3257103609469813e-06,
-     "tokens": 72791.16377356222,
+     "entry_price_sol": 4.02316132282333e-07,
+     "tokens": 239861.12476414267,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.00010268751896235001,
-     "min_ratio": 1.0,
-     "max_ratio": 1.101296363827988
+     "last_price_usd": 2.836076395e-05
     }
    },
    "closed": [
@@ -2901,11 +2897,33 @@
      "min_ratio": 0.0704,
      "max_ratio": 1.0,
      "reason": "stop-loss (x0.07)"
+    },
+    {
+     "mint": "8dXyoy5zMrkQR6NSNPWs8pfRzuJC4crcf1vsG5o1R1jW",
+     "name": "GOP / SOL",
+     "opened_at": "2026-11-21T16:16:32+00:00",
+     "closed_at": "2026-11-21T16:47:22+00:00",
+     "pnl_sol": -0.074743,
+     "pnl_pct": -74.7,
+     "min_ratio": 0.2712,
+     "max_ratio": 1.1671,
+     "reason": "stop-loss (x0.27)"
+    },
+    {
+     "mint": "DsJ5ABQZANNnUZnZq1N1J94Z2NVgD3goeQrpedexg8Dx",
+     "name": "CATME / SOL",
+     "opened_at": "2026-11-21T16:20:33+00:00",
+     "closed_at": "2026-11-21T16:51:23+00:00",
+     "pnl_sol": 0.004733,
+     "pnl_pct": 4.7,
+     "min_ratio": 1.0,
+     "max_ratio": 1.1247,
+     "reason": "stop temps 31 min (x1.12)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.39494586038640267
+    "pnl_sol": 0.3249354898804591
    },
    "rejected": [
     {
@@ -2945,22 +2963,20 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0026614354229694,
+     "last_price_usd": 0.0026674826628997356,
      "min_ratio": 1.0,
      "max_ratio": 1.0007130021688404
     },
-    "8dXyoy5zMrkQR6NSNPWs8pfRzuJC4crcf1vsG5o1R1jW": {
-     "name": "GOP / SOL",
-     "opened_at": "2026-11-21T16:16:32+00:00",
+    "WXGFhNM7bNwKkVZJgmLB1pqm4G96wY4TiqwiJn5pump": {
+     "name": "kit / SOL",
+     "opened_at": "2026-11-21T16:51:23+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.481458467238943e-06,
-     "tokens": 65138.51190162026,
+     "entry_price_sol": 3.478681984654678e-07,
+     "tokens": 277403.9145448915,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0001153476240399,
-     "min_ratio": 0.9544648272423942,
-     "max_ratio": 1.1670931303409475
+     "last_price_usd": 2.452252612e-05
     }
    },
    "closed": [
@@ -3887,11 +3903,22 @@
      "min_ratio": 1.0,
      "max_ratio": 3.0966,
      "reason": "take-profit 2 (x3.10)"
+    },
+    {
+     "mint": "8dXyoy5zMrkQR6NSNPWs8pfRzuJC4crcf1vsG5o1R1jW",
+     "name": "GOP / SOL",
+     "opened_at": "2026-11-21T16:16:32+00:00",
+     "closed_at": "2026-11-21T16:47:22+00:00",
+     "pnl_sol": -0.074743,
+     "pnl_pct": -74.7,
+     "min_ratio": 0.2712,
+     "max_ratio": 1.1671,
+     "reason": "stop-loss (x0.27)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.337217405857245
+    "pnl_sol": 0.2624740170464436
    }
   },
   "C_tot": {
@@ -4304,7 +4331,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T16:45:23+00:00",
+  "checked_at": "2026-11-21T16:51:23+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
