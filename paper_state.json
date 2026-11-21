@@ -2,21 +2,7 @@
  "processed_until": "2026-11-21T17:48:12+00:00",
  "strategies": {
   "A_rapide": {
-   "positions": {
-    "9cEa7Gosbb2q2BY4Bmy3qi2LX5yvew3R4abvSds6kNQC": {
-     "name": "Prayge / SOL",
-     "opened_at": "2026-11-21T17:41:22+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 2.432060834403661e-07,
-     "tokens": 396782.83797395934,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 2.2540422108368432e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.3128783436796394
-    }
-   },
+   "positions": {},
    "closed": [
     {
      "mint": "ALjzrjh1sArWs2zbcEvRgf8nkUCxt5FLcYJy5mtaDShr",
@@ -3031,11 +3017,22 @@
      "min_ratio": 0.9862,
      "max_ratio": 1.2883,
      "reason": "stop temps 31 min (x1.29)"
+    },
+    {
+     "mint": "9cEa7Gosbb2q2BY4Bmy3qi2LX5yvew3R4abvSds6kNQC",
+     "name": "Prayge / SOL",
+     "opened_at": "2026-11-21T17:41:22+00:00",
+     "closed_at": "2026-11-21T23:36:23+00:00",
+     "pnl_sol": -0.091497,
+     "pnl_pct": -91.5,
+     "min_ratio": 0.0913,
+     "max_ratio": 1.3129,
+     "reason": "stop-loss (x0.09)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.7644547853611033
+    "pnl_sol": 0.6729578542782287
    },
    "rejected": [
     {
@@ -3052,21 +3049,7 @@
    ]
   },
   "B_patient": {
-   "positions": {
-    "9cEa7Gosbb2q2BY4Bmy3qi2LX5yvew3R4abvSds6kNQC": {
-     "name": "Prayge / SOL",
-     "opened_at": "2026-11-21T17:41:22+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 2.432060834403661e-07,
-     "tokens": 396782.83797395934,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 2.2540422108368432e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.3128783436796394
-    }
-   },
+   "positions": {},
    "closed": [
     {
      "mint": "26CFQb6LUib4TYjz4VqjrsiJgyQJeNib895vxfhv2LE3",
@@ -4057,11 +4040,22 @@
      "min_ratio": 0.0956,
      "max_ratio": 1.2746,
      "reason": "stop-loss (x0.10)"
+    },
+    {
+     "mint": "9cEa7Gosbb2q2BY4Bmy3qi2LX5yvew3R4abvSds6kNQC",
+     "name": "Prayge / SOL",
+     "opened_at": "2026-11-21T17:41:22+00:00",
+     "closed_at": "2026-11-21T23:36:23+00:00",
+     "pnl_sol": -0.091497,
+     "pnl_pct": -91.5,
+     "min_ratio": 0.0913,
+     "max_ratio": 1.3129,
+     "reason": "stop-loss (x0.09)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": -0.09442971727020288
+    "pnl_sol": -0.1859266483530775
    }
   },
   "C_tot": {
@@ -4474,7 +4468,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T23:32:24+00:00",
+  "checked_at": "2026-11-21T23:38:24+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [

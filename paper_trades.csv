@@ -926,3 +926,5 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T18:16:14+00:00,N48udpKzmJY7Yq3L5xCtZjuxaBq8GpQgonNijqGyMeZ,Singularity / SOL,stop temps 31 min (x1.29),8.248766850869099e-07,1.00,0.1000,0.1200,+0.0200,+20.0,A_rapide
 2026-11-21T20:10:12+00:00,DuQztAe3Q45VnLQLw8JumXskXEtQWx3udRNuD5UvoXu5,APEC / SOL,stop temps 241 min (x1.00),0.0026664056040256795,1.00,0.1000,0.0932,-0.0068,-6.8,B_patient
 2026-11-21T20:22:13+00:00,3oDgK1Fgs1JGRpvHQNdXKKm6GXs7eVdxoZdXxBfUFogK,Emily / SOL,stop-loss (x0.10),1.273286101e-06,1.00,0.1000,0.0089,-0.0911,-91.1,B_patient
+2026-11-21T23:36:23+00:00,9cEa7Gosbb2q2BY4Bmy3qi2LX5yvew3R4abvSds6kNQC,Prayge / SOL,stop-loss (x0.09),1.556535716e-06,1.00,0.1000,0.0085,-0.0915,-91.5,A_rapide
+2026-11-21T23:36:23+00:00,9cEa7Gosbb2q2BY4Bmy3qi2LX5yvew3R4abvSds6kNQC,Prayge / SOL,stop-loss (x0.09),1.556535716e-06,1.00,0.1000,0.0085,-0.0915,-91.5,B_patient
