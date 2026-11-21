@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-21T15:56:00+00:00",
+ "processed_until": "2026-11-21T15:58:00+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -9,10 +9,13 @@
      "size_sol": 0.1,
      "entry_price_sol": 1.6709788563366147e-07,
      "tokens": 577505.8112438516,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 1.17442585e-05
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07214159281122351,
+     "last_price_usd": 2.3002299764821524e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.958133693668272,
+     "last_reason": "take-profit 1 (x1.55)"
     },
     "2y8pf2tZkfMMyRfEZStopHVukXDNoVf9wMjnNaZBpump": {
      "name": "Mei-chan / SOL",
@@ -20,10 +23,13 @@
      "size_sol": 0.1,
      "entry_price_sol": 3.9781083310847087e-07,
      "tokens": 242577.60716558315,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 2.795961924e-05
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07300015285677655,
+     "last_price_usd": 5.0960779644007096e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.822222874967163,
+     "last_reason": "take-profit 1 (x1.57)"
     }
    },
    "closed": [
@@ -2820,11 +2826,22 @@
      "min_ratio": 1.0,
      "max_ratio": 1.1113,
      "reason": "stop temps 30 min (x1.11)"
+    },
+    {
+     "mint": "FTGmsSZHyM9ZKwGUK9Fr8fhocyziwyHGcpkvL689pump",
+     "name": "Solana / SOL",
+     "opened_at": "2026-11-21T15:59:02+00:00",
+     "closed_at": "2026-11-21T16:00:24+00:00",
+     "pnl_sol": -0.032645,
+     "pnl_pct": -32.6,
+     "min_ratio": 0.7233,
+     "max_ratio": 1.0,
+     "reason": "stop-loss (x0.72)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.26056080007302923
+    "pnl_sol": 0.22791585213625581
    },
    "rejected": [
     {
@@ -2861,10 +2878,13 @@
      "size_sol": 0.1,
      "entry_price_sol": 1.6709788563366147e-07,
      "tokens": 577505.8112438516,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 1.17442585e-05
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07214159281122351,
+     "last_price_usd": 2.3002299764821524e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.958133693668272,
+     "last_reason": "take-profit 1 (x1.55)"
     },
     "2y8pf2tZkfMMyRfEZStopHVukXDNoVf9wMjnNaZBpump": {
      "name": "Mei-chan / SOL",
@@ -2872,10 +2892,13 @@
      "size_sol": 0.1,
      "entry_price_sol": 3.9781083310847087e-07,
      "tokens": 242577.60716558315,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 2.795961924e-05
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07300015285677655,
+     "last_price_usd": 5.0960779644007096e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.822222874967163,
+     "last_reason": "take-profit 1 (x1.57)"
     }
    },
    "closed": [
@@ -4186,7 +4209,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T15:57:40+00:00",
+  "checked_at": "2026-11-21T16:02:24+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
