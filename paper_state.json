@@ -3066,19 +3066,6 @@
      "min_ratio": 0.9129513771350616,
      "max_ratio": 1.2746469776772924
     },
-    "DuQztAe3Q45VnLQLw8JumXskXEtQWx3udRNuD5UvoXu5": {
-     "name": "APEC / SOL",
-     "opened_at": "2026-11-21T16:09:11+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 3.781303922102496e-05,
-     "tokens": 2552.029722761446,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 0.002667220420949392,
-     "min_ratio": 1.0,
-     "max_ratio": 1.0007130021688404
-    },
     "9cEa7Gosbb2q2BY4Bmy3qi2LX5yvew3R4abvSds6kNQC": {
      "name": "Prayge / SOL",
      "opened_at": "2026-11-21T17:41:22+00:00",
@@ -4061,11 +4048,22 @@
      "min_ratio": 0.0003,
      "max_ratio": 1.1192,
      "reason": "stop-loss (x0.00)"
+    },
+    {
+     "mint": "DuQztAe3Q45VnLQLw8JumXskXEtQWx3udRNuD5UvoXu5",
+     "name": "APEC / SOL",
+     "opened_at": "2026-11-21T16:09:11+00:00",
+     "closed_at": "2026-11-21T20:10:12+00:00",
+     "pnl_sol": -0.006811,
+     "pnl_pct": -6.8,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0007,
+     "reason": "stop temps 241 min (x1.00)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.003475021319073665
+    "pnl_sol": -0.0033360821364585014
    }
   },
   "C_tot": {
@@ -4478,7 +4476,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T20:08:12+00:00",
+  "checked_at": "2026-11-21T20:14:13+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
