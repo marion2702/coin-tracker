@@ -1,35 +1,18 @@
 {
- "processed_until": "2026-11-21T00:13:28+00:00",
+ "processed_until": "2026-11-21T00:25:29+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "HmJRWZ8tFfuCY9A4MrSftnrvEFCApw1hyqHtb9Rzpump": {
-     "name": "Mandy / SOL",
-     "opened_at": "2026-11-21T00:04:09+00:00",
+    "Hv4ZF1XAdezZBs75nhG8pNjCdXPJzZ8ATnhaGjGGpump": {
+     "name": "Gestalt / ZEC",
+     "opened_at": "2026-11-21T00:26:09+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.71078049279643e-07,
-     "tokens": 564070.0277232047,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07223226943510884,
-     "last_price_usd": 1.825611322206746e-05,
-     "min_ratio": 0.8043112519659374,
-     "max_ratio": 1.5513387083703474,
-     "last_reason": "take-profit 1 (x1.55)"
-    },
-    "9iNRBbcNh6sMoGSxbe7AdfVUSQm7vDckEVJeDhSCpump": {
-     "name": "B&amp;B / SOL",
-     "opened_at": "2026-11-21T00:14:09+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 8.289221299368214e-08,
-     "tokens": 1164162.4287115487,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07116845071381592,
-     "last_price_usd": 8.71533362937433e-06,
-     "min_ratio": 0.9699342929368758,
-     "max_ratio": 1.5284909815311214,
-     "last_reason": "take-profit 1 (x1.53)"
+     "entry_price_sol": 6.407923417767009e-07,
+     "tokens": 150594.80850292012,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 4.406724324e-05
     }
    },
    "closed": [
@@ -1572,11 +1555,44 @@
      "min_ratio": 1.0,
      "max_ratio": 2.0614,
      "reason": "take-profit 2 (x2.06)"
+    },
+    {
+     "mint": "82NxYHT6PXpcvUDeddvE31CWDKmgw8pK2v85ZQZHpump",
+     "name": "SBS / TTWO",
+     "opened_at": "2026-11-21T00:22:01+00:00",
+     "closed_at": "2026-11-21T00:23:52+00:00",
+     "pnl_sol": -0.040431,
+     "pnl_pct": -40.4,
+     "min_ratio": 0.6397,
+     "max_ratio": 1.0,
+     "reason": "stop-loss (x0.64)"
+    },
+    {
+     "mint": "HmJRWZ8tFfuCY9A4MrSftnrvEFCApw1hyqHtb9Rzpump",
+     "name": "Mandy / SOL",
+     "opened_at": "2026-11-21T00:04:09+00:00",
+     "closed_at": "2026-11-21T00:26:09+00:00",
+     "pnl_sol": 0.104096,
+     "pnl_pct": 104.1,
+     "min_ratio": 0.8043,
+     "max_ratio": 2.832,
+     "reason": "take-profit 2 (x2.83)"
+    },
+    {
+     "mint": "9iNRBbcNh6sMoGSxbe7AdfVUSQm7vDckEVJeDhSCpump",
+     "name": "B&amp;B / SOL",
+     "opened_at": "2026-11-21T00:14:09+00:00",
+     "closed_at": "2026-11-21T00:26:09+00:00",
+     "pnl_sol": 0.003809,
+     "pnl_pct": 3.8,
+     "min_ratio": 0.701,
+     "max_ratio": 1.5285,
+     "reason": "stop-loss (x0.70)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": -0.017472648528218185
+    "pnl_sol": 0.0500010869923241
    },
    "rejected": [
     {
@@ -1603,7 +1619,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.34388294588087e-07,
+     "last_price_usd": 8.438070171931321e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1332612537485227
     },
@@ -1616,23 +1632,20 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.506386010888182e-05,
+     "last_price_usd": 9.724067826496241e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.108400058209751
+     "max_ratio": 1.1340648931321187
     },
-    "HmJRWZ8tFfuCY9A4MrSftnrvEFCApw1hyqHtb9Rzpump": {
-     "name": "Mandy / SOL",
-     "opened_at": "2026-11-21T00:04:09+00:00",
+    "Hv4ZF1XAdezZBs75nhG8pNjCdXPJzZ8ATnhaGjGGpump": {
+     "name": "Gestalt / ZEC",
+     "opened_at": "2026-11-21T00:26:09+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.71078049279643e-07,
-     "tokens": 564070.0277232047,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07223226943510884,
-     "last_price_usd": 1.825611322206746e-05,
-     "min_ratio": 0.8043112519659374,
-     "max_ratio": 1.5513387083703474,
-     "last_reason": "take-profit 1 (x1.55)"
+     "entry_price_sol": 6.407923417767009e-07,
+     "tokens": 150594.80850292012,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 4.406724324e-05
     }
    },
    "closed": [
@@ -2284,11 +2297,22 @@
      "min_ratio": 0.1046,
      "max_ratio": 1.1427,
      "reason": "stop-loss (x0.10)"
+    },
+    {
+     "mint": "HmJRWZ8tFfuCY9A4MrSftnrvEFCApw1hyqHtb9Rzpump",
+     "name": "Mandy / SOL",
+     "opened_at": "2026-11-21T00:04:09+00:00",
+     "closed_at": "2026-11-21T00:26:09+00:00",
+     "pnl_sol": 0.104096,
+     "pnl_pct": 104.1,
+     "min_ratio": 0.8043,
+     "max_ratio": 2.832,
+     "reason": "take-profit 2 (x2.83)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": -0.09025746670952786
+    "pnl_sol": 0.013838158193969163
    }
   },
   "C_tot": {
@@ -2701,7 +2725,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T00:19:52+00:00",
+  "checked_at": "2026-11-21T00:26:09+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
