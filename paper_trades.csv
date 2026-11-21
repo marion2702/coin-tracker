@@ -886,3 +886,5 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T16:16:32+00:00,8dXyoy5zMrkQR6NSNPWs8pfRzuJC4crcf1vsG5o1R1jW,GOP / SOL,ACHAT,0.0001038214649,1.00,0.1000,,,,B_patient
 2026-11-21T16:20:33+00:00,DsJ5ABQZANNnUZnZq1N1J94Z2NVgD3goeQrpedexg8Dx,CATME / SOL,ACHAT,9.302831381e-05,1.00,0.1000,,,,A_rapide
 2026-11-21T16:39:14+00:00,DuQztAe3Q45VnLQLw8JumXskXEtQWx3udRNuD5UvoXu5,APEC / SOL,stop temps 30 min (x1.00),0.002658246709214624,1.00,0.1000,0.0932,-0.0068,-6.8,A_rapide
+2026-11-21T16:41:23+00:00,4ZgkpHfEnPGeA2UwgMahstsYBHMdvipdYB75Zeyfpump,Musk-rat / SOL,ACHAT,2.742402889e-05,1.00,0.1000,,,,A_rapide
+2026-11-21T16:42:44+00:00,4ZgkpHfEnPGeA2UwgMahstsYBHMdvipdYB75Zeyfpump,Musk-rat / SOL,stop-loss (x0.07),1.9315844553975442e-06,1.00,0.1000,0.0066,-0.0934,-93.4,A_rapide
