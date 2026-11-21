@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-21T00:49:29+00:00",
+ "processed_until": "2026-11-21T00:55:28+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -25,24 +25,23 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07352586304685085,
-     "last_price_usd": 0.00220964095981508,
+     "last_price_usd": 0.002022544117116963,
      "min_ratio": 1.0,
      "max_ratio": 1.943063127822642,
      "last_reason": "take-profit 1 (x1.58)"
     },
-    "2fC3huo7ho2uQqyTyNdSHYwaiWVHpTdjkcRGMCPVsdTT": {
-     "name": "MI / SOL",
-     "opened_at": "2026-11-21T00:30:01+00:00",
+    "GTQQ34CU2e278RGrXh3prUeNMT3MeTvDoC6823CtjBr2": {
+     "name": "Marmo / SOL",
+     "opened_at": "2026-11-21T00:54:08+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.575213607425892e-07,
-     "tokens": 612615.3275027493,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07738464924715602,
-     "last_price_usd": 1.9231039774949203e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.772458025272203,
-     "last_reason": "take-profit 1 (x1.66)"
+     "entry_price_sol": 2.4225413992584414e-07,
+     "tokens": 398342.00575288164,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 1.627263108187737e-05,
+     "min_ratio": 0.975421927040476,
+     "max_ratio": 1.0
     }
    },
    "closed": [
@@ -1618,11 +1617,22 @@
      "min_ratio": 0.701,
      "max_ratio": 1.5285,
      "reason": "stop-loss (x0.70)"
+    },
+    {
+     "mint": "2fC3huo7ho2uQqyTyNdSHYwaiWVHpTdjkcRGMCPVsdTT",
+     "name": "MI / SOL",
+     "opened_at": "2026-11-21T00:30:01+00:00",
+     "closed_at": "2026-11-21T00:54:08+00:00",
+     "pnl_sol": 0.071677,
+     "pnl_pct": 71.7,
+     "min_ratio": 1.0,
+     "max_ratio": 2.0251,
+     "reason": "take-profit 2 (x2.03)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.0500010869923241
+    "pnl_sol": 0.12167795591038451
    },
    "rejected": [
     {
@@ -1649,7 +1659,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.451463396798951e-07,
+     "last_price_usd": 8.44964804801673e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1332612537485227
     },
@@ -1662,9 +1672,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.00010628042397115551,
+     "last_price_usd": 0.0001072905595665042,
      "min_ratio": 1.0,
-     "max_ratio": 1.2375262589129132
+     "max_ratio": 1.257576911196013
     },
     "Hv4ZF1XAdezZBs75nhG8pNjCdXPJzZ8ATnhaGjGGpump": {
      "name": "Gestalt / ZEC",
@@ -2757,7 +2767,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T00:50:01+00:00",
+  "checked_at": "2026-11-21T00:56:01+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
