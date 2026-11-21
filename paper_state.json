@@ -3,19 +3,6 @@
  "strategies": {
   "A_rapide": {
    "positions": {
-    "8ZF2r4GYdQz8z5hemovjPPe4WAsAW5diurpXz5vRLdHQ": {
-     "name": "Intel AI / SOL",
-     "opened_at": "2026-11-21T06:40:11+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 2.879945330552246e-07,
-     "tokens": 335075.8050031997,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 1.978130361522569e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.0059218726365489
-    },
     "mQ4Rd5A6T2C6n4M7CKeSdXCts2CUaA72AuQ1ujYsK3U": {
      "name": "rape / SOL",
      "opened_at": "2026-11-21T06:58:11+00:00",
@@ -25,9 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.00010863670711710071,
+     "last_price_usd": 0.00012726051771096362,
      "min_ratio": 1.0,
-     "max_ratio": 1.251766301166899
+     "max_ratio": 1.477572038712405
     },
     "H6ZsokvgNYK3YN6Sc7UgzSbJLYGJDQKYsmxFTEiUEH1D": {
      "name": "MARS / SOL",
@@ -38,9 +25,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.756896589643621e-05,
+     "last_price_usd": 2.271444384276624e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.1462869122818355
+     "max_ratio": 1.4933360784954188
     }
    },
    "closed": [
@@ -2056,11 +2043,22 @@
      "min_ratio": 0.2598,
      "max_ratio": 1.0,
      "reason": "stop-loss (x0.26)"
+    },
+    {
+     "mint": "8ZF2r4GYdQz8z5hemovjPPe4WAsAW5diurpXz5vRLdHQ",
+     "name": "Intel AI / SOL",
+     "opened_at": "2026-11-21T06:40:11+00:00",
+     "closed_at": "2026-11-21T07:12:03+00:00",
+     "pnl_sol": -0.006326,
+     "pnl_pct": -6.3,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0059,
+     "reason": "stop temps 32 min (x1.01)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": -0.0493290051709305
+    "pnl_sol": -0.055655045586333496
    },
    "rejected": [
     {
@@ -2087,7 +2085,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07487754980310897,
-     "last_price_usd": 2.2157518202073647e-05,
+     "last_price_usd": 2.19893706055419e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.7963690257795817,
      "last_reason": "take-profit 1 (x1.61)"
@@ -2101,7 +2099,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.83194865262819e-07,
+     "last_price_usd": 7.77251404762914e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.235759133359971
     },
@@ -2114,7 +2112,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07414820516516021,
-     "last_price_usd": 1.668129952778611e-05,
+     "last_price_usd": 1.6554709519056658e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.5924874260283006,
      "last_reason": "take-profit 1 (x1.59)"
@@ -3274,7 +3272,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T07:08:02+00:00",
+  "checked_at": "2026-11-21T07:14:03+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
