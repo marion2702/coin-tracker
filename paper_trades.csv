@@ -761,3 +761,4 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T11:36:21+00:00,989pSXA2v7Mfr6WeQxiVuVejeZ7TrV1VQY39uMRMFKBZ,ZAN / SOL,stop temps 31 min (x1.12),9.678517609236e-05,1.00,0.1000,0.1040,+0.0040,+4.0,A_rapide
 2026-11-21T11:38:13+00:00,55Fns2JLhnvKcS3Ng4UaViZiUMeTaEbzjVQVQq4kUR2A,Leonida / SOL,take-profit 1 (x1.57),1.47809723123425e-05,0.50,0.0500,0.0730,+0.0230,+45.9,A_rapide
 2026-11-21T11:38:13+00:00,55Fns2JLhnvKcS3Ng4UaViZiUMeTaEbzjVQVQq4kUR2A,Leonida / SOL,take-profit 1 (x1.57),1.47809723123425e-05,0.50,0.0500,0.0730,+0.0230,+45.9,B_patient
+2026-11-21T11:40:38+00:00,J9fTvFe8grYMn3nyxcueym17E2urvAyT3pvCYPPhq62T,win / SOL,ACHAT,1.265458993e-05,1.00,0.1000,,,,A_rapide
