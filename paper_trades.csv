@@ -791,3 +791,6 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T13:16:40+00:00,6nU7MJcdaoS461fJbHeSHGxnzvAw5Tt9DGx9Tdrypump,Poorfag / SOL,ACHAT,1.229625794e-05,1.00,0.1000,,,,A_rapide
 2026-11-21T13:18:23+00:00,6nU7MJcdaoS461fJbHeSHGxnzvAw5Tt9DGx9Tdrypump,Poorfag / SOL,take-profit 1 (x1.87),2.290131830262024e-05,0.50,0.0500,0.0869,+0.0369,+73.9,A_rapide
 2026-11-21T13:20:15+00:00,6nU7MJcdaoS461fJbHeSHGxnzvAw5Tt9DGx9Tdrypump,Poorfag / SOL,take-profit 2 (x2.31),2.8342695130638266e-05,0.50,0.0500,0.1074,+0.0574,+114.8,A_rapide
+2026-11-21T13:22:32+00:00,Cnvkjc9mGS9Vozmdzeikou5Qt4RdHcGnj1pTfZU6GJU,Lazarus / SOL,stop temps 32 min (x1.14),1.82301979944832e-09,1.00,0.1000,0.1061,+0.0061,+6.1,A_rapide
+2026-11-21T13:22:32+00:00,AuwnNFvFuT4TLVuPN24gQ4B2UCYWbEgJHctyXjqhxHLL,FLOAT / SOL,ACHAT,7.034232425e-05,1.00,0.1000,,,,A_rapide
+2026-11-21T13:22:32+00:00,8YLSga52xjwKw1iqwMuAkXRtS8Vgah3BHLb2TrKaW9b,Emily / SOL,ACHAT,6.013351186e-07,1.00,0.1000,,,,A_rapide
