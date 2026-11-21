@@ -9,12 +9,13 @@
      "size_sol": 0.1,
      "entry_price_sol": 1.2710040192940702e-06,
      "tokens": 75924.22882627639,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 0.00012726051771096362,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07018967182302774,
+     "last_price_usd": 0.0001421359767147284,
      "min_ratio": 1.0,
-     "max_ratio": 1.477572038712405
+     "max_ratio": 1.6459428674048726,
+     "last_reason": "take-profit 1 (x1.51)"
     },
     "H6ZsokvgNYK3YN6Sc7UgzSbJLYGJDQKYsmxFTEiUEH1D": {
      "name": "MARS / SOL",
@@ -22,12 +23,13 @@
      "size_sol": 0.1,
      "entry_price_sol": 2.2446387308724511e-07,
      "tokens": 429913.28035443893,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 2.271444384276624e-05,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07540195284976459,
+     "last_price_usd": 2.6178294372937307e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.4933360784954188
+     "max_ratio": 1.7165345794877234,
+     "last_reason": "take-profit 1 (x1.62)"
     }
    },
    "closed": [
@@ -2085,7 +2087,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07487754980310897,
-     "last_price_usd": 2.19893706055419e-05,
+     "last_price_usd": 2.2047382621381147e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.7963690257795817,
      "last_reason": "take-profit 1 (x1.61)"
@@ -2099,7 +2101,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.77251404762914e-07,
+     "last_price_usd": 7.79301937341269e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.235759133359971
     },
@@ -2112,7 +2114,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07414820516516021,
-     "last_price_usd": 1.6554709519056658e-05,
+     "last_price_usd": 1.6598383896466607e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.5924874260283006,
      "last_reason": "take-profit 1 (x1.59)"
@@ -3272,7 +3274,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T07:14:03+00:00",
+  "checked_at": "2026-11-21T07:20:10+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
