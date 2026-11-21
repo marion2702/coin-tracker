@@ -12,9 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.308293535519152e-05,
+     "last_price_usd": 1.3359208580772481e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.1376081195614918
+     "max_ratio": 1.2306096592628692
     },
     "1Li9y6K87BoD8LNMoZQ2LsRPECcQy5mxt4xVbeP24nc": {
      "name": "PENNY / SOL",
@@ -25,9 +25,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 6.832788100484641e-07,
+     "last_price_usd": 6.745348427102642e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.1326210270862889
+     "max_ratio": 1.1787160688863123
     },
     "8gwBhiNMeerXWDKEpQEakH7NiddNFGiXDLXPVBKCEh3": {
      "name": "PENNY / SOL",
@@ -38,7 +38,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 6.637031917e-07
+     "last_price_usd": 6.699327531401161e-07,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0514411259729792
     }
    },
    "closed": [
@@ -1876,7 +1878,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.673706511755918e-05,
+     "last_price_usd": 4.6408786108106765e-05,
      "min_ratio": 0.9988386710650137,
      "max_ratio": 1.0
     },
@@ -1889,7 +1891,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.196697353100761e-07,
+     "last_price_usd": 8.139124125490321e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.424498236178825
     },
@@ -1902,9 +1904,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.308293535519152e-05,
+     "last_price_usd": 1.3359208580772481e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.1376081195614918
+     "max_ratio": 1.2306096592628692
     }
    },
    "closed": [
@@ -3028,7 +3030,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T04:02:01+00:00",
+  "checked_at": "2026-11-21T04:08:00+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
