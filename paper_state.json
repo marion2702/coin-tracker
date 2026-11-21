@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-21T15:35:51+00:00",
+ "processed_until": "2026-11-21T15:41:51+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,23 +12,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.316482654357441e-07,
+     "last_price_usd": 8.6258207323236e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.056289419332082
+     "max_ratio": 1.0720158126720136
     },
-    "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump": {
-     "name": "NOHR / SOL",
-     "opened_at": "2026-11-21T15:36:24+00:00",
+    "3vnopepmrB8S3ENkv6wcuCJqgb7FQH98c49HyBWnpump": {
+     "name": "Solana / SOL",
+     "opened_at": "2026-11-21T15:42:23+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 2.3205632210413934e-06,
-     "tokens": 41584.73215683128,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.08848503270160951,
-     "last_price_usd": 0.000309760882649631,
-     "min_ratio": 1.0,
-     "max_ratio": 1.9004007130738438,
-     "last_reason": "take-profit 1 (x1.90)"
+     "entry_price_sol": 1.8278287325735568e-07,
+     "tokens": 527948.8076770157,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 1.2372815394367999e-05,
+     "min_ratio": 0.962891089649272,
+     "max_ratio": 1.0
     }
    },
    "closed": [
@@ -2781,11 +2780,22 @@
      "min_ratio": 0.0892,
      "max_ratio": 1.0,
      "reason": "stop-loss (x0.09)"
+    },
+    {
+     "mint": "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump",
+     "name": "NOHR / SOL",
+     "opened_at": "2026-11-21T15:36:24+00:00",
+     "closed_at": "2026-11-21T15:42:23+00:00",
+     "pnl_sol": 0.120791,
+     "pnl_pct": 120.8,
+     "min_ratio": 1.0,
+     "max_ratio": 2.8416,
+     "reason": "take-profit 2 (x2.84)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": -0.020059274733530627
+    "pnl_sol": 0.10073194972191403
    },
    "rejected": [
     {
@@ -2812,7 +2822,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07103503056908601,
-     "last_price_usd": 8.01444823363331e-07,
+     "last_price_usd": 8.021239980098799e-07,
      "min_ratio": 0.9630511003621155,
      "max_ratio": 1.6075472976341545,
      "last_reason": "take-profit 1 (x1.53)"
@@ -2826,7 +2836,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.47803594916337e-06,
+     "last_price_usd": 8.365710408692e-06,
      "min_ratio": 0.9995958140766794,
      "max_ratio": 1.28448008899239
     },
@@ -4130,7 +4140,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T15:38:16+00:00",
+  "checked_at": "2026-11-21T15:44:23+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
