@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-21T17:04:12+00:00",
+ "processed_until": "2026-11-21T17:10:12+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,9 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.060856793548199e-05,
+     "last_price_usd": 0.0001301621791630067,
      "min_ratio": 0.9979110036532765,
-     "max_ratio": 1.3795109279474813
+     "max_ratio": 1.4323597972998352
     },
     "7Bak9aKRZ66CQVe1FemQyZpXU5Bc82AMugJCBvuTpump": {
      "name": "FBI / SOL",
@@ -22,12 +22,26 @@
      "size_sol": 0.1,
      "entry_price_sol": 1.0776137464714767e-07,
      "tokens": 895497.1140260437,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07232974964844056,
+     "last_price_usd": 1.031833661189109e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.5534322993570955,
+     "last_reason": "take-profit 1 (x1.55)"
+    },
+    "EDmVrp6cRa5PnWH1Dh6vKoGsyxEnE7QkN3C55hPn3NG": {
+     "name": "GTA6 / SOL",
+     "opened_at": "2026-11-21T17:11:23+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 7.004009769591107e-09,
+     "tokens": 13777822.015464388,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.9479489207314e-06,
-     "min_ratio": 1.0,
-     "max_ratio": 1.1766739280673817
+     "last_price_usd": 4.946586559184476e-07,
+     "min_ratio": 0.9907182068943768,
+     "max_ratio": 1.0
     }
    },
    "closed": [
@@ -3000,7 +3014,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.00267027119211732,
+     "last_price_usd": 0.002672456244996296,
      "min_ratio": 1.0,
      "max_ratio": 1.0007130021688404
     },
@@ -3013,9 +3027,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 9.060856793548199e-05,
+     "last_price_usd": 0.0001301621791630067,
      "min_ratio": 0.9979110036532765,
-     "max_ratio": 1.3795109279474813
+     "max_ratio": 1.4323597972998352
     }
    },
    "closed": [
@@ -4381,7 +4395,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T17:08:44+00:00",
+  "checked_at": "2026-11-21T17:14:45+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
