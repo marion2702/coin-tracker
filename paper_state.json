@@ -1,35 +1,32 @@
 {
- "processed_until": "2026-11-21T15:58:00+00:00",
+ "processed_until": "2026-11-21T16:08:00+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "DteSceZfUSFyYuj5ARX775NRiN7tEgZhmA85TUWdcDtv": {
-     "name": "Emily / SOL",
-     "opened_at": "2026-11-21T15:57:40+00:00",
+    "GhjBM6WhME2QLERYrDh1Mfb59vXVVb3oEyXyTBtgG1Uo": {
+     "name": "\u30e1\u30a4 / SOL",
+     "opened_at": "2026-11-21T16:05:11+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.6709788563366147e-07,
-     "tokens": 577505.8112438516,
+     "entry_price_sol": 1.1900077056395951e-07,
+     "tokens": 810919.1187811176,
      "remaining": 0.5,
      "tp1_done": true,
-     "sol_out": 0.07214159281122351,
-     "last_price_usd": 2.3002299764821524e-05,
+     "sol_out": 0.08662684032335229,
+     "last_price_usd": 1.5541066693683002e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.958133693668272,
-     "last_reason": "take-profit 1 (x1.55)"
+     "max_ratio": 1.8604921543848647,
+     "last_reason": "take-profit 1 (x1.86)"
     },
-    "2y8pf2tZkfMMyRfEZStopHVukXDNoVf9wMjnNaZBpump": {
-     "name": "Mei-chan / SOL",
-     "opened_at": "2026-11-21T15:57:40+00:00",
+    "DuQztAe3Q45VnLQLw8JumXskXEtQWx3udRNuD5UvoXu5": {
+     "name": "APEC / SOL",
+     "opened_at": "2026-11-21T16:09:11+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 3.9781083310847087e-07,
-     "tokens": 242577.60716558315,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07300015285677655,
-     "last_price_usd": 5.0960779644007096e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.822222874967163,
-     "last_reason": "take-profit 1 (x1.57)"
+     "entry_price_sol": 3.781303922102496e-05,
+     "tokens": 2552.029722761446,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 0.002654268132
     }
    },
    "closed": [
@@ -2837,11 +2834,44 @@
      "min_ratio": 0.7233,
      "max_ratio": 1.0,
      "reason": "stop-loss (x0.72)"
+    },
+    {
+     "mint": "DteSceZfUSFyYuj5ARX775NRiN7tEgZhmA85TUWdcDtv",
+     "name": "Emily / SOL",
+     "opened_at": "2026-11-21T15:57:40+00:00",
+     "closed_at": "2026-11-21T16:05:11+00:00",
+     "pnl_sol": 0.092378,
+     "pnl_pct": 92.4,
+     "min_ratio": 1.0,
+     "max_ratio": 2.5823,
+     "reason": "take-profit 2 (x2.58)"
+    },
+    {
+     "mint": "2y8pf2tZkfMMyRfEZStopHVukXDNoVf9wMjnNaZBpump",
+     "name": "Mei-chan / SOL",
+     "opened_at": "2026-11-21T15:57:40+00:00",
+     "closed_at": "2026-11-21T16:09:11+00:00",
+     "pnl_sol": 0.088253,
+     "pnl_pct": 88.3,
+     "min_ratio": 1.0,
+     "max_ratio": 2.4753,
+     "reason": "take-profit 2 (x2.48)"
+    },
+    {
+     "mint": "27Ei5H46yrLtSyGiCc2AYkrPetr9AsDAN9kLFmPkoksr",
+     "name": "May-chan / SOL",
+     "opened_at": "2026-11-21T16:07:11+00:00",
+     "closed_at": "2026-11-21T16:09:11+00:00",
+     "pnl_sol": -0.044158,
+     "pnl_pct": -44.2,
+     "min_ratio": 0.5997,
+     "max_ratio": 1.0,
+     "reason": "stop-loss (x0.60)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.22791585213625581
+    "pnl_sol": 0.3643889123073809
    },
    "rejected": [
     {
@@ -2872,33 +2902,30 @@
      "min_ratio": 0.9129513771350616,
      "max_ratio": 1.2746469776772924
     },
-    "DteSceZfUSFyYuj5ARX775NRiN7tEgZhmA85TUWdcDtv": {
-     "name": "Emily / SOL",
-     "opened_at": "2026-11-21T15:57:40+00:00",
+    "GhjBM6WhME2QLERYrDh1Mfb59vXVVb3oEyXyTBtgG1Uo": {
+     "name": "\u30e1\u30a4 / SOL",
+     "opened_at": "2026-11-21T16:05:11+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 1.6709788563366147e-07,
-     "tokens": 577505.8112438516,
+     "entry_price_sol": 1.1900077056395951e-07,
+     "tokens": 810919.1187811176,
      "remaining": 0.5,
      "tp1_done": true,
-     "sol_out": 0.07214159281122351,
-     "last_price_usd": 2.3002299764821524e-05,
+     "sol_out": 0.08662684032335229,
+     "last_price_usd": 1.5541066693683002e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.958133693668272,
-     "last_reason": "take-profit 1 (x1.55)"
+     "max_ratio": 1.8604921543848647,
+     "last_reason": "take-profit 1 (x1.86)"
     },
-    "2y8pf2tZkfMMyRfEZStopHVukXDNoVf9wMjnNaZBpump": {
-     "name": "Mei-chan / SOL",
-     "opened_at": "2026-11-21T15:57:40+00:00",
+    "DuQztAe3Q45VnLQLw8JumXskXEtQWx3udRNuD5UvoXu5": {
+     "name": "APEC / SOL",
+     "opened_at": "2026-11-21T16:09:11+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 3.9781083310847087e-07,
-     "tokens": 242577.60716558315,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07300015285677655,
-     "last_price_usd": 5.0960779644007096e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.822222874967163,
-     "last_reason": "take-profit 1 (x1.57)"
+     "entry_price_sol": 3.781303922102496e-05,
+     "tokens": 2552.029722761446,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 0.002654268132
     }
    },
    "closed": [
@@ -3792,11 +3819,33 @@
      "min_ratio": 0.9631,
      "max_ratio": 1.6075,
      "reason": "stop temps 240 min (x1.53)"
+    },
+    {
+     "mint": "DteSceZfUSFyYuj5ARX775NRiN7tEgZhmA85TUWdcDtv",
+     "name": "Emily / SOL",
+     "opened_at": "2026-11-21T15:57:40+00:00",
+     "closed_at": "2026-11-21T16:05:11+00:00",
+     "pnl_sol": 0.092378,
+     "pnl_pct": 92.4,
+     "min_ratio": 1.0,
+     "max_ratio": 2.5823,
+     "reason": "take-profit 2 (x2.58)"
+    },
+    {
+     "mint": "2y8pf2tZkfMMyRfEZStopHVukXDNoVf9wMjnNaZBpump",
+     "name": "Mei-chan / SOL",
+     "opened_at": "2026-11-21T15:57:40+00:00",
+     "closed_at": "2026-11-21T16:09:11+00:00",
+     "pnl_sol": 0.088253,
+     "pnl_pct": 88.3,
+     "min_ratio": 1.0,
+     "max_ratio": 2.4753,
+     "reason": "take-profit 2 (x2.48)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.025777471962109874
+    "pnl_sol": 0.2064081325657115
    }
   },
   "C_tot": {
@@ -4209,7 +4258,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T16:02:24+00:00",
+  "checked_at": "2026-11-21T16:09:11+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
