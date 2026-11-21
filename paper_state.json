@@ -15,19 +15,6 @@
      "last_price_usd": 2.2540422108368432e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.3128783436796394
-    },
-    "N48udpKzmJY7Yq3L5xCtZjuxaBq8GpQgonNijqGyMeZ": {
-     "name": "Singularity / SOL",
-     "opened_at": "2026-11-21T17:45:23+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 9.058611882610889e-09,
-     "tokens": 10652846.29152106,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 8.247269191245241e-07,
-     "min_ratio": 0.9862438214347061,
-     "max_ratio": 1.2882768520419767
     }
    },
    "closed": [
@@ -3033,11 +3020,22 @@
      "min_ratio": 0.4763,
      "max_ratio": 1.6626,
      "reason": "stop-loss (x0.48)"
+    },
+    {
+     "mint": "N48udpKzmJY7Yq3L5xCtZjuxaBq8GpQgonNijqGyMeZ",
+     "name": "Singularity / SOL",
+     "opened_at": "2026-11-21T17:45:23+00:00",
+     "closed_at": "2026-11-21T18:16:14+00:00",
+     "pnl_sol": 0.019968,
+     "pnl_pct": 20.0,
+     "min_ratio": 0.9862,
+     "max_ratio": 1.2883,
+     "reason": "stop temps 31 min (x1.29)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.7444872242068243
+    "pnl_sol": 0.7644547853611033
    },
    "rejected": [
     {
@@ -3077,7 +3075,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.002674178802028448,
+     "last_price_usd": 0.0026746969637997837,
      "min_ratio": 1.0,
      "max_ratio": 1.0007130021688404
     },
@@ -4480,7 +4478,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T18:14:12+00:00",
+  "checked_at": "2026-11-21T18:20:12+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
