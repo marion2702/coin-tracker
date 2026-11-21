@@ -3,19 +3,6 @@
  "strategies": {
   "A_rapide": {
    "positions": {
-    "E8Jf9ETee8iKPEqua51c1uMQykKve4wte6ZisiNQu4jr": {
-     "name": "Cowboy Cat / SOL",
-     "opened_at": "2026-11-21T08:48:12+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 4.4016911532854955e-10,
-     "tokens": 219233918.59960642,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 3.749480908936256e-08,
-     "min_ratio": 0.9987070530195542,
-     "max_ratio": 1.2613333845233314
-    },
     "RPjUHBJYuCbrxqvufzw7k8zET4JxLCw47dknLebWoXx": {
      "name": "\u732a\u5c0f\u6212 / SOL",
      "opened_at": "2026-11-21T08:56:12+00:00",
@@ -25,7 +12,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.35443931886092e-07,
+     "last_price_usd": 7.2766408617003e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.314558664414614
     },
@@ -38,7 +25,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.745605610067556e-05,
+     "last_price_usd": 4.7609828058815646e-05,
      "min_ratio": 0.9869180694281673,
      "max_ratio": 1.0074320270216341
     }
@@ -2188,11 +2175,22 @@
      "min_ratio": 0.0005,
      "max_ratio": 1.2748,
      "reason": "stop-loss (x0.00)"
+    },
+    {
+     "mint": "E8Jf9ETee8iKPEqua51c1uMQykKve4wte6ZisiNQu4jr",
+     "name": "Cowboy Cat / SOL",
+     "opened_at": "2026-11-21T08:48:12+00:00",
+     "closed_at": "2026-11-21T09:20:11+00:00",
+     "pnl_sol": 0.017459,
+     "pnl_pct": 17.5,
+     "min_ratio": 0.9987,
+     "max_ratio": 1.2613,
+     "reason": "stop temps 32 min (x1.26)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.13521548506423225
+    "pnl_sol": 0.1526740031645062
    },
    "rejected": [
     {
@@ -2219,7 +2217,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.74613581150916e-07,
+     "last_price_usd": 7.77123563162965e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.235759133359971
     },
@@ -2232,7 +2230,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07414820516516021,
-     "last_price_usd": 1.649852640585604e-05,
+     "last_price_usd": 1.6551986615580847e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.5924874260283006,
      "last_reason": "take-profit 1 (x1.59)"
@@ -3414,7 +3412,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T09:14:11+00:00",
+  "checked_at": "2026-11-21T09:20:11+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
