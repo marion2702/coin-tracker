@@ -1,31 +1,8 @@
 {
- "processed_until": "2026-11-21T16:50:12+00:00",
+ "processed_until": "2026-11-21T16:52:12+00:00",
  "strategies": {
   "A_rapide": {
-   "positions": {
-    "WXGFhNM7bNwKkVZJgmLB1pqm4G96wY4TiqwiJn5pump": {
-     "name": "kit / SOL",
-     "opened_at": "2026-11-21T16:51:23+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 3.478681984654678e-07,
-     "tokens": 277403.9145448915,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 2.452252612e-05
-    },
-    "D7Yr73o4rg6NMUKd8Hca5i52ysqFyFEEUziX6B1ypump": {
-     "name": "Air / SOL",
-     "opened_at": "2026-11-21T16:51:23+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 4.02316132282333e-07,
-     "tokens": 239861.12476414267,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 2.836076395e-05
-    }
-   },
+   "positions": {},
    "closed": [
     {
      "mint": "ALjzrjh1sArWs2zbcEvRgf8nkUCxt5FLcYJy5mtaDShr",
@@ -2919,11 +2896,44 @@
      "min_ratio": 1.0,
      "max_ratio": 1.1247,
      "reason": "stop temps 31 min (x1.12)"
+    },
+    {
+     "mint": "DewUkeMG9YRdg6FerzTsSPHyZAZ6okXwZxe7M1RNfxyy",
+     "name": "FUZZY / SOL",
+     "opened_at": "2026-11-21T16:53:22+00:00",
+     "closed_at": "2026-11-21T16:54:36+00:00",
+     "pnl_sol": -0.079735,
+     "pnl_pct": -79.7,
+     "min_ratio": 0.2176,
+     "max_ratio": 1.0,
+     "reason": "stop-loss (x0.22)"
+    },
+    {
+     "mint": "WXGFhNM7bNwKkVZJgmLB1pqm4G96wY4TiqwiJn5pump",
+     "name": "kit / SOL",
+     "opened_at": "2026-11-21T16:51:23+00:00",
+     "closed_at": "2026-11-21T16:56:45+00:00",
+     "pnl_sol": -0.088942,
+     "pnl_pct": -88.9,
+     "min_ratio": 0.1188,
+     "max_ratio": 1.2269,
+     "reason": "stop-loss (x0.12)"
+    },
+    {
+     "mint": "D7Yr73o4rg6NMUKd8Hca5i52ysqFyFEEUziX6B1ypump",
+     "name": "Air / SOL",
+     "opened_at": "2026-11-21T16:51:23+00:00",
+     "closed_at": "2026-11-21T16:56:45+00:00",
+     "pnl_sol": -0.095535,
+     "pnl_pct": -95.5,
+     "min_ratio": 0.0479,
+     "max_ratio": 1.0006,
+     "reason": "stop-loss (x0.05)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.3249354898804591
+    "pnl_sol": 0.06072406214933347
    },
    "rejected": [
     {
@@ -2963,20 +2973,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0026674826628997356,
+     "last_price_usd": 0.002668059799968464,
      "min_ratio": 1.0,
      "max_ratio": 1.0007130021688404
-    },
-    "WXGFhNM7bNwKkVZJgmLB1pqm4G96wY4TiqwiJn5pump": {
-     "name": "kit / SOL",
-     "opened_at": "2026-11-21T16:51:23+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 3.478681984654678e-07,
-     "tokens": 277403.9145448915,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 2.452252612e-05
     }
    },
    "closed": [
@@ -3914,11 +3913,22 @@
      "min_ratio": 0.2712,
      "max_ratio": 1.1671,
      "reason": "stop-loss (x0.27)"
+    },
+    {
+     "mint": "WXGFhNM7bNwKkVZJgmLB1pqm4G96wY4TiqwiJn5pump",
+     "name": "kit / SOL",
+     "opened_at": "2026-11-21T16:51:23+00:00",
+     "closed_at": "2026-11-21T16:56:45+00:00",
+     "pnl_sol": -0.088942,
+     "pnl_pct": -88.9,
+     "min_ratio": 0.1188,
+     "max_ratio": 1.2269,
+     "reason": "stop-loss (x0.12)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.2624740170464436
+    "pnl_sol": 0.1735324883064483
    }
   },
   "C_tot": {
@@ -4331,7 +4341,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T16:51:23+00:00",
+  "checked_at": "2026-11-21T16:56:45+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
