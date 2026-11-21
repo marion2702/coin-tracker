@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-21T05:05:37+00:00",
+ "processed_until": "2026-11-21T05:11:37+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,9 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.96182149195266e-05,
+     "last_price_usd": 9.666355521687748e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.3076232627726678
+     "max_ratio": 1.392200639507237
     },
     "2TngN4B7XaoGSKsYvttq5bFAdM4Z4xCSnuyRwGiFpump": {
      "name": "PUNANI / SOL",
@@ -25,7 +25,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.000761195124518536,
+     "last_price_usd": 0.0008320323763036349,
      "min_ratio": 0.8679212483204212,
      "max_ratio": 1.4152125098507018
     },
@@ -38,7 +38,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0006135654126525708,
+     "last_price_usd": 0.0006183828255922019,
      "min_ratio": 0.9718385889676808,
      "max_ratio": 1.0164029849741643
     }
@@ -1933,7 +1933,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.648162961917254e-05,
+     "last_price_usd": 4.657665776627565e-05,
      "min_ratio": 0.9988386710650137,
      "max_ratio": 1.0
     },
@@ -1946,7 +1946,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.15189934389228e-07,
+     "last_price_usd": 8.1685652804433e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.424498236178825
     },
@@ -1959,7 +1959,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07487754980310897,
-     "last_price_usd": 2.13674582963897e-05,
+     "last_price_usd": 2.1411142435410748e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.7963690257795817,
      "last_reason": "take-profit 1 (x1.61)"
@@ -3086,7 +3086,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T05:08:09+00:00",
+  "checked_at": "2026-11-21T05:14:01+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
