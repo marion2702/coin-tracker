@@ -1,21 +1,8 @@
 {
- "processed_until": "2026-11-21T09:07:39+00:00",
+ "processed_until": "2026-11-21T09:25:39+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "RPjUHBJYuCbrxqvufzw7k8zET4JxLCw47dknLebWoXx": {
-     "name": "\u732a\u5c0f\u6212 / SOL",
-     "opened_at": "2026-11-21T08:56:12+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 8.284149117718853e-09,
-     "tokens": 11648752.168595985,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 7.2766408617003e-07,
-     "min_ratio": 1.0,
-     "max_ratio": 1.314558664414614
-    },
     "5GmMEZKZj7yQsSeayLTVcyV3DTN1TCvnsn8sa69tjFR": {
      "name": "Trader / SOL",
      "opened_at": "2026-11-21T09:00:27+00:00",
@@ -25,9 +12,33 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.7609828058815646e-05,
+     "last_price_usd": 4.7601304602036133e-05,
      "min_ratio": 0.9869180694281673,
      "max_ratio": 1.0074320270216341
+    },
+    "DwXKHRiX7b8VXBbq9RhDiHUB165hUu2ceUXEQXHsZ4o": {
+     "name": "cracken / SOL",
+     "opened_at": "2026-11-21T09:22:28+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 9.89794636207305e-09,
+     "tokens": 9749497.165368432,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 6.99082771443024e-07,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0426405258715257
+    },
+    "QPahnK6pnbNo9zHed88qrUhwayu9HwiLhjaYnPKgrTj": {
+     "name": "ELSA / SOL",
+     "opened_at": "2026-11-21T09:26:27+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 8.302267745405353e-09,
+     "tokens": 11623330.270624565,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 5.62400421e-07
     }
    },
    "closed": [
@@ -2186,11 +2197,22 @@
      "min_ratio": 0.9987,
      "max_ratio": 1.2613,
      "reason": "stop temps 32 min (x1.26)"
+    },
+    {
+     "mint": "RPjUHBJYuCbrxqvufzw7k8zET4JxLCw47dknLebWoXx",
+     "name": "\u732a\u5c0f\u6212 / SOL",
+     "opened_at": "2026-11-21T08:56:12+00:00",
+     "closed_at": "2026-11-21T09:26:27+00:00",
+     "pnl_sol": 0.025338,
+     "pnl_pct": 25.3,
+     "min_ratio": 1.0,
+     "max_ratio": 1.3459,
+     "reason": "stop temps 30 min (x1.35)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.1526740031645062
+    "pnl_sol": 0.17801166431055682
    },
    "rejected": [
     {
@@ -2217,7 +2239,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.77123563162965e-07,
+     "last_price_usd": 7.769844368654539e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.235759133359971
     },
@@ -2230,10 +2252,23 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07414820516516021,
-     "last_price_usd": 1.6551986615580847e-05,
+     "last_price_usd": 1.654902335886926e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.5924874260283006,
      "last_reason": "take-profit 1 (x1.59)"
+    },
+    "DwXKHRiX7b8VXBbq9RhDiHUB165hUu2ceUXEQXHsZ4o": {
+     "name": "cracken / SOL",
+     "opened_at": "2026-11-21T09:22:28+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 9.89794636207305e-09,
+     "tokens": 9749497.165368432,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 6.99082771443024e-07,
+     "min_ratio": 1.0,
+     "max_ratio": 1.0426405258715257
     }
    },
    "closed": [
@@ -3412,7 +3447,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T09:20:11+00:00",
+  "checked_at": "2026-11-21T09:26:27+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
