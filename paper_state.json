@@ -1,22 +1,8 @@
 {
- "processed_until": "2026-11-21T15:31:51+00:00",
+ "processed_until": "2026-11-21T15:35:51+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "G8Jzr8vorvDFqhCxK5J3JZeM5YUjSFhvkSz6z25gpump": {
-     "name": "Pure / SOL",
-     "opened_at": "2026-11-21T15:22:24+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 4.0244626287044123e-07,
-     "tokens": 239783.565914404,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07320058748932594,
-     "last_price_usd": 5.018322698817485e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.8750329413368836,
-     "last_reason": "take-profit 1 (x1.57)"
-    },
     "ETX78hHJeiAmCRCMijKLGB4MTJXe3cJPjPPsh6iNHrC": {
      "name": "win / SOL",
      "opened_at": "2026-11-21T15:24:32+00:00",
@@ -26,20 +12,23 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.154335414033729e-07,
+     "last_price_usd": 8.316482654357441e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.028331386727759
+     "max_ratio": 1.056289419332082
     },
-    "SHmQXyrUMjNC4dRTXr6L3ynm45RzEHnZBLMihV54iia": {
-     "name": "Dark / SOL",
-     "opened_at": "2026-11-21T15:32:24+00:00",
+    "Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump": {
+     "name": "NOHR / SOL",
+     "opened_at": "2026-11-21T15:36:24+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 8.05200238133084e-09,
-     "tokens": 11984596.554981448,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 5.655359877e-07
+     "entry_price_sol": 2.3205632210413934e-06,
+     "tokens": 41584.73215683128,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.08848503270160951,
+     "last_price_usd": 0.000309760882649631,
+     "min_ratio": 1.0,
+     "max_ratio": 1.9004007130738438,
+     "last_reason": "take-profit 1 (x1.90)"
     }
    },
    "closed": [
@@ -2770,11 +2759,33 @@
      "min_ratio": 0.5574,
      "max_ratio": 1.0,
      "reason": "stop-loss (x0.56)"
+    },
+    {
+     "mint": "G8Jzr8vorvDFqhCxK5J3JZeM5YUjSFhvkSz6z25gpump",
+     "name": "Pure / SOL",
+     "opened_at": "2026-11-21T15:22:24+00:00",
+     "closed_at": "2026-11-21T15:34:15+00:00",
+     "pnl_sol": -0.024369,
+     "pnl_pct": -24.4,
+     "min_ratio": 0.0522,
+     "max_ratio": 1.875,
+     "reason": "stop-loss (x0.05)"
+    },
+    {
+     "mint": "SHmQXyrUMjNC4dRTXr6L3ynm45RzEHnZBLMihV54iia",
+     "name": "Dark / SOL",
+     "opened_at": "2026-11-21T15:32:24+00:00",
+     "closed_at": "2026-11-21T15:38:16+00:00",
+     "pnl_sol": -0.091694,
+     "pnl_pct": -91.7,
+     "min_ratio": 0.0892,
+     "max_ratio": 1.0,
+     "reason": "stop-loss (x0.09)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.09600319691368968
+    "pnl_sol": -0.020059274733530627
    },
    "rejected": [
     {
@@ -2801,7 +2812,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07103503056908601,
-     "last_price_usd": 8.013864519735129e-07,
+     "last_price_usd": 8.01444823363331e-07,
      "min_ratio": 0.9630511003621155,
      "max_ratio": 1.6075472976341545,
      "last_reason": "take-profit 1 (x1.53)"
@@ -2815,9 +2826,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.7961346335723e-06,
+     "last_price_usd": 8.47803594916337e-06,
      "min_ratio": 0.9995958140766794,
-     "max_ratio": 1.2312704747010732
+     "max_ratio": 1.28448008899239
     },
     "3oDgK1Fgs1JGRpvHQNdXKKm6GXs7eVdxoZdXxBfUFogK": {
      "name": "Emily / SOL",
@@ -4119,7 +4130,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T15:32:24+00:00",
+  "checked_at": "2026-11-21T15:38:16+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
