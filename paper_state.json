@@ -12,9 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.9152991986128002e-05,
+     "last_price_usd": 2.47874519600154e-05,
      "min_ratio": 0.9027709498254426,
-     "max_ratio": 1.1483807875694474
+     "max_ratio": 1.492234560411054
     },
     "4KgreHYuTGrPdbFinSr4AyWEZBDgxC4xWvGe9T2ypump": {
      "name": "GESTALT / SOL",
@@ -25,7 +25,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07258545142793126,
-     "last_price_usd": 2.1652106325080002e-05,
+     "last_price_usd": 1.3981082862094441e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.55892402862748,
      "last_reason": "take-profit 1 (x1.56)"
@@ -39,7 +39,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 5.746119034e-07
+     "last_price_usd": 6.1882919485239e-07,
+     "min_ratio": 1.0,
+     "max_ratio": 1.081314666141669
     }
    },
    "closed": [
@@ -1679,7 +1681,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.447419542408e-07,
+     "last_price_usd": 8.413334316718921e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1332612537485227
     },
@@ -1692,9 +1694,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.00010974072331376,
+     "last_price_usd": 0.0001111492659119916,
      "min_ratio": 1.0,
-     "max_ratio": 1.2784295895704365
+     "max_ratio": 1.300084294036184
     },
     "Hv4ZF1XAdezZBs75nhG8pNjCdXPJzZ8ATnhaGjGGpump": {
      "name": "Gestalt / ZEC",
@@ -2787,7 +2789,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T01:02:01+00:00",
+  "checked_at": "2026-11-21T01:07:53+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
