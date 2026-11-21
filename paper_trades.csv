@@ -794,3 +794,5 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T13:22:32+00:00,Cnvkjc9mGS9Vozmdzeikou5Qt4RdHcGnj1pTfZU6GJU,Lazarus / SOL,stop temps 32 min (x1.14),1.82301979944832e-09,1.00,0.1000,0.1061,+0.0061,+6.1,A_rapide
 2026-11-21T13:22:32+00:00,AuwnNFvFuT4TLVuPN24gQ4B2UCYWbEgJHctyXjqhxHLL,FLOAT / SOL,ACHAT,7.034232425e-05,1.00,0.1000,,,,A_rapide
 2026-11-21T13:22:32+00:00,8YLSga52xjwKw1iqwMuAkXRtS8Vgah3BHLb2TrKaW9b,Emily / SOL,ACHAT,6.013351186e-07,1.00,0.1000,,,,A_rapide
+2026-11-21T13:48:16+00:00,3Apw28zFDYvdNhs5vGsqnND2cxzmScEZibTUioQ4RraF,Emily / SOL,stop temps 32 min (x1.14),7.77588140928096e-05,1.00,0.1000,0.1060,+0.0060,+6.0,A_rapide
+2026-11-21T13:50:24+00:00,3b7WvfRxRaoMuq4j6JWJzrL5mym3Km3QzfX5dqCopump,Bigfoot / SOL,ACHAT,2.905895912e-05,1.00,0.1000,,,,A_rapide
