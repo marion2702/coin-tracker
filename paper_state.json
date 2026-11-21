@@ -1,21 +1,8 @@
 {
- "processed_until": "2026-11-21T14:53:52+00:00",
+ "processed_until": "2026-11-21T14:59:51+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "62ZQG5YbVD5nh7oLPyyC3S9XhtwD7quoiRFKPdsiSZV": {
-     "name": "Bigfoot / SOL",
-     "opened_at": "2026-11-21T14:30:40+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 9.39679805349751e-08,
-     "tokens": 1026945.5558224163,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 7.64588930555644e-06,
-     "min_ratio": 0.9995958140766794,
-     "max_ratio": 1.1610337838365348
-    },
     "QcAGdAnGsdMKzN5eJS4bJPivsvSyNvkKUmQN1nDYwH2": {
      "name": "GTA6 / SOL",
      "opened_at": "2026-11-21T14:44:31+00:00",
@@ -25,23 +12,23 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.723476743158949e-07,
+     "last_price_usd": 7.72910235653265e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.164121859726265
     },
-    "3S856mBeC7tEULvNjHnyL2rWbC3wQmC3MvM2HFi3pump": {
-     "name": "Bananaut / SOL",
-     "opened_at": "2026-11-21T14:54:24+00:00",
+    "HLaoQpp3AmrdPpDMh4fB25KVej5aE6ZyNX3ueE5jpump": {
+     "name": "SM / SOL",
+     "opened_at": "2026-11-21T15:00:24+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 4.063487652790411e-07,
-     "tokens": 237480.72652253078,
+     "entry_price_sol": 4.0203404551094204e-07,
+     "tokens": 240029.42307375703,
      "remaining": 0.5,
      "tp1_done": true,
-     "sol_out": 0.09032692236629555,
-     "last_price_usd": 5.560197914732603e-05,
+     "sol_out": 0.0925123802705105,
+     "last_price_usd": 5.638362522738155e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.9399591369710985,
-     "last_reason": "take-profit 1 (x1.94)"
+     "max_ratio": 1.9868964057131309,
+     "last_reason": "take-profit 1 (x1.99)"
     }
    },
    "closed": [
@@ -2673,11 +2660,33 @@
      "min_ratio": 1.0,
      "max_ratio": 1.136,
      "reason": "stop temps 32 min (x1.14)"
+    },
+    {
+     "mint": "3S856mBeC7tEULvNjHnyL2rWbC3wQmC3MvM2HFi3pump",
+     "name": "Bananaut / SOL",
+     "opened_at": "2026-11-21T14:54:24+00:00",
+     "closed_at": "2026-11-21T14:58:15+00:00",
+     "pnl_sol": 0.126682,
+     "pnl_pct": 126.7,
+     "min_ratio": 1.0,
+     "max_ratio": 2.9285,
+     "reason": "take-profit 2 (x2.93)"
+    },
+    {
+     "mint": "62ZQG5YbVD5nh7oLPyyC3S9XhtwD7quoiRFKPdsiSZV",
+     "name": "Bigfoot / SOL",
+     "opened_at": "2026-11-21T14:30:40+00:00",
+     "closed_at": "2026-11-21T15:02:16+00:00",
+     "pnl_sol": 0.007127,
+     "pnl_pct": 7.1,
+     "min_ratio": 0.9996,
+     "max_ratio": 1.1621,
+     "reason": "stop temps 32 min (x1.15)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.014820263879595619
+    "pnl_sol": 0.14863004847091438
    },
    "rejected": [
     {
@@ -2704,7 +2713,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07103503056908601,
-     "last_price_usd": 8.047933300405809e-07,
+     "last_price_usd": 8.053795240916669e-07,
      "min_ratio": 0.9630511003621155,
      "max_ratio": 1.6075472976341545,
      "last_reason": "take-profit 1 (x1.53)"
@@ -2718,9 +2727,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.64588930555644e-06,
+     "last_price_usd": 7.63028278302447e-06,
      "min_ratio": 0.9995958140766794,
-     "max_ratio": 1.1610337838365348
+     "max_ratio": 1.1620979761223613
     },
     "3oDgK1Fgs1JGRpvHQNdXKKm6GXs7eVdxoZdXxBfUFogK": {
      "name": "Emily / SOL",
@@ -2731,7 +2740,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.412091364365682e-05,
+     "last_price_usd": 1.552173158174913e-05,
      "min_ratio": 0.9129513771350616,
      "max_ratio": 1.1864671743334203
     }
@@ -4022,7 +4031,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T14:56:15+00:00",
+  "checked_at": "2026-11-21T15:02:16+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
