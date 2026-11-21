@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-21T16:08:00+00:00",
+ "processed_until": "2026-11-21T16:20:01+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,9 +12,33 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0026569089664976314,
+     "last_price_usd": 0.002655324645766408,
      "min_ratio": 1.0,
      "max_ratio": 1.0007130021688404
+    },
+    "8dXyoy5zMrkQR6NSNPWs8pfRzuJC4crcf1vsG5o1R1jW": {
+     "name": "GOP / SOL",
+     "opened_at": "2026-11-21T16:16:32+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.481458467238943e-06,
+     "tokens": 65138.51190162026,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 9.922381208017181e-05,
+     "min_ratio": 0.9544648272423942,
+     "max_ratio": 1.0
+    },
+    "DsJ5ABQZANNnUZnZq1N1J94Z2NVgD3goeQrpedexg8Dx": {
+     "name": "CATME / SOL",
+     "opened_at": "2026-11-21T16:20:33+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.3257103609469813e-06,
+     "tokens": 72791.16377356222,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 9.302831381e-05
     }
    },
    "closed": [
@@ -2910,9 +2934,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0026569089664976314,
+     "last_price_usd": 0.002655324645766408,
      "min_ratio": 1.0,
      "max_ratio": 1.0007130021688404
+    },
+    "8dXyoy5zMrkQR6NSNPWs8pfRzuJC4crcf1vsG5o1R1jW": {
+     "name": "GOP / SOL",
+     "opened_at": "2026-11-21T16:16:32+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 1.481458467238943e-06,
+     "tokens": 65138.51190162026,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 9.922381208017181e-05,
+     "min_ratio": 0.9544648272423942,
+     "max_ratio": 1.0
     }
    },
    "closed": [
@@ -4256,7 +4293,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T16:14:33+00:00",
+  "checked_at": "2026-11-21T16:20:33+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
