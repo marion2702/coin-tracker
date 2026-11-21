@@ -543,3 +543,7 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T00:04:09+00:00,HmJRWZ8tFfuCY9A4MrSftnrvEFCApw1hyqHtb9Rzpump,Mandy / SOL,ACHAT,1.177733609e-05,1.00,0.1000,,,,B_patient
 2026-11-21T00:08:00+00:00,GyDywECoEv26AZAHtMMPFV4mxEgC7ybsWwwcoKWzuCFB,Anthropic / SOL,take-profit 1 (x1.58),7.02565637163846e-05,0.50,0.0500,0.0734,+0.0234,+46.7,A_rapide
 2026-11-21T00:14:09+00:00,9iNRBbcNh6sMoGSxbe7AdfVUSQm7vDckEVJeDhSCpump,B&amp;B / SOL,ACHAT,5.705164266e-06,1.00,0.1000,,,,A_rapide
+2026-11-21T00:17:52+00:00,GyDywECoEv26AZAHtMMPFV4mxEgC7ybsWwwcoKWzuCFB,Anthropic / SOL,take-profit 2 (x2.06),9.163620239673959e-05,0.50,0.0500,0.0960,+0.0460,+92.0,A_rapide
+2026-11-21T00:19:52+00:00,HmJRWZ8tFfuCY9A4MrSftnrvEFCApw1hyqHtb9Rzpump,Mandy / SOL,take-profit 1 (x1.55),1.825611322206746e-05,0.50,0.0500,0.0722,+0.0222,+44.5,A_rapide
+2026-11-21T00:19:52+00:00,9iNRBbcNh6sMoGSxbe7AdfVUSQm7vDckEVJeDhSCpump,B&amp;B / SOL,take-profit 1 (x1.53),8.71533362937433e-06,0.50,0.0500,0.0712,+0.0212,+42.3,A_rapide
+2026-11-21T00:19:52+00:00,HmJRWZ8tFfuCY9A4MrSftnrvEFCApw1hyqHtb9Rzpump,Mandy / SOL,take-profit 1 (x1.55),1.825611322206746e-05,0.50,0.0500,0.0722,+0.0222,+44.5,B_patient
