@@ -1,18 +1,20 @@
 {
- "processed_until": "2026-11-21T02:25:28+00:00",
+ "processed_until": "2026-11-21T02:27:28+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "5qXuUk2BVCzzUCr9AM2YVqjs7vhmgKUB3nQMoJF8pump": {
-     "name": "FBI / SOL",
-     "opened_at": "2026-11-21T02:26:08+00:00",
+    "ud1av6EekCawmvH95mWxkp85avuhX3i5Xcf7PTub5va": {
+     "name": "MI / SOL",
+     "opened_at": "2026-11-21T02:28:09+00:00",
      "size_sol": 0.1,
-     "entry_price_sol": 3.890359419340669e-07,
-     "tokens": 248049.06076352875,
+     "entry_price_sol": 1.8904722042437072e-07,
+     "tokens": 510454.4768411726,
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 2.674978434e-05
+     "last_price_usd": 1.340556666141337e-05,
+     "min_ratio": 0.9801783892090081,
+     "max_ratio": 1.0309593527082337
     }
    },
    "closed": [
@@ -1720,11 +1722,22 @@
      "min_ratio": 0.0,
      "max_ratio": 1.0,
      "reason": "stop-loss (x0.00)"
+    },
+    {
+     "mint": "5qXuUk2BVCzzUCr9AM2YVqjs7vhmgKUB3nQMoJF8pump",
+     "name": "FBI / SOL",
+     "opened_at": "2026-11-21T02:26:08+00:00",
+     "closed_at": "2026-11-21T02:28:09+00:00",
+     "pnl_sol": -0.049805,
+     "pnl_pct": -49.8,
+     "min_ratio": 0.539,
+     "max_ratio": 1.0,
+     "reason": "stop-loss (x0.54)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.2688692606341162
+    "pnl_sol": 0.21906459259475425
    },
    "rejected": [
     {
@@ -1751,7 +1764,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.43674885718981e-07,
+     "last_price_usd": 8.43952298283951e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1332612537485227
     },
@@ -1764,7 +1777,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.853709061361277e-05,
+     "last_price_usd": 4.855305031447767e-05,
      "min_ratio": 0.9988386710650137,
      "max_ratio": 1.0
     },
@@ -1777,9 +1790,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.28547870653115e-07,
+     "last_price_usd": 8.34322850707769e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.393430827150692
+     "max_ratio": 1.3957321167083316
     }
    },
    "closed": [
@@ -2892,7 +2905,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T02:26:08+00:00",
+  "checked_at": "2026-11-21T02:32:01+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
