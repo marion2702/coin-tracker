@@ -1,4 +1,6 @@
 {
+  "enabled": false,
+  "_note": "Désactivé le 21/11/2026 après bilan 48 h : 702 alertes évaluées, 97 % mortes ou rug, 4 seulement ont doublé.",
   "sources": [
     "/trending_pools?duration=5m",
     "/trending_pools?duration=1h",

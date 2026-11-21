@@ -195,6 +195,9 @@ def main():
     cfg = load_json(CONFIG_PATH, None)
     if cfg is None:
         sys.exit("scanner_config.json introuvable")
+    if not cfg.get("enabled", True) and not dry:
+        log("Scanner désactivé (scanner_config.json : enabled=false).")
+        return
     state = load_json(STATE_PATH, {"alerted": {}})
     now = datetime.now(timezone.utc)
 
