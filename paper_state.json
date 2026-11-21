@@ -1,35 +1,8 @@
 {
- "processed_until": "2026-11-21T00:55:28+00:00",
+ "processed_until": "2026-11-21T01:01:28+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
-    "Hv4ZF1XAdezZBs75nhG8pNjCdXPJzZ8ATnhaGjGGpump": {
-     "name": "Gestalt / ZEC",
-     "opened_at": "2026-11-21T00:26:09+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 6.407923417767009e-07,
-     "tokens": 150594.80850292012,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 4.406724324e-05,
-     "min_ratio": 0.9984152774213396,
-     "max_ratio": 1.0014382617045174
-    },
-    "DkHsZ1kjd2Fua8sgKE6PhHhyCdXYscbDVN7mAfiGpump": {
-     "name": "JENSEN / SOL",
-     "opened_at": "2026-11-21T00:28:01+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 2.1239659900420398e-05,
-     "tokens": 4543.387250663556,
-     "remaining": 0.5,
-     "tp1_done": true,
-     "sol_out": 0.07352586304685085,
-     "last_price_usd": 0.002022544117116963,
-     "min_ratio": 1.0,
-     "max_ratio": 1.943063127822642,
-     "last_reason": "take-profit 1 (x1.58)"
-    },
     "GTQQ34CU2e278RGrXh3prUeNMT3MeTvDoC6823CtjBr2": {
      "name": "Marmo / SOL",
      "opened_at": "2026-11-21T00:54:08+00:00",
@@ -39,9 +12,34 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 1.627263108187737e-05,
-     "min_ratio": 0.975421927040476,
-     "max_ratio": 1.0
+     "last_price_usd": 1.9152991986128002e-05,
+     "min_ratio": 0.9027709498254426,
+     "max_ratio": 1.1483807875694474
+    },
+    "4KgreHYuTGrPdbFinSr4AyWEZBDgxC4xWvGe9T2ypump": {
+     "name": "GESTALT / SOL",
+     "opened_at": "2026-11-21T01:00:01+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 2.017417104519805e-07,
+     "tokens": 478334.3998809279,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07258545142793126,
+     "last_price_usd": 2.1652106325080002e-05,
+     "min_ratio": 1.0,
+     "max_ratio": 1.55892402862748,
+     "last_reason": "take-profit 1 (x1.56)"
+    },
+    "G437jxj6smw3WAZPZD6LyBky9mNeWQNwmkKubYA4V9j": {
+     "name": "Gestalt / SOL",
+     "opened_at": "2026-11-21T01:02:01+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 8.346321642157016e-09,
+     "tokens": 11561979.532705935,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 5.746119034e-07
     }
    },
    "closed": [
@@ -1628,11 +1626,33 @@
      "min_ratio": 1.0,
      "max_ratio": 2.0251,
      "reason": "take-profit 2 (x2.03)"
+    },
+    {
+     "mint": "Hv4ZF1XAdezZBs75nhG8pNjCdXPJzZ8ATnhaGjGGpump",
+     "name": "Gestalt / ZEC",
+     "opened_at": "2026-11-21T00:26:09+00:00",
+     "closed_at": "2026-11-21T00:57:52+00:00",
+     "pnl_sol": -0.006781,
+     "pnl_pct": -6.8,
+     "min_ratio": 0.9984,
+     "max_ratio": 1.0014,
+     "reason": "stop temps 32 min (x1.00)"
+    },
+    {
+     "mint": "DkHsZ1kjd2Fua8sgKE6PhHhyCdXYscbDVN7mAfiGpump",
+     "name": "JENSEN / SOL",
+     "opened_at": "2026-11-21T00:28:01+00:00",
+     "closed_at": "2026-11-21T01:00:01+00:00",
+     "pnl_sol": 0.033614,
+     "pnl_pct": 33.6,
+     "min_ratio": 1.0,
+     "max_ratio": 1.9431,
+     "reason": "stop temps 32 min (x1.29)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.12167795591038451
+    "pnl_sol": 0.14851085946707915
    },
    "rejected": [
     {
@@ -1659,7 +1679,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.44964804801673e-07,
+     "last_price_usd": 8.447419542408e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1332612537485227
     },
@@ -1672,9 +1692,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0001072905595665042,
+     "last_price_usd": 0.00010974072331376,
      "min_ratio": 1.0,
-     "max_ratio": 1.257576911196013
+     "max_ratio": 1.2784295895704365
     },
     "Hv4ZF1XAdezZBs75nhG8pNjCdXPJzZ8ATnhaGjGGpump": {
      "name": "Gestalt / ZEC",
@@ -1685,8 +1705,8 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.406724324e-05,
-     "min_ratio": 0.9984152774213396,
+     "last_price_usd": 3.428908531e-05,
+     "min_ratio": 0.7772370577916724,
      "max_ratio": 1.0014382617045174
     }
    },
@@ -2767,7 +2787,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T00:56:01+00:00",
+  "checked_at": "2026-11-21T01:02:01+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
