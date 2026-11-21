@@ -2,32 +2,7 @@
  "processed_until": "2026-11-21T01:25:28+00:00",
  "strategies": {
   "A_rapide": {
-   "positions": {
-    "G437jxj6smw3WAZPZD6LyBky9mNeWQNwmkKubYA4V9j": {
-     "name": "Gestalt / SOL",
-     "opened_at": "2026-11-21T01:02:01+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 8.346321642157016e-09,
-     "tokens": 11561979.532705935,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 7.06742210101752e-07,
-     "min_ratio": 1.0,
-     "max_ratio": 1.2424635000431143
-    },
-    "2D627z6oyDiiGRcpmfqfWhfHnQg6QmpRj8XZnCyCpump": {
-     "name": "SPONGEBOB / SOL",
-     "opened_at": "2026-11-21T01:26:09+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 3.2484084634246875e-07,
-     "tokens": 297068.55245126196,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 2.237609529e-05
-    }
-   },
+   "positions": {},
    "closed": [
     {
      "mint": "ALjzrjh1sArWs2zbcEvRgf8nkUCxt5FLcYJy5mtaDShr",
@@ -1667,11 +1642,33 @@
      "min_ratio": 0.9028,
      "max_ratio": 1.9269,
      "reason": "stop temps 32 min (x1.93)"
+    },
+    {
+     "mint": "G437jxj6smw3WAZPZD6LyBky9mNeWQNwmkKubYA4V9j",
+     "name": "Gestalt / SOL",
+     "opened_at": "2026-11-21T01:02:01+00:00",
+     "closed_at": "2026-11-21T01:32:08+00:00",
+     "pnl_sol": 0.021615,
+     "pnl_pct": 21.6,
+     "min_ratio": 1.0,
+     "max_ratio": 1.3227,
+     "reason": "stop temps 30 min (x1.31)"
+    },
+    {
+     "mint": "2D627z6oyDiiGRcpmfqfWhfHnQg6QmpRj8XZnCyCpump",
+     "name": "SPONGEBOB / SOL",
+     "opened_at": "2026-11-21T01:26:09+00:00",
+     "closed_at": "2026-11-21T01:32:08+00:00",
+     "pnl_sol": 0.137994,
+     "pnl_pct": 138.0,
+     "min_ratio": 0.9999,
+     "max_ratio": 2.5557,
+     "reason": "take-profit 2 (x2.56)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.18581222216901538
+    "pnl_sol": 0.3454212952002441
    },
    "rejected": [
     {
@@ -1698,33 +1695,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.451975553556039e-07,
+     "last_price_usd": 8.430039085641121e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1332612537485227
-    },
-    "DZ22UZ9dPzvpcRdPK2EC8qv22iASPZvAQPW9p4KuWce3": {
-     "name": "STBL / SOL",
-     "opened_at": "2026-11-20T23:54:01+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.2468422297199785e-06,
-     "tokens": 77395.51781276483,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 0.00011779036835029198,
-     "min_ratio": 1.0,
-     "max_ratio": 1.371464616164019
-    },
-    "2D627z6oyDiiGRcpmfqfWhfHnQg6QmpRj8XZnCyCpump": {
-     "name": "SPONGEBOB / SOL",
-     "opened_at": "2026-11-21T01:26:09+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 3.2484084634246875e-07,
-     "tokens": 297068.55245126196,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 2.237609529e-05
     }
    },
    "closed": [
@@ -2398,11 +2371,33 @@
      "min_ratio": 0.7772,
      "max_ratio": 2.3802,
      "reason": "take-profit 2 (x2.38)"
+    },
+    {
+     "mint": "DZ22UZ9dPzvpcRdPK2EC8qv22iASPZvAQPW9p4KuWce3",
+     "name": "STBL / SOL",
+     "opened_at": "2026-11-20T23:54:01+00:00",
+     "closed_at": "2026-11-21T01:28:01+00:00",
+     "pnl_sol": -0.099856,
+     "pnl_pct": -99.9,
+     "min_ratio": 0.0015,
+     "max_ratio": 1.3715,
+     "reason": "stop-loss (x0.00)"
+    },
+    {
+     "mint": "2D627z6oyDiiGRcpmfqfWhfHnQg6QmpRj8XZnCyCpump",
+     "name": "SPONGEBOB / SOL",
+     "opened_at": "2026-11-21T01:26:09+00:00",
+     "closed_at": "2026-11-21T01:32:08+00:00",
+     "pnl_sol": 0.137994,
+     "pnl_pct": 138.0,
+     "min_ratio": 0.9999,
+     "max_ratio": 2.5557,
+     "reason": "take-profit 2 (x2.56)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.10015866640373924
+    "pnl_sol": 0.1382967022071857
    }
   },
   "C_tot": {
@@ -2815,7 +2810,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T01:26:09+00:00",
+  "checked_at": "2026-11-21T01:32:08+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
