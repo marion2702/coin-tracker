@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-21T01:01:28+00:00",
+ "processed_until": "2026-11-21T01:13:28+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -9,26 +9,13 @@
      "size_sol": 0.1,
      "entry_price_sol": 2.4225413992584414e-07,
      "tokens": 398342.00575288164,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 2.47874519600154e-05,
-     "min_ratio": 0.9027709498254426,
-     "max_ratio": 1.492234560411054
-    },
-    "4KgreHYuTGrPdbFinSr4AyWEZBDgxC4xWvGe9T2ypump": {
-     "name": "GESTALT / SOL",
-     "opened_at": "2026-11-21T01:00:01+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 2.017417104519805e-07,
-     "tokens": 478334.3998809279,
      "remaining": 0.5,
      "tp1_done": true,
-     "sol_out": 0.07258545142793126,
-     "last_price_usd": 1.3981082862094441e-05,
-     "min_ratio": 1.0,
-     "max_ratio": 1.55892402862748,
-     "last_reason": "take-profit 1 (x1.56)"
+     "sol_out": 0.07078726654681439,
+     "last_price_usd": 2.7382450652224498e-05,
+     "min_ratio": 0.9027709498254426,
+     "max_ratio": 1.643315569846862,
+     "last_reason": "take-profit 1 (x1.52)"
     },
     "G437jxj6smw3WAZPZD6LyBky9mNeWQNwmkKubYA4V9j": {
      "name": "Gestalt / SOL",
@@ -39,9 +26,23 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 6.1882919485239e-07,
+     "last_price_usd": 6.742782309564349e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.081314666141669
+     "max_ratio": 1.1745293819597542
+    },
+    "G8yh46v9zFfrW43iB8DZ9pZUdtW9vWkNxrJy2gzppump": {
+     "name": "NiggaInu / SOL",
+     "opened_at": "2026-11-21T01:10:09+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 4.0617944886368626e-07,
+     "tokens": 237579.72066278858,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07501532163983417,
+     "last_price_usd": 4.5011493862888e-05,
+     "min_ratio": 0.9999328108853468,
+     "max_ratio": 1.6111105616759467,
+     "last_reason": "take-profit 1 (x1.61)"
     }
    },
    "closed": [
@@ -1650,11 +1651,22 @@
      "min_ratio": 1.0,
      "max_ratio": 1.9431,
      "reason": "stop temps 32 min (x1.29)"
+    },
+    {
+     "mint": "4KgreHYuTGrPdbFinSr4AyWEZBDgxC4xWvGe9T2ypump",
+     "name": "GESTALT / SOL",
+     "opened_at": "2026-11-21T01:00:01+00:00",
+     "closed_at": "2026-11-21T01:10:09+00:00",
+     "pnl_sol": -0.003781,
+     "pnl_pct": -3.8,
+     "min_ratio": 0.5076,
+     "max_ratio": 1.5589,
+     "reason": "stop-loss (x0.51)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.14851085946707915
+    "pnl_sol": 0.14472985692432727
    },
    "rejected": [
     {
@@ -1681,7 +1693,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.413334316718921e-07,
+     "last_price_usd": 8.4396550992915e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.1332612537485227
     },
@@ -1694,9 +1706,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0001111492659119916,
+     "last_price_usd": 0.00011404195725041,
      "min_ratio": 1.0,
-     "max_ratio": 1.300084294036184
+     "max_ratio": 1.3297592594151717
     },
     "Hv4ZF1XAdezZBs75nhG8pNjCdXPJzZ8ATnhaGjGGpump": {
      "name": "Gestalt / ZEC",
@@ -1704,12 +1716,13 @@
      "size_sol": 0.1,
      "entry_price_sol": 6.407923417767009e-07,
      "tokens": 150594.80850292012,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 3.428908531e-05,
+     "remaining": 0.5,
+     "tp1_done": true,
+     "sol_out": 0.07549701490389987,
+     "last_price_usd": 7.620902058e-05,
      "min_ratio": 0.7772370577916724,
-     "max_ratio": 1.0014382617045174
+     "max_ratio": 1.72905549074082,
+     "last_reason": "take-profit 1 (x1.62)"
     }
    },
    "closed": [
@@ -2789,7 +2802,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T01:07:53+00:00",
+  "checked_at": "2026-11-21T01:14:08+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
