@@ -683,3 +683,5 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T08:14:04+00:00,9stF1ZyYsEeEYGrRp89tDo6KBv3CTz4upLVjSpRwytcM,Leonida / SOL,take-profit 1 (x1.83),1.6429135620298108e-05,0.50,0.0500,0.0851,+0.0351,+70.3,A_rapide
 2026-11-21T08:16:19+00:00,9stF1ZyYsEeEYGrRp89tDo6KBv3CTz4upLVjSpRwytcM,Leonida / SOL,take-profit 2 (x2.07),1.8592162433052547e-05,0.50,0.0500,0.0962,+0.0462,+92.4,A_rapide
 2026-11-21T08:16:19+00:00,Q2t2rsjv1F39VUiQM1TnuoKdcWysU8AkZrsABXs9Hk4,win / SOL,ACHAT,6.355205317e-07,1.00,0.1000,,,,A_rapide
+2026-11-21T08:24:20+00:00,15QLd38dEysm3z8r7sk7CBKh8mrxm4nphA12HjXk3Rp,DCTY / SOL,stop temps 30 min (x1.16),7.01283389635176e-07,1.00,0.1000,0.1083,+0.0083,+8.3,A_rapide
+2026-11-21T08:24:20+00:00,2fjJL9tWwe4NzGmhs1iCahanCKLoMPZPQ9ws8DYo8iyr,APEC / SOL,ACHAT,8.784466696e-05,1.00,0.1000,,,,A_rapide
