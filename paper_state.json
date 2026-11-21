@@ -12,20 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 5.446935374743116e-07,
+     "last_price_usd": 5.514331016790306e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.0519548249703554
-    },
-    "5MzYUa4z7ZtJEWAyj6pcCmhky8NVS1PLa9NFGEQcpump": {
-     "name": "Prayge / SOL",
-     "opened_at": "2026-11-21T17:27:23+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 4.067441381887675e-07,
-     "tokens": 237249.88497612946,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 2.873179918e-05
+     "max_ratio": 1.0953372182190357
     }
    },
    "closed": [
@@ -2987,11 +2976,22 @@
      "min_ratio": 0.7092,
      "max_ratio": 1.5534,
      "reason": "stop-loss (x0.71)"
+    },
+    {
+     "mint": "5MzYUa4z7ZtJEWAyj6pcCmhky8NVS1PLa9NFGEQcpump",
+     "name": "Prayge / SOL",
+     "opened_at": "2026-11-21T17:27:23+00:00",
+     "closed_at": "2026-11-21T17:28:36+00:00",
+     "pnl_sol": -0.035277,
+     "pnl_pct": -35.3,
+     "min_ratio": 0.695,
+     "max_ratio": 1.0,
+     "reason": "stop-loss (x0.70)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.9420829275614092
+    "pnl_sol": 0.9068060010572647
    },
    "rejected": [
     {
@@ -3031,7 +3031,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.00267296115393956,
+     "last_price_usd": 0.0026727588788951597,
      "min_ratio": 1.0,
      "max_ratio": 1.0007130021688404
     },
@@ -3044,9 +3044,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 5.446935374743116e-07,
+     "last_price_usd": 5.514331016790306e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.0519548249703554
+     "max_ratio": 1.0953372182190357
     }
    },
    "closed": [
@@ -4423,7 +4423,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T17:27:23+00:00",
+  "checked_at": "2026-11-21T17:32:45+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
