@@ -624,3 +624,4 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T04:34:01+00:00,8gwBhiNMeerXWDKEpQEakH7NiddNFGiXDLXPVBKCEh3,PENNY / SOL,stop temps 32 min (x1.15),7.54034538828845e-07,1.00,0.1000,0.1069,+0.0069,+6.9,A_rapide
 2026-11-21T04:36:01+00:00,6oA8yep6vXWZz5G9aNGYC9fNvwiDvrZbT7L6ro6kw35r,FLOAT / SOL,take-profit 1 (x1.61),1.9008345236892203e-05,0.50,0.0500,0.0749,+0.0249,+49.8,B_patient
 2026-11-21T04:44:09+00:00,9PkhApAuGXJ7WDDNcTjUqoBeFvBCAt5Aq81MfXbXbiLS,PENNY / SOL,ACHAT,6.898586433e-05,1.00,0.1000,,,,A_rapide
+2026-11-21T04:50:01+00:00,E3f2fTayZpABbRAYiWgSMnYkzJnm5nzEntrbNc3aByK9,Singularit / SOL,stop temps 30 min (x1.16),7.657040752371961e-05,1.00,0.1000,0.1076,+0.0076,+7.6,A_rapide
