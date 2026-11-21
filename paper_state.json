@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-21T09:49:39+00:00",
+ "processed_until": "2026-11-21T09:55:40+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,9 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.0836709014276e-07,
+     "last_price_usd": 7.55683993942888e-07,
      "min_ratio": 0.98744105242052,
-     "max_ratio": 1.2562832613742405
+     "max_ratio": 1.3393930840346648
     },
     "SJCYGu8L9YHMeZJ2rFY8t47LTb3iwqUXqkJXUCGENve": {
      "name": "CLAUDIA / SOL",
@@ -25,7 +25,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.74306831854706e-05,
+     "last_price_usd": 4.741373404442023e-05,
      "min_ratio": 0.9886011915159092,
      "max_ratio": 1.0
     },
@@ -38,9 +38,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.613926496736001e-05,
+     "last_price_usd": 8.50824065122748e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.052815999215515
+     "max_ratio": 1.1593013465416224
     }
    },
    "closed": [
@@ -2274,7 +2274,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.7974765104966e-07,
+     "last_price_usd": 7.79469011737853e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.235759133359971
     },
@@ -2287,7 +2287,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07414820516516021,
-     "last_price_usd": 1.66078771710054e-05,
+     "last_price_usd": 1.6601942420885568e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.5924874260283006,
      "last_reason": "take-profit 1 (x1.59)"
@@ -2301,9 +2301,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.613926496736001e-05,
+     "last_price_usd": 8.50824065122748e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.052815999215515
+     "max_ratio": 1.1593013465416224
     }
    },
    "closed": [
@@ -3493,7 +3493,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T09:50:11+00:00",
+  "checked_at": "2026-11-21T09:56:13+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
