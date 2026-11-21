@@ -777,3 +777,4 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T12:26:32+00:00,PtefCZ8NRX7fVqMGG19HpE3o7KpRb4DHgtXQsJbEL8T,Mochi / SOL,stop temps 32 min (x1.53),7.87682262320226e-07,0.50,0.0500,0.0713,+0.0213,+42.7,A_rapide
 2026-11-21T12:26:32+00:00,Hjhd1edRTTPrdJD4UcZf31vsi2PfrEN9wzE2CQKVALz,Mochi / SOL,stop temps 30 min (x0.99),4.6163289115997824e-05,1.00,0.1000,0.0925,-0.0075,-7.5,A_rapide
 2026-11-21T12:26:32+00:00,Bs9mhbXA8oj8oM6kLCzCgpN4asNxQKM3VeZin3AB6Jj8,win / SOL,ACHAT,8.073017505e-06,1.00,0.1000,,,,A_rapide
+2026-11-21T12:30:32+00:00,Bs9mhbXA8oj8oM6kLCzCgpN4asNxQKM3VeZin3AB6Jj8,win / SOL,stop-loss (x0.00),2.317219782393951e-09,1.00,0.1000,0.0000,-0.1000,-100.0,A_rapide

@@ -2,19 +2,7 @@
  "processed_until": "2026-11-21T12:25:51+00:00",
  "strategies": {
   "A_rapide": {
-   "positions": {
-    "Bs9mhbXA8oj8oM6kLCzCgpN4asNxQKM3VeZin3AB6Jj8": {
-     "name": "win / SOL",
-     "opened_at": "2026-11-21T12:26:32+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 1.1694198808123234e-07,
-     "tokens": 825195.4801124763,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 8.073017505e-06
-    }
-   },
+   "positions": {},
    "closed": [
     {
      "mint": "ALjzrjh1sArWs2zbcEvRgf8nkUCxt5FLcYJy5mtaDShr",
@@ -2457,11 +2445,22 @@
      "min_ratio": 0.9801,
      "max_ratio": 1.0333,
      "reason": "stop temps 30 min (x0.99)"
+    },
+    {
+     "mint": "Bs9mhbXA8oj8oM6kLCzCgpN4asNxQKM3VeZin3AB6Jj8",
+     "name": "win / SOL",
+     "opened_at": "2026-11-21T12:26:32+00:00",
+     "closed_at": "2026-11-21T12:30:32+00:00",
+     "pnl_sol": -0.099973,
+     "pnl_pct": -100.0,
+     "min_ratio": 0.0003,
+     "max_ratio": 1.1638,
+     "reason": "stop-loss (x0.00)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": -0.10169522142636067
+    "pnl_sol": -0.20166848917752267
    },
    "rejected": [
     {
@@ -2488,7 +2487,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.5937816700460005e-06,
+     "last_price_usd": 7.73888271014384e-06,
      "min_ratio": 0.5286389791917302,
      "max_ratio": 1.36273412743718
     },
@@ -2501,7 +2500,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.9539070240227366e-05,
+     "last_price_usd": 4.9539895029431044e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.07138764630515
     },
@@ -2514,7 +2513,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07103503056908601,
-     "last_price_usd": 7.87682262320226e-07,
+     "last_price_usd": 7.876953766524639e-07,
      "min_ratio": 0.9630511003621155,
      "max_ratio": 1.6075472976341545,
      "last_reason": "take-profit 1 (x1.53)"
@@ -3784,7 +3783,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T12:26:32+00:00",
+  "checked_at": "2026-11-21T12:32:32+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
