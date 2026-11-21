@@ -12,7 +12,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 3.749821125530416e-08,
+     "last_price_usd": 3.749480908936256e-08,
      "min_ratio": 0.9987070530195542,
      "max_ratio": 1.2613333845233314
     },
@@ -25,9 +25,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.260550630304749e-07,
+     "last_price_usd": 7.35443931886092e-07,
      "min_ratio": 1.0,
-     "max_ratio": 1.297658920335822
+     "max_ratio": 1.314558664414614
     },
     "5GmMEZKZj7yQsSeayLTVcyV3DTN1TCvnsn8sa69tjFR": {
      "name": "Trader / SOL",
@@ -38,7 +38,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.74603621201409e-05,
+     "last_price_usd": 4.745605610067556e-05,
      "min_ratio": 0.9869180694281673,
      "max_ratio": 1.0074320270216341
     }
@@ -2219,7 +2219,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.74683867252051e-07,
+     "last_price_usd": 7.74613581150916e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.235759133359971
     },
@@ -2232,23 +2232,10 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07414820516516021,
-     "last_price_usd": 1.6500023432404188e-05,
+     "last_price_usd": 1.649852640585604e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.5924874260283006,
      "last_reason": "take-profit 1 (x1.59)"
-    },
-    "15QLd38dEysm3z8r7sk7CBKh8mrxm4nphA12HjXk3Rp": {
-     "name": "DCTY / SOL",
-     "opened_at": "2026-11-21T07:54:20+00:00",
-     "size_sol": 0.1,
-     "entry_price_sol": 9.004787667743623e-09,
-     "tokens": 10716521.428448131,
-     "remaining": 1.0,
-     "tp1_done": false,
-     "sol_out": 0.0,
-     "last_price_usd": 7.733330671347849e-07,
-     "min_ratio": 1.0,
-     "max_ratio": 1.2948667342560125
     }
    },
    "closed": [
@@ -2999,11 +2986,22 @@
      "min_ratio": 1.0,
      "max_ratio": 1.7964,
      "reason": "stop temps 240 min (x1.80)"
+    },
+    {
+     "mint": "15QLd38dEysm3z8r7sk7CBKh8mrxm4nphA12HjXk3Rp",
+     "name": "DCTY / SOL",
+     "opened_at": "2026-11-21T07:54:20+00:00",
+     "closed_at": "2026-11-21T09:14:11+00:00",
+     "pnl_sol": -0.099946,
+     "pnl_pct": -99.9,
+     "min_ratio": 0.0006,
+     "max_ratio": 1.2949,
+     "reason": "stop-loss (x0.00)"
     }
    ],
    "day": {
     "date": "2026-11-21",
-    "pnl_sol": 0.15907280831582182
+    "pnl_sol": 0.059127162941167766
    }
   },
   "C_tot": {
@@ -3416,7 +3414,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T09:08:20+00:00",
+  "checked_at": "2026-11-21T09:14:11+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [

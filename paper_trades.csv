@@ -694,3 +694,4 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T08:56:12+00:00,AWH6ucpocXQURgvVqi7icZewuDsqdq7fDZCMWYk5zoS,win / SOL,stop-loss (x0.00),2.833950764736917e-10,1.00,0.1000,0.0000,-0.1000,-100.0,A_rapide
 2026-11-21T08:56:12+00:00,RPjUHBJYuCbrxqvufzw7k8zET4JxLCw47dknLebWoXx,猪小戒 / SOL,ACHAT,5.588400554e-07,1.00,0.1000,,,,A_rapide
 2026-11-21T09:00:27+00:00,5GmMEZKZj7yQsSeayLTVcyV3DTN1TCvnsn8sa69tjFR,Trader / SOL,ACHAT,4.78777334e-05,1.00,0.1000,,,,A_rapide
+2026-11-21T09:14:11+00:00,15QLd38dEysm3z8r7sk7CBKh8mrxm4nphA12HjXk3Rp,DCTY / SOL,stop-loss (x0.00),3.549580629929568e-10,1.00,0.1000,0.0001,-0.0999,-99.9,B_patient
