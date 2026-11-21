@@ -599,3 +599,4 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T02:43:53+00:00,5gR7bUzvwcMe42Kqrv2wHZyuvCUFBKxexVZanCKcpump,CABAL / SOL,stop-loss (x0.44),3.058472293378502e-06,1.00,0.1000,0.0412,-0.0588,-58.8,A_rapide
 2026-11-21T02:46:01+00:00,F9aTwYErHJQYzMojGAJ1ReEa6gU7SMhGUMC7c6bopump,Crypto / SOL,ACHAT,9.246849596e-06,1.00,0.1000,,,,A_rapide
 2026-11-21T02:48:54+00:00,ud1av6EekCawmvH95mWxkp85avuhX3i5Xcf7PTub5va,MI / SOL,take-profit 1 (x1.52),1.96528998519866e-05,0.50,0.0500,0.0706,+0.0206,+41.2,A_rapide
+2026-11-21T02:52:01+00:00,F9aTwYErHJQYzMojGAJ1ReEa6gU7SMhGUMC7c6bopump,Crypto / SOL,take-profit 1 (x1.52),1.4095054062420498e-05,0.50,0.0500,0.0707,+0.0207,+41.4,A_rapide
