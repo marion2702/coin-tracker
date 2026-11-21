@@ -627,3 +627,4 @@ time_utc,mint,name,action,price_usd,fraction,sol_in,sol_out,pnl_sol,pnl_pct,stra
 2026-11-21T04:50:01+00:00,E3f2fTayZpABbRAYiWgSMnYkzJnm5nzEntrbNc3aByK9,Singularit / SOL,stop temps 30 min (x1.16),7.657040752371961e-05,1.00,0.1000,0.1076,+0.0076,+7.6,A_rapide
 2026-11-21T04:52:10+00:00,2TngN4B7XaoGSKsYvttq5bFAdM4Z4xCSnuyRwGiFpump,PUNANI / SOL,ACHAT,0.0007564204602,1.00,0.1000,,,,A_rapide
 2026-11-21T04:54:01+00:00,2S4e8Lv5kMqzXumeWrXMMwANUVtFLazeezUorfG9pump,OnlyCats / SOL,stop-loss (x0.73),1.3600211422263299e-06,1.00,0.1000,0.0681,-0.0319,-31.9,A_rapide
+2026-11-21T04:58:10+00:00,B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump,FIONA / SOL,ACHAT,0.0006317673003,1.00,0.1000,,,,A_rapide

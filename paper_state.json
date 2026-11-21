@@ -1,5 +1,5 @@
 {
- "processed_until": "2026-11-21T04:51:38+00:00",
+ "processed_until": "2026-11-21T04:57:37+00:00",
  "strategies": {
   "A_rapide": {
    "positions": {
@@ -12,9 +12,9 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 7.840191987829201e-05,
+     "last_price_usd": 8.716613676774219e-05,
      "min_ratio": 1.0,
-     "max_ratio": 1.1261145104546595
+     "max_ratio": 1.2563066521696706
     },
     "2TngN4B7XaoGSKsYvttq5bFAdM4Z4xCSnuyRwGiFpump": {
      "name": "PUNANI / SOL",
@@ -25,9 +25,22 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 0.0009758888761222,
-     "min_ratio": 1.0,
+     "last_price_usd": 0.000741109967677324,
+     "min_ratio": 0.8679212483204212,
      "max_ratio": 1.4152125098507018
+    },
+    "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": {
+     "name": "FIONA / SOL",
+     "opened_at": "2026-11-21T04:58:10+00:00",
+     "size_sol": 0.1,
+     "entry_price_sol": 9.559200576577379e-06,
+     "tokens": 10094.986419309063,
+     "remaining": 1.0,
+     "tp1_done": false,
+     "sol_out": 0.0,
+     "last_price_usd": 0.0006265148498994602,
+     "min_ratio": 0.9940161757126913,
+     "max_ratio": 1.0164029849741643
     }
    },
    "closed": [
@@ -1920,7 +1933,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 4.670372594268888e-05,
+     "last_price_usd": 4.6543552151550086e-05,
      "min_ratio": 0.9988386710650137,
      "max_ratio": 1.0
     },
@@ -1933,7 +1946,7 @@
      "remaining": 1.0,
      "tp1_done": false,
      "sol_out": 0.0,
-     "last_price_usd": 8.190850363656161e-07,
+     "last_price_usd": 8.16275925253138e-07,
      "min_ratio": 1.0,
      "max_ratio": 1.424498236178825
     },
@@ -1946,7 +1959,7 @@
      "remaining": 0.5,
      "tp1_done": true,
      "sol_out": 0.07487754980310897,
-     "last_price_usd": 2.09071786342112e-05,
+     "last_price_usd": 2.026843452526774e-05,
      "min_ratio": 1.0,
      "max_ratio": 1.7493146753354327,
      "last_reason": "take-profit 1 (x1.61)"
@@ -3073,7 +3086,7 @@
   }
  },
  "listener": {
-  "checked_at": "2026-11-21T04:56:01+00:00",
+  "checked_at": "2026-11-21T05:02:09+00:00",
   "ok": false,
   "new_coins_10min": 0,
   "log_tail": [
